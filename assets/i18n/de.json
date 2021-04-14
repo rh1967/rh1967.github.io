@@ -1,0 +1,25 @@
+{
+  "header": {
+    "estate": "nachlass",
+    "works": "werke",
+    "personaldocuments": "lebensdokumente",
+    "collections": "sammlungen",
+    "autographcollection": "autographensammlung",
+    "library": "bibliothek",
+    "subjects": "subjects",
+    "szautograph": "Stefan Zweigs Autographensammlung",
+    "szatwork": "Wie Stefan Zweig schreibt",
+    "szlibraries": "Stefan Zweigs Bibliotheken",
+    "marieantoinette": "Marie Antoinette",
+    "biography": "Biographie",
+    "index": "index",
+    "persons": "Personen",
+    "locations": "Standorte",
+    "firstedition": "Erstausgaben",
+    "glossary": "Glossar",
+    "about": "Projekt",
+    "miscellaneous": "Verschiedenes"
+  },
+  "footer": {},
+  "landing": {}
+}

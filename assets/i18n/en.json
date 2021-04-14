@@ -1,0 +1,25 @@
+{
+  "header": {
+    "estate": "estate",
+    "works": "works",
+    "personaldocuments": "personal documents",
+    "collections": "collections",
+    "autographcollection": "autograph collection",
+    "library": "library",
+    "subjects": "subjects",
+    "szautograph": "Stefan Zweigs Autograph Collection",
+    "szatwork": "Stefan Zweig at work",
+    "szlibraries": "Stefan Zweigs Libraries",
+    "marieantoinette": "Marie Antoinette",
+    "biography": "biography",
+    "index": "index",
+    "persons": "persons",
+    "locations": "locations",
+    "firstedition": "firstedition",
+    "glossary": "glossary",
+    "about": "about",
+    "miscellaneous": "miscellaneous"
+  },
+  "footer": {},
+  "landing": {}
+}
