@@ -6,7 +6,7 @@
     "collections": "sammlungen",
     "autographcollection": "autographensammlung",
     "library": "bibliothek",
-    "subjects": "subjects",
+    "subjects": "themen",
     "szautograph": "Stefan Zweigs Autographensammlung",
     "szatwork": "Wie Stefan Zweig schreibt",
     "szlibraries": "Stefan Zweigs Bibliotheken",
@@ -18,8 +18,32 @@
     "firstedition": "Erstausgaben",
     "glossary": "Glossar",
     "about": "Projekt",
-    "miscellaneous": "Verschiedenes"
+    "miscellaneous": "Verschiedenes",
+    "databaskethint": "Im Datenkorb können Objekte gespeichert und exportiert werden",
+    "searchplaceholder": "VOLLTEXTSUCHE"
   },
-  "footer": {},
-  "landing": {}
+  "footer": {
+    "description": "STEFAN ZWEIG DIGITAL | Eine Initiative des Literaturarchivs Salzburg",
+    "address": "Residenzplatz 9/2 | 5020 Salzburg | Austria | +43 (0) 662 / 8044-4910 |",
+    "projectmanagment": "PROJEKTTRÄGER",
+    "sitenotice": "IMPRESSUM",
+    "projectpartner": "PROJEKTPARTNER",
+    "privacy": "DATENSCHUTZ"
+  },
+  "landing": {
+    "titel": "Willkommen bei STEFAN ZWEIG DIGITAL,",
+    "subtitel": "dem Informations- und Forschungsportal zu Leben und Werk des österreichischen Schriftstellers Stefan Zweig. ",
+    "text": {
+      "paragraph1": "Im Zentrum des Projekts steht die Rekonstruktion von Stefan Zweigs weltweit verstreutem Nachlass. Hierzu sind bereits die umfangreichen ",
+      "link1": "Manuskriptbestände",
+      "paragraph2": " aus dem Literaturarchiv Salzburg, der Daniel Reed Library in Fredonia/New York und der National Library of Israel verzeichnet und teilweise mit digitalen Faksimiles ergänzt worden. Hinzu kommt das ",
+      "link2": "Verzeichnis von Zweigs Bibliothek",
+      "paragraph3": ", das all jene heute noch nachweisbaren Buchbestände enthält, die er im Lauf seines Lebens an verschiedenen Orten zusammengetragen hat. Die ",
+      "link3": "Autographensammlung Stefan Zweigs",
+      "paragraph4": ", eine der bedeutendsten Sammlungen seiner Zeit, ist ebenfalls online zugänglich.",
+      "paragraph5": "STEFAN ZWEIG DIGITAL bietet umfangreiche Recherchemöglichkeiten, die durch besondere Themenseiten ergänzt werden.",
+      "paragraph6": " Das internationale Projekt STEFAN ZWEIG DIGITAL ist eine Initiative des Literaturarchivs Salzburg und lädt alle Institutionen und privaten Sammlungen herzlich ein, ihre Bestände zum Thema einzubringen und zur Erweiterung des Informations- und Forschungsnetzwerks beizutragen.",
+      "contact": "Kontakt: "
+    }
+  }
 }
