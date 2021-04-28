@@ -28,7 +28,7 @@
     "projectmanagment": "PROJECT MANAGEMENT",
     "sitenotice": "Site notice",
     "projectpartner": "Project partner",
-    "privacy": "privacy"
+    "privacy": "Data Protection"
   },
   "landing": {
     "titel": "Welcome to STEFAN ZWEIG DIGITAL,",
@@ -45,5 +45,58 @@
       "paragraph6": " The international project STEFAN ZWEIG DIGITAL is developed on the initiative of the Literature Archive Salzburg. All other institutions as well as private collections are invited to contribute records and images of their own holdings and so to help expand this information and research network.",
       "contact": "Contact:"
     }
+  },
+  "stickyheader": {
+    "titelinfo": "About this collection"
+  },
+  "nachlass": {
+    "werketitel": "Works",
+    "lebensdoctitel": "Personal Documents",
+    "nlititel": "NLI DATA",
+    "marbachtitel": "Marbach Werke"
+  },
+  "werke": {
+    "externalResource": "Access external resource",
+    "subjectPage": "Access subject page"
+  },
+  "catalogEntry": {
+    "author": "Author",
+    "acquired": "Acquired",
+    "additionalMaterial": "Additional Material",
+    "currentLocation": "Current Location",
+    "dateOfPublication": "Dates",
+    "enclosures": "Enclosures",
+    "enclouser": "Enclosure to",
+    "enclosureTag": " [Enclosures]",
+    "identifyingInscription": "Identifying Inscription",
+    "incipit": "Incipit",
+    "language": "Language",
+    "mediaId": "Media Id",
+    "note": "Note(s)",
+    "origDate": "Dates",
+    "pagination": "Pagination",
+    "partiesInvolved": "Parties Involved",
+    "*personAffected": "Person Affected",
+    "physicalDescription": "Physical Description",
+    "placeofcreation": "Place of Creation",
+    "provenance": "Provenance",
+    "secretarialHand": "Secretarial Hand",
+    "title": "Title",
+    "titleType": {
+      "assigned": "assigned",
+      "supplied/verified": "supplied/verified",
+      "original": "original"
+    },
+    "writingInstrument": "Writing Instrument",
+    "writingMaterial": "Writing Material",
+    "_comment_": "with * marked attributes are only used in Authograph collection"
+  },
+  "languageCodes": {
+    "eng": "English",
+    "fre": "French",
+    "ger": "German",
+    "ita": "Italian",
+    "spa": "Spanish/Castilian",
+    "yid": "Yiddish"
   }
 }
