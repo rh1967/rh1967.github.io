@@ -45,5 +45,58 @@
       "paragraph6": " Das internationale Projekt STEFAN ZWEIG DIGITAL ist eine Initiative des Literaturarchivs Salzburg und lädt alle Institutionen und privaten Sammlungen herzlich ein, ihre Bestände zum Thema einzubringen und zur Erweiterung des Informations- und Forschungsnetzwerks beizutragen.",
       "contact": "Kontakt: "
     }
+  },
+  "stickyheader": {
+    "titelinfo": "Informationen zum Sammlungsbereich"
+  },
+  "nachlass": {
+    "werketitel": "Werke",
+    "lebensdoctitel": "Lebensdokumente",
+    "nlititel": "NLI DATA",
+    "marbachtitel": "Marbach Werke"
+  },
+  "werke": {
+    "externalResource": "Zur externen Ressource",
+    "subjectPage": "Zur Themenseite"
+  },
+  "catalogEntry": {
+    "author": "Verfasser/in",
+    "acquired": "Erwerbung",
+    "additionalMaterial": "Zusatzmaterial",
+    "currentLocation": "Heutiger Standort",
+    "dateOfPublication": "Datierung",
+    "enclosures": "Beilagen",
+    "enclouser": "Beilage zu",
+    "enclosureTag": " [Beilage]",
+    "identifyingInscription": "Aufschrift",
+    "incipit": "Incipit",
+    "language": "Sprache",
+    "mediaId": "Mediennummer",
+    "note": "Hinweis",
+    "origDate": "Datierung",
+    "pagination": "Paginierung",
+    "partiesInvolved": "Beteiligte",
+    "*personAffected": "Betroffene Person",
+    "physicalDescription": "Umfang/Einband",
+    "placeofcreation": "Entstehungsort",
+    "provenance": "Provenienz",
+    "secretarialHand": "Schreiberhand",
+    "title": "Titel",
+    "titleType": {
+      "assigned": "fingiert",
+      "supplied/verified": "ermittelt",
+      "original": "original"
+    },
+    "writingInstrument": "Schreibstoff",
+    "writingMaterial": "Beschreibstoff",
+    "_comment_": "with * marked attributes are only used in Authograph collection"
+  },
+  "languageCodes": {
+    "eng": "Englisch",
+    "fre": "Französisch",
+    "ger": "Deutsch",
+    "ita": "Italienisch",
+    "spa": "Spanisch/Kastilisch",
+    "yid": "Jiddisch"
   }
 }
