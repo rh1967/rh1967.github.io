@@ -47,13 +47,18 @@
     }
   },
   "stickyheader": {
-    "titelinfo": "Informationen zum Sammlungsbereich"
+    "titelinfo": "Informationen zum Sammlungsbereich",
+    "ABCNote": "Springe zum ersten Eintrag beginnend mit ",
+    "noAuthor": "o.V."
   },
   "nachlass": {
     "werketitel": "Werke",
     "lebensdoctitel": "Lebensdokumente",
     "nlititel": "NLI DATA",
     "marbachtitel": "Marbach Werke"
+  },
+  "bibliothek": {
+    "titel": "Bibliothek"
   },
   "werke": {
     "externalResource": "Zur externen Ressource",

@@ -47,13 +47,18 @@
     }
   },
   "stickyheader": {
-    "titelinfo": "About this collection"
+    "titelinfo": "About this collection",
+    "ABCNote": "Jump to first entry beginning with ",
+    "noAuthor": "N.N."
   },
   "nachlass": {
     "werketitel": "Works",
     "lebensdoctitel": "Personal Documents",
     "nlititel": "NLI DATA",
     "marbachtitel": "Marbach Werke"
+  },
+  "bibliothek": {
+    "titel": "Library"
   },
   "werke": {
     "externalResource": "Access external resource",
