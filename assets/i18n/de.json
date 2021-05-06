@@ -58,14 +58,23 @@
     "marbachtitel": "Marbach Werke"
   },
   "bibliothek": {
-    "titel": "Bibliothek"
+    "titel": "Bibliothek",
+    "withoutAuthor": "Ohne Verfasser/in"
   },
   "werke": {
     "externalResource": "Zur externen Ressource",
     "subjectPage": "Zur Themenseite"
   },
   "catalogEntry": {
-    "author": "Verfasser/in",
+    "authorRoles": {
+      "author": "Verfasser/in",
+      "composer": "Komponist/in",
+      "editor": "Herausgeber/in",
+      "illustrator": "Illustrator/in",
+      "translator": "Übersetzer/in",
+      "writerpreface": "Verfasser/in Vorwort",
+      "afterword": "Verfasser/in Nachwort"
+    },
     "acquired": "Erwerbung",
     "additionalMaterial": "Zusatzmaterial",
     "currentLocation": "Heutiger Standort",
@@ -76,16 +85,26 @@
     "identifyingInscription": "Aufschrift",
     "incipit": "Incipit",
     "language": "Sprache",
+    "laterowner": "Nachbesitzer/in",
+    "leaf": "Blatt",
+    "leafs": "Blatt",
     "mediaId": "Mediennummer",
     "note": "Hinweis",
     "origDate": "Datierung",
+    "origTitle": "Orginaltitel",
+    "origShelfMark": "Originalsignatur",
+    "page": "Seite",
+    "pages": "Seiten",
     "pagination": "Paginierung",
     "partiesInvolved": "Beteiligte",
     "*personAffected": "Betroffene Person",
     "physicalDescription": "Umfang/Einband",
     "placeofcreation": "Entstehungsort",
     "provenance": "Provenienz",
+    "publicationdetails": "Veröffentlichung",
     "secretarialHand": "Schreiberhand",
+    "seriestitel": "Gesamttitel",
+    "series": "Reihe",
     "title": "Titel",
     "titleType": {
       "assigned": "fingiert",
@@ -95,6 +114,9 @@
     "writingInstrument": "Schreibstoff",
     "writingMaterial": "Beschreibstoff",
     "_comment_": "with * marked attributes are only used in Authograph collection"
+  },
+  "cardFooter": {
+    "citation": "Zitiervorschlag"
   },
   "languageCodes": {
     "eng": "Englisch",

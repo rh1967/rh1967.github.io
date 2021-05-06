@@ -58,14 +58,23 @@
     "marbachtitel": "Marbach Werke"
   },
   "bibliothek": {
-    "titel": "Library"
+    "titel": "Library",
+    "withoutAuthor": "Without Author"
   },
   "werke": {
     "externalResource": "Access external resource",
     "subjectPage": "Access subject page"
   },
   "catalogEntry": {
-    "author": "Author",
+    "authorRoles": {
+      "author": "Author",
+      "composer": "Composer",
+      "editor": "Editor or Compiler",
+      "illustrator": "Illustrator",
+      "translator": "Translator",
+      "writerpreface": "Writer of Preface",
+      "afterword": "Writer of Afterword"
+    },
     "acquired": "Acquired",
     "additionalMaterial": "Additional Material",
     "currentLocation": "Current Location",
@@ -76,16 +85,26 @@
     "identifyingInscription": "Identifying Inscription",
     "incipit": "Incipit",
     "language": "Language",
+    "laterowner": "Later Owner",
+    "leaf": "leaf",
+    "leafs": "leafs",
     "mediaId": "Media Id",
     "note": "Note(s)",
     "origDate": "Dates",
+    "origTitle": "Original Title",
+    "origShelfMark": "Original Shelfmark",
+    "page": "page",
+    "pages": "pages",
     "pagination": "Pagination",
     "partiesInvolved": "Parties Involved",
     "*personAffected": "Person Affected",
     "physicalDescription": "Physical Description",
     "placeofcreation": "Place of Creation",
     "provenance": "Provenance",
+    "publicationdetails": "Publication Details",
     "secretarialHand": "Secretarial Hand",
+    "seriestitel": "Series",
+    "series": "Series",
     "title": "Title",
     "titleType": {
       "assigned": "assigned",
@@ -95,6 +114,9 @@
     "writingInstrument": "Writing Instrument",
     "writingMaterial": "Writing Material",
     "_comment_": "with * marked attributes are only used in Authograph collection"
+  },
+  "cardFooter": {
+    "citation": "Citation"
   },
   "languageCodes": {
     "eng": "English",
