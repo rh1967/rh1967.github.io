@@ -520,7 +520,7 @@ input[type="text"]::placeholder {
 /* =====================================================*/
 
 #page-content {
-    margin-bottom: 5em;
+    margin-bottom: 1em;
 }
 
 a.fas.fa-redo-alt,
@@ -688,7 +688,7 @@ h1 a.fas.fa-redo-alt {
 }
 
 ul.submenu-start {
-    z-index: 500;
+    z-index: 5;
 }
 
 ul.submenu-start li {
@@ -764,7 +764,7 @@ table.text-detail td {
 h4 {
     font-family: 'EB Garamond', Times, serif;
     font-size: 1.1em;
-    margin-top: 1.6em;
+    margin-top: 0.0em;/* 1.6em */
 }
 
 
