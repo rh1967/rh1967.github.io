@@ -21,7 +21,7 @@
                   <nav class="navbar navbar-expand-lg navbar-light bg-light static-top flex-column ml-5">
                      <div class="container de"><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse" id="navbarResponsive">
                            <ul class="navbar-nav">
-                              <li class="nav-item active"><a class="nav-link" href="index.html">Start
+                              <li class="nav-item"><a class="nav-link" href="index.html">Start
                                     <span class="sr-only">(current)</span></a></li>
                               <li class="nav-item"><a class="nav-link" href="briefe.html">Brie<span class="special-f">f</span>e</a></li>
                               <li class="nav-item"><a class="nav-link" href="suche.html">Suche</a></li>
@@ -69,10 +69,10 @@
                   <div class="container de" id="input-search">
                      <h2>Suche</h2>
                      <form>
-                        <div class="form-group row"><label class="col-12 col-form-label" for="">Suche nach:</label><div class="col-12 mb-3"><input id="" name="" placeholder="Begriff hier eingeben" type="text" class="form-control" /></div>
+                        <div class="form-group row"><label class="col-12 col-form-label" for="">Suche nach</label><div class="col-12"><input id="" name="" placeholder="Begriff hier eingeben" type="text" class="form-control" /></div>
                         </div>
                         <div class="form-group row">
-                           <div class="col-12"><button name="submit" type="submit" class="btn btn-primary">Absenden</button></div>
+                           <div class="offset-4 col-8"><button name="submit" type="submit" class="btn btn-primary">Absenden</button></div>
                         </div>
                      </form>
                   </div>
@@ -205,6 +205,11 @@
       <footer class="footer mt-auto pt-5">
          <div class="container de"><a href="#">Links</a><a href="impressum.html">Impressum</a><a href="dsgvo.html">Datenschutzerklärung</a></div>
          <div class="container en" style="display: none"><a href="#">Links</a><a href="impressum.html">Imprint</a><a href="dsgvo.html">Privacy policy</a></div>
-      </footer>
-   </body>
+      </footer><script>
+                    $( document ).ready(function() {
+                    console.log( "ready!" );                                                
+                    $("ul.navbar-nav li.nav-item a").removeClass("active");
+                    $( "[href='suche.html']" ).addClass("active");
+                    });                    
+                </script></body>
 </html>
