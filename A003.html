@@ -437,6 +437,43 @@
          <div class="container de"><a href="#">Links</a><a href="impressum.html">Impressum</a><a href="dsgvo.html">Datenschutzerklärung</a></div>
          <div class="container en" style="display: none"><a href="#">Links</a><a href="impressum.html">Imprint</a><a href="dsgvo.html">Privacy policy</a></div>
       </footer><script>
+                    function langDeEn(input) {
+                    var navbar = "nav.navbar " ;
+                    var sidebar = "#page-content " ;
+                    var pagetitle = "#pagetitle " ;
+                    var indexletters = "#index-letters " ;
+                    var footer = "footer " ;
+                    if (input == "de") {  
+                        localStorage.setItem("language", "de") ;
+                        $( "div.langmenu a:lang(en)" ).removeClass("active");
+                        $( "div.langmenu a:lang(de)" ).addClass("active");
+                        $( navbar + "div.en" ).hide(); 
+                        $( navbar + "div.de" ).show();
+                        $( sidebar + "div.en" ).hide(); 
+                        $( sidebar + "div.de" ).show();
+                        $( pagetitle + "div.en" ).hide(); 
+                        $( pagetitle + "div.de" ).show();
+                        $( indexletters + "div.de" ).show();
+                        $( indexletters + "div.en" ).hide();
+                        $( footer + "div.en" ).hide(); 
+                        $( footer + "div.de" ).show();
+                    } else {    
+                        localStorage.setItem("language", "en") ;                        
+                        $( "div.langmenu a:lang(de)" ).removeClass("active");
+                        $( "div.langmenu a:lang(en)" ).addClass("active");
+                        $( navbar + "div.de" ).hide(); 
+                        $( navbar + "div.en" ).show();
+                        $( sidebar + "div.de" ).hide(); 
+                        $( sidebar + "div.en" ).show();
+                        $( pagetitle + "div.de" ).hide(); 
+                        $( pagetitle + "div.en" ).show();
+                        $( indexletters + "div.de" ).hide(); 
+                        $( indexletters + "div.en" ).show();
+                        $( footer + "div.de" ).hide(); 
+                        $( footer + "div.en" ).show();
+                    }
+                    }
+                </script><script>
                     $( document ).ready(function() {
                         console.log( "ready!" );                                                
                         $("ul.navbar-nav li.nav-item a").removeClass("active");
@@ -449,49 +486,14 @@
                         //$(anchor).click(); //click on the menu item to open element
                             var itemId = "#index-letters " + anchor;
                             $( itemId ).show();
-                        }
+                        }                        
                         
-                        //var langStorage = localStorage.getItem("language") ;
                         console.log( localStorage.getItem("language") ) ;                        
                         if ((localStorage.getItem("language") === null) || (localStorage.getItem("language") == "undefined")) {                            
                             localStorage.setItem("language", "de") ;                            
                         }
                         
-                        var navbar = "nav.navbar " ;
-                        var sidebar = "#page-content " ;
-                        var pagetitle = "#pagetitle " ;
-                        var indexletters = "#index-letters " ;
-                        var footer = "footer " ;
-                        if (localStorage.getItem("language") == "de") {
-                            //localStorage.setItem("language", "de") ;                        
-                            $( "div.langmenu a:lang(en)" ).removeClass("active");
-                            $( "div.langmenu a:lang(de)" ).addClass("active");
-                            $( navbar + "div.en" ).hide(); 
-                            $( navbar + "div.de" ).show();
-                            $( sidebar + "div.en" ).hide(); 
-                            $( sidebar + "div.de" ).show();
-                            $( pagetitle + "div.en" ).hide(); 
-                            $( indexletters + "div.de" ).show();
-                            $( indexletters + "div.en" ).hide(); 
-                            $( pagetitle + "div.de" ).show();
-                            $( footer + "div.en" ).hide(); 
-                            $( footer + "div.de" ).show();
-                        } else {                        
-                            //localStorage.setItem("language", "en") ;
-                            $( "div.langmenu a:lang(de)" ).removeClass("active");
-                            $( "div.langmenu a:lang(en)" ).addClass("active");
-                            $( navbar + "div.de" ).hide(); 
-                            $( navbar + "div.en" ).show();
-                            $( sidebar + "div.de" ).hide(); 
-                            $( sidebar + "div.en" ).show();
-                            $( pagetitle + "div.de" ).hide(); 
-                            $( pagetitle + "div.en" ).show();
-                            $( indexletters + "div.de" ).hide(); 
-                            $( indexletters + "div.en" ).show();
-                            $( footer + "div.de" ).hide(); 
-                            $( footer + "div.en" ).show();
-                        }                        
-                                                
+                        langDeEn(localStorage.getItem("language")) ;                                                
                     });
                     
                     $( "table.metadaten a" ).click(function() {
@@ -526,41 +528,8 @@
                     
                     $( "div.langmenu a" ).click(function() {
                         var click_lang = $( this );
-                        console.log( click_lang );
-                        var navbar = "nav.navbar " ;
-                        var sidebar = "#page-content " ;
-                        var pagetitle = "#pagetitle " ;
-                        var indexletters = "#index-letters " ;
-                        var footer = "footer " ;
-                        if (click_lang.text() == "DE") {
-                            localStorage.setItem("language", "de") ;
-                            $( "div.langmenu a:lang(en)" ).removeClass("active");
-                            $( "div.langmenu a:lang(de)" ).addClass("active");
-                            $( navbar + "div.en" ).hide(); 
-                            $( navbar + "div.de" ).show();
-                            $( sidebar + "div.en" ).hide(); 
-                            $( sidebar + "div.de" ).show();
-                            $( pagetitle + "div.en" ).hide(); 
-                            $( indexletters + "div.de" ).show();
-                            $( indexletters + "div.en" ).hide(); 
-                            $( pagetitle + "div.de" ).show();
-                            $( footer + "div.en" ).hide(); 
-                            $( footer + "div.de" ).show();
-                        } else {
-                            localStorage.setItem("language", "en") ;
-                            $( "div.langmenu a:lang(de)" ).removeClass("active");
-                            $( "div.langmenu a:lang(en)" ).addClass("active");
-                            $( navbar + "div.de" ).hide(); 
-                            $( navbar + "div.en" ).show();
-                            $( sidebar + "div.de" ).hide(); 
-                            $( sidebar + "div.en" ).show();
-                            $( pagetitle + "div.de" ).hide(); 
-                            $( pagetitle + "div.en" ).show();
-                            $( indexletters + "div.de" ).hide(); 
-                            $( indexletters + "div.en" ).show();
-                            $( footer + "div.de" ).hide(); 
-                            $( footer + "div.en" ).show();
-                        }
+                        console.log( click_lang.attr( "lang" ));
+                        langDeEn(click_lang.attr( "lang" )) ;                        
                     });
                 </script></body>
 </html>
