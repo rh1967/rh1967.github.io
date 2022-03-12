@@ -1,0 +1,14 @@
+
+  { "stem" : "open",
+    "instances" : 
+    [ 
+      { "docId" : "apostrophes",
+        "docUri" : "apostrophes.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "opening",
+            "weight" : "1",
+            "pos" : 161,
+            "context" : "...word, where it might have stood for an <mark>opening<\/mark> quote, from the end of the word,...",
+            "fid" : "text" } ] } ] }

@@ -1,0 +1,14 @@
+
+  { "stem" : "chees",
+    "instances" : 
+    [ 
+      { "docId" : "search",
+        "docUri" : "search.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Cheese",
+            "weight" : "1",
+            "pos" : 67,
+            "context" : "The Big <mark>Cheese<\/mark>",
+            "fid" : "ssDesc3" } ] } ] }

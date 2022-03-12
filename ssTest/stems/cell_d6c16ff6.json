@@ -1,0 +1,13 @@
+
+  { "stem" : "cell",
+    "instances" : 
+    [ 
+      { "docId" : "home",
+        "docUri" : "index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "cells",
+            "weight" : "1",
+            "pos" : 153,
+            "context" : "...delimit keyword-in-context ranges, such as table <mark>cells<\/mark>." } ] } ] }

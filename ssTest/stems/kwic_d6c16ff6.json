@@ -1,0 +1,13 @@
+
+  { "stem" : "kwic",
+    "instances" : 
+    [ 
+      { "docId" : "home",
+        "docUri" : "index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "KWICs",
+            "weight" : "1",
+            "pos" : 165,
+            "context" : "Fragment ids for specifying anchor links from <mark>KWICs<\/mark>" } ] } ] }

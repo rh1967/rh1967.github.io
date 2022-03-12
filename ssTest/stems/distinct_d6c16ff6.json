@@ -1,0 +1,14 @@
+
+  { "stem" : "distinct",
+    "instances" : 
+    [ 
+      { "docId" : "cryptic",
+        "docUri" : "clues.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "distinct",
+            "weight" : "1",
+            "pos" : 62,
+            "context" : "...days. The same compiler will often publish under <mark>distinct<\/mark> pseudonyms in different publications.",
+            "fid" : "q1" } ] } ] }

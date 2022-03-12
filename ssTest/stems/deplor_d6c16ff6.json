@@ -1,0 +1,14 @@
+
+  { "stem" : "deplor",
+    "instances" : 
+    [ 
+      { "docId" : "booze",
+        "docUri" : "tables\/booze.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "deplorable",
+            "weight" : "1",
+            "pos" : 15,
+            "context" : "...all, especially new, British Colonies, presents very <mark>deplorable<\/mark> results.Which may include pink elephant hallucinations, especially...",
+            "fid" : "p1" } ] } ] }

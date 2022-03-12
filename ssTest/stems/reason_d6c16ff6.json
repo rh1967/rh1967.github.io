@@ -1,0 +1,14 @@
+
+  { "stem" : "reason",
+    "instances" : 
+    [ 
+      { "docId" : "apostrophes",
+        "docUri" : "apostrophes.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "reasons",
+            "weight" : "1",
+            "pos" : 150,
+            "context" : "For these <mark>reasons<\/mark>, the English stemmer treats apostrophe as a letter...",
+            "fid" : "text" } ] } ] }

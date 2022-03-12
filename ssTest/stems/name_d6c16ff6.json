@@ -1,0 +1,51 @@
+
+  { "stem" : "name",
+    "instances" : 
+    [ 
+      { "docId" : "home",
+        "docUri" : "index.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Names",
+            "weight" : "1",
+            "pos" : 116,
+            "context" : "<mark>Names<\/mark>, both in sentence-initial and sentence medial..." },
+          
+          { "form" : "name",
+            "weight" : "1",
+            "pos" : 217,
+            "context" : "...Porter’s site (note the curly apostrophe in his <mark>name<\/mark>)." } ] },
+      
+      { "docId" : "apostrophes",
+        "docUri" : "apostrophes.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "names",
+            "weight" : "1",
+            "pos" : 51,
+            "context" : "...o’clock, O’Reilly, M’Coy. Except in proper <mark>names<\/mark> such forms are rare: the apostrophe in Hallowe’en...",
+            "fid" : "text" } ] },
+      
+      { "docId" : "searchWorthReading",
+        "docUri" : "searchWorthReading.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "names",
+            "weight" : "1",
+            "pos" : 23,
+            "context" : "  Number of animal <mark>names<\/mark>From: To:  ",
+            "fid" : "ssNum1" } ] },
+      
+      { "docId" : "search",
+        "docUri" : "search.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "names",
+            "weight" : "1",
+            "pos" : 88,
+            "context" : "  Number of animal <mark>names<\/mark>From: To:  ",
+            "fid" : "ssNum1" } ] } ] }

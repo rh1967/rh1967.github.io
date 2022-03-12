@@ -1,0 +1,14 @@
+
+  { "stem" : "truth",
+    "instances" : 
+    [ 
+      { "docId" : "apostrophes",
+        "docUri" : "apostrophes.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "truth",
+            "weight" : "1",
+            "pos" : 145,
+            "context" : "..., despite (or it might be closer to the <mark>truth<\/mark> to say because of) its complete semantic redundancy....",
+            "fid" : "text" } ] } ] }

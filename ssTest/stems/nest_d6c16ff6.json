@@ -1,0 +1,13 @@
+
+  { "stem" : "nest",
+    "instances" : 
+    [ 
+      { "docId" : "home",
+        "docUri" : "index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Nested",
+            "weight" : "1",
+            "pos" : 70,
+            "context" : "<mark>Nested<\/mark> folders." } ] } ] }

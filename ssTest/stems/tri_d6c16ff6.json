@@ -1,0 +1,13 @@
+
+  { "stem" : "tri",
+    "instances" : 
+    [ 
+      { "docId" : "badthings",
+        "docUri" : "badthings.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "try",
+            "weight" : "1",
+            "pos" : 76,
+            "context" : "Now let's <mark>try<\/mark> some stuff that ought to be carefully sanitized during..." } ] } ] }

@@ -1,0 +1,24 @@
+
+  { "stem" : "wine",
+    "instances" : 
+    [ 
+      { "docId" : "booze",
+        "docUri" : "tables\/booze.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "wines",
+            "weight" : "1",
+            "pos" : 34,
+            "context" : "The imported value of <mark>wines<\/mark> and spirits of every description during the year 1864...",
+            "fid" : "d1",
+            "prop" : 
+            { "value" : "295785" } },
+          
+          { "form" : "wines",
+            "weight" : "1",
+            "pos" : 53,
+            "context" : "Deduct value of <mark>wines<\/mark> and spirits of every description imported through Vancouver Island...",
+            "fid" : "d3",
+            "prop" : 
+            { "value" : "149184" } } ] } ] }

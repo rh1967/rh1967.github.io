@@ -1,0 +1,22 @@
+
+  { "stem" : "retail",
+    "instances" : 
+    [ 
+      { "docId" : "booze",
+        "docUri" : "tables\/booze.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "retail",
+            "weight" : "1",
+            "pos" : 91,
+            "context" : "Add for <mark>retail<\/mark> transactions......",
+            "fid" : "d7",
+            "prop" : 
+            { "value" : "264915" } },
+          
+          { "form" : "Retail",
+            "weight" : "1",
+            "pos" : 105,
+            "context" : "...annual Licences for the sale of Liquor Wholesale and <mark>Retail<\/mark> ($29,638) is equal to 4.36 per cent...",
+            "fid" : "d9" } ] } ] }

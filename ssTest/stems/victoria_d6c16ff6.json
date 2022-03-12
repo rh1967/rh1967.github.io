@@ -1,0 +1,16 @@
+
+  { "stem" : "victoria",
+    "instances" : 
+    [ 
+      { "docId" : "booze",
+        "docUri" : "tables\/booze.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Victoria",
+            "weight" : "1",
+            "pos" : 41,
+            "context" : "...every description during the year 1864 (Port of <mark>Victoria<\/mark>)........",
+            "fid" : "d1",
+            "prop" : 
+            { "value" : "295785" } } ] } ] }

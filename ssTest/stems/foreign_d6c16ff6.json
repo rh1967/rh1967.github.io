@@ -1,0 +1,13 @@
+
+  { "stem" : "foreign",
+    "instances" : 
+    [ 
+      { "docId" : "home",
+        "docUri" : "index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Foreign",
+            "weight" : "1",
+            "pos" : 88,
+            "context" : "<mark>Foreign<\/mark> languages and non-latin stuff such as Japanese..." } ] } ] }

@@ -1,0 +1,41 @@
+
+  { "stem" : "follow",
+    "instances" : 
+    [ 
+      { "docId" : "apostrophes",
+        "docUri" : "apostrophes.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "following",
+            "weight" : "1",
+            "pos" : 1,
+            "context" : "The <mark>following<\/mark> is a segment of Martin Porter's discussion of apostrophes...",
+            "fid" : "preamble" },
+          
+          { "form" : "following",
+            "weight" : "1",
+            "pos" : 170,
+            "context" : "...for a closing quote, or been an apostrophe <mark>following<\/mark> s. The form ’s is also treated as an...",
+            "fid" : "text" } ] },
+      
+      { "docId" : "home",
+        "docUri" : "index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "follow",
+            "weight" : "1",
+            "pos" : 194,
+            "context" : "...phrase summer day—our day, and if we <mark>follow<\/mark> that to the next line we get our day..." } ] },
+      
+      { "docId" : "booze",
+        "docUri" : "tables\/booze.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "following",
+            "weight" : "1",
+            "pos" : 24,
+            "context" : "...pink elephant hallucinations, especially in 1870. The <mark>following<\/mark> figures will show that this Colony is not exempt...",
+            "fid" : "p1" } ] } ] }

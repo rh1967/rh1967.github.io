@@ -1,0 +1,15 @@
+
+  { "stem" : "winter",
+    "instances" : 
+    [ 
+      { "docId" : "poems_ditty",
+        "docUri" : "poems\/ditty.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "WINTER",
+            "weight" : "1",
+            "pos" : 1,
+            "context" : "A <mark>WINTER<\/mark> DITTY.",
+            "prop" : 
+            { "stanza" : "0" } } ] } ] }

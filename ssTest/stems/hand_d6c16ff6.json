@@ -1,0 +1,17 @@
+
+  { "stem" : "hand",
+    "instances" : 
+    [ 
+      { "docId" : "poems_ditty",
+        "docUri" : "poems\/ditty.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "hand",
+            "weight" : "1",
+            "pos" : 26,
+            "context" : "Whose <mark>hand<\/mark> may chance to reap ;",
+            "fid" : "l_7",
+            "prop" : 
+            { "line" : "7",
+              "stanza" : "2" } } ] } ] }

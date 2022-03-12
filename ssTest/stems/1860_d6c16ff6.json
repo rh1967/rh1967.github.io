@@ -1,0 +1,13 @@
+
+  { "stem" : "1860",
+    "instances" : 
+    [ 
+      { "docId" : "poems_per_decade_year",
+        "docUri" : "tables\/decade_year.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "1860",
+            "weight" : "1",
+            "pos" : 32,
+            "context" : "<mark>1860<\/mark>" } ] } ] }

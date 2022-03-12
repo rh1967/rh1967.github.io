@@ -1,0 +1,14 @@
+
+  { "stem" : "käse",
+    "instances" : 
+    [ 
+      { "docId" : "search",
+        "docUri" : "search.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Käse",
+            "weight" : "1",
+            "pos" : 76,
+            "context" : "Der Große <mark>Käse<\/mark>",
+            "fid" : "ssDesc3" } ] } ] }

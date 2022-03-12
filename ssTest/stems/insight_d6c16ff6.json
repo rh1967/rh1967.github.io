@@ -1,0 +1,14 @@
+
+  { "stem" : "insight",
+    "instances" : 
+    [ 
+      { "docId" : "cryptic",
+        "docUri" : "clues.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "“insight”",
+            "weight" : "1",
+            "pos" : 136,
+            "context" : "...for “dog” (CUR) inside a word for <mark>“insight”<\/mark> (SEE) to create SECURE, which can...",
+            "fid" : "p3" } ] } ] }

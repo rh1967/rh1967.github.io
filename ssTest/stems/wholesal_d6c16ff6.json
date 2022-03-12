@@ -1,0 +1,22 @@
+
+  { "stem" : "wholesal",
+    "instances" : 
+    [ 
+      { "docId" : "booze",
+        "docUri" : "tables\/booze.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Wholesale",
+            "weight" : "1",
+            "pos" : 86,
+            "context" : "Amount brought down as the transactions of <mark>Wholesale<\/mark> dealers (Importers)........",
+            "fid" : "d6",
+            "prop" : 
+            { "value" : "414099" } },
+          
+          { "form" : "Wholesale",
+            "weight" : "1",
+            "pos" : 104,
+            "context" : "...transactions the annual Licences for the sale of Liquor <mark>Wholesale<\/mark> and Retail ($29,638) is equal to 4.36...",
+            "fid" : "d9" } ] } ] }

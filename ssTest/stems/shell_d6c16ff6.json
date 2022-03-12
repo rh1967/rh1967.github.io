@@ -1,0 +1,14 @@
+
+  { "stem" : "shell",
+    "instances" : 
+    [ 
+      { "docId" : "apostrophes",
+        "docUri" : "apostrophes.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "shell",
+            "weight" : "1",
+            "pos" : 102,
+            "context" : "...she’ll, we’ll are not equated with hell, <mark>shell<\/mark>, well etc.",
+            "fid" : "text" } ] } ] }

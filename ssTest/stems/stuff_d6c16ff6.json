@@ -1,0 +1,33 @@
+
+  { "stem" : "stuff",
+    "instances" : 
+    [ 
+      { "docId" : "badthings",
+        "docUri" : "badthings.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "stuff",
+            "weight" : "1",
+            "pos" : 77,
+            "context" : "Now let's try some <mark>stuff<\/mark> that ought to be carefully sanitized during indexing...." },
+          
+          { "form" : "stuff",
+            "weight" : "1",
+            "pos" : 101,
+            "context" : "...&amp; &amp;amp; bold &amp;amp; &amp; <mark>stuff<\/mark>." } ] },
+      
+      { "docId" : "home",
+        "docUri" : "index.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "stuff",
+            "weight" : "1",
+            "pos" : 87,
+            "context" : "...range of HTML elements providing scope for testing context <mark>stuff<\/mark>." },
+          
+          { "form" : "stuff",
+            "weight" : "1",
+            "pos" : 93,
+            "context" : "Foreign languages and non-latin <mark>stuff<\/mark> such as Japanese." } ] } ] }

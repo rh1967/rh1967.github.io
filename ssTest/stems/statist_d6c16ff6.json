@@ -1,0 +1,24 @@
+
+  { "stem" : "statist",
+    "instances" : 
+    [ 
+      { "docId" : "booze",
+        "docUri" : "tables\/booze.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "statistics",
+            "weight" : "1",
+            "pos" : 9,
+            "context" : " An inquiry into the drinking <mark>statistics<\/mark> in all, especially new, British Colonies, presents...",
+            "fid" : "p1" } ] },
+      
+      { "docId" : "poems_per_decade_year",
+        "docUri" : "tables\/decade_year.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "statistics",
+            "weight" : "2",
+            "pos" : 3,
+            "context" : "Extract from DVPP <mark>statistics<\/mark>" } ] } ] }

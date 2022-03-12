@@ -1,0 +1,13 @@
+
+  { "stem" : "next",
+    "instances" : 
+    [ 
+      { "docId" : "home",
+        "docUri" : "index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "next",
+            "weight" : "1",
+            "pos" : 195,
+            "context" : "...day, and if we follow that to the <mark>next<\/mark> line we get our day Was clouded, which..." } ] } ] }

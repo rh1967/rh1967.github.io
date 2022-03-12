@@ -1,0 +1,17 @@
+
+  { "stem" : "farewel",
+    "instances" : 
+    [ 
+      { "docId" : "poems_ditty",
+        "docUri" : "poems\/ditty.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Farewell",
+            "weight" : "1",
+            "pos" : 50,
+            "context" : "<mark>Farewell<\/mark> a while ! We meadows go",
+            "fid" : "l_14",
+            "prop" : 
+            { "line" : "14",
+              "stanza" : "3" } } ] } ] }

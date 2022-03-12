@@ -1,0 +1,14 @@
+
+  { "stem" : "trotter",
+    "instances" : 
+    [ 
+      { "docId" : "apostrophes",
+        "docUri" : "apostrophes.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "trotters",
+            "weight" : "1",
+            "pos" : 130,
+            "context" : "...nineteenth century.) Although in decline (witness pigs <mark>trotters<\/mark>, Girls School Trust), its use continues in...",
+            "fid" : "text" } ] } ] }

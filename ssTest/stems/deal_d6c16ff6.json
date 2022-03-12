@@ -1,0 +1,13 @@
+
+  { "stem" : "deal",
+    "instances" : 
+    [ 
+      { "docId" : "home",
+        "docUri" : "index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "deals",
+            "weight" : "1",
+            "pos" : 178,
+            "context" : "...also two documents with tables, one of which <mark>deals<\/mark> with liquor consumption in British Columbia, while the..." } ] } ] }

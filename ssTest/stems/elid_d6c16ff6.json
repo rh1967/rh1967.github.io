@@ -1,0 +1,14 @@
+
+  { "stem" : "elid",
+    "instances" : 
+    [ 
+      { "docId" : "apostrophes",
+        "docUri" : "apostrophes.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "elided",
+            "weight" : "1",
+            "pos" : 118,
+            "context" : "...of (1), where historically the apostrophe stood for an <mark>elided<\/mark> e. (Similarly the printed form ’d for ed...",
+            "fid" : "text" } ] } ] }

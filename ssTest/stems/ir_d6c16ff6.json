@@ -1,0 +1,14 @@
+
+  { "stem" : "ir",
+    "instances" : 
+    [ 
+      { "docId" : "apostrophes",
+        "docUri" : "apostrophes.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "IR",
+            "weight" : "1",
+            "pos" : 92,
+            "context" : "...them as single items (usually stopwords) in <mark>IR<\/mark> work. And then preserving the apostrophe is important...",
+            "fid" : "text" } ] } ] }

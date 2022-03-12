@@ -1,0 +1,30 @@
+
+  { "stem" : "singl",
+    "instances" : 
+    [ 
+      { "docId" : "apostrophes",
+        "docUri" : "apostrophes.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "single",
+            "weight" : "1",
+            "pos" : 44,
+            "context" : "...a contraction in what is now accepted as a <mark>single<\/mark> word: o’clock, O’Reilly, M’Coy. Except...",
+            "fid" : "text" },
+          
+          { "form" : "single",
+            "weight" : "1",
+            "pos" : 88,
+            "context" : "..., it is more convenient to treat them as <mark>single<\/mark> items (usually stopwords) in IR work....",
+            "fid" : "text" } ] },
+      
+      { "docId" : "home",
+        "docUri" : "index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "single",
+            "weight" : "1",
+            "pos" : 97,
+            "context" : "Hyphenated terms, <mark>single<\/mark> and double, such as one-way street..." } ] } ] }

@@ -1,0 +1,80 @@
+
+  { "stem" : "one",
+    "instances" : 
+    [ 
+      { "docId" : "home",
+        "docUri" : "index.html",
+        "score" : 7,
+        "contexts" : 
+        [ 
+          { "form" : "one",
+            "weight" : "1",
+            "pos" : 75,
+            "context" : "Documents with and without ids (this has <mark>one<\/mark>)." },
+          
+          { "form" : "one",
+            "weight" : "1",
+            "pos" : 78,
+            "context" : "With and without titles (this has <mark>one<\/mark>)." },
+          
+          { "form" : "one",
+            "weight" : "1",
+            "pos" : 100,
+            "context" : "...Hyphenated terms, single and double, such as <mark>one<\/mark>-way street and hard-to-process sequences...." },
+          
+          { "form" : "one",
+            "weight" : "1",
+            "pos" : 170,
+            "context" : "There are three poems, two Victorian and <mark>one<\/mark> Japanese (about cicadas). There are also two documents..." },
+          
+          { "form" : "one",
+            "weight" : "1",
+            "pos" : 177,
+            "context" : "...). There are also two documents with tables, <mark>one<\/mark> of which deals with liquor consumption in British Columbia..." },
+          
+          { "form" : "One",
+            "weight" : "1",
+            "pos" : 187,
+            "context" : "...such as 1783 and percentages such as 73.58%. <mark>One<\/mark> of the poems includes the phrase summer day—our..." },
+          
+          { "form" : "one",
+            "weight" : "1",
+            "pos" : 220,
+            "context" : "The word artichoke appears here and in <mark>one<\/mark> other document, but it is included in the..." } ] },
+      
+      { "docId" : "apostrophes",
+        "docUri" : "apostrophes.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "one",
+            "weight" : "1",
+            "pos" : 38,
+            "context" : "In English orthography, apostrophe has <mark>one<\/mark> of three functions.",
+            "fid" : "text" },
+          
+          { "form" : "one",
+            "weight" : "1",
+            "pos" : 77,
+            "context" : "...as they displace the full forms that were at <mark>one<\/mark> time used in formal documents. Although they can...",
+            "fid" : "text" } ] },
+      
+      { "docId" : "badthings",
+        "docUri" : "badthings.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "One",
+            "weight" : "1",
+            "pos" : 63,
+            "context" : "<mark>One<\/mark> type of out-stretched: out-stretcht" } ] },
+      
+      { "docId" : "poems_shizukesaya",
+        "docUri" : "poems\/shizukesaya.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "one",
+            "weight" : "1",
+            "pos" : 21,
+            "context" : "...document contains a poem in three representations, only <mark>one<\/mark> of which is English." } ] } ] }

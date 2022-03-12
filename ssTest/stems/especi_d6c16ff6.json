@@ -1,0 +1,20 @@
+
+  { "stem" : "especi",
+    "instances" : 
+    [ 
+      { "docId" : "booze",
+        "docUri" : "tables\/booze.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "especially",
+            "weight" : "1",
+            "pos" : 10,
+            "context" : " An inquiry into the drinking statistics in all, <mark>especially<\/mark> new, British Colonies, presents very deplorable results...",
+            "fid" : "p1" },
+          
+          { "form" : "especially",
+            "weight" : "1",
+            "pos" : 22,
+            "context" : "...deplorable results.Which may include pink elephant hallucinations, <mark>especially<\/mark> in 1870. The following figures will show that...",
+            "fid" : "p1" } ] } ] }

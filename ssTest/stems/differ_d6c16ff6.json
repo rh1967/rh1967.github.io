@@ -1,0 +1,24 @@
+
+  { "stem" : "differ",
+    "instances" : 
+    [ 
+      { "docId" : "cryptic",
+        "docUri" : "clues.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "different",
+            "weight" : "1",
+            "pos" : 64,
+            "context" : "...same compiler will often publish under distinct pseudonyms in <mark>different<\/mark> publications.",
+            "fid" : "q1" } ] },
+      
+      { "docId" : "home",
+        "docUri" : "index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "different",
+            "weight" : "1",
+            "pos" : 57,
+            "context" : "...data set is designed to cover a range of <mark>different<\/mark> input document types and configurations in order to test..." } ] } ] }

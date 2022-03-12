@@ -1,0 +1,14 @@
+
+  { "stem" : "confound",
+    "instances" : 
+    [ 
+      { "docId" : "cryptic",
+        "docUri" : "clues.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "confounds",
+            "weight" : "1",
+            "pos" : 147,
+            "context" : "....” The coherence of the familiar phrase “guard dog” <mark>confounds<\/mark> the solver’s attempt to separate the constructor from the...",
+            "fid" : "p3" } ] } ] }

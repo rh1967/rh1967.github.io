@@ -1,0 +1,14 @@
+
+  { "stem" : "puzzl",
+    "instances" : 
+    [ 
+      { "docId" : "cryptic",
+        "docUri" : "clues.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "puzzle",
+            "weight" : "1",
+            "pos" : 20,
+            "context" : "...definition, a cryptic clue is a more sophisticated <mark>puzzle<\/mark> typically consisting of two parts: a definition and...",
+            "fid" : "p1" } ] } ] }

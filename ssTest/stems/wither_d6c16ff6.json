@@ -1,0 +1,14 @@
+
+  { "stem" : "wither",
+    "instances" : 
+    [ 
+      { "docId" : "a_twilight_sonnet",
+        "docUri" : "poems\/twilight.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "withered",
+            "weight" : "1",
+            "pos" : 27,
+            "context" : "A <mark>withered<\/mark> flower that once was dewy-wet,",
+            "fid" : "l_5" } ] } ] }

@@ -1,0 +1,29 @@
+
+  { "stem" : "total",
+    "instances" : 
+    [ 
+      { "docId" : "poems_per_decade_year",
+        "docUri" : "tables\/decade_year.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Total",
+            "weight" : "1",
+            "pos" : 11,
+            "context" : "   Poems in db per decade-year   Year <mark>Total<\/mark> poems With encoding Proofed Ready for encoding                                                                            " },
+          
+          { "form" : "Totals",
+            "weight" : "1",
+            "pos" : 49,
+            "context" : "<mark>Totals<\/mark>" } ] },
+      
+      { "docId" : "booze",
+        "docUri" : "tables\/booze.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "total",
+            "weight" : "1",
+            "pos" : 113,
+            "context" : "...is equal to more than 8 percent of the <mark>total<\/mark> Imports of Vancouver Island.",
+            "fid" : "d10" } ] } ] }

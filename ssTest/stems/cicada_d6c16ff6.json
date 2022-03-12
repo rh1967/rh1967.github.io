@@ -1,0 +1,23 @@
+
+  { "stem" : "cicada",
+    "instances" : 
+    [ 
+      { "docId" : "home",
+        "docUri" : "index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "cicadas",
+            "weight" : "1",
+            "pos" : 172,
+            "context" : "...three poems, two Victorian and one Japanese (about <mark>cicadas<\/mark>). There are also two documents with tables,..." } ] },
+      
+      { "docId" : "poems_shizukesaya",
+        "docUri" : "poems\/shizukesaya.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "cicada",
+            "weight" : "1",
+            "pos" : 15,
+            "context" : "...silence Seeping into the rocks The voice of the <mark>cicada<\/mark> " } ] } ] }

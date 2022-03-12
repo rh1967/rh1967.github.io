@@ -1,0 +1,26 @@
+
+  { "stem" : "stood",
+    "instances" : 
+    [ 
+      { "docId" : "apostrophes",
+        "docUri" : "apostrophes.html",
+        "score" : 3,
+        "contexts" : 
+        [ 
+          { "form" : "stood",
+            "weight" : "1",
+            "pos" : 117,
+            "context" : "...is a development of (1), where historically the apostrophe <mark>stood<\/mark> for an elided e. (Similarly the printed form...",
+            "fid" : "text" },
+          
+          { "form" : "stood",
+            "weight" : "1",
+            "pos" : 160,
+            "context" : "...beginning of a word, where it might have <mark>stood<\/mark> for an opening quote, from the end of...",
+            "fid" : "text" },
+          
+          { "form" : "stood",
+            "weight" : "1",
+            "pos" : 166,
+            "context" : "...end of the word, where it might have <mark>stood<\/mark> for a closing quote, or been an apostrophe...",
+            "fid" : "text" } ] } ] }

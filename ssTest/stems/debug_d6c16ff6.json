@@ -1,0 +1,18 @@
+
+  { "stem" : "debug",
+    "instances" : 
+    [ 
+      { "docId" : "home",
+        "docUri" : "index.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "debug",
+            "weight" : "1",
+            "pos" : 26,
+            "context" : "..., and of course search.html, its <mark>debug<\/mark> version search-debug.html, and the..." },
+          
+          { "form" : "debug",
+            "weight" : "1",
+            "pos" : 30,
+            "context" : "...search.html, its debug version search-<mark>debug<\/mark>.html, and the other test set searchWorthReading..." } ] } ] }

@@ -1,0 +1,17 @@
+
+  { "stem" : "blossom",
+    "instances" : 
+    [ 
+      { "docId" : "poems_ditty",
+        "docUri" : "poems\/ditty.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "blossomed",
+            "weight" : "1",
+            "pos" : 14,
+            "context" : "The buds that <mark>blossomed<\/mark> long ago",
+            "fid" : "l_3",
+            "prop" : 
+            { "line" : "3",
+              "stanza" : "1" } } ] } ] }

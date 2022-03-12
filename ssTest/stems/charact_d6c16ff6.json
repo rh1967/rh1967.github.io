@@ -1,0 +1,14 @@
+
+  { "stem" : "charact",
+    "instances" : 
+    [ 
+      { "docId" : "apostrophes",
+        "docUri" : "apostrophes.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "character",
+            "weight" : "1",
+            "pos" : 178,
+            "context" : "           Martin Porter, \"The apostrophe <mark>character<\/mark>,\" http:\/\/snowball.tartarus.org\/...",
+            "fid" : "text" } ] } ] }

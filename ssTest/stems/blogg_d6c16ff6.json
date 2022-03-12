@@ -1,0 +1,13 @@
+
+  { "stem" : "blogg",
+    "instances" : 
+    [ 
+      { "docId" : "home",
+        "docUri" : "index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Bloggs",
+            "weight" : "1",
+            "pos" : 124,
+            "context" : "...sentence-initial and sentence medial positions. Fred <mark>Bloggs<\/mark> and Mary Wollstonecraft Shelley are examples." } ] } ] }

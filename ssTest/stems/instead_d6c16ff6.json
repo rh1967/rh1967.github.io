@@ -1,0 +1,14 @@
+
+  { "stem" : "instead",
+    "instances" : 
+    [ 
+      { "docId" : "apostrophes",
+        "docUri" : "apostrophes.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "instead",
+            "weight" : "1",
+            "pos" : 32,
+            "context" : "...has been slightly re-encoded (ps <mark>instead<\/mark> of brs, for instance)",
+            "fid" : "preamble" } ] } ] }

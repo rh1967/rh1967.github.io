@@ -1,0 +1,14 @@
+
+  { "stem" : "hell",
+    "instances" : 
+    [ 
+      { "docId" : "apostrophes",
+        "docUri" : "apostrophes.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "hell",
+            "weight" : "1",
+            "pos" : 101,
+            "context" : "...he’ll, she’ll, we’ll are not equated with <mark>hell<\/mark>, shell, well etc.",
+            "fid" : "text" } ] } ] }

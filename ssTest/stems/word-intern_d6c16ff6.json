@@ -1,0 +1,13 @@
+
+  { "stem" : "word-intern",
+    "instances" : 
+    [ 
+      { "docId" : "home",
+        "docUri" : "index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "word-internal",
+            "weight" : "1",
+            "pos" : 113,
+            "context" : "...various positions, including leading, trailing, and <mark>word-internal<\/mark>." } ] } ] }

@@ -1,0 +1,14 @@
+
+  { "stem" : "john",
+    "instances" : 
+    [ 
+      { "docId" : "apostrophes",
+        "docUri" : "apostrophes.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "John's",
+            "weight" : "1",
+            "pos" : 109,
+            "context" : "...It is used to form the ‘English genitive’, <mark>John's<\/mark> book, the horses’ hooves etc. This is...",
+            "fid" : "text" } ] } ] }

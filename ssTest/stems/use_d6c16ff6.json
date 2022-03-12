@@ -1,0 +1,60 @@
+
+  { "stem" : "use",
+    "instances" : 
+    [ 
+      { "docId" : "apostrophes",
+        "docUri" : "apostrophes.html",
+        "score" : 4,
+        "contexts" : 
+        [ 
+          { "form" : "use",
+            "weight" : "1",
+            "pos" : 72,
+            "context" : "...of these forms in contemporary English, and their <mark>use<\/mark> is increasing as they displace the full forms that...",
+            "fid" : "text" },
+          
+          { "form" : "used",
+            "weight" : "1",
+            "pos" : 79,
+            "context" : "...displace the full forms that were at one time <mark>used<\/mark> in formal documents. Although they can be reduced...",
+            "fid" : "text" },
+          
+          { "form" : "used",
+            "weight" : "1",
+            "pos" : 105,
+            "context" : "It is <mark>used<\/mark> to form the ‘English genitive’, John's book,...",
+            "fid" : "text" },
+          
+          { "form" : "use",
+            "weight" : "1",
+            "pos" : 134,
+            "context" : "...witness pigs trotters, Girls School Trust), its <mark>use<\/mark> continues in contemporary English, where it is fiercely...",
+            "fid" : "text" } ] },
+      
+      { "docId" : "badthings",
+        "docUri" : "badthings.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "useful",
+            "weight" : "1",
+            "pos" : 13,
+            "context" : "...has no title, no id, and no <mark>useful<\/mark> information whatsoever. It tells you nothing of any...",
+            "prop" : 
+            { "img" : "images\/elephant.png" } },
+          
+          { "form" : "use",
+            "weight" : "1",
+            "pos" : 42,
+            "context" : "Other features important for testing are the <mark>use<\/mark> of linebreaks to separate words without any spaces,..." } ] },
+      
+      { "docId" : "cryptic",
+        "docUri" : "clues.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "used",
+            "weight" : "1",
+            "pos" : 161,
+            "context" : "...of the whole clue, but a verb when <mark>used<\/mark> as part of the constructor. Other types of...",
+            "fid" : "p3" } ] } ] }

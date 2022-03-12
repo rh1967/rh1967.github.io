@@ -1,0 +1,26 @@
+
+  { "stem" : "consumpt",
+    "instances" : 
+    [ 
+      { "docId" : "home",
+        "docUri" : "index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "consumption",
+            "weight" : "1",
+            "pos" : 180,
+            "context" : "...with tables, one of which deals with liquor <mark>consumption<\/mark> in British Columbia, while the other has numbers..." } ] },
+      
+      { "docId" : "booze",
+        "docUri" : "tables\/booze.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "consumption",
+            "weight" : "1",
+            "pos" : 66,
+            "context" : "Estimated <mark>consumption<\/mark> of Vancouver Island during the year 1864........",
+            "fid" : "d4",
+            "prop" : 
+            { "value" : "264915" } } ] } ] }

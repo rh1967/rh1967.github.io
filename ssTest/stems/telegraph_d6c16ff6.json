@@ -1,0 +1,14 @@
+
+  { "stem" : "telegraph",
+    "instances" : 
+    [ 
+      { "docId" : "cryptic",
+        "docUri" : "clues.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Telegraph",
+            "weight" : "1",
+            "pos" : 121,
+            "context" : "Guard dog kept within sight (6) (Daily <mark>Telegraph<\/mark> 2002)",
+            "fid" : "q2" } ] } ] }

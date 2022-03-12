@@ -1,0 +1,40 @@
+
+  { "stem" : "tabl",
+    "instances" : 
+    [ 
+      { "docId" : "home",
+        "docUri" : "index.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "table",
+            "weight" : "1",
+            "pos" : 152,
+            "context" : "...should delimit keyword-in-context ranges, such as <mark>table<\/mark> cells." },
+          
+          { "form" : "tables",
+            "weight" : "1",
+            "pos" : 176,
+            "context" : "...(about cicadas). There are also two documents with <mark>tables<\/mark>, one of which deals with liquor consumption in..." } ] },
+      
+      { "docId" : "searchWorthReading",
+        "docUri" : "searchWorthReading.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "tables",
+            "weight" : "1",
+            "pos" : 8,
+            "context" : "Documents with <mark>tables<\/mark>",
+            "fid" : "ssDesc1" } ] },
+      
+      { "docId" : "search",
+        "docUri" : "search.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "tables",
+            "weight" : "1",
+            "pos" : 61,
+            "context" : "Documents with <mark>tables<\/mark>",
+            "fid" : "ssDesc1" } ] } ] }

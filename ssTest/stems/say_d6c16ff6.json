@@ -1,0 +1,27 @@
+
+  { "stem" : "say",
+    "instances" : 
+    [ 
+      { "docId" : "apostrophes",
+        "docUri" : "apostrophes.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "say",
+            "weight" : "1",
+            "pos" : 146,
+            "context" : "...(or it might be closer to the truth to <mark>say<\/mark> because of) its complete semantic redundancy.",
+            "fid" : "text" } ] },
+      
+      { "docId" : "booze",
+        "docUri" : "tables\/booze.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "say",
+            "weight" : "1",
+            "pos" : 45,
+            "context" : "Add profits, <mark>say<\/mark> 40 per cent.......",
+            "fid" : "d2",
+            "prop" : 
+            { "value" : "414099" } } ] } ] }

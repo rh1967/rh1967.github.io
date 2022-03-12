@@ -1,0 +1,16 @@
+
+  { "stem" : "149,184",
+    "instances" : 
+    [ 
+      { "docId" : "booze",
+        "docUri" : "tables\/booze.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "149,184",
+            "weight" : "1",
+            "pos" : 64,
+            "context" : "<mark>149,184<\/mark>",
+            "fid" : "t1",
+            "prop" : 
+            { "value" : "149184" } } ] } ] }

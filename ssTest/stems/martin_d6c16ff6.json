@@ -1,0 +1,30 @@
+
+  { "stem" : "martin",
+    "instances" : 
+    [ 
+      { "docId" : "apostrophes",
+        "docUri" : "apostrophes.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Martin",
+            "weight" : "1",
+            "pos" : 3,
+            "context" : "The following is a segment of <mark>Martin<\/mark> Porter's discussion of apostrophes in English for the Porter...",
+            "fid" : "preamble" },
+          
+          { "form" : "Martin",
+            "weight" : "1",
+            "pos" : 175,
+            "context" : "           <mark>Martin<\/mark> Porter, \"The apostrophe character,\" http:\/\/snowball...",
+            "fid" : "text" } ] },
+      
+      { "docId" : "home",
+        "docUri" : "index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Martin",
+            "weight" : "1",
+            "pos" : 211,
+            "context" : "...contexts. The apostrophes document is an excerpt from <mark>Martin<\/mark> Porter’s site (note the curly apostrophe in his..." } ] } ] }

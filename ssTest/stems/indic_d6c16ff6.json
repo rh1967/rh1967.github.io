@@ -1,0 +1,20 @@
+
+  { "stem" : "indic",
+    "instances" : 
+    [ 
+      { "docId" : "apostrophes",
+        "docUri" : "apostrophes.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "indicates",
+            "weight" : "1",
+            "pos" : 41,
+            "context" : "It <mark>indicates<\/mark> a contraction in what is now accepted as a...",
+            "fid" : "text" },
+          
+          { "form" : "indicates",
+            "weight" : "1",
+            "pos" : 59,
+            "context" : "It <mark>indicates<\/mark> a standard contraction with auxiliary or modal verbs:...",
+            "fid" : "text" } ] } ] }

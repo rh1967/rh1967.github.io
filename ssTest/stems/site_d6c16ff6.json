@@ -1,0 +1,35 @@
+
+  { "stem" : "site",
+    "instances" : 
+    [ 
+      { "docId" : "home",
+        "docUri" : "index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "site",
+            "weight" : "1",
+            "pos" : 213,
+            "context" : "...The apostrophes document is an excerpt from Martin Porter’s <mark>site<\/mark> (note the curly apostrophe in his name)...." } ] },
+      
+      { "docId" : "searchWorthReading",
+        "docUri" : "searchWorthReading.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Site",
+            "weight" : "1",
+            "pos" : 10,
+            "context" : "<mark>Site<\/mark> info files",
+            "fid" : "ssDesc1" } ] },
+      
+      { "docId" : "search",
+        "docUri" : "search.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Site",
+            "weight" : "1",
+            "pos" : 56,
+            "context" : "<mark>Site<\/mark> info files",
+            "fid" : "ssDesc1" } ] } ] }

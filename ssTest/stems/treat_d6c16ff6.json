@@ -1,0 +1,26 @@
+
+  { "stem" : "treat",
+    "instances" : 
+    [ 
+      { "docId" : "apostrophes",
+        "docUri" : "apostrophes.html",
+        "score" : 3,
+        "contexts" : 
+        [ 
+          { "form" : "treat",
+            "weight" : "1",
+            "pos" : 87,
+            "context" : "...to word pairs, it is more convenient to <mark>treat<\/mark> them as single items (usually stopwords) in...",
+            "fid" : "text" },
+          
+          { "form" : "treats",
+            "weight" : "1",
+            "pos" : 153,
+            "context" : "For these reasons, the English stemmer <mark>treats<\/mark> apostrophe as a letter, removing it from the...",
+            "fid" : "text" },
+          
+          { "form" : "treated",
+            "weight" : "1",
+            "pos" : 173,
+            "context" : "...an apostrophe following s. The form ’s is also <mark>treated<\/mark> as an ending.",
+            "fid" : "text" } ] } ] }

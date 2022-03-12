@@ -1,0 +1,13 @@
+
+  { "stem" : "lead",
+    "instances" : 
+    [ 
+      { "docId" : "home",
+        "docUri" : "index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "leading",
+            "weight" : "1",
+            "pos" : 111,
+            "context" : "Apostrophes in various positions, including <mark>leading<\/mark>, trailing, and word-internal." } ] } ] }

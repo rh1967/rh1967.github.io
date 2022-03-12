@@ -1,0 +1,45 @@
+
+  { "stem" : "rang",
+    "instances" : 
+    [ 
+      { "docId" : "home",
+        "docUri" : "index.html",
+        "score" : 3,
+        "contexts" : 
+        [ 
+          { "form" : "range",
+            "weight" : "1",
+            "pos" : 56,
+            "context" : ".... This data set is designed to cover a <mark>range<\/mark> of different input document types and configurations in order..." },
+          
+          { "form" : "range",
+            "weight" : "1",
+            "pos" : 80,
+            "context" : "Good <mark>range<\/mark> of HTML elements providing scope for testing context stuff..." },
+          
+          { "form" : "ranges",
+            "weight" : "1",
+            "pos" : 151,
+            "context" : "Constrained contexts which should delimit keyword-in-context <mark>ranges<\/mark>, such as table cells." } ] },
+      
+      { "docId" : "searchWorthReading",
+        "docUri" : "searchWorthReading.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "range",
+            "weight" : "1",
+            "pos" : 20,
+            "context" : "  Date <mark>range<\/mark>From: To:  ",
+            "fid" : "ssDate1" } ] },
+      
+      { "docId" : "search",
+        "docUri" : "search.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "range",
+            "weight" : "1",
+            "pos" : 85,
+            "context" : "  Date <mark>range<\/mark>From: To:  ",
+            "fid" : "ssDate1" } ] } ] }

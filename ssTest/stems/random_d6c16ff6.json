@@ -1,0 +1,36 @@
+
+  { "stem" : "random",
+    "instances" : 
+    [ 
+      { "docId" : "search",
+        "docUri" : "search.html",
+        "score" : 3,
+        "contexts" : 
+        [ 
+          { "form" : "Random",
+            "weight" : "1",
+            "pos" : 29,
+            "context" : "...of the @data-ssFilterSortKey setting; the <mark>Random<\/mark> numeric value options should appear in ascending numeric order..." },
+          
+          { "form" : "Random",
+            "weight" : "1",
+            "pos" : 64,
+            "context" : "  Document type         <mark>Random<\/mark> nonsense         Random numeric value            ",
+            "fid" : "ssDesc3" },
+          
+          { "form" : "Random",
+            "weight" : "1",
+            "pos" : 77,
+            "context" : "  Document type         Random nonsense         <mark>Random<\/mark> numeric value            ",
+            "fid" : "ssDesc2" } ] },
+      
+      { "docId" : "searchWorthReading",
+        "docUri" : "searchWorthReading.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Random",
+            "weight" : "1",
+            "pos" : 13,
+            "context" : "  Document type         <mark>Random<\/mark> numeric value         ",
+            "fid" : "ssDesc2" } ] } ] }

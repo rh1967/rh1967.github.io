@@ -1,0 +1,14 @@
+
+  { "stem" : "similar",
+    "instances" : 
+    [ 
+      { "docId" : "apostrophes",
+        "docUri" : "apostrophes.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Similarly",
+            "weight" : "1",
+            "pos" : 119,
+            "context" : "...historically the apostrophe stood for an elided e. (<mark>Similarly<\/mark> the printed form ’d for ed was very common...",
+            "fid" : "text" } ] } ] }

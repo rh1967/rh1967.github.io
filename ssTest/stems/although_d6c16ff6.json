@@ -1,0 +1,40 @@
+
+  { "stem" : "although",
+    "instances" : 
+    [ 
+      { "docId" : "apostrophes",
+        "docUri" : "apostrophes.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "Although",
+            "weight" : "1",
+            "pos" : 82,
+            "context" : "...were at one time used in formal documents. <mark>Although<\/mark> they can be reduced to word pairs, it...",
+            "fid" : "text" },
+          
+          { "form" : "Although",
+            "weight" : "1",
+            "pos" : 126,
+            "context" : "...ed was very common before the nineteenth century.) <mark>Although<\/mark> in decline (witness pigs trotters, Girls School...",
+            "fid" : "text" } ] },
+      
+      { "docId" : "badthings",
+        "docUri" : "badthings.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "although",
+            "weight" : "1",
+            "pos" : 32,
+            "context" : "We also include the word artichoke here, <mark>although<\/mark> it should be ignored by the indexer because it..." } ] },
+      
+      { "docId" : "search",
+        "docUri" : "search.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "although",
+            "weight" : "1",
+            "pos" : 37,
+            "context" : "...numeric value options should appear in ascending numeric order <mark>although<\/mark> they do not have a configured @data-..." } ] } ] }

@@ -1,0 +1,14 @@
+
+  { "stem" : "hallucin",
+    "instances" : 
+    [ 
+      { "docId" : "booze",
+        "docUri" : "tables\/booze.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "hallucinations",
+            "weight" : "1",
+            "pos" : 21,
+            "context" : "...presents very deplorable results.Which may include pink elephant <mark>hallucinations<\/mark>, especially in 1870. The following figures will...",
+            "fid" : "p1" } ] } ] }

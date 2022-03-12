@@ -1,0 +1,26 @@
+
+  { "stem" : "read",
+    "instances" : 
+    [ 
+      { "docId" : "badthings",
+        "docUri" : "badthings.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "reading",
+            "weight" : "1",
+            "pos" : 21,
+            "context" : "...nothing of any value and is generally not worth <mark>reading<\/mark>. It also elephant has the word elephant three...",
+            "prop" : 
+            { "img" : "images\/elephant.png" } } ] },
+      
+      { "docId" : "search",
+        "docUri" : "search.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "reading",
+            "weight" : "1",
+            "pos" : 91,
+            "context" : " Is a document:  ? ✔ ✘Worth <mark>reading<\/mark>:  ? ✔ ✘ ",
+            "fid" : "ssForm" } ] } ] }

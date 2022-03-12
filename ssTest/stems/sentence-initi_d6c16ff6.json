@@ -1,0 +1,13 @@
+
+  { "stem" : "sentence-initi",
+    "instances" : 
+    [ 
+      { "docId" : "home",
+        "docUri" : "index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "sentence-initial",
+            "weight" : "1",
+            "pos" : 117,
+            "context" : "Names, both in <mark>sentence-initial<\/mark> and sentence medial positions. Fred Bloggs and Mary..." } ] } ] }

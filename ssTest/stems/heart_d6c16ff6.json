@@ -1,0 +1,14 @@
+
+  { "stem" : "heart",
+    "instances" : 
+    [ 
+      { "docId" : "a_twilight_sonnet",
+        "docUri" : "poems\/twilight.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "hearts",
+            "weight" : "1",
+            "pos" : 25,
+            "context" : "Till love meets ocean-love or <mark>hearts<\/mark> forget.",
+            "fid" : "l_4" } ] } ] }

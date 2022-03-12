@@ -1,0 +1,14 @@
+
+  { "stem" : "mislead",
+    "instances" : 
+    [ 
+      { "docId" : "cryptic",
+        "docUri" : "clues.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "mislead",
+            "weight" : "1",
+            "pos" : 42,
+            "context" : "...usually unconnected with the actual answer, intended to <mark>mislead<\/mark> the solver. This is a recent example from...",
+            "fid" : "p1" } ] } ] }

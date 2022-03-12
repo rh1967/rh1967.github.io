@@ -1,0 +1,20 @@
+
+  { "stem" : "quot",
+    "instances" : 
+    [ 
+      { "docId" : "apostrophes",
+        "docUri" : "apostrophes.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "quote",
+            "weight" : "1",
+            "pos" : 162,
+            "context" : "..., where it might have stood for an opening <mark>quote<\/mark>, from the end of the word, where...",
+            "fid" : "text" },
+          
+          { "form" : "quote",
+            "weight" : "1",
+            "pos" : 168,
+            "context" : "..., where it might have stood for a closing <mark>quote<\/mark>, or been an apostrophe following s. The form...",
+            "fid" : "text" } ] } ] }

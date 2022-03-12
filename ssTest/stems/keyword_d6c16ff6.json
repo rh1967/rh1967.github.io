@@ -1,0 +1,13 @@
+
+  { "stem" : "keyword",
+    "instances" : 
+    [ 
+      { "docId" : "home",
+        "docUri" : "index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "keyword",
+            "weight" : "1",
+            "pos" : 149,
+            "context" : "Constrained contexts which should delimit <mark>keyword<\/mark>-in-context ranges, such as table cells...." } ] } ] }

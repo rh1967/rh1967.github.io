@@ -1,0 +1,14 @@
+
+  { "stem" : "correct",
+    "instances" : 
+    [ 
+      { "docId" : "apostrophes",
+        "docUri" : "apostrophes.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "correct",
+            "weight" : "1",
+            "pos" : 140,
+            "context" : "...contemporary English, where it is fiercely promoted as <mark>correct<\/mark> grammar, despite (or it might be closer to...",
+            "fid" : "text" } ] } ] }

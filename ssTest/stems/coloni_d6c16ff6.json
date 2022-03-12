@@ -1,0 +1,28 @@
+
+  { "stem" : "coloni",
+    "instances" : 
+    [ 
+      { "docId" : "booze",
+        "docUri" : "tables\/booze.html",
+        "score" : 3,
+        "contexts" : 
+        [ 
+          { "form" : "Colonies",
+            "weight" : "1",
+            "pos" : 13,
+            "context" : "...the drinking statistics in all, especially new, British <mark>Colonies<\/mark>, presents very deplorable results.Which may include pink...",
+            "fid" : "p1" },
+          
+          { "form" : "Colony",
+            "weight" : "1",
+            "pos" : 27,
+            "context" : "...1870. The following figures will show that this <mark>Colony<\/mark> is not exempt from the evils which exist elsewhere...",
+            "fid" : "p1" },
+          
+          { "form" : "Colony",
+            "weight" : "1",
+            "pos" : 60,
+            "context" : "...of every description imported through Vancouver Island into the <mark>Colony<\/mark> of British Columbia during the same period......",
+            "fid" : "d3",
+            "prop" : 
+            { "value" : "149184" } } ] } ] }

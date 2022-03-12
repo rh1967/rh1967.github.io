@@ -1,0 +1,14 @@
+
+  { "stem" : "hoov",
+    "instances" : 
+    [ 
+      { "docId" : "apostrophes",
+        "docUri" : "apostrophes.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "hooves",
+            "weight" : "1",
+            "pos" : 112,
+            "context" : "...the ‘English genitive’, John's book, the horses’ <mark>hooves<\/mark> etc. This is a development of (1), where...",
+            "fid" : "text" } ] } ] }

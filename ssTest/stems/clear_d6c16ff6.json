@@ -1,0 +1,25 @@
+
+  { "stem" : "clear",
+    "instances" : 
+    [ 
+      { "docId" : "searchWorthReading",
+        "docUri" : "searchWorthReading.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Clear",
+            "weight" : "1",
+            "pos" : 2,
+            "context" : "Search<mark>Clear<\/mark>      ",
+            "fid" : "ssClear" } ] },
+      
+      { "docId" : "search",
+        "docUri" : "search.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Clear",
+            "weight" : "1",
+            "pos" : 53,
+            "context" : " Search<mark>Clear<\/mark>   Search                          ",
+            "fid" : "ssClear" } ] } ] }

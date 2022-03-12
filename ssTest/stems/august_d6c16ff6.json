@@ -1,0 +1,13 @@
+
+  { "stem" : "august",
+    "instances" : 
+    [ 
+      { "docId" : "booze",
+        "docUri" : "tables\/booze.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "August",
+            "weight" : "2",
+            "pos" : 5,
+            "context" : "Extract from Kennedy to Cardwell, 24 <mark>August<\/mark> 1865" } ] } ] }

@@ -1,0 +1,14 @@
+
+  { "stem" : "grammar",
+    "instances" : 
+    [ 
+      { "docId" : "apostrophes",
+        "docUri" : "apostrophes.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "grammar",
+            "weight" : "1",
+            "pos" : 141,
+            "context" : "...English, where it is fiercely promoted as correct <mark>grammar<\/mark>, despite (or it might be closer to the...",
+            "fid" : "text" } ] } ] }

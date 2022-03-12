@@ -1,0 +1,16 @@
+
+  { "stem" : "estim",
+    "instances" : 
+    [ 
+      { "docId" : "booze",
+        "docUri" : "tables\/booze.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Estimated",
+            "weight" : "1",
+            "pos" : 65,
+            "context" : "<mark>Estimated<\/mark> consumption of Vancouver Island during the year 1864...........",
+            "fid" : "d4",
+            "prop" : 
+            { "value" : "264915" } } ] } ] }

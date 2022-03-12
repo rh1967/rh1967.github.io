@@ -1,0 +1,14 @@
+
+  { "stem" : "power",
+    "instances" : 
+    [ 
+      { "docId" : "search",
+        "docUri" : "search.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Powered",
+            "weight" : "1",
+            "pos" : 94,
+            "context" : "<mark>Powered<\/mark> by",
+            "fid" : "ssPoweredBy" } ] } ] }

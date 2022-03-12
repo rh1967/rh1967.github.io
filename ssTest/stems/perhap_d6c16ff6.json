@@ -1,0 +1,14 @@
+
+  { "stem" : "perhap",
+    "instances" : 
+    [ 
+      { "docId" : "cryptic",
+        "docUri" : "clues.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "perhaps",
+            "weight" : "1",
+            "pos" : 94,
+            "context" : "...by the word “amending.” The complete clue suggests <mark>perhaps<\/mark> the addition of HMS Endeavour to a pub signboard...",
+            "fid" : "p2" } ] } ] }

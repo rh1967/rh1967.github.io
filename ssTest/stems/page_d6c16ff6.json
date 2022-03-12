@@ -1,0 +1,28 @@
+
+  { "stem" : "page",
+    "instances" : 
+    [ 
+      { "docId" : "search",
+        "docUri" : "search.html",
+        "score" : 3,
+        "contexts" : 
+        [ 
+          { "form" : "page",
+            "weight" : "2",
+            "pos" : 3,
+            "context" : "Test search <mark>page<\/mark>" },
+          
+          { "form" : "page",
+            "weight" : "1",
+            "pos" : 6,
+            "context" : "This is a simple search <mark>page<\/mark> for the test collection. It runs a number..." } ] },
+      
+      { "docId" : "home",
+        "docUri" : "index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "page",
+            "weight" : "1",
+            "pos" : 46,
+            "context" : "This is the index <mark>page<\/mark> for the Static Search test data set. This..." } ] } ] }

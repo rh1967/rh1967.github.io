@@ -1,0 +1,14 @@
+
+  { "stem" : "despit",
+    "instances" : 
+    [ 
+      { "docId" : "apostrophes",
+        "docUri" : "apostrophes.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "despite",
+            "weight" : "1",
+            "pos" : 142,
+            "context" : "...where it is fiercely promoted as correct grammar, <mark>despite<\/mark> (or it might be closer to the truth to...",
+            "fid" : "text" } ] } ] }

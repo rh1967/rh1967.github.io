@@ -1,0 +1,14 @@
+
+  { "stem" : "hallowe'en",
+    "instances" : 
+    [ 
+      { "docId" : "apostrophes",
+        "docUri" : "apostrophes.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Hallowe’en",
+            "weight" : "1",
+            "pos" : 55,
+            "context" : "...names such forms are rare: the apostrophe in <mark>Hallowe’en<\/mark> is disappearing, and in ’bus has disappeared....",
+            "fid" : "text" } ] } ] }

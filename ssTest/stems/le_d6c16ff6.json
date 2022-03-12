@@ -1,0 +1,14 @@
+
+  { "stem" : "le",
+    "instances" : 
+    [ 
+      { "docId" : "search",
+        "docUri" : "search.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Le",
+            "weight" : "1",
+            "pos" : 68,
+            "context" : "<mark>Le<\/mark> Fromage Bleu",
+            "fid" : "ssDesc3" } ] } ] }

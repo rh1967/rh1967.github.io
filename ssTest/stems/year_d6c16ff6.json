@@ -1,0 +1,49 @@
+
+  { "stem" : "year",
+    "instances" : 
+    [ 
+      { "docId" : "booze",
+        "docUri" : "tables\/booze.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "year",
+            "weight" : "1",
+            "pos" : 38,
+            "context" : "...of wines and spirits of every description during the <mark>year<\/mark> 1864 (Port of Victoria)........",
+            "fid" : "d1",
+            "prop" : 
+            { "value" : "295785" } },
+          
+          { "form" : "year",
+            "weight" : "1",
+            "pos" : 69,
+            "context" : "Estimated consumption of Vancouver Island during the <mark>year<\/mark> 1864........",
+            "fid" : "d4",
+            "prop" : 
+            { "value" : "264915" } } ] },
+      
+      { "docId" : "poems_per_decade_year",
+        "docUri" : "tables\/decade_year.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "year",
+            "weight" : "1",
+            "pos" : 9,
+            "context" : "   Poems in db per decade-<mark>year<\/mark>   Year Total poems With encoding Proofed Ready for encoding..." },
+          
+          { "form" : "Year",
+            "weight" : "1",
+            "pos" : 10,
+            "context" : "   Poems in db per decade-year   <mark>Year<\/mark> Total poems With encoding Proofed Ready for encoding                                                                            " } ] },
+      
+      { "docId" : "home",
+        "docUri" : "index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "year",
+            "weight" : "1",
+            "pos" : 21,
+            "context" : "....html, booze.html, decade_<mark>year<\/mark>.html, and of course search.html..." } ] } ] }

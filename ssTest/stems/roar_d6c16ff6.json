@@ -1,0 +1,17 @@
+
+  { "stem" : "roar",
+    "instances" : 
+    [ 
+      { "docId" : "poems_ditty",
+        "docUri" : "poems\/ditty.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "roaring",
+            "weight" : "1",
+            "pos" : 44,
+            "context" : "Across the <mark>roaring<\/mark> deep—",
+            "fid" : "l_12",
+            "prop" : 
+            { "line" : "12",
+              "stanza" : "3" } } ] } ] }

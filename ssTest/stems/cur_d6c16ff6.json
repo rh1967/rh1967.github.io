@@ -1,0 +1,24 @@
+
+  { "stem" : "cur",
+    "instances" : 
+    [ 
+      { "docId" : "cryptic",
+        "docUri" : "clues.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "CUR",
+            "weight" : "1",
+            "pos" : 133,
+            "context" : "...explained thus: put a word for “dog” (<mark>CUR<\/mark>) inside a word for “insight” (SEE)...",
+            "fid" : "p3" } ] },
+      
+      { "docId" : "home",
+        "docUri" : "index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "curly",
+            "weight" : "1",
+            "pos" : 215,
+            "context" : "...an excerpt from Martin Porter’s site (note the <mark>curly<\/mark> apostrophe in his name)." } ] } ] }

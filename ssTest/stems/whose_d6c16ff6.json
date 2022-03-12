@@ -1,0 +1,27 @@
+
+  { "stem" : "whose",
+    "instances" : 
+    [ 
+      { "docId" : "home",
+        "docUri" : "index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "whose",
+            "weight" : "1",
+            "pos" : 156,
+            "context" : "Inline elements <mark>whose<\/mark> boundaries should be ignored when indexing." } ] },
+      
+      { "docId" : "poems_ditty",
+        "docUri" : "poems\/ditty.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Whose",
+            "weight" : "1",
+            "pos" : 25,
+            "context" : "<mark>Whose<\/mark> hand may chance to reap ;",
+            "fid" : "l_7",
+            "prop" : 
+            { "line" : "7",
+              "stanza" : "2" } } ] } ] }

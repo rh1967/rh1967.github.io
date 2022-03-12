@@ -1,0 +1,13 @@
+
+  { "stem" : "staticsearch",
+    "instances" : 
+    [ 
+      { "docId" : "home",
+        "docUri" : "index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "staticSearch",
+            "weight" : "1",
+            "pos" : 42,
+            "context" : "...want to look at the build report from the <mark>staticSearch<\/mark> build process." } ] } ] }

@@ -1,0 +1,14 @@
+
+  { "stem" : "we'll",
+    "instances" : 
+    [ 
+      { "docId" : "apostrophes",
+        "docUri" : "apostrophes.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "we’ll",
+            "weight" : "1",
+            "pos" : 99,
+            "context" : "...is important, so that he’ll, she’ll, <mark>we’ll<\/mark> are not equated with hell, shell, well...",
+            "fid" : "text" } ] } ] }

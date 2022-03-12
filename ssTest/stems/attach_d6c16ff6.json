@@ -1,0 +1,13 @@
+
+  { "stem" : "attach",
+    "instances" : 
+    [ 
+      { "docId" : "home",
+        "docUri" : "index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "attached",
+            "weight" : "1",
+            "pos" : 142,
+            "context" : "...that should not be indexed (such as line numbers <mark>attached<\/mark> to poetic lines)." } ] } ] }

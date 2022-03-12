@@ -1,0 +1,14 @@
+
+  { "stem" : "puppet",
+    "instances" : 
+    [ 
+      { "docId" : "a_twilight_sonnet",
+        "docUri" : "poems\/twilight.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "puppet",
+            "weight" : "1",
+            "pos" : 68,
+            "context" : "And so from dreams to sleep, life’s <mark>puppet<\/mark>-show",
+            "fid" : "l_13" } ] } ] }

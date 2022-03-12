@@ -1,0 +1,20 @@
+
+  { "stem" : "tartarus",
+    "instances" : 
+    [ 
+      { "docId" : "apostrophes",
+        "docUri" : "apostrophes.html",
+        "score" : 2,
+        "contexts" : 
+        [ 
+          { "form" : "tartarus",
+            "weight" : "1",
+            "pos" : 12,
+            "context" : "...the Porter2 Stemmer: http:\/\/snowball.<mark>tartarus<\/mark>.org\/texts\/apostrophe.html,...",
+            "fid" : "preamble" },
+          
+          { "form" : "tartarus",
+            "weight" : "1",
+            "pos" : 181,
+            "context" : "..., \"The apostrophe character,\" http:\/\/snowball.<mark>tartarus<\/mark>.org\/texts\/apostrophe.html ",
+            "fid" : "text" } ] } ] }

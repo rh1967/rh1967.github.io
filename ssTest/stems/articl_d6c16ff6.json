@@ -1,0 +1,36 @@
+
+  { "stem" : "articl",
+    "instances" : 
+    [ 
+      { "docId" : "cryptic",
+        "docUri" : "clues.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "article",
+            "weight" : "1",
+            "pos" : 177,
+            "context" : "...cryptic crosswords and will be the focus of this <mark>article<\/mark>.",
+            "fid" : "p3" } ] },
+      
+      { "docId" : "searchWorthReading",
+        "docUri" : "searchWorthReading.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Article",
+            "weight" : "1",
+            "pos" : 5,
+            "context" : "<mark>Article<\/mark> extracts",
+            "fid" : "ssDesc1" } ] },
+      
+      { "docId" : "search",
+        "docUri" : "search.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Article",
+            "weight" : "1",
+            "pos" : 62,
+            "context" : "<mark>Article<\/mark> extracts",
+            "fid" : "ssDesc1" } ] } ] }

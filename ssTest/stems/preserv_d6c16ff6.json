@@ -1,0 +1,14 @@
+
+  { "stem" : "preserv",
+    "instances" : 
+    [ 
+      { "docId" : "apostrophes",
+        "docUri" : "apostrophes.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "preserving",
+            "weight" : "1",
+            "pos" : 94,
+            "context" : "...usually stopwords) in IR work. And then <mark>preserving<\/mark> the apostrophe is important, so that he’ll,...",
+            "fid" : "text" } ] } ] }

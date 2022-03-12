@@ -1,0 +1,14 @@
+
+  { "stem" : "within",
+    "instances" : 
+    [ 
+      { "docId" : "cryptic",
+        "docUri" : "clues.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "within",
+            "weight" : "1",
+            "pos" : 118,
+            "context" : "Guard dog kept <mark>within<\/mark> sight (6) (Daily Telegraph 2002)",
+            "fid" : "q2" } ] } ] }

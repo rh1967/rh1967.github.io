@@ -1,0 +1,13 @@
+
+  { "stem" : "booz",
+    "instances" : 
+    [ 
+      { "docId" : "home",
+        "docUri" : "index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "booze",
+            "weight" : "1",
+            "pos" : 18,
+            "context" : "..., shizukesaya.html, twilight.html, <mark>booze<\/mark>.html, decade_year.html,..." } ] } ] }

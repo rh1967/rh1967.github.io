@@ -1,0 +1,40 @@
+
+  { "stem" : "eleph",
+    "instances" : 
+    [ 
+      { "docId" : "badthings",
+        "docUri" : "badthings.html",
+        "score" : 3,
+        "contexts" : 
+        [ 
+          { "form" : "elephant",
+            "weight" : "1",
+            "pos" : 23,
+            "context" : "...and is generally not worth reading. It also <mark>elephant<\/mark> has the word elephant three elephant times.",
+            "prop" : 
+            { "img" : "images\/elephant.png" } },
+          
+          { "form" : "elephant",
+            "weight" : "1",
+            "pos" : 25,
+            "context" : "...worth reading. It also elephant has the word <mark>elephant<\/mark> three elephant times.",
+            "prop" : 
+            { "img" : "images\/elephant.png" } },
+          
+          { "form" : "elephant",
+            "weight" : "1",
+            "pos" : 27,
+            "context" : ".... It also elephant has the word elephant three <mark>elephant<\/mark> times.",
+            "prop" : 
+            { "img" : "images\/elephant.png" } } ] },
+      
+      { "docId" : "booze",
+        "docUri" : "tables\/booze.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "elephant",
+            "weight" : "1",
+            "pos" : 20,
+            "context" : "..., presents very deplorable results.Which may include pink <mark>elephant<\/mark> hallucinations, especially in 1870. The following figures...",
+            "fid" : "p1" } ] } ] }

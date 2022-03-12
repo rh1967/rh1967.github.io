@@ -1,0 +1,14 @@
+
+  { "stem" : "pair",
+    "instances" : 
+    [ 
+      { "docId" : "apostrophes",
+        "docUri" : "apostrophes.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "pairs",
+            "weight" : "1",
+            "pos" : 85,
+            "context" : "...documents. Although they can be reduced to word <mark>pairs<\/mark>, it is more convenient to treat them as...",
+            "fid" : "text" } ] } ] }

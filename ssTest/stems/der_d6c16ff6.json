@@ -1,0 +1,14 @@
+
+  { "stem" : "der",
+    "instances" : 
+    [ 
+      { "docId" : "search",
+        "docUri" : "search.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "Der",
+            "weight" : "1",
+            "pos" : 74,
+            "context" : "<mark>Der<\/mark> Große Käse",
+            "fid" : "ssDesc3" } ] } ] }

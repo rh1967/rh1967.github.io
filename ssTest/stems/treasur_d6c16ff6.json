@@ -1,0 +1,14 @@
+
+  { "stem" : "treasur",
+    "instances" : 
+    [ 
+      { "docId" : "a_twilight_sonnet",
+        "docUri" : "poems\/twilight.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "treasured",
+            "weight" : "1",
+            "pos" : 37,
+            "context" : "And <mark>treasured<\/mark> till the summer day—our day",
+            "fid" : "l_7" } ] } ] }

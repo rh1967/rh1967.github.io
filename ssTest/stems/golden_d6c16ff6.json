@@ -1,0 +1,28 @@
+
+  { "stem" : "golden",
+    "instances" : 
+    [ 
+      { "docId" : "poems_ditty",
+        "docUri" : "poems\/ditty.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "golden",
+            "weight" : "1",
+            "pos" : 36,
+            "context" : "Fall softly, <mark>golden<\/mark> grain ! and so",
+            "fid" : "l_9",
+            "prop" : 
+            { "line" : "9",
+              "stanza" : "2" } } ] },
+      
+      { "docId" : "a_twilight_sonnet",
+        "docUri" : "poems\/twilight.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "golden",
+            "weight" : "1",
+            "pos" : 16,
+            "context" : "Away—away—through <mark>golden<\/mark>, green, and gray,",
+            "fid" : "l_3" } ] } ] }

@@ -1,0 +1,44 @@
+
+  { "stem" : "form",
+    "instances" : 
+    [ 
+      { "docId" : "apostrophes",
+        "docUri" : "apostrophes.html",
+        "score" : 6,
+        "contexts" : 
+        [ 
+          { "form" : "forms",
+            "weight" : "1",
+            "pos" : 52,
+            "context" : "...O’Reilly, M’Coy. Except in proper names such <mark>forms<\/mark> are rare: the apostrophe in Hallowe’en is disappearing...",
+            "fid" : "text" },
+          
+          { "form" : "forms",
+            "weight" : "1",
+            "pos" : 69,
+            "context" : "..., we’d. There are about forty of these <mark>forms<\/mark> in contemporary English, and their use is increasing...",
+            "fid" : "text" },
+          
+          { "form" : "forms",
+            "weight" : "1",
+            "pos" : 76,
+            "context" : "...their use is increasing as they displace the full <mark>forms<\/mark> that were at one time used in formal documents...",
+            "fid" : "text" },
+          
+          { "form" : "form",
+            "weight" : "1",
+            "pos" : 106,
+            "context" : "It is used to <mark>form<\/mark> the ‘English genitive’, John's book, the horses’...",
+            "fid" : "text" },
+          
+          { "form" : "form",
+            "weight" : "1",
+            "pos" : 121,
+            "context" : "...stood for an elided e. (Similarly the printed <mark>form<\/mark> ’d for ed was very common before the nineteenth...",
+            "fid" : "text" },
+          
+          { "form" : "form",
+            "weight" : "1",
+            "pos" : 171,
+            "context" : "...quote, or been an apostrophe following s. The <mark>form<\/mark> ’s is also treated as an ending.",
+            "fid" : "text" } ] } ] }

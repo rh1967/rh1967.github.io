@@ -1,0 +1,14 @@
+
+  { "stem" : "close",
+    "instances" : 
+    [ 
+      { "docId" : "apostrophes",
+        "docUri" : "apostrophes.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "closing",
+            "weight" : "1",
+            "pos" : 167,
+            "context" : "...word, where it might have stood for a <mark>closing<\/mark> quote, or been an apostrophe following s. The...",
+            "fid" : "text" } ] } ] }

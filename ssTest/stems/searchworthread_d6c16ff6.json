@@ -1,0 +1,13 @@
+
+  { "stem" : "searchworthread",
+    "instances" : 
+    [ 
+      { "docId" : "home",
+        "docUri" : "index.html",
+        "score" : 1,
+        "contexts" : 
+        [ 
+          { "form" : "searchWorthReading",
+            "weight" : "1",
+            "pos" : 34,
+            "context" : "...debug.html, and the other test set <mark>searchWorthReading<\/mark>.html. " } ] } ] }
