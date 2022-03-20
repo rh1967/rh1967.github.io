@@ -117,23 +117,18 @@
               Note that if you want to debug a problem with the JavaScript, you can
               change "ssSearch.js" to "ssSearch-debug.js" to link the uncompressed, 
               unminified code instead.
-            --><script src="staticSearch/ssInitialize.js"></script><noscript>This page requires JavaScript.</noscript>
-                  <div class="col-lg-3 left-column pl-0 pr-5">
+            --><script src="staticSearch/ssInitialize.js"></script><noscript>This page requires JavaScript.</noscript><div class="col-lg-3 left-column pl-0 pr-5">
                      <div class="container de" id="input-search">
                         <h2>Suche</h2>
-                        <form accept-charset="UTF-8" id="ssForm" data-allowphrasal="yes" data-allowwildcards="yes" data-minwordlength="2" data-maxkwicstoshow="5" data-resultsperpage="5" onsubmit="return false;" data-versionstring="" data-ssfolder="staticSearch" data-kwictruncatestring="..." data-resultslimit="2000">
-                           <div class="ssQueryAndButton">
+                        <form accept-charset="UTF-8" id="ssForm" data-allowphrasal="yes" data-allowwildcards="yes" data-minwordlength="2" data-maxkwicstoshow="5" data-resultsperpage="5" onsubmit="return false;" data-versionstring="" data-ssfolder="staticSearch" data-kwictruncatestring="..." data-resultslimit="2000"><span class="ssQueryAndButton">
                               <div class="form-group row"><label class="col-12 col-form-label" for="">Suche nach:</label><div class="col-12 mb-3"><input type="text" class="form-control" id="ssQuery" placeholder="Begriff hier eingeben" aria-label="Search"/></div>
                               </div>
                               <div class="form-group row">
                                  <div class="col-12"><button name="submit" type="submit" class="btn btn-primary" id="ssDoSearch">Absenden</button></div>
-                              </div>
-                           </div></form>
+                              </div></span></form>
                      </div>
                   </div>
-                   
-                  <div id="ssSearching" style="display:none;">Searching...</div>
-                  
+                  <div id="ssSearching">Searching...</div>
                   <div class="col-lg-9 right-column pl-5 pr-0">
                      <div class="container de" id="result-search">
                         <h2>Treffer:</h2>
@@ -150,7 +145,6 @@
                         </table>
                      </div>
                   </div>
-                  <!--
                   <div id="ssPoweredBy">
                      <p>Powered by</p><a href="https://github.com/projectEndings/staticSearch" aria-label="Powered by staticSearch"><svg xmlns="http://www.w3.org/2000/svg" id="svg8" version="1.1" viewBox="0 0 266.77068 209.61487" height="30" width="39">
                            
@@ -192,7 +186,6 @@
                               <path transform="matrix(1.1872613,0,0,0.3883161,603.6843,253.81112)" d="m -371.16805,-123.26338 -87.91103,-143.55491 168.27771,-4.35573 z" id="path1533" style="fill:#a02a2c;stroke-width:3;fill-opacity:1"></path>
                               </g>
                            </svg></a></div>
-                -->
                </div>
                </div>
             </div>
