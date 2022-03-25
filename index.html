@@ -1,62 +1,85 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" id="home">
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        <title>Test home page</title>
-
-        <meta name="Document type" class="staticSearch_desc" content="Site info files" data-ssFilterSortKey="W"/>
-        <meta name="Date range" class="staticSearch_date" content="2019" />
-        <meta name="Worth reading" class="staticSearch_bool" content="true" />
-        <meta name="Random numeric value" class="staticSearch_desc" content="11" />
-        <script src="ssTest/ssHighlight.js"> </script>
-    </head>
-    <body>
-        <div>
-            <h1>Test data set</h1>
-            <p>Documents in the collection: <a href="badthings.html">badthings.html</a>, 
-                <a href="apostrophes.html">apostrophes.html</a>, 
-                <a href="clues.html">clues.html</a>, 
-                <a href="poems/ditty.html">ditty.html</a>, 
-                <a href="poems/shizukesaya.html">shizukesaya.html</a>, 
-                <a href="poems/twilight.html">twilight.html</a>, 
-                <a href="tables/booze.html">booze.html</a>, 
-                <a href="tables/decade_year.html">decade_year.html</a>, 
-                and of course <a href="search.html">search.html</a>, its debug 
-                version <a href="search-debug.html">search-debug.html</a>, and the
-                other test set <a href="searchWorthReading.html">searchWorthReading.html</a>.
-            </p>
-            <p>You might also want to look at the <a href="ssTest/staticSearch_report.html">build report</a>
-                from the staticSearch build process.</p>
-            
-            <p>This is the index page for the Static Search test data set. This data set is designed
-                to cover a range of different input document types and configurations in order to
-                test a variety of scenarios the codebase needs to handle, including:</p>
-            <ul>
-                <li>Nested folders.</li>
-                <li>Documents with and without ids (this has one).</li>
-                <li>With and without titles (this has one).</li>
-                <li>Good range of HTML elements providing scope for testing context stuff.</li>
-                <li>Foreign languages and non-latin stuff such as Japanese.</li>
-                <li>Hyphenated terms, single and double, such as one-way street and hard-to-process sequences.</li>
-                <li>Apostrophes in various positions, including leading, trailing, and word-internal.</li>
-                <li>Names, both in sentence-initial and sentence medial positions. Fred Bloggs and Mary Wollstonecraft Shelley are examples.</li>
-                <li>Numbers such as 25, 2,302, and 3.14159, or currency amounts such as £4,500 or ¥9,000,000.</li>
-                <li>Items that should not be indexed (such as line numbers attached to poetic lines).</li>
-                <li>Constrained contexts which should delimit keyword-in-context ranges, such as table cells.</li>
-                <li>Inline elements whose boundaries should be ignored when indexing.</li>
-                <li>Fragment ids for specifying anchor links from KWICs</li>
-            </ul>
-            <p>There are three poems, two Victorian and one Japanese (about cicadas). There are also two documents
-            with tables, one of which deals with liquor consumption in British Columbia, while the other has numbers
-            such as 1783 and percentages such as 73.58%. One of the poems includes the phrase <q>summer day—our day</q>, 
-            and if we follow that to the next line we get <q>our day Was clouded</q>, which should be indexed/found 
-                in this document, but not in the source poem, where lines are boundary contexts. The apostrophes document
-                is an excerpt from Martin Porter’s site (note the curly apostrophe in his name).</p>
-            
-            <p>The word <em>artichoke</em> appears here and in one other document, but it is included in the 
-            test stopwords list so it should not be indexed or retrieved.</p>
-            
-        </div>
-    </body>
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+      <meta name="mobile-web-app-capable" content="yes" />
+      <meta name="apple-mobile-web-app-capable" content="yes" />
+      <meta name="apple-mobile-web-app-title" content="Edition der Familienkorrespondenz Ferdinands I." />
+      <link rel="profile" href="http://gmpg.org/xfn/11" />
+      <title>Edition der Familienkorrespondenz Ferdinands I.</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="stylesheet" id="fundament-styles" href="dist/fundament/css/fundament.min.css" type="text/css" />
+      <link rel="stylesheet" href="css/style.css" type="text/css" />
+      <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/jq-3.3.1/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.css" /><script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.2/openseadragon.min.js"></script></head>
+   <body class="page">
+      <div class="hfeed site" id="page">
+         <div class="wrapper-fluid wrapper-navbar sticky-navbar" id="wrapper-navbar"><a class="skip-link screen-reader-text sr-only" href="#content">Skip to content</a><nav class="navbar navbar-expand-lg navbar-light">
+               <div class="container"><a href="index.html" class="navbar-brand custom-logo-link" rel="home" itemprop="url"><img src="dist/fundament/images/fundament_logo.svg" class="img-fluid" title="Familienkorrespondenz Ferdinand I." alt="Familienkorrespondenz Ferdinand I." itemprop="logo" /></a><a class="navbar-brand site-title-with-logo" rel="home" href="index.html" title="Familienkorrespondenz Ferdinand I." itemprop="url">Familienkorrespondenz Ferdinand I.</a><span style="margin-left:-1.7em;" class="badge bg-light text-dark">in development</span><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                     <ul id="main-menu" class="navbar-nav">
+                        <li class="nav-item dropdown"><a title="Papers" href="#" data-toggle="dropdown" class="nav-link dropdown-toggle">Projekt <span class="caret"></span></a><ul class=" dropdown-menu" role="menu">
+                              <li class="nav-item dropdown-submenu"><a title="Auden-Musulin Correspondence" href="about.html" class="nav-link">Über das Projekt</a></li>
+                           </ul>
+                        </li>
+                        <li class="nav-item dropdown"><a title="Indexes" href="#" data-toggle="dropdown" class="nav-link dropdown-toggle">Register <span class="caret"></span></a><ul class=" dropdown-menu" role="menu">
+                              <li class="nav-item dropdown-submenu"><a title="Personen" href="listperson.html" class="nav-link">Personen</a></li>
+                              <li class="nav-item dropdown-submenu"><a title="Orte" href="listplace.html" class="nav-link">Orte</a></li>
+                           </ul>
+                        </li>
+                        <li class="nav-item"><a title="Editionseinheiten" href="toc.html" class="nav-link">Editionseinheiten</a></li>
+                     </ul>
+                     <form class="form-inline my-2 my-lg-0 navbar-search-form" method="get" action="search.html" role="search"><input class="form-control navbar-search" id="s" name="q" type="text" placeholder="Search" value="" autocomplete="off" /><button type="submit" class="navbar-search-icon"><i data-feather="search"></i></button></form>
+                  </div>
+               </div>
+            </nav>
+         </div>
+         <div class="wrapper" id="wrapper-hero">
+            <div id="audenIndexCarousel" class="carousel slide" data-ride="carousel">
+               <ol class="carousel-indicators">
+                  <li data-target="#audenIndexCarousel" data-slide-to="0" class="active"></li>
+               </ol>
+               <div class="carousel-inner">
+                  <div class="carousel-item active"><img src="https://upload.wikimedia.org/wikipedia/commons/2/28/Portrait_of_Ferdinand_de_Habsburg_%281503-1564%29_by_Hans_Maler_zu_Schwaz.jpg" class="d-block w-100" alt="..." /><div class="carousel-caption d-none d-md-block" style="background-image: linear-gradient(rgba(38.0, 35.3, 37.6, 0.5), rgba(38.0, 35.3, 37.6, 0.5));">
+                        <h1>Familienkorrespondenz Ferdinand I.</h1>
+                        <h2>Edition der Familienkorrespondenz Ferdinands I.</h2>
+                        <p>Some teaser text for the <strong>Familienkorrespondenz Ferdinand I.</strong></p><button class="btn btn-round"><a href="toc.html">Read More</a></button></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="container" style="margin-top:1em;">
+            <div class="row">
+               <div class="col-md-8" style="margin: 0 auto; ">
+                  <p style="font-size:18px;line-heigth:27px;"></p>
+               </div>
+            </div>
+         </div>
+         <div class="container" style="margin-top:1em;">
+            <div class="row">
+               <div class="col-md-6"><a href="about.html" class="index-link">
+                     <div class="card index-card">
+                        <div class="card-body"><img src="https://upload.wikimedia.org/wikipedia/commons/2/28/Portrait_of_Ferdinand_de_Habsburg_%281503-1564%29_by_Hans_Maler_zu_Schwaz.jpg" class="d-block w-100" alt="..." /></div>
+                        <div class="card-header">
+                           <p>
+                              Über das Projekt
+                              </p>
+                        </div>
+                     </div></a></div>
+               <div class="col-md-6"><a href="toc.html" class="index-link">
+                     <div class="card index-card">
+                        <div class="card-body"><img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Hans_Bocksberger_der_Aeltere_001.jpg" alt="..." /></div>
+                        <div class="card-header">
+                           <p>
+                              Zu den Briefen
+                              </p>
+                        </div>
+                     </div></a></div>
+            </div>
+         </div>
+         <div class="wrapper fundament-default-footer" id="wrapper-footer-full" style="margin-top: 4em;">
+            some footer
+            </div>
+         <div class="footer-imprint-bar" id="wrapper-footer-secondary" style="text-align:center; padding:0.4rem 0; font-size: 0.9rem;">
+            © Copyright KfNGOe | <a href="https://oesterreichische-geschichte.at/#/impressum">Impressum</a></div><script type="text/javascript" src="dist/fundament/vendor/jquery/jquery.min.js"></script><script type="text/javascript" src="dist/fundament/js/fundament.min.js"></script><script type="text/javascript" src="https://cdn.datatables.net/v/bs4/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.js"></script><script type="text/javascript" src="js/dt.js"></script></div>
+   </body>
 </html>
