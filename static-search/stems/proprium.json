@@ -1,1 +1,1 @@
-{"stem":"proprium","instances":[{"docId":"A002","docUri":"A002.html","score":1,"contexts":[{"form":"proprium","weight":"1","pos":224,"context":"Ad mandatum cesaree maiestatis <mark>proprium<\/mark> ","fid":"d6e130"}]}]}
+{"stem":"proprium","instances":[{"docId":"A002","docUri":"A002.html","score":2,"contexts":[{"form":"proprium","weight":"1","pos":210,"context":"Ad mandatum cesaree maiestatis <mark>proprium<\/mark> ","fid":"text-letters"},{"form":"proprium","weight":"1","pos":440,"context":"Ad mandatum cesaree maiestatis <mark>proprium<\/mark> ","fid":"text-letters"}]}]}

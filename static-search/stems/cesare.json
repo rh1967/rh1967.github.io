@@ -1,1 +1,1 @@
-{"stem":"cesare","instances":[{"docId":"A002","docUri":"A002.html","score":1,"contexts":[{"form":"cesaree","weight":"1","pos":222,"context":"Ad mandatum <mark>cesaree<\/mark> maiestatis proprium ","fid":"d6e130"}]}]}
+{"stem":"cesare","instances":[{"docId":"A002","docUri":"A002.html","score":2,"contexts":[{"form":"cesaree","weight":"1","pos":208,"context":"Ad mandatum <mark>cesaree<\/mark> maiestatis proprium ","fid":"text-letters"},{"form":"cesaree","weight":"1","pos":438,"context":"Ad mandatum <mark>cesaree<\/mark> maiestatis proprium ","fid":"text-letters"}]}]}

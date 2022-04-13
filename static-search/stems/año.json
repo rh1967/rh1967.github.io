@@ -1,1 +1,1 @@
-{"stem":"año","instances":[{"docId":"A003","docUri":"A003.html","score":1,"contexts":[{"form":"años","weight":"1","pos":99,"context":"De Caçalegas a 12. de noviembre de 515 <mark>años<\/mark>.","fid":"d7e86"}]}]}
+{"stem":"año","instances":[{"docId":"A003","docUri":"A003.html","score":2,"contexts":[{"form":"años","weight":"1","pos":88,"context":"De Caçalegas a 12. de noviembre de 515 <mark>años<\/mark>.","fid":"text-letters"},{"form":"años","weight":"1","pos":211,"context":"De Caçalegas a 12. de noviembre de 515 <mark>años<\/mark>.","fid":"text-letters"}]}]}
