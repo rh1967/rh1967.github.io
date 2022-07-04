@@ -139,6 +139,11 @@
 /* Authors: Martin Holmes and Joey Takeda. */
 /*        University of Victoria.          */
 
+
+/*RH TEST */
+
+
+
 /** This file is part of the projectEndings staticSearch
   * project.
   *
@@ -1529,6 +1534,11 @@ if (this.discardedTerms.length > 0){
         let pFound = document.createElement('p');
         pFound.append(this.captionSet.strDocumentsFound + '0');
         this.resultsDiv.appendChild(pFound);
+        
+        //RH
+        this.list2Table() ;
+        //RH
+        
         this.searchFinishedHook(1);
         this.searchingDiv.style.display = 'none';
         document.body.style.cursor = 'default';
@@ -1826,6 +1836,11 @@ if (this.discardedTerms.length > 0){
           this.paginateResults();
         }
       }
+      
+      //RH
+      this.list2Table() ;
+      //RH
+      
       this.searchFinishedHook(4);
       this.searchingDiv.style.display = 'none';
       document.body.style.cursor = 'default';
@@ -2003,9 +2018,102 @@ if (this.discardedTerms.length > 0){
       return null;
     }
   }
+
+//RH
+list2Table() {
+  
+  function levelOne(this_L1) {
+    var tr = "" ;
+    var template = "<ul>" + 
+                      "<li>" + 
+                        "<div class='de'>" + "Treffer " + "<span>" + "</span>" + "</div>" + 
+                        "<div class='en' style='display: none;'>" + "Hits " + "<span>" + "</span>" + "</div>" + 
+                      "</li>" + 
+                      "<li>" + "Text" + "</li>" + 
+                      "<li>" + 
+                        "<ul>" + "</ul>" + 
+                      "</li>" + 
+                    "</ul>" ;
+    
+    var letterNr = this_L1.find( 'div > a' ).attr( 'href' ) ;
+    var n_index = letterNr.indexOf(".") ;
+    var letterNr_short = letterNr.substring(0, n_index) ;
+
+    var scoreNr = this_L1.find( 'div > span' ).text().substr(7) ;      
+          
+    var a = ( $('<a>') ).text( letterNr_short ).attr( 'href', letterNr ) ;
+    
+    tr = $('<tr>') ;
+    var td1 = $('<td>') ;
+    var td2 = $('<td>') ;
+
+    if (this_L1.hasClass( 'ssPaginationEnd' )) {        
+      tr.addClass( 'ssPaginationEnd' ) ;
+      $( 'div#rhPagination' ).show() ;
+    } ;
+
+    tr.append(td1) ;
+    tr.append(td2) ;
+    tr.children( 'td:first-child' ).append(a) ;
+    tr.children( 'td:last-child' ).append(template) ;
+
+    $( tr ).find( 'div span' ).each(function() {
+      $( this ).text( scoreNr ) ;        
+   }) ;
+
+    //console.log("trfo_L1 =", tbody[0]) ;      
+    
+    return tr ;
+  } ;
+  function levelTwo(trfo_L2, this_L2) {
+    var tr = trfo_L2 ;
+    var kwic = this_L2.children( 'span' ).html() ;
+    var li2 = "<li>" + kwic + "</li>" ;
+    
+    //tr.find( 'ul > ul' ).append( li2 ) ;
+    tr.find( 'ul li ul' ).append( li2 ) ;
+    
+    //console.log("trfo_L2 =", trfo_L2) ;
+
+    return tr ;
+  } ;
+  
+  //Function body//
+
+  var tbody = $('<tbody>') ;
+  var trfo = "" ;
+  
+  //console.log( this.maxKwicsToShow ) ;
+  //console.log( this.resultSet.getSize() ) ;
+    
+
+  $( "#ssResults ul" ).find('li').each(function() {
+    var _Li = $(this)[0] ;
+    //console.log( _Li ) ;
+
+    if ($(this).children('div').length) {
+      tbody.append(trfo) ;
+      trfo = levelOne($(this)) ;
+
+    } else {
+      if ($(this).parent('ul.kwic').length) {
+        trfo = levelTwo(trfo, $(this)) ;
+      } else {
+        console.log( 'error: no first or second level li-element' ) ;
+     }        
+    }
+  
+  })
+  tbody.append(trfo) ;                                    
+  console.log( "tbody = ", tbody ) ;
+  $( '.table tbody' ).remove() ;
+  $( 'table.table' ).append( tbody ) ;    
 }
+//RH
 
+//RH
 
+}
 /*             SSResultSet.js              */
 /* Authors: Martin Holmes and Joey Takeda. */
 /*        University of Victoria.          */
