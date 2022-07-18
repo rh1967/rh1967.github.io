@@ -105,8 +105,7 @@
                         $("#pageContent #toc-map").hide();
                         
                         ///link anchor //to make an link anchor work set the href tag to #[uniqueName] and its id to [uniqueName] (uniquenames should match) 
-                        let anchor = $(location).attr('hash');  //get link anchor (#...)  
-                        if(anchor.length!=0){  //check if link anchor exists
+                        let anchor = $(location).attr('hash');  //get link anchor (#...) if(anchor.length!=0){  //check if link anchor exists
                         $(anchor).click(); //click on the menu item to open element
                         }
                         
@@ -122,7 +121,7 @@
                         console.log(click_lang.attr("lang"));
                         langDeEn(click_lang.attr("lang"));               
                     }) ; 
-                </script><script type="text/javascript" src="staticData/placeMappings.js"></script><script type="text/javascript" src="staticData/register_place.js"></script><script>
+                </script><script type="text/javascript" src="js/placeMappings.js"></script><script type="text/javascript" src="js/register_place.js"></script><script>
                 //map settings
                    let map = L.map('map', {
                         center: [10.0, 5.0],
@@ -139,9 +138,11 @@
                     for (let marker of markers) {
                         //generate a html popup for each mark
                         let popup = marker.key +
-                        '<br />' +                            
-                        '<b>Geo Names:</b><br /> ' +
-                        '<div style="margin-left: 10px"><a href="' + marker.mappedTo.url + '" target="blank">' + marker.mappedTo.url + "</a></div>"
+                        '                    <br />
+' +                            
+                        '                    <b>Geo Names:</b><br />
+ ' +
+                        '                    <div style="margin-left: 10px"><a href="' + marker.mappedTo.url + '" target="blank">' + marker.mappedTo.url + "</a></div>"
 
                         let m = L.marker([marker.mappedTo.coordinates.latitude, marker.mappedTo.coordinates.longitude], {}).bindPopup(popup).on('click', function(e){markerSelected(marker)});  //generate a marker and bind popup and select callback to it
                         m.getPopup().on('remove', function(e){markerUnselected()})//when a popup is unselected call markerUnselected function
