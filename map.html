@@ -79,108 +79,121 @@
          <div class="container de"><a href="#">Links</a><a href="impressum.html">Impressum</a><a href="dsgvo.html">Datenschutzerklärung</a></div>
          <div class="container en" style="display: none"><a href="#">Links</a><a href="impressum.html">Imprint</a><a href="dsgvo.html">Privacy policy</a></div>
       </footer><script>
-                    function langDeEn(input) {                    
-                        if (input == "de") {  
-                            localStorage.setItem("language", "de") ;
-                            $( "div.langmenu a:lang(en)" ).removeClass("active");
-                            $( "div.langmenu a:lang(de)" ).addClass("active");
-                            
-                            $(".en").hide();   //hide all elements with en class
-                            $(".de").show();   //show all elements with de class
-                        } else {    
-                                localStorage.setItem("language", "en") ;
-                                $( "div.langmenu a:lang(de)" ).removeClass("active");
-                                $( "div.langmenu a:lang(en)" ).addClass("active");
-                                $(".de").hide(); //hide all elements with de class
-                                $(".en").show(); //show all elements with en class
-                        }
-                    }
-                </script><script>
-                    $( document ).ready(function() {
-                        console.log( "ready!" );                                                   //highlight nav bar button 
-                        $("ul.navbar-nav li.nav-item a").removeClass("active");
-                        $( "[href='map.html']" ).addClass("active");
-                        
-                        //hide toc map
-                        $("#pageContent #toc-map").hide();
-                        
-                        ///link anchor //to make an link anchor work set the href tag to #[uniqueName] and its id to [uniqueName] (uniquenames should match) 
-                        let anchor = $(location).attr('hash');  //get link anchor (#...) if(anchor.length!=0){  //check if link anchor exists
-                        $(anchor).click(); //click on the menu item to open element
-                        }
-                        
-                        console.log( localStorage.getItem("language") ) ;
-                        if ((localStorage.getItem("language") === null) || (localStorage.getItem("language") == "undefined")) {
-                            localStorage.setItem("language", "de") ;
-                        }
-                        langDeEn(localStorage.getItem("language")) ;
-                    }) ;
+          function langDeEn(input) {
+            if (input == "de") {
+              localStorage.setItem("language", "de");
+              $("div.langmenu a:lang(en)").removeClass("active");
+              $("div.langmenu a:lang(de)").addClass("active");
 
-                    $("div.langmenu a").click(function() {
-                        var click_lang = $(this);
-                        console.log(click_lang.attr("lang"));
-                        langDeEn(click_lang.attr("lang"));               
-                    }) ; 
-                </script><script type="text/javascript" src="js/placeMappings.js"></script><script type="text/javascript" src="js/register_place.js"></script><script>
-                //map settings
-                   let map = L.map('map', {
-                        center: [10.0, 5.0],
-                        minZoom: 2,
-                        zoom: 2,
-                    })  
+              $(".en").hide(); //hide all elements with en class
+              $(".de").show(); //show all elements with de class
+            } else {
+              localStorage.setItem("language", "en");
+              $("div.langmenu a:lang(de)").removeClass("active");
+              $("div.langmenu a:lang(en)").addClass("active");
+              $(".de").hide(); //hide all elements with de class
+              $(".en").show(); //show all elements with en class
+            }
+          }
+        </script><script>
+          $(document).ready(function () {
+            console.log("ready!"); //highlight nav bar button
+            $("ul.navbar-nav li.nav-item a").removeClass("active");
+            $("[href='map.html']").addClass("active");
 
-                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {  
-                        attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
-                        subdomains: ['a', 'b', 'c'],
-                    }).addTo(map)  //add openstreatmaps to leaflet
+            //hide toc map
+            $("#pageContent #toc-map").hide();
 
-                    let markerClusters = L.markerClusterGroup()
-                    for (let marker of markers) {
-                        //generate a html popup for each mark
-                        let popup = marker.key +
-                        '                    <br />
-' +                            
-                        '                    <b>Geo Names:</b><br />
- ' +
-                        '                    <div style="margin-left: 10px"><a href="' + marker.mappedTo.url + '" target="blank">' + marker.mappedTo.url + "</a></div>"
+            ///link anchor //to make an link anchor work set the href tag to #[uniqueName] and its id to [uniqueName] (uniquenames should match)
+            let anchor = $(location).attr("hash");
+            if (anchor.length != 0) {
+              //check if link anchor exists
+              $(anchor).click(); //click on the menu item to open element
+            }
 
-                        let m = L.marker([marker.mappedTo.coordinates.latitude, marker.mappedTo.coordinates.longitude], {}).bindPopup(popup).on('click', function(e){markerSelected(marker)});  //generate a marker and bind popup and select callback to it
-                        m.getPopup().on('remove', function(e){markerUnselected()})//when a popup is unselected call markerUnselected function
+            console.log(localStorage.getItem("language"));
+            if (localStorage.getItem("language") === null || localStorage.getItem("language") == "undefined") {
+              localStorage.setItem("language", "de");
+            }
+            langDeEn(localStorage.getItem("language"));
+          });
 
-                        markerClusters.addLayer(m)
-                    }
+          $("div.langmenu a").click(function () {
+            var click_lang = $(this);
+            console.log(click_lang.attr("lang"));
+            langDeEn(click_lang.attr("lang"));
+          });
+        </script><script type="text/javascript" src="js/placeMappings.js"></script><script type="text/javascript" src="js/register_place.js"></script><script>
+          //map settings
+          let map = L.map("map", {
+            center: [10.0, 5.0],
+            minZoom: 2,
+            zoom: 2,
+          });
 
-                    map.addLayer(markerClusters)  //add marker cluster to map
+          L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+            attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+            subdomains: ["a", "b", "c"],
+          }).addTo(map); //add openstreatmaps to leaflet
 
+          let markerClusters = L.markerClusterGroup();
+          for (let marker of markers) {
+            //generate a html popup for each mark
+            let popup =
+              marker.key +
+              "<br />" +
+              "<b>Geo Names:</b>" +
+              "<br />" +
+              '<div style="margin-left: 10px">' +
+              '<a href="' +               marker.mappedTo.url +               '" target="blank">' +
+              marker.mappedTo.url +
+              "</a></div>";
 
-                    function markerSelected(marker){  //is called when a marker is selected
-                        $('.toc_map#key').text(marker.key);  //set the place name in the toc
-                        $('.toc_map#details').text(marker.mappedTo.description);    //set the place details in the toc
-                        $('.toc_map#coordinates').text(marker.mappedTo.coordinates.latitude + ', ' + marker.mappedTo.coordinates.longitude); //set the coordinates in the toc
+            let m = L.marker([marker.mappedTo.coordinates.latitude, marker.mappedTo.coordinates.longitude], {})
+              .bindPopup(popup)
+              .on("click", function (e) {
+                markerSelected(marker);
+              }); //generate a marker and bind popup and select callback to it
+            m.getPopup().on("remove", function (e) {
+              markerUnselected();
+            }); //when a popup is unselected call markerUnselected function
 
-                        let places = registerPlace.text.body.list.item;  //get the places out of the place resiter
+            markerClusters.addLayer(m);
+          }
 
-                        //check for each place if its name matches the one of the selected marker
-                        for(let place of places){
-                            if(place.note[0].placeName["#text"] == marker.key){ 
-                                $('.toc_map#writings').text(place.note[1].p);  //if it is a match display the writings in the toc
-                            }
-                        }
+          map.addLayer(markerClusters); //add marker cluster to map
 
-                    }
+          function markerSelected(marker) {
+            //is called when a marker is selected
+            $(".toc_map#key").text(marker.key); //set the place name in the toc
+            $(".toc_map#details").text(marker.mappedTo.description); //set the place details in the toc
+            $(".toc_map#coordinates").text(
+              marker.mappedTo.coordinates.latitude + ", " + marker.mappedTo.coordinates.longitude
+            ); //set the coordinates in the toc
 
-                    function markerUnselected(){  //when a marker is unselected clear the left side
-                        $('.toc_map').text('');
-                    }
-                </script><script>
-                    $( "#pageContent #map" ).click(function() {
-                        let test = $("#pageContent #toc-map #coordinates");
-                        if (test.is(':empty') ) {
-                        console.log("no coordinates") ;
-                        $("#pageContent #toc-map").hide();
-                        } else {
-                        $("#pageContent #toc-map").show();
-                        } ;                       
-                    }) ;
-                </script></body>
+            let places = registerPlace.text.body.list.item; //get the places out of the place resiter
+
+            //check for each place if its name matches the one of the selected marker
+            for (let place of places) {
+              if (place.note[0].placeName["#text"] == marker.key) {
+                $(".toc_map#writings").text(place.note[1].p); //if it is a match display the writings in the toc
+              }
+            }
+          }
+
+          function markerUnselected() {
+            //when a marker is unselected clear the left side
+            $(".toc_map").text("");
+          }
+        </script><script>
+          $("#pageContent #map").click(function () {
+            let test = $("#pageContent #toc-map #coordinates");
+            if (test.is(":empty")) {
+              console.log("no coordinates");
+              $("#pageContent #toc-map").hide();
+            } else {
+              $("#pageContent #toc-map").show();
+            }
+          });
+        </script></body>
 </html>
