@@ -1,0 +1,185 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <head>
+         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+         <meta name="mobile-web-app-capable" content="yes" />
+         <meta name="apple-mobile-web-app-capable" content="yes" />
+         <meta name="apple-mobile-web-app-title" content="Edition der Familienkorrespondenz Ferdinands I." />
+         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+         <link href="css/mockup/style.css" rel="stylesheet" /><script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script><script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script><link rel="profile" href="http://gmpg.org/xfn/11" />
+         <title>Edition der Familienkorrespondenz Ferdinands I.</title><script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.2/openseadragon.min.js"></script></head>
+      <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha384-VzLXTJGPSyTLX6d96AxgkKvE/LRb7ECGyTxuwtpjHnVWVZs2gp5RDjeM/tgBnVdM" crossorigin="anonymous" />
+      <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.0/dist/MarkerCluster.css" integrity="sha384-pmjIAcz2bAn0xukfxADbZIb3t8oRT9Sv0rvO+BR5Csr6Dhqq+nZs59P0pPKQJkEV" crossorigin="anonymous" />
+      <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.0/dist/MarkerCluster.Default.css" integrity="sha384-wgw+aLYNQ7dlhK47ZPK7FRACiq7ROZwgFNg0m04avm4CaXS+Z9Y7nMu8yNjBKYC+" crossorigin="anonymous" /><script src="https://unpkg.com/jquery@3.6.0/dist/jquery.min.js" integrity="sha384-vtXRMe3mGCbOeY7l30aIg8H9p3GdeSe4IFlP6G8JMa7o7lXvnz3GFKzPxzJdPfGK" crossorigin="anonymous"></script><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha384-RFZC58YeKApoNsIbBxf4z6JJXmh+geBSgkCQXFyh+4tiFSJmJBt+2FbjxW7Ar16M" crossorigin="anonymous"></script><script src="https://unpkg.com/leaflet.markercluster@1.5.0/dist/leaflet.markercluster.js" integrity="sha384-89yDmbSkL9reFc77m10ZbqLaUMf1sp7FAJs2oAD/rczNnY7I+17yN9KML6tpYpCk" crossorigin="anonymous"></script></head>
+   <body id="karte">
+      <header>
+         <div class="container" id="headnav">
+            <div class="row">
+               <div class="titelgrafik" style="align-items: baseline; display: flex; flex:0 0 auto; width: 50%;"><a href="https://oesterreichische-geschichte.at/" target="_blank" style="flex: 0 0 25%;display: flex; max-width: 50%!important; justify-content: center;"><img style=" max-width: 100% !important;max-height: 100% !important;margin: 0;" src="dist/assets/images/mockup/logo-kommission-neuere-geschichte-oesterreichs.svg" title="Kommission für neue Geschichte Österreichs" alt="Kommission für neue Geschichte Österreichs" /></a><hr /><a href="./" style="flex: 0 0 50%;display: flex; justify-content: center;"><img style=" max-width: 100% !important;max-height: 100% !important;margin: 0;" src="dist/assets/images/mockup/schriftzug_de.svg" title="Edition der Familienkorrespondenz Ferdinands I." /></a><hr />
+               </div>
+               <div class="col-lg-6 pr-0" id="titelmenu">
+                  <div class="col-lg-12 langmenu"><a class="active" href="#0" lang="de">DE</a> / <a href="#0" lang="en">EN</a></div>
+                  <nav class="navbar navbar-expand-lg navbar-light bg-light static-top flex-column ml-5">
+                     <div class="container de"><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse" id="navbarResponsive">
+                           <ul class="navbar-nav">
+                              <li class="nav-item"><a class="nav-link" href="index.html">Start <span class="sr-only">(current)</span></a></li>
+                              <li class="nav-item"><a class="nav-link" href="letters.html">Brie<span class="special-f">f</span>e</a></li>
+                              <li class="nav-item"><a class="nav-link" href="search.html">Suche</a></li>
+                              <li class="nav-item"><a class="nav-link" href="register.html">Register</a></li>
+                              <li class="nav-item"><a class="nav-link" href="map.html">Karte</a></li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="container en" style="display: none"><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse" id="navbarResponsive">
+                           <ul class="navbar-nav">
+                              <li class="nav-item"><a class="nav-link" href="index.html">Start <span class="sr-only">(current)</span></a></li>
+                              <li class="nav-item"><a class="nav-link" href="letters.html">Letters</a></li>
+                              <li class="nav-item"><a class="nav-link" href="search.html">Search</a></li>
+                              <li class="nav-item"><a class="nav-link" href="register.html">Indexes</a></li>
+                              <li class="nav-item"><a class="nav-link" href="map.html">Map</a></li>
+                           </ul>
+                        </div>
+                     </div>
+                  </nav>
+               </div>
+            </div>
+         </div>
+      </header>
+      <main>
+         <div class="container" id="pageTitle">
+            <div class="row justify">
+               <div class="col-lg-3 pl-0 pr-5"><small><span class="de">Bitte einen Ort auswählen</span><span class="en">Please select a location</span></small></div>
+               <div class="col-lg-9 pl-5 pr-0">
+                  <h1><span class="de">Karte</span><span class="en">Map</span></h1>
+               </div>
+            </div>
+         </div>
+         <div class="container" id="pageContent">
+            <div class="row">
+               <div class="col-lg-3 left-column pl-0 pr-5">
+                  <div class="container" id="toc-map" style="display: none">
+                     <h2><span class="toc_map" id="key"></span></h2>
+                     <h4><span class="toc_map" id="details"></span></h4>
+                     <h4><span class="de">Koordinaten: </span><span class="en">Coordinates: </span><span class="toc_map" id="coordinates"></span></h4>
+                     <h2><span class="de">Schreibweisen: </span><span class="en">Writings: </span></h2>
+                     <h4><span class="toc_map" id="writings"></span></h4>
+                  </div>
+               </div>
+               <div class="col-lg-9 right-column pl-5 pr-0 flex-grow-1 flex-shrink-0">
+                  <div id="map" style="width: 800px; height: 500px; border: 1px solid #aaa"></div>
+               </div>
+            </div>
+         </div>
+      </main>
+      <footer class="footer mt-auto pt-5">
+         <div class="container de"><a href="#">Links</a><a href="impressum.html">Impressum</a><a href="dsgvo.html">Datenschutzerklärung</a></div>
+         <div class="container en" style="display: none"><a href="#">Links</a><a href="impressum.html">Imprint</a><a href="dsgvo.html">Privacy policy</a></div>
+      </footer><script>
+                    function langDeEn(input) {                    
+                        if (input == "de") {  
+                            localStorage.setItem("language", "de") ;
+                            $( "div.langmenu a:lang(en)" ).removeClass("active");
+                            $( "div.langmenu a:lang(de)" ).addClass("active");
+                            
+                            $(".en").hide();   //hide all elements with en class
+                            $(".de").show();   //show all elements with de class
+                        } else {    
+                                localStorage.setItem("language", "en") ;
+                                $( "div.langmenu a:lang(de)" ).removeClass("active");
+                                $( "div.langmenu a:lang(en)" ).addClass("active");
+                                $(".de").hide(); //hide all elements with de class
+                                $(".en").show(); //show all elements with en class
+                        }
+                    }
+                </script><script>
+                    $( document ).ready(function() {
+                        console.log( "ready!" );                                                   //highlight nav bar button 
+                        $("ul.navbar-nav li.nav-item a").removeClass("active");
+                        $( "[href='map.html']" ).addClass("active");
+                        
+                        //hide toc map
+                        $("#pageContent #toc-map").hide();
+                        
+                        ///link anchor //to make an link anchor work set the href tag to #[uniqueName] and its id to [uniqueName] (uniquenames should match) 
+                        let anchor = $(location).attr('hash');  //get link anchor (#...)  
+                        if(anchor.length!=0){  //check if link anchor exists
+                        $(anchor).click(); //click on the menu item to open element
+                        }
+                        
+                        console.log( localStorage.getItem("language") ) ;
+                        if ((localStorage.getItem("language") === null) || (localStorage.getItem("language") == "undefined")) {
+                            localStorage.setItem("language", "de") ;
+                        }
+                        langDeEn(localStorage.getItem("language")) ;
+                    }) ;
+
+                    $("div.langmenu a").click(function() {
+                        var click_lang = $(this);
+                        console.log(click_lang.attr("lang"));
+                        langDeEn(click_lang.attr("lang"));               
+                    }) ; 
+                </script><script type="text/javascript" src="js/placeMappings.js"></script><script type="text/javascript" src="js/register_place.js"></script><script>
+                //map settings
+                   let map = L.map('map', {
+                        center: [10.0, 5.0],
+                        minZoom: 2,
+                        zoom: 2,
+                    })  
+
+                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {  
+                        attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+                        subdomains: ['a', 'b', 'c'],
+                    }).addTo(map)  //add openstreatmaps to leaflet
+
+                    let markerClusters = L.markerClusterGroup()
+                    for (let marker of markers) {
+                        //generate a html popup for each mark
+                        let popup = marker.key +
+                        '<br />' +                            
+                        '<b>Geo Names:</b><br /> ' +
+                        '<div style="margin-left: 10px"><a href="' + marker.mappedTo.url + '" target="blank">' + marker.mappedTo.url + "</a></div>"
+
+                        let m = L.marker([marker.mappedTo.coordinates.latitude, marker.mappedTo.coordinates.longitude], {}).bindPopup(popup).on('click', function(e){markerSelected(marker)});  //generate a marker and bind popup and select callback to it
+                        m.getPopup().on('remove', function(e){markerUnselected()})//when a popup is unselected call markerUnselected function
+
+                        markerClusters.addLayer(m)
+                    }
+
+                    map.addLayer(markerClusters)  //add marker cluster to map
+
+
+                    function markerSelected(marker){  //is called when a marker is selected
+                        $('.toc_map#key').text(marker.key);  //set the place name in the toc
+                        $('.toc_map#details').text(marker.mappedTo.description);    //set the place details in the toc
+                        $('.toc_map#coordinates').text(marker.mappedTo.coordinates.latitude + ', ' + marker.mappedTo.coordinates.longitude); //set the coordinates in the toc
+
+                        let places = registerPlace.text.body.list.item;  //get the places out of the place resiter
+
+                        //check for each place if its name matches the one of the selected marker
+                        for(let place of places){
+                            if(place.note[0].placeName["#text"] == marker.key){ 
+                                $('.toc_map#writings').text(place.note[1].p);  //if it is a match display the writings in the toc
+                            }
+                        }
+
+                    }
+
+                    function markerUnselected(){  //when a marker is unselected clear the left side
+                        $('.toc_map').text('');
+                    }
+                </script><script>
+                    $( "#pageContent #map" ).click(function() {
+                        let test = $("#pageContent #toc-map #coordinates");
+                        if (test.is(':empty') ) {
+                        console.log("no coordinates") ;
+                        $("#pageContent #toc-map").hide();
+                        } else {
+                        $("#pageContent #toc-map").show();
+                        } ;                       
+                    }) ;
+                </script></body>
+</html>
