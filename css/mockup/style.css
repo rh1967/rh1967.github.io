@@ -167,6 +167,7 @@ h6 {
     text-transform: uppercase;
 }
 
+
 a {
     color: #38382e;
     text-decoration: underline;
@@ -175,6 +176,7 @@ a {
 a:hover {
     text-decoration: none;
 }
+
 
 em {
     font-style: normal;
@@ -256,6 +258,7 @@ table.table.metadaten tbody tr.ssPaginationEnd ~ tr {
     display:none;    
 }
 /*RH*/
+
 
 /* ====================== FORM =======================*/
 
@@ -481,38 +484,38 @@ input[type="text"]::placeholder {
 
 /* =====================================================*/
 
-#pagetitle {
+#pageTitle {
     margin-bottom: 40px;
 }
 
-#pagetitle .col-lg-3.pr-5 {
+#pageTitle .col-lg-3.pr-5 {
     text-align: right;
 }
 
-#pagetitle .col-lg-9 {
+#pageTitle .col-lg-9 {
     display: flex;
     align-items: flex-end;
 }
 
-#pagetitle h1,
-#pagetitle h2 {
+#pageTitle h1,
+#pageTitle h2 {
     margin: 0;
     font-size: 1.8em;
 }
 
-#pagetitle h1 {
+#pageTitle h1 {
     color: #e4200e;
     text-transform: uppercase;
     font-weight: 700;
 }
 
-#pagetitle h2 {
+#pageTitle h2 {
     text-transform: uppercase;
     font-weight: 500;
     margin: 0 0 0 10px;
 }
 
-#pagetitle small {
+#pageTitle small {
     color: #e4200e;
 }
 
@@ -525,7 +528,7 @@ input[type="text"]::placeholder {
 
 /* =====================================================*/
 
-#page-content {
+#pageContent {
     margin-bottom: 1em;
 }
 
@@ -733,6 +736,11 @@ ul.collapsable {
 
 
 /* =============== CONTENT - Right Column ==============*/
+
+mark {
+    background-color: yellow;
+    color: black;
+}
 
 .right-column h2,
 .right-column h3 {
