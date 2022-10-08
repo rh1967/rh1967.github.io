@@ -1,0 +1,516 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+      <meta name="mobile-web-app-capable" content="yes" />
+      <meta name="apple-mobile-web-app-capable" content="yes" />
+      <meta name="apple-mobile-web-app-title" content="Person Register in TEI generated from TEI data of letters" />
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link href="css/mockup/style.css" rel="stylesheet" /><script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script><script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script><link rel="profile" href="http://gmpg.org/xfn/11" />
+      <title>Person Register in TEI generated from TEI data of letters</title><script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.2/openseadragon.min.js"></script></head>
+   <body id="register">
+      <header>
+         <div class="container" id="headnav">
+            <div class="row">
+               <div class="titelgrafik" style="align-items: baseline; display: flex; flex:0 0 auto; width: 50%;"><a href="https://oesterreichische-geschichte.at/" target="_blank" style="flex: 0 0 25%;display: flex; max-width: 50%!important; justify-content: center;"><img style=" max-width: 100% !important;max-height: 100% !important;margin: 0;" src="dist/assets/images/mockup/logo-kommission-neuere-geschichte-oesterreichs.svg" title="Kommission für neue Geschichte Österreichs" alt="Kommission für neue Geschichte Österreichs" /></a><hr /><a href="./" style="flex: 0 0 50%;display: flex; justify-content: center;"><img style=" max-width: 100% !important;max-height: 100% !important;margin: 0;" src="dist/assets/images/mockup/schriftzug_de.svg" title="Edition der Familienkorrespondenz Ferdinands I." /></a><hr />
+               </div>
+               <div class="col-lg-6 pr-0" id="titelmenu">
+                  <div class="col-lg-12 langmenu"><a class="active" href="#0" lang="de">DE</a> / <a href="#0" lang="en">EN</a></div>
+                  <nav class="navbar navbar-expand-lg navbar-light bg-light static-top flex-column ml-5">
+                     <div class="container"><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse" id="navbarResponsive">
+                           <ul class="navbar-nav">
+                              <li class="nav-item"><a class="nav-link" href="index.html"><span class="de">Start <span class="sr-only">(current)</span></span><span class="en">Start <span class="sr-only">(current)</span></span></a></li>
+                              <li class="nav-item"><a class="nav-link" href="letters.html"><span class="de">Brie<span class="special-f">f</span>e</span><span class="en">Letters</span></a></li>
+                              <li class="nav-item"><a class="nav-link" href="search.html"><span class="de">Suche</span><span class="en">Search</span></a></li>
+                              <li class="nav-item"><a class="nav-link" href="register.html"><span class="de">Register</span><span class="en">Indexes</span></a></li>
+                              <li class="nav-item"><a class="nav-link" href="map.html"><span class="de">Karte</span><span class="en">Map</span></a></li>
+                           </ul>
+                        </div>
+                     </div>
+                  </nav>
+               </div>
+            </div>
+         </div>
+      </header>
+      <main>
+         <div class="container" id="pageTitle">
+            <div class="row justify">
+               <div class="col-lg-3 pl-0 pr-5"></div>
+               <div class="col-lg-9 pl-5 pr-0">
+                  <h1><span class="de">Register-Einträge</span><span class="en">Registry entries</span><a class="fas fa-redo-alt" title="zum Aktualisieren klicken" href="#"></a></h1>
+               </div>
+            </div>
+         </div>
+         <div class="container" id="pageContent">
+            <div class="row">
+               <div class="col-12 px-0 register-menue"><a href="register_person.html" id="regPerson"><span class="de">Personenregister</span><span class="en">Registry of persons</span></a>  |  <a href="register_place.html" id="regPlace"><span class="de">Ortsregister</span><span class="en">Registry of places</span></a>  |  <a href="register_index.html" id="regIndex"><span class="de">Sachregister</span><span class="en">Subject index</span></a></div>
+               <div class="container" id="table-register">
+                  <table class="table register-tabelle">
+                     <thead>
+                        <tr>
+                           <th scope="col" style="display: none">Local-ID</th>
+                           <th scope="col" style="display: none">GND</th>
+                           <th scope="col" style="display: none">Geonames</th>
+                           <th scope="col"><span class="de">Eintrag</span><span class="en">Entry</span></th>
+                           <th scope="col"><span class="de">Schreibweisen</span><span class="en">Writings</span></th>
+                           <th scope="col"><span class="de">Vorkommen</span><span class="en">Occurence</span></th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td style="display: none">person_d7e239a1053</td>
+                           <td style="display: none"></td>
+                           <td style="display: none"></td>
+                           <td>Águila, Suero del, Gespiele F‘s</td>
+                           <td>
+                              <p>Suero de l’Aguylla</p>
+                           </td>
+                           <td>
+                              <p><span class="de">Band_1</span><span class="en">Volume_1</span><span>,</span><a href="A133.html">A133</a><span>.<span class="de">transkript</span><span class="en">transcript</span>#5</span></p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td style="display: none">person_d5e162a1053</td>
+                           <td style="display: none"></td>
+                           <td style="display: none"></td>
+                           <td>Bannissis, Jacobus de, Sekretär Maximilians I. </td>
+                           <td>
+                              <p>Ja. de Bannissis.</p>
+                           </td>
+                           <td>
+                              <p><span class="de">Band_1</span><span class="en">Volume_1</span><span>,</span><a href="A002.html">A2</a><span>.<span class="de">transkript</span><span class="en">transcript</span>#</span></p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td style="display: none">person_d7e166a1053</td>
+                           <td style="display: none"></td>
+                           <td style="display: none"></td>
+                           <td>Bourbon, Karl III., Herzog von, „Connétable de Bourbon“</td>
+                           <td>
+                              <p>Bourbon</p>
+                           </td>
+                           <td>
+                              <p><span class="de">Band_1</span><span class="en">Volume_1</span><span>,</span><a href="A133.html">A133</a><span>.<span class="de">transkript</span><span class="en">transcript</span>#2</span></p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td style="display: none">person_d7e229a1053</td>
+                           <td style="display: none"></td>
+                           <td style="display: none"></td>
+                           <td>Córdoba, Pedro de, Graf von Cabra, F's Oberststallmeister, Gesandter und Rat</td>
+                           <td>
+                              <p>Pedro de Cordova</p>
+                           </td>
+                           <td>
+                              <p><span class="de">Band_1</span><span class="en">Volume_1</span><span>,</span><a href="A133.html">A133</a><span>.<span class="de">transkript</span><span class="en">transcript</span>#5</span></p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td style="display: none">person_d7e173a1053</td>
+                           <td style="display: none"></td>
+                           <td style="display: none"></td>
+                           <td>Croÿ, Adrien de, Herr von Beauraing, Graf von Roeulx, Vertrauter und Gesandter K's,
+                              Gouverneur von Flandern</td>
+                           <td>
+                              <p>Beaurain</p>
+                           </td>
+                           <td>
+                              <p><span class="de">Band_1</span><span class="en">Volume_1</span><span>,</span><a href="A133.html">A133</a><span>.<span class="de">transkript</span><span class="en">transcript</span>#2</span></p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td style="display: none">person_d7e207a1053</td>
+                           <td style="display: none"></td>
+                           <td style="display: none"></td>
+                           <td>Ems (Hohenems), Marx Sittich I. von, Landsknechtsführer</td>
+                           <td>
+                              <p>Marc Sittick</p>
+                           </td>
+                           <td>
+                              <p><span class="de">Band_1</span><span class="en">Volume_1</span><span>,</span><a href="A133.html">A133</a><span>.<span class="de">transkript</span><span class="en">transcript</span>#4</span></p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td style="display: none">person_d4e142a1053</td>
+                           <td style="display: none"></td>
+                           <td style="display: none"></td>
+                           <td>Ferdinand II., der Katholische, König von Aragón</td>
+                           <td>
+                              <p>regi</p>
+                              <p>Catholicum regem,</p>
+                              <p>Yo</p>
+                           </td>
+                           <td>
+                              <p><span class="de">Band_1</span><span class="en">Volume_1</span><span>,</span><a href="A001.html">A1</a><span>.<span class="de">transkript</span><span class="en">transcript</span>#</span></p>
+                              <p><span class="de">Band_1</span><span class="en">Volume_1</span><span>,</span><a href="A002.html">A2</a><span>.<span class="de">transkript</span><span class="en">transcript</span>#</span></p>
+                              <p><span class="de">Band_1</span><span class="en">Volume_1</span><span>,</span><a href="A003.html">A3</a><span>.<span class="de">transkript</span><span class="en">transcript</span>#</span></p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td style="display: none">person_d7e133a1053</td>
+                           <td style="display: none"></td>
+                           <td style="display: none"></td>
+                           <td>Franz I., König von Frankreich</td>
+                           <td>
+                              <p>roi de France</p>
+                           </td>
+                           <td>
+                              <p><span class="de">Band_1</span><span class="en">Volume_1</span><span>,</span><a href="A133.html">A133</a><span>.<span class="de">transkript</span><span class="en">transcript</span>#2</span></p>
+                              <p><span class="de">Band_1</span><span class="en">Volume_1</span><span>,</span><a href="A133.html">A133</a><span>.<span class="de">transkript</span><span class="en">transcript</span>#4</span></p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td style="display: none">person_d7e204a1053</td>
+                           <td style="display: none"></td>
+                           <td style="display: none"></td>
+                           <td>Frundsberg, Georg von, kaiserlicher Landsknechtsführer</td>
+                           <td>
+                              <p>George de Vransperg</p>
+                           </td>
+                           <td>
+                              <p><span class="de">Band_1</span><span class="en">Volume_1</span><span>,</span><a href="A133.html">A133</a><span>.<span class="de">transkript</span><span class="en">transcript</span>#4</span></p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td style="display: none">person_d4e202a1053</td>
+                           <td style="display: none"></td>
+                           <td style="display: none"></td>
+                           <td>Germaine de Foix, Königin von Aragón, zweite Frau Ferdinands des Katholischen </td>
+                           <td>
+                              <p>Germaine</p>
+                           </td>
+                           <td>
+                              <p><span class="de">Band_1</span><span class="en">Volume_1</span><span>,</span><a href="A001.html">A1</a><span>.<span class="de">kommentar</span><span class="en">commentary</span>#</span></p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td style="display: none">person_d5e125a1053</td>
+                           <td style="display: none"></td>
+                           <td style="display: none"></td>
+                           <td>Gylabertus, Aloysius</td>
+                           <td>
+                              <p>Aloysio Gylaberto</p>
+                           </td>
+                           <td>
+                              <p><span class="de">Band_1</span><span class="en">Volume_1</span><span>,</span><a href="A002.html">A2</a><span>.<span class="de">transkript</span><span class="en">transcript</span>#</span></p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td style="display: none">person_d7e235a1053</td>
+                           <td style="display: none"></td>
+                           <td style="display: none"></td>
+                           <td>Hemricourt, Henri de, Hofmeister Fs </td>
+                           <td>
+                              <p>Hamericourt</p>
+                           </td>
+                           <td>
+                              <p><span class="de">Band_1</span><span class="en">Volume_1</span><span>,</span><a href="A133.html">A133</a><span>.<span class="de">transkript</span><span class="en">transcript</span>#5</span></p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td style="display: none">person_d4e145a1053</td>
+                           <td style="display: none"></td>
+                           <td style="display: none"></td>
+                           <td>Isabella die Katholische, Königin von Kastilien</td>
+                           <td>
+                              <p>regine</p>
+                           </td>
+                           <td>
+                              <p><span class="de">Band_1</span><span class="en">Volume_1</span><span>,</span><a href="A001.html">A1</a><span>.<span class="de">transkript</span><span class="en">transcript</span>#</span></p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td style="display: none">person_d4e205a1053</td>
+                           <td style="display: none"></td>
+                           <td style="display: none"></td>
+                           <td>Johanna von Kastilien, Gattin Philipps I. („des Schönen“), „Johanna die Wahnsinnige“,
+                              Königin von Kastilien (1504-1555)</td>
+                           <td>
+                              <p>Johanna von Kastilien</p>
+                              <p>sermas reginas matres</p>
+                           </td>
+                           <td>
+                              <p><span class="de">Band_1</span><span class="en">Volume_1</span><span>,</span><a href="A001.html">A1</a><span>.<span class="de">kommentar</span><span class="en">commentary</span>#</span></p>
+                              <p><span class="de">Band_1</span><span class="en">Volume_1</span><span>,</span><a href="A002.html">A2</a><span>.<span class="de">transkript</span><span class="en">transcript</span>#</span></p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td style="display: none">person_d5e140a1053</td>
+                           <td style="display: none"></td>
+                           <td style="display: none"></td>
+                           <td>Katharina von Österreich, Königin von Portugal</td>
+                           <td>
+                              <p>ames</p>
+                           </td>
+                           <td>
+                              <p><span class="de">Band_1</span><span class="en">Volume_1</span><span>,</span><a href="A002.html">A2</a><span>.<span class="de">transkript</span><span class="en">transcript</span>#</span></p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td style="display: none">person_d7e170a1053</td>
+                           <td style="display: none"></td>
+                           <td style="display: none"></td>
+                           <td>Lannoy, Charles de, Vizekönig von Neapel</td>
+                           <td>
+                              <p>viceroi de Naples</p>
+                           </td>
+                           <td>
+                              <p><span class="de">Band_1</span><span class="en">Volume_1</span><span>,</span><a href="A133.html">A133</a><span>.<span class="de">transkript</span><span class="en">transcript</span>#2</span></p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td style="display: none">person_d7e136a1053</td>
+                           <td style="display: none"></td>
+                           <td style="display: none"></td>
+                           <td>Luise von Savoyen, Mutter Franz‘ I., Regentin von Frankreich</td>
+                           <td>
+                              <p>sa mere</p>
+                           </td>
+                           <td>
+                              <p><span class="de">Band_1</span><span class="en">Volume_1</span><span>,</span><a href="A133.html">A133</a><span>.<span class="de">transkript</span><span class="en">transcript</span>#2</span></p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td style="display: none">person_d7e284a1053</td>
+                           <td style="display: none"></td>
+                           <td style="display: none"></td>
+                           <td>Margarete von Österreich, Prinzessin von Asturien, Herzogin von Savoyen, Statthalterin
+                              der Niederlande</td>
+                           <td>
+                              <p>mme, vostre bonne tante</p>
+                           </td>
+                           <td>
+                              <p><span class="de">Band_1</span><span class="en">Volume_1</span><span>,</span><a href="A133.html">A133</a><span>.<span class="de">transkript</span><span class="en">transcript</span>#8</span></p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td style="display: none">person_d4e132a1053</td>
+                           <td style="display: none"></td>
+                           <td style="display: none"></td>
+                           <td>Maximilian I., Kaiser</td>
+                           <td>
+                              <p>nobis</p>
+                              <p>Maximilianus</p>
+                           </td>
+                           <td>
+                              <p><span class="de">Band_1</span><span class="en">Volume_1</span><span>,</span><a href="A001.html">A1</a><span>.<span class="de">transkript</span><span class="en">transcript</span>#</span></p>
+                              <p><span class="de">Band_1</span><span class="en">Volume_1</span><span>,</span><a href="A002.html">A2</a><span>.<span class="de">transkript</span><span class="en">transcript</span>#</span></p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td style="display: none">person_d7e121a1053</td>
+                           <td style="display: none"></td>
+                           <td style="display: none"></td>
+                           <td>Meneses, Alonso de (González), Gesandter F's</td>
+                           <td>
+                              <p>Meneses</p>
+                           </td>
+                           <td>
+                              <p><span class="de">Band_1</span><span class="en">Volume_1</span><span>,</span><a href="A133.html">A133</a><span>.<span class="de">transkript</span><span class="en">transcript</span>#1</span></p>
+                              <p><span class="de">Band_1</span><span class="en">Volume_1</span><span>,</span><a href="A133.html">A133</a><span>.<span class="de">transkript</span><span class="en">transcript</span>#5</span></p>
+                              <p><span class="de">Band_1</span><span class="en">Volume_1</span><span>,</span><a href="A133.html">A133</a><span>.<span class="de">transkript</span><span class="en">transcript</span>#6</span></p>
+                              <p><span class="de">Band_1</span><span class="en">Volume_1</span><span>,</span><a href="A133.html">A133</a><span>.<span class="de">transkript</span><span class="en">transcript</span>#8</span></p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td style="display: none">person_d4e126a1053</td>
+                           <td style="display: none"></td>
+                           <td style="display: none"></td>
+                           <td>Orti, Gabriel von</td>
+                           <td>
+                              <p>Cabriel de Horti</p>
+                           </td>
+                           <td>
+                              <p><span class="de">Band_1</span><span class="en">Volume_1</span><span>,</span><a href="A001.html">A1</a><span>.<span class="de">transkript</span><span class="en">transcript</span>#</span></p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td style="display: none">person_d4e191a1053</td>
+                           <td style="display: none"></td>
+                           <td style="display: none"></td>
+                           <td>Quintana, Pedro de, Sekretär Ferdinands des Katholischen</td>
+                           <td>
+                              <p>Petrus Quintana</p>
+                              <p>Pedro de Quyntana</p>
+                           </td>
+                           <td>
+                              <p><span class="de">Band_1</span><span class="en">Volume_1</span><span>,</span><a href="A001.html">A1</a><span>.<span class="de">kommentar</span><span class="en">commentary</span>#</span></p>
+                              <p><span class="de">Band_1</span><span class="en">Volume_1</span><span>,</span><a href="A003.html">A3</a><span>.<span class="de">transkript</span><span class="en">transcript</span>#</span></p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td style="display: none">person_d4e188a1053</td>
+                           <td style="display: none"></td>
+                           <td style="display: none"></td>
+                           <td>Renée (Renata) de France, spätere Herzogin von Ferrara</td>
+                           <td>
+                              <p>Renata</p>
+                           </td>
+                           <td>
+                              <p><span class="de">Band_1</span><span class="en">Volume_1</span><span>,</span><a href="A001.html">A1</a><span>.<span class="de">kommentar</span><span class="en">commentary</span>#</span></p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td style="display: none">person_d7e265a1053</td>
+                           <td style="display: none"></td>
+                           <td style="display: none"></td>
+                           <td>Roeulx, (Baudouin?), Bastard du</td>
+                           <td>
+                              <p>sr du Reulx</p>
+                              <p>sr de Roeulx</p>
+                           </td>
+                           <td>
+                              <p><span class="de">Band_1</span><span class="en">Volume_1</span><span>,</span><a href="A133.html">A133</a><span>.<span class="de">transkript</span><span class="en">transcript</span>#7</span></p>
+                              <p><span class="de">Band_1</span><span class="en">Volume_1</span><span>,</span><a href="A133.html">A133</a><span>.<span class="de">transkript</span><span class="en">transcript</span>#8</span></p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td style="display: none">person_d7e232a1053</td>
+                           <td style="display: none"></td>
+                           <td style="display: none"></td>
+                           <td>Salamanca, Gabriel de, Graf von Ortenburg, Schatzmeister Fs </td>
+                           <td>
+                              <p>conte de Ortemburg</p>
+                           </td>
+                           <td>
+                              <p><span class="de">Band_1</span><span class="en">Volume_1</span><span>,</span><a href="A133.html">A133</a><span>.<span class="de">transkript</span><span class="en">transcript</span>#5</span></p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td style="display: none">person_d7e198a1053</td>
+                           <td style="display: none"></td>
+                           <td style="display: none"></td>
+                           <td>Salinas, Martín de, Botschafter Fs bei K </td>
+                           <td>
+                              <p>conte de Saline</p>
+                           </td>
+                           <td>
+                              <p><span class="de">Band_1</span><span class="en">Volume_1</span><span>,</span><a href="A133.html">A133</a><span>.<span class="de">transkript</span><span class="en">transcript</span>#4</span></p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td style="display: none">person_d7e223a1053</td>
+                           <td style="display: none"></td>
+                           <td style="display: none"></td>
+                           <td>Sampy (Sempy), Herr de</td>
+                           <td>
+                              <p>sr de Sampy</p>
+                           </td>
+                           <td>
+                              <p><span class="de">Band_1</span><span class="en">Volume_1</span><span>,</span><a href="A133.html">A133</a><span>.<span class="de">transkript</span><span class="en">transcript</span>#5</span></p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td style="display: none">person_d8e136a1053</td>
+                           <td style="display: none"></td>
+                           <td style="display: none"></td>
+                           <td>Süleyman I.</td>
+                           <td>
+                              <p>cesaris Thurcorum</p>
+                           </td>
+                           <td>
+                              <p><span class="de">Band_1</span><span class="en">Volume_1</span><span>,</span><a href="A210.html">A210</a><span>.<span class="de">transkript</span><span class="en">transcript</span>#1</span></p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td style="display: none">person_d7e201a1053</td>
+                           <td style="display: none"></td>
+                           <td style="display: none"></td>
+                           <td>Zollern (Hohenzollern), Graf Eitel Friedrich (Eitelfritz) III. von</td>
+                           <td>
+                              <p>feu conte de Sornes</p>
+                           </td>
+                           <td>
+                              <p><span class="de">Band_1</span><span class="en">Volume_1</span><span>,</span><a href="A133.html">A133</a><span>.<span class="de">transkript</span><span class="en">transcript</span>#4</span></p>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </div>
+            </div>
+         </div>
+      </main>
+      <footer class="footer mt-auto pt-5">
+         <div class="container de"><a href="#">Links</a><a href="impressum.html">Impressum</a><a href="dsgvo.html">Datenschutzerklärung</a></div>
+         <div class="container en" style="display: none"><a href="#">Links</a><a href="impressum.html">Imprint</a><a href="dsgvo.html">Privacy policy</a></div>
+      </footer><script>
+               function langDeEn(input) {
+               var navbar = "nav.navbar " ;
+               var pagecontent = "#pageContent " ;
+               var pagetitle = "#pageTitle " ;         
+               var footer = "footer " ;
+               if (input == "de") {  
+               localStorage.setItem("language", "de") ;
+               $( "div.langmenu a:lang(en)" ).removeClass("active");
+               $( "div.langmenu a:lang(de)" ).addClass("active");
+               $( navbar + "div.en" ).hide(); 
+               $( navbar + "div.de" ).show();
+               $( pagecontent + ".en" ).hide(); 
+               $( pagecontent + ".de" ).show();               
+               $( pagetitle + ".en" ).hide(); 
+               $( pagetitle + ".de" ).show();             
+               $( footer + "div.en" ).hide(); 
+               $( footer + "div.de" ).show();
+               } else {    
+               localStorage.setItem("language", "en") ;                        
+               $( "div.langmenu a:lang(de)" ).removeClass("active");
+               $( "div.langmenu a:lang(en)" ).addClass("active");
+               $( navbar + "div.de" ).hide(); 
+               $( navbar + "div.en" ).show();
+               $( pagecontent + ".de" ).hide(); 
+               $( pagecontent + ".en" ).show();
+               $( pagetitle + ".de" ).hide(); 
+               $( pagetitle + ".en" ).show();             
+               $( footer + "div.de" ).hide(); 
+               $( footer + "div.en" ).show();
+               }
+               }
+            </script><script>
+               $( document ).ready(function() {
+                  
+                  var fileName = 'register_person' ;
+                  
+                  $("ul.navbar-nav li.nav-item a").removeClass("active");
+                  $( "[href='register.html']" ).addClass("active");
+                  
+                  if(fileName == 'register_person') {
+                     console.log(fileName) ;
+                     $("div.register-menue a").removeClass("active");
+                     $( "#regPerson" ).addClass("active");
+                  }                  
+                  if(fileName == 'register_place') {
+                     console.log(fileName) ;
+                     $("div.register-menue a").removeClass("active");
+                     $( "#regPlace" ).addClass("active");
+                  }
+                  if(fileName == 'register_index') {
+                     console.log(fileName) ;
+                     $("div.register-menue a").removeClass("active");
+                     $( "#regIndex" ).addClass("active");
+                  }
+                                                      
+                  ///link anchor //to make an link anchor work set the href tag to #[uniqueName] and its id to [uniqueName] (uniquenames should match) 
+                  let anchor = $(location).attr('hash');  //get link anchor (#...)  
+                  if(anchor.length!=0){  //check if link anchor exists
+                  $(anchor).click(); //click on the menu item to open element
+                  }
+                  
+                  console.log(localStorage.getItem("language"));
+                  
+                  if (localStorage.getItem("language") === null || localStorage.getItem("language") == "undefined") {
+                  localStorage.setItem("language", "de");
+                  }
+                  
+                  langDeEn(localStorage.getItem("language")) ;                        
+               }) ;
+               
+               $("div.langmenu a").click(function() {
+                  var click_lang = $(this);
+                  console.log(click_lang.attr("lang"));
+                  langDeEn(click_lang.attr("lang"));               
+               }) ;               
+               
+            </script></body>
+</html>
