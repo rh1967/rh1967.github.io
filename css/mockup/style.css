@@ -634,6 +634,68 @@ h1 a.fas.fa-redo-alt {
     font-size: 0.8em;
 }
 
+/* .superscript{vertical-align: super;} */
+
+/* RH */
+.bold {
+    font-weight:bold
+}
+
+.italic {
+    font-style:italic
+}
+
+.sup {
+    vertical-align:super; font-size:.7em
+}
+
+.g {
+    letter-spacing:0.125em
+}
+
+.regest {
+    font-style:italic
+}
+
+.archive_desc {
+    font-style:italic
+}
+
+.commentary {
+    font-style:italic
+}
+/* RH */
+/* .superscript{vertical-align: super;} */
+
+/* RH */
+.bold {
+    font-weight:bold
+}
+
+.italic {
+    font-style:italic
+}
+
+.sup {
+    vertical-align:super; font-size:.7em
+}
+
+.g {
+    letter-spacing:0.125em
+}
+
+.regest {
+    font-style:italic
+}
+
+.archive_desc {
+    font-style:italic
+}
+
+.commentary {
+    font-style:italic
+}
+/* RH */
 
 /* =============== CONTENT - Left Column ==============*/
 
