@@ -46,7 +46,7 @@
          <div class="container" id="pageContent">
             <div class="row">
                <div class="col-12 px-0 register-menue"><a href="register_person.html" id="regPerson"><span class="de">Personenregister</span><span class="en">Registry of persons</span></a>  |  <a href="register_place.html" id="regPlace"><span class="de">Ortsregister</span><span class="en">Registry of places</span></a>  |  <a href="register_index.html" id="regIndex"><span class="de">Sachregister</span><span class="en">Subject index</span></a></div>
-               <div id="registerFormat"><small><a href="../data/register/about.xml" target="_blank" download="">xml</a></small></div>
+               <div id="registerFormat" style="display: none"><small><a href="../data/register/about.xml" target="_blank" download="">xml</a></small></div>
                <div class="container" id="table-register">
                   <table class="table register-tabelle">
                      <thead>
@@ -112,17 +112,24 @@
                      console.log(fileName) ;
                      $("div.register-menue a").removeClass("active");
                      $( "#regPerson" ).addClass("active");
-                  }                  
-                  if(fileName == 'register_place') {
-                     console.log(fileName) ;
-                     $("div.register-menue a").removeClass("active");
-                     $( "#regPlace" ).addClass("active");
-                  }
-                  if(fileName == 'register_index') {
-                     console.log(fileName) ;
-                     $("div.register-menue a").removeClass("active");
-                     $( "#regIndex" ).addClass("active");
-                  }
+					 $( "#registerFormat" ).show();
+                  } else {
+						if(fileName == 'register_place') {
+						 console.log(fileName) ;
+						 $("div.register-menue a").removeClass("active");
+						 $( "#regPlace" ).addClass("active");
+						 $( "#registerFormat" ).show();
+					  } else {
+						if(fileName == 'register_index') {
+							console.log(fileName) ;
+							$("div.register-menue a").removeClass("active");
+							$( "#regIndex" ).addClass("active");
+							$( "#registerFormat" ).show();
+						} else {
+							$( "#registerFormat" ).hide();							
+							}
+						} 
+					}				  
                                                       
                   ///link anchor //to make an link anchor work set the href tag to #[uniqueName] and its id to [uniqueName] (uniquenames should match) 
                   let anchor = $(location).attr('hash');  //get link anchor (#...)  
