@@ -286,16 +286,16 @@
                         localStorage.setItem("language", "de");
                         $("div.langmenu a:lang(en)").removeClass("active");
                         $("div.langmenu a:lang(de)").addClass("active");
-                        $(navbar + "div.en").hide();
-                        $(navbar + "div.de").show();
-                        $(pagetitle + "div.en").hide();
-                        $(pagetitle + "div.de").show();
+                        $(navbar + ".en").hide();
+                        $(navbar + ".de").show();
+                        $(pagetitle + ".en").hide();
+                        $(pagetitle + ".de").show();
                         $(searchcontent + "div.de").show();
                         $(searchcontent + "div.en").hide();
                         $(resultsearch + "div.en").hide();
                         $(resultsearch + "div.de").show();
-                        $(footer + "div.en").hide();
-                        $(footer + "div.de").show();
+                        $(footer + ".en").hide();
+                        $(footer + ".de").show();
                         
                         $("input#ssQuery").attr("placeholder", "Begriff hier eingeben");
                         $("button#ssDoSearch").text("Absenden");
@@ -306,16 +306,16 @@
                         localStorage.setItem("language", "en");
                         $("div.langmenu a:lang(de)").removeClass("active");
                         $("div.langmenu a:lang(en)").addClass("active");
-                        $(navbar + "div.de").hide();
-                        $(navbar + "div.en").show();
-                        $(pagetitle + "div.de").hide();
-                        $(pagetitle + "div.en").show();
+                        $(navbar + ".de").hide();
+                        $(navbar + ".en").show();
+                        $(pagetitle + ".de").hide();
+                        $(pagetitle + ".en").show();
                         $(searchcontent + "div.de").hide();
                         $(searchcontent + "div.en").show();
                         $(resultsearch + "div.de").hide();
                         $(resultsearch + "div.en").show();
-                        $(footer + "div.de").hide();
-                        $(footer + "div.en").show();
+                        $(footer + ".de").hide();
+                        $(footer + ".en").show();
                         
                         $("input#ssQuery").attr("placeholder", "Enter term here");
                         $("button#ssDoSearch").text("Submit");

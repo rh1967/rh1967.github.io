@@ -62,6 +62,10 @@
                         <h3><a class="selected" href="">Band 1</a></h3>
                         <ul>
                            <li class="toc-item"><a href="A001.html">A1.: Maximilian I. an Ferdinand, 1514 Juli 21, Gmunden.</a></li>
+                           <li class="toc-item"><a href="A002.html">A2.: Maximilian I. an Ferdinand, 1514 Oktober 13.</a></li>
+                           <li class="toc-item"><a href="A003.html">A3.: Ferdinand der Katholische an Ferdinand, 1515 November 12, Cazalegas.</a></li>
+                           <li class="toc-item"><a href="A133.html">A133.: Karl an Ferdinand, 1525 März 261—31, Madrid.</a></li>
+                           <li class="toc-item"><a href="A210.html">A210.: Ludwig II. an Ferdinand, 1526 Juli 15, Ofen.</a></li>
                         </ul>
                      </div>
                      <div class="en" style="display: none">
@@ -69,6 +73,10 @@
                         <h3><a class="selected" href="">Volume 1</a></h3>
                         <ul>
                            <li class="toc-item"><a href="A001.html">A1.: Maximilian I. an Ferdinand, 1514 Juli 21, Gmunden.</a></li>
+                           <li class="toc-item"><a href="A002.html">A2.: Maximilian I. an Ferdinand, 1514 Oktober 13.</a></li>
+                           <li class="toc-item"><a href="A003.html">A3.: Ferdinand der Katholische an Ferdinand, 1515 November 12, Cazalegas.</a></li>
+                           <li class="toc-item"><a href="A133.html">A133.: Karl an Ferdinand, 1525 März 261—31, Madrid.</a></li>
+                           <li class="toc-item"><a href="A210.html">A210.: Ludwig II. an Ferdinand, 1526 Juli 15, Ofen.</a></li>
                         </ul>
                      </div>
                   </div>
@@ -816,30 +824,30 @@
                         localStorage.setItem("language", "de") ;
                         $( "div.langmenu a:lang(en)" ).removeClass("active");
                         $( "div.langmenu a:lang(de)" ).addClass("active");
-                        $( navbar + "div.en" ).hide(); 
-                        $( navbar + "div.de" ).show();
+                        $( navbar + ".en" ).hide(); 
+                        $( navbar + ".de" ).show();
                         $( pagecontent + ".en" ).hide(); 
                         $( pagecontent + ".de" ).show();                        
-                        $( pagetitle + "div.en" ).hide(); 
-                        $( pagetitle + "div.de" ).show();
-                        $( indexletters + "div.de" ).show();
-                        $( indexletters + "div.en" ).hide();
-                        $( footer + "div.en" ).hide(); 
-                        $( footer + "div.de" ).show();
+                        $( pagetitle + ".en" ).hide(); 
+                        $( pagetitle + ".de" ).show();
+                        $( indexletters + ".de" ).show();
+                        $( indexletters + ".en" ).hide();
+                        $( footer + ".en" ).hide(); 
+                        $( footer + ".de" ).show();
                     } else {    
                         localStorage.setItem("language", "en") ;                        
                         $( "div.langmenu a:lang(de)" ).removeClass("active");
                         $( "div.langmenu a:lang(en)" ).addClass("active");
-                        $( navbar + "div.de" ).hide(); 
-                        $( navbar + "div.en" ).show();
+                        $( navbar + ".de" ).hide(); 
+                        $( navbar + ".en" ).show();
                         $( pagecontent + ".de" ).hide(); 
                         $( pagecontent + ".en" ).show();                        
-                        $( pagetitle + "div.de" ).hide(); 
-                        $( pagetitle + "div.en" ).show();
-                        $( indexletters + "div.de" ).hide(); 
-                        $( indexletters + "div.en" ).show();
-                        $( footer + "div.de" ).hide(); 
-                        $( footer + "div.en" ).show();
+                        $( pagetitle + ".de" ).hide(); 
+                        $( pagetitle + ".en" ).show();
+                        $( indexletters + ".de" ).hide(); 
+                        $( indexletters + ".en" ).show();
+                        $( footer + ".de" ).hide(); 
+                        $( footer + ".en" ).show();
                     }
                     }
                 </script><script>

@@ -445,26 +445,26 @@
                localStorage.setItem("language", "de") ;
                $( "div.langmenu a:lang(en)" ).removeClass("active");
                $( "div.langmenu a:lang(de)" ).addClass("active");
-               $( navbar + "div.en" ).hide(); 
-               $( navbar + "div.de" ).show();
+               $( navbar + ".en" ).hide(); 
+               $( navbar + ".de" ).show();
                $( pagecontent + ".en" ).hide(); 
                $( pagecontent + ".de" ).show();               
                $( pagetitle + ".en" ).hide(); 
                $( pagetitle + ".de" ).show();             
-               $( footer + "div.en" ).hide(); 
-               $( footer + "div.de" ).show();
+               $( footer + ".en" ).hide(); 
+               $( footer + ".de" ).show();
                } else {    
                localStorage.setItem("language", "en") ;                        
                $( "div.langmenu a:lang(de)" ).removeClass("active");
                $( "div.langmenu a:lang(en)" ).addClass("active");
-               $( navbar + "div.de" ).hide(); 
-               $( navbar + "div.en" ).show();
+               $( navbar + ".de" ).hide(); 
+               $( navbar + ".en" ).show();
                $( pagecontent + ".de" ).hide(); 
                $( pagecontent + ".en" ).show();
                $( pagetitle + ".de" ).hide(); 
                $( pagetitle + ".en" ).show();             
-               $( footer + "div.de" ).hide(); 
-               $( footer + "div.en" ).show();
+               $( footer + ".de" ).hide(); 
+               $( footer + ".en" ).show();
                }
                }
             </script><script>
