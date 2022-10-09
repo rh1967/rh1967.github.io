@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Index Register in TEI generated from TEI data of letters</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <list>
+            <item>
+               <note type="index">
+                  <index>
+                     <term xml:id="index_d7e183a1054">Christenheit</term>
+                  </index>
+               </note>
+               <note type="writings">
+                  <p>chrestienté</p>
+                  <p>christiani</p>
+               </note>
+               <note type="occurence">
+                  <p source="A133.xml">
+                     <val>A133</val>
+                     <note type="volNr">1</note>
+                     <note type="div">transcription</note>
+                     <note type="para">3</note>
+                  </p>
+                  <p source="A210.xml">
+                     <val>A210</val>
+                     <note type="volNr">1</note>
+                     <note type="div">transcription</note>
+                     <note type="para">2</note>
+                  </p>
+               </note>
+            </item>
+            <item>
+               <note type="index">
+                  <index>
+                     <term xml:id="index_d7e159a1054">Deutsche</term>
+                  </index>
+               </note>
+               <note type="writings">
+                  <p>Allemagnes</p>
+               </note>
+               <note type="occurence">
+                  <p source="A133.xml">
+                     <val>A133</val>
+                     <note type="volNr">1</note>
+                     <note type="div">transcription</note>
+                     <note type="para">2</note>
+                  </p>
+               </note>
+            </item>
+            <item>
+               <note type="index">
+                  <index>
+                     <term xml:id="index_d7e211a1054">Deutschland</term>
+                  </index>
+               </note>
+               <note type="writings">
+                  <p>Allemagne</p>
+               </note>
+               <note type="occurence">
+                  <p source="A133.xml">
+                     <val>A133</val>
+                     <note type="volNr">1</note>
+                     <note type="div">transcription</note>
+                     <note type="para">4</note>
+                  </p>
+               </note>
+            </item>
+            <item>
+               <note type="index">
+                  <index>
+                     <term xml:id="index_d7e291a1054">England</term>
+                  </index>
+               </note>
+               <note type="writings">
+                  <p>Angleterre</p>
+               </note>
+               <note type="occurence">
+                  <p source="A133.xml">
+                     <val>A133</val>
+                     <note type="volNr">1</note>
+                     <note type="div">transcription</note>
+                     <note type="para">8</note>
+                  </p>
+               </note>
+            </item>
+            <item>
+               <note type="index">
+                  <index>
+                     <term xml:id="index_d7e155a1054">F, Römischer König, Wahl</term>
+                  </index>
+               </note>
+               <note type="writings">
+                  <p>roi des Romains</p>
+               </note>
+               <note type="occurence">
+                  <p source="A133.xml">
+                     <val>A133</val>
+                     <note type="volNr">1</note>
+                     <note type="div">transcription</note>
+                     <note type="para">2</note>
+                  </p>
+               </note>
+            </item>
+            <item>
+               <note type="index">
+                  <index>
+                     <term xml:id="index_d4e181a1054">Frankreich</term>
+                  </index>
+               </note>
+               <note type="writings">
+                  <p>Frankreich</p>
+                  <p>François</p>
+                  <p>commung ennemi</p>
+               </note>
+               <note type="occurence">
+                  <p source="A001.xml">
+                     <val>A1</val>
+                     <note type="volNr">1</note>
+                     <note type="div">commentary</note>
+                     <note type="para"/>
+                  </p>
+                  <p source="A133.xml">
+                     <val>A133</val>
+                     <note type="volNr">1</note>
+                     <note type="div">transcription</note>
+                     <note type="para">3</note>
+                  </p>
+                  <p source="A133.xml">
+                     <val>A133</val>
+                     <note type="volNr">1</note>
+                     <note type="div">transcription</note>
+                     <note type="para">8</note>
+                  </p>
+               </note>
+            </item>
+            <item>
+               <note type="index">
+                  <index>
+                     <term xml:id="index_d6e122a1054">Gesundheit/Krankheit, Ferdinand der Katholische</term>
+                  </index>
+               </note>
+               <note type="writings">
+                  <p>salud</p>
+               </note>
+               <note type="occurence">
+                  <p source="A003.xml">
+                     <val>A3</val>
+                     <note type="volNr">1</note>
+                     <note type="div">transcription</note>
+                     <note type="para"/>
+                  </p>
+               </note>
+            </item>
+            <item>
+               <note type="index">
+                  <index>
+                     <term xml:id="index_d7e248a1054">Gesundheit/Krankheit, K</term>
+                  </index>
+               </note>
+               <note type="writings">
+                  <p>bonne santé</p>
+               </note>
+               <note type="occurence">
+                  <p source="A133.xml">
+                     <val>A133</val>
+                     <note type="volNr">1</note>
+                     <note type="div">transcription</note>
+                     <note type="para">6</note>
+                  </p>
+               </note>
+            </item>
+            <item>
+               <note type="index">
+                  <index>
+                     <term xml:id="index_d4e185a1054">Heirat, F mit Renée de France</term>
+                  </index>
+               </note>
+               <note type="writings">
+                  <p>Vermählung</p>
+               </note>
+               <note type="occurence">
+                  <p source="A001.xml">
+                     <val>A1</val>
+                     <note type="volNr">1</note>
+                     <note type="div">commentary</note>
+                     <note type="para"/>
+                  </p>
+               </note>
+            </item>
+            <item>
+               <note type="index">
+                  <index>
+                     <term xml:id="index_d7e163a1054">HRR</term>
+                  </index>
+               </note>
+               <note type="writings">
+                  <p>sainct empire</p>
+               </note>
+               <note type="occurence">
+                  <p source="A133.xml">
+                     <val>A133</val>
+                     <note type="volNr">1</note>
+                     <note type="div">transcription</note>
+                     <note type="para">2</note>
+                  </p>
+               </note>
+            </item>
+            <item>
+               <note type="index">
+                  <index>
+                     <term xml:id="index_d7e125a1054">Italien</term>
+                  </index>
+               </note>
+               <note type="writings">
+                  <p>Ytalie</p>
+               </note>
+               <note type="occurence">
+                  <p source="A133.xml">
+                     <val>A133</val>
+                     <note type="volNr">1</note>
+                     <note type="div">transcription</note>
+                     <note type="para">1</note>
+                  </p>
+                  <p source="A133.xml">
+                     <val>A133</val>
+                     <note type="volNr">1</note>
+                     <note type="div">transcription</note>
+                     <note type="para">2</note>
+                  </p>
+               </note>
+            </item>
+            <item>
+               <note type="index">
+                  <index>
+                     <term xml:id="index_d6e115a1054">Jagd</term>
+                  </index>
+               </note>
+               <note type="writings">
+                  <p>caça</p>
+               </note>
+               <note type="occurence">
+                  <p source="A003.xml">
+                     <val>A3</val>
+                     <note type="volNr">1</note>
+                     <note type="div">transcription</note>
+                     <note type="para"/>
+                  </p>
+               </note>
+            </item>
+            <item>
+               <note type="index">
+                  <index>
+                     <term xml:id="index_d7e151a1054">K, Kaiserkrönung</term>
+                  </index>
+               </note>
+               <note type="writings">
+                  <p>coronnes</p>
+               </note>
+               <note type="occurence">
+                  <p source="A133.xml">
+                     <val>A133</val>
+                     <note type="volNr">1</note>
+                     <note type="div">transcription</note>
+                     <note type="para">2</note>
+                  </p>
+               </note>
+            </item>
+            <item>
+               <note type="index">
+                  <index>
+                     <term xml:id="index_d7e370a1054">Münzordnung</term>
+                  </index>
+               </note>
+               <note type="writings">
+                  <p>Münzordnung</p>
+               </note>
+               <note type="occurence">
+                  <p source="A133.xml">
+                     <val>A133</val>
+                     <note type="volNr">1</note>
+                     <note type="div">commentary</note>
+                     <note type="para">6</note>
+                  </p>
+               </note>
+            </item>
+            <item>
+               <note type="index">
+                  <index>
+                     <term xml:id="index_d7e295a1054">Pavia, Schlacht von</term>
+                  </index>
+               </note>
+               <note type="writings">
+                  <p>la victoire</p>
+               </note>
+               <note type="occurence">
+                  <p source="A133.xml">
+                     <val>A133</val>
+                     <note type="volNr">1</note>
+                     <note type="div">transcription</note>
+                     <note type="para">8</note>
+                  </p>
+               </note>
+            </item>
+            <item>
+               <note type="index">
+                  <index>
+                     <term xml:id="index_d7e363a1054">Reichsregiment</term>
+                  </index>
+               </note>
+               <note type="writings">
+                  <p>Reichsregiments</p>
+               </note>
+               <note type="occurence">
+                  <p source="A133.xml">
+                     <val>A133</val>
+                     <note type="volNr">1</note>
+                     <note type="div">commentary</note>
+                     <note type="para">6</note>
+                  </p>
+               </note>
+            </item>
+            <item>
+               <note type="index">
+                  <index>
+                     <term xml:id="index_d7e359a1054">Reichstag, Nürnberg</term>
+                  </index>
+               </note>
+               <note type="writings">
+                  <p>Nürnberger Reichstagsabschied</p>
+               </note>
+               <note type="occurence">
+                  <p source="A133.xml">
+                     <val>A133</val>
+                     <note type="volNr">1</note>
+                     <note type="div">commentary</note>
+                     <note type="para">6</note>
+                  </p>
+               </note>
+            </item>
+            <item>
+               <note type="index">
+                  <index>
+                     <term xml:id="index_d7e179a1054">Schweiz</term>
+                  </index>
+               </note>
+               <note type="writings">
+                  <p>Suysse</p>
+               </note>
+               <note type="occurence">
+                  <p source="A133.xml">
+                     <val>A133</val>
+                     <note type="volNr">1</note>
+                     <note type="div">transcription</note>
+                     <note type="para">3</note>
+                  </p>
+               </note>
+            </item>
+            <item>
+               <note type="index">
+                  <index>
+                     <term xml:id="index_d8e190a1054">Türkenabwehr</term>
+                  </index>
+               </note>
+               <note type="writings">
+                  <p>defensione</p>
+               </note>
+               <note type="occurence">
+                  <p source="A210.xml">
+                     <val>A210</val>
+                     <note type="volNr">1</note>
+                     <note type="div">transcription</note>
+                     <note type="para">2</note>
+                  </p>
+               </note>
+            </item>
+         </list>
+      </body>
+   </text>
+</TEI>
