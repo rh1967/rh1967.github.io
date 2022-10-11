@@ -559,14 +559,15 @@
                     var frameDiv = $( frameId ).parent("div.frame-texts");
                     var frameTitle = $( frameId ).attr("title") ;
                     var gitRepo = "https://rh1967.github.io" ; 
-                    var iframe = "https://view.officeapps.live.com/op/embed.aspx?src=" + gitRepo + "/data/docx/start/" + frameTitle + ".docx" ;
+                    var iframe = "https://view.officeapps.live.com/op/embed.aspx?src=" + gitRepo + "/data/docx/start/" + frameTitle + ".docx" ;                    
                     var frameTag = frameId + " iframe" ;                    
                     $( frameTag ).remove();
                     $( frameId ).append("<iframe></iframe>");                    
-                    $( frameTag ).attr( "src", iframe );
+                    $( frameTag ).attr("class", "frameStyle").attr( "src", iframe ) ;
                     $( "div.frame-texts" ).hide();
                     frameDiv.show();
                     }
+                    
                 </script><script>
                     $( document ).ready(function() {
                     console.log( "ready!" );                                                
@@ -634,7 +635,7 @@
                     
                     $( embedTag ).remove();
                     $( embedId ).append("<embed />");                    
-                    $( embedTag ).attr( "src", embed );
+                    $( embedTag ).attr("class", "frameStyle").attr( "src", embed ) ;
                     $( "div.frame-texts" ).hide();
                     embedDiv.show();
                     });
