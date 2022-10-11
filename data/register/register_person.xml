@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Person Register in TEI generated from TEI data of letters</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <list>
+            <item>
+               <note type="person">
+                  <persName xml:id="person_d7e239a1053">Águila, Suero del, Gespiele F‘s</persName>
+               </note>
+               <note type="writings">
+                  <p>Suero de l’Aguylla</p>
+               </note>
+               <note type="occurence">
+                  <p source="A133.xml">
+                     <val>A133</val>
+                     <note type="volNr">1</note>
+                     <note type="div">transcription</note>
+                     <note type="para">5</note>
+                  </p>
+               </note>
+            </item>
+            <item>
+               <note type="person">
+                  <persName xml:id="person_d5e162a1053">Bannissis, Jacobus de, Sekretär Maximilians I. </persName>
+               </note>
+               <note type="writings">
+                  <p>Ja. de Bannissis.</p>
+               </note>
+               <note type="occurence">
+                  <p source="A002.xml">
+                     <val>A2</val>
+                     <note type="volNr">1</note>
+                     <note type="div">transcription</note>
+                     <note type="para"/>
+                  </p>
+               </note>
+            </item>
+            <item>
+               <note type="person">
+                  <persName xml:id="person_d7e166a1053">Bourbon, Karl III., Herzog von, „Connétable de Bourbon“</persName>
+               </note>
+               <note type="writings">
+                  <p>Bourbon</p>
+               </note>
+               <note type="occurence">
+                  <p source="A133.xml">
+                     <val>A133</val>
+                     <note type="volNr">1</note>
+                     <note type="div">transcription</note>
+                     <note type="para">2</note>
+                  </p>
+               </note>
+            </item>
+            <item>
+               <note type="person">
+                  <persName xml:id="person_d7e229a1053">Córdoba, Pedro de, Graf von Cabra, F's Oberststallmeister, Gesandter und Rat</persName>
+               </note>
+               <note type="writings">
+                  <p>Pedro de Cordova</p>
+               </note>
+               <note type="occurence">
+                  <p source="A133.xml">
+                     <val>A133</val>
+                     <note type="volNr">1</note>
+                     <note type="div">transcription</note>
+                     <note type="para">5</note>
+                  </p>
+               </note>
+            </item>
+            <item>
+               <note type="person">
+                  <persName xml:id="person_d7e173a1053">Croÿ, Adrien de, Herr von Beauraing, Graf von Roeulx, Vertrauter und Gesandter K's, Gouverneur von Flandern</persName>
+               </note>
+               <note type="writings">
+                  <p>Beaurain</p>
+               </note>
+               <note type="occurence">
+                  <p source="A133.xml">
+                     <val>A133</val>
+                     <note type="volNr">1</note>
+                     <note type="div">transcription</note>
+                     <note type="para">2</note>
+                  </p>
+               </note>
+            </item>
+            <item>
+               <note type="person">
+                  <persName xml:id="person_d7e207a1053">Ems (Hohenems), Marx Sittich I. von, Landsknechtsführer</persName>
+               </note>
+               <note type="writings">
+                  <p>Marc Sittick</p>
+               </note>
+               <note type="occurence">
+                  <p source="A133.xml">
+                     <val>A133</val>
+                     <note type="volNr">1</note>
+                     <note type="div">transcription</note>
+                     <note type="para">4</note>
+                  </p>
+               </note>
+            </item>
+            <item>
+               <note type="person">
+                  <persName xml:id="person_d4e142a1053">Ferdinand II., der Katholische, König von Aragón</persName>
+               </note>
+               <note type="writings">
+                  <p>regi</p>
+                  <p>Catholicum regem,</p>
+                  <p>Yo</p>
+               </note>
+               <note type="occurence">
+                  <p source="A001.xml">
+                     <val>A1</val>
+                     <note type="volNr">1</note>
+                     <note type="div">transcription</note>
+                     <note type="para"/>
+                  </p>
+                  <p source="A002.xml">
+                     <val>A2</val>
+                     <note type="volNr">1</note>
+                     <note type="div">transcription</note>
+                     <note type="para"/>
+                  </p>
+                  <p source="A003.xml">
+                     <val>A3</val>
+                     <note type="volNr">1</note>
+                     <note type="div">transcription</note>
+                     <note type="para"/>
+                  </p>
+               </note>
+            </item>
+            <item>
+               <note type="person">
+                  <persName xml:id="person_d7e133a1053">Franz I., König von Frankreich</persName>
+               </note>
+               <note type="writings">
+                  <p>roi de France</p>
+               </note>
+               <note type="occurence">
+                  <p source="A133.xml">
+                     <val>A133</val>
+                     <note type="volNr">1</note>
+                     <note type="div">transcription</note>
+                     <note type="para">2</note>
+                  </p>
+                  <p source="A133.xml">
+                     <val>A133</val>
+                     <note type="volNr">1</note>
+                     <note type="div">transcription</note>
+                     <note type="para">4</note>
+                  </p>
+               </note>
+            </item>
+            <item>
+               <note type="person">
+                  <persName xml:id="person_d7e204a1053">Frundsberg, Georg von, kaiserlicher Landsknechtsführer</persName>
+               </note>
+               <note type="writings">
+                  <p>George de Vransperg</p>
+               </note>
+               <note type="occurence">
+                  <p source="A133.xml">
+                     <val>A133</val>
+                     <note type="volNr">1</note>
+                     <note type="div">transcription</note>
+                     <note type="para">4</note>
+                  </p>
+               </note>
+            </item>
+            <item>
+               <note type="person">
+                  <persName xml:id="person_d4e202a1053">Germaine de Foix, Königin von Aragón, zweite Frau Ferdinands des Katholischen </persName>
+               </note>
+               <note type="writings">
+                  <p>Germaine</p>
+               </note>
+               <note type="occurence">
+                  <p source="A001.xml">
+                     <val>A1</val>
+                     <note type="volNr">1</note>
+                     <note type="div">commentary</note>
+                     <note type="para"/>
+                  </p>
+               </note>
+            </item>
+            <item>
+               <note type="person">
+                  <persName xml:id="person_d5e125a1053">Gylabertus, Aloysius</persName>
+               </note>
+               <note type="writings">
+                  <p>Aloysio Gylaberto</p>
+               </note>
+               <note type="occurence">
+                  <p source="A002.xml">
+                     <val>A2</val>
+                     <note type="volNr">1</note>
+                     <note type="div">transcription</note>
+                     <note type="para"/>
+                  </p>
+               </note>
+            </item>
+            <item>
+               <note type="person">
+                  <persName xml:id="person_d7e235a1053">Hemricourt, Henri de, Hofmeister Fs </persName>
+               </note>
+               <note type="writings">
+                  <p>Hamericourt</p>
+               </note>
+               <note type="occurence">
+                  <p source="A133.xml">
+                     <val>A133</val>
+                     <note type="volNr">1</note>
+                     <note type="div">transcription</note>
+                     <note type="para">5</note>
+                  </p>
+               </note>
+            </item>
+            <item>
+               <note type="person">
+                  <persName xml:id="person_d4e145a1053">Isabella die Katholische, Königin von Kastilien</persName>
+               </note>
+               <note type="writings">
+                  <p>regine</p>
+               </note>
+               <note type="occurence">
+                  <p source="A001.xml">
+                     <val>A1</val>
+                     <note type="volNr">1</note>
+                     <note type="div">transcription</note>
+                     <note type="para"/>
+                  </p>
+               </note>
+            </item>
+            <item>
+               <note type="person">
+                  <persName xml:id="person_d4e205a1053">Johanna von Kastilien, Gattin Philipps I. („des Schönen“), „Johanna die Wahnsinnige“, Königin von Kastilien (1504-1555)</persName>
+               </note>
+               <note type="writings">
+                  <p>Johanna von Kastilien</p>
+                  <p>sermas reginas matres</p>
+               </note>
+               <note type="occurence">
+                  <p source="A001.xml">
+                     <val>A1</val>
+                     <note type="volNr">1</note>
+                     <note type="div">commentary</note>
+                     <note type="para"/>
+                  </p>
+                  <p source="A002.xml">
+                     <val>A2</val>
+                     <note type="volNr">1</note>
+                     <note type="div">transcription</note>
+                     <note type="para"/>
+                  </p>
+               </note>
+            </item>
+            <item>
+               <note type="person">
+                  <persName xml:id="person_d5e140a1053">Katharina von Österreich, Königin von Portugal</persName>
+               </note>
+               <note type="writings">
+                  <p>ames</p>
+               </note>
+               <note type="occurence">
+                  <p source="A002.xml">
+                     <val>A2</val>
+                     <note type="volNr">1</note>
+                     <note type="div">transcription</note>
+                     <note type="para"/>
+                  </p>
+               </note>
+            </item>
+            <item>
+               <note type="person">
+                  <persName xml:id="person_d7e170a1053">Lannoy, Charles de, Vizekönig von Neapel</persName>
+               </note>
+               <note type="writings">
+                  <p>viceroi de Naples</p>
+               </note>
+               <note type="occurence">
+                  <p source="A133.xml">
+                     <val>A133</val>
+                     <note type="volNr">1</note>
+                     <note type="div">transcription</note>
+                     <note type="para">2</note>
+                  </p>
+               </note>
+            </item>
+            <item>
+               <note type="person">
+                  <persName xml:id="person_d7e136a1053">Luise von Savoyen, Mutter Franz‘ I., Regentin von Frankreich</persName>
+               </note>
+               <note type="writings">
+                  <p>sa mere</p>
+               </note>
+               <note type="occurence">
+                  <p source="A133.xml">
+                     <val>A133</val>
+                     <note type="volNr">1</note>
+                     <note type="div">transcription</note>
+                     <note type="para">2</note>
+                  </p>
+               </note>
+            </item>
+            <item>
+               <note type="person">
+                  <persName xml:id="person_d7e284a1053">Margarete von Österreich, Prinzessin von Asturien, Herzogin von Savoyen, Statthalterin der Niederlande</persName>
+               </note>
+               <note type="writings">
+                  <p>mme, vostre bonne tante</p>
+               </note>
+               <note type="occurence">
+                  <p source="A133.xml">
+                     <val>A133</val>
+                     <note type="volNr">1</note>
+                     <note type="div">transcription</note>
+                     <note type="para">8</note>
+                  </p>
+               </note>
+            </item>
+            <item>
+               <note type="person">
+                  <persName xml:id="person_d4e132a1053">Maximilian I., Kaiser</persName>
+               </note>
+               <note type="writings">
+                  <p>nobis</p>
+                  <p>Maximilianus</p>
+               </note>
+               <note type="occurence">
+                  <p source="A001.xml">
+                     <val>A1</val>
+                     <note type="volNr">1</note>
+                     <note type="div">transcription</note>
+                     <note type="para"/>
+                  </p>
+                  <p source="A002.xml">
+                     <val>A2</val>
+                     <note type="volNr">1</note>
+                     <note type="div">transcription</note>
+                     <note type="para"/>
+                  </p>
+               </note>
+            </item>
+            <item>
+               <note type="person">
+                  <persName xml:id="person_d7e121a1053">Meneses, Alonso de (González), Gesandter F's</persName>
+               </note>
+               <note type="writings">
+                  <p>Meneses</p>
+               </note>
+               <note type="occurence">
+                  <p source="A133.xml">
+                     <val>A133</val>
+                     <note type="volNr">1</note>
+                     <note type="div">transcription</note>
+                     <note type="para">1</note>
+                  </p>
+                  <p source="A133.xml">
+                     <val>A133</val>
+                     <note type="volNr">1</note>
+                     <note type="div">transcription</note>
+                     <note type="para">5</note>
+                  </p>
+                  <p source="A133.xml">
+                     <val>A133</val>
+                     <note type="volNr">1</note>
+                     <note type="div">transcription</note>
+                     <note type="para">6</note>
+                  </p>
+                  <p source="A133.xml">
+                     <val>A133</val>
+                     <note type="volNr">1</note>
+                     <note type="div">transcription</note>
+                     <note type="para">8</note>
+                  </p>
+               </note>
+            </item>
+            <item>
+               <note type="person">
+                  <persName xml:id="person_d4e126a1053">Orti, Gabriel von</persName>
+               </note>
+               <note type="writings">
+                  <p>Cabriel de Horti</p>
+               </note>
+               <note type="occurence">
+                  <p source="A001.xml">
+                     <val>A1</val>
+                     <note type="volNr">1</note>
+                     <note type="div">transcription</note>
+                     <note type="para"/>
+                  </p>
+               </note>
+            </item>
+            <item>
+               <note type="person">
+                  <persName xml:id="person_d4e191a1053">Quintana, Pedro de, Sekretär Ferdinands des Katholischen</persName>
+               </note>
+               <note type="writings">
+                  <p>Petrus Quintana</p>
+                  <p>Pedro de Quyntana</p>
+               </note>
+               <note type="occurence">
+                  <p source="A001.xml">
+                     <val>A1</val>
+                     <note type="volNr">1</note>
+                     <note type="div">commentary</note>
+                     <note type="para"/>
+                  </p>
+                  <p source="A003.xml">
+                     <val>A3</val>
+                     <note type="volNr">1</note>
+                     <note type="div">transcription</note>
+                     <note type="para"/>
+                  </p>
+               </note>
+            </item>
+            <item>
+               <note type="person">
+                  <persName xml:id="person_d4e188a1053">Renée (Renata) de France, spätere Herzogin von Ferrara</persName>
+               </note>
+               <note type="writings">
+                  <p>Renata</p>
+               </note>
+               <note type="occurence">
+                  <p source="A001.xml">
+                     <val>A1</val>
+                     <note type="volNr">1</note>
+                     <note type="div">commentary</note>
+                     <note type="para"/>
+                  </p>
+               </note>
+            </item>
+            <item>
+               <note type="person">
+                  <persName xml:id="person_d7e265a1053">Roeulx, (Baudouin?), Bastard du</persName>
+               </note>
+               <note type="writings">
+                  <p>sr du Reulx</p>
+                  <p>sr de Roeulx</p>
+               </note>
+               <note type="occurence">
+                  <p source="A133.xml">
+                     <val>A133</val>
+                     <note type="volNr">1</note>
+                     <note type="div">transcription</note>
+                     <note type="para">7</note>
+                  </p>
+                  <p source="A133.xml">
+                     <val>A133</val>
+                     <note type="volNr">1</note>
+                     <note type="div">transcription</note>
+                     <note type="para">8</note>
+                  </p>
+               </note>
+            </item>
+            <item>
+               <note type="person">
+                  <persName xml:id="person_d7e232a1053">Salamanca, Gabriel de, Graf von Ortenburg, Schatzmeister Fs </persName>
+               </note>
+               <note type="writings">
+                  <p>conte de Ortemburg</p>
+               </note>
+               <note type="occurence">
+                  <p source="A133.xml">
+                     <val>A133</val>
+                     <note type="volNr">1</note>
+                     <note type="div">transcription</note>
+                     <note type="para">5</note>
+                  </p>
+               </note>
+            </item>
+            <item>
+               <note type="person">
+                  <persName xml:id="person_d7e198a1053">Salinas, Martín de, Botschafter Fs bei K </persName>
+               </note>
+               <note type="writings">
+                  <p>conte de Saline</p>
+               </note>
+               <note type="occurence">
+                  <p source="A133.xml">
+                     <val>A133</val>
+                     <note type="volNr">1</note>
+                     <note type="div">transcription</note>
+                     <note type="para">4</note>
+                  </p>
+               </note>
+            </item>
+            <item>
+               <note type="person">
+                  <persName xml:id="person_d7e223a1053">Sampy (Sempy), Herr de</persName>
+               </note>
+               <note type="writings">
+                  <p>sr de Sampy</p>
+               </note>
+               <note type="occurence">
+                  <p source="A133.xml">
+                     <val>A133</val>
+                     <note type="volNr">1</note>
+                     <note type="div">transcription</note>
+                     <note type="para">5</note>
+                  </p>
+               </note>
+            </item>
+            <item>
+               <note type="person">
+                  <persName xml:id="person_d8e136a1053">Süleyman I.</persName>
+               </note>
+               <note type="writings">
+                  <p>cesaris Thurcorum</p>
+               </note>
+               <note type="occurence">
+                  <p source="A210.xml">
+                     <val>A210</val>
+                     <note type="volNr">1</note>
+                     <note type="div">transcription</note>
+                     <note type="para">1</note>
+                  </p>
+               </note>
+            </item>
+            <item>
+               <note type="person">
+                  <persName xml:id="person_d7e201a1053">Zollern (Hohenzollern), Graf Eitel Friedrich (Eitelfritz) III. von</persName>
+               </note>
+               <note type="writings">
+                  <p>feu conte de Sornes</p>
+               </note>
+               <note type="occurence">
+                  <p source="A133.xml">
+                     <val>A133</val>
+                     <note type="volNr">1</note>
+                     <note type="div">transcription</note>
+                     <note type="para">4</note>
+                  </p>
+               </note>
+            </item>
+         </list>
+      </body>
+   </text>
+</TEI>
