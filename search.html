@@ -2,6 +2,7 @@
    
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+      <link rel="stylesheet" href="static-search/ssSearch.css" id="ssCss"/>
       
       
       <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
@@ -110,50 +111,18 @@
                         <h2>Search</h2>
                         </div>
                      
-                     <div id="staticSearch"><script src="static-search/ssSearch-debug.js"></script>
+                     <div id="staticSearch"><script src="static-search/ssSearch.js"></script>
                         <!--
               Note that if you want to debug a problem with the JavaScript, you can
               change "ssSearch.js" to "ssSearch-debug.js" to link the uncompressed, 
               unminified code instead.
             --><script>
-                var Sch ;
-                window.addEventListener('load', function(){
-                Sch = new StaticSearch() ;
-                
-                Sch.searchFinishedHook = function(num) {
-                console.log("search returned");
-                console.log(num);
-                transformSearchResultLinks();
-                showMaxHits();
-                showMinWordLength() ;
-                } ;
-                }) ;
-            </script><form accept-charset="UTF-8" id="ssForm" data-allowphrasal="yes" data-allowwildcards="yes" data-minwordlength="3" data-scrolltotextfragment="no" data-maxkwicstoshow="5" data-resultsperpage="1" onsubmit="return false;" data-versionstring="" data-ssfolder="static-search" data-kwictruncatestring="..." data-resultslimit="2000">
-                           <div id="ssQueryAndButton">
-                              <div class="form-group row">
-                                 <div class="de"><label class="col-12 col-form-label">Suche nach</label></div>
-                                 <div class="en"><label class="col-12 col-form-label">Searching for</label></div>
-                                 <div class="col-12"><input type="text" placeholder="Begriff hier eingeben" class="form-control" id="ssQuery"/></div>
-                              </div>
-                              <div class="form-group row">
-                                 <div class="offset-4 col-8"><button id="ssDoSearch" name="submit" type="submit" class="btn btn-primary">Absenden</button></div>
-                              </div>
-                           </div>
-                        </form>
-                        <div id="ssSearching" style="display: none;">
-                           <div class="de">Suche...</div>
-                           <div class="en">Searching...</div>
-                        </div>
-                        <div id="showMaxHits" style="display: none;">
-                           <div class="de">Angezeigte Treffer max <span>5</span></div>
-                           <div class="en">Displayed hits max <span>5</span></div>
-                        </div>
-                        <div id="showMinWordLength" style="display: none;">
-                           <div class="de">Wortlänge min <span></span></div>
-                           <div class="en">Word length min <span></span></div>
-                        </div>
-                        <div id="ssResults" style="display: none;"></div>
-                        <div id="ssPoweredBy" style="display: none;">
+                var Sch;
+                window.addEventListener('load', function(){Sch = new StaticSearch();});
+            </script><form accept-charset="UTF-8" id="ssForm" data-allowphrasal="yes" data-allowwildcards="yes" data-minwordlength="3" data-scrolltotextfragment="no" data-maxkwicstoshow="5" data-resultsperpage="1" onsubmit="return false;" data-versionstring="" data-ssfolder="static-search" data-kwictruncatestring="..." data-resultslimit="2000"><span class="ssQueryAndButton"><input type="text" id="ssQuery"/><button id="ssDoSearch">Search</button></span></form>
+                        <div id="ssSearching">Searching...</div>
+                        <div id="ssResults"></div>
+                        <div id="ssPoweredBy">
                            <p>Powered by</p><a href="https://github.com/projectEndings/staticSearch"><svg xmlns="http://www.w3.org/2000/svg" id="svg8" version="1.1" viewBox="0 0 266.77068 209.61487" height="30" width="39">
                                  
                                  
@@ -275,83 +244,5 @@
          <div class="container de"><a href="#">Links</a><a href="impressum.html">Impressum</a><a href="dsgvo.html">Datenschutzerklärung</a></div>
          
          <div class="container en" style="display: none"><a href="#">Links</a><a href="impressum.html">Imprint</a><a href="dsgvo.html">Privacy policy</a></div>
-         </footer><script>
-                    function langDeEn(input) {
-                        var navbar = "nav.navbar ";
-                        var pagetitle = "#pageTitle ";
-                        var searchcontent = "#searchContent ";
-                        var resultsearch = "#resultSearch ";
-                        var footer = "footer ";
-                        if (input == "de") {
-                        localStorage.setItem("language", "de");
-                        $("div.langmenu a:lang(en)").removeClass("active");
-                        $("div.langmenu a:lang(de)").addClass("active");
-                        $(navbar + ".en").hide();
-                        $(navbar + ".de").show();
-                        $(pagetitle + ".en").hide();
-                        $(pagetitle + ".de").show();
-                        $(searchcontent + "div.de").show();
-                        $(searchcontent + "div.en").hide();
-                        $(resultsearch + "div.en").hide();
-                        $(resultsearch + "div.de").show();
-                        $(footer + ".en").hide();
-                        $(footer + ".de").show();
-                        
-                        $("input#ssQuery").attr("placeholder", "Begriff hier eingeben");
-                        $("button#ssDoSearch").text("Absenden");
-                        $("button#rhShowMore").text("Zeige mehr");
-                        $("button#rhShowAll").text("Zeige alle");
-                        $("button#rhShowLess").text("Zeige weniger");
-                        } else {
-                        localStorage.setItem("language", "en");
-                        $("div.langmenu a:lang(de)").removeClass("active");
-                        $("div.langmenu a:lang(en)").addClass("active");
-                        $(navbar + ".de").hide();
-                        $(navbar + ".en").show();
-                        $(pagetitle + ".de").hide();
-                        $(pagetitle + ".en").show();
-                        $(searchcontent + "div.de").hide();
-                        $(searchcontent + "div.en").show();
-                        $(resultsearch + "div.de").hide();
-                        $(resultsearch + "div.en").show();
-                        $(footer + ".de").hide();
-                        $(footer + ".en").show();
-                        
-                        $("input#ssQuery").attr("placeholder", "Enter term here");
-                        $("button#ssDoSearch").text("Submit");
-                        $("button#rhShowMore").text("Show more");
-                        $("button#rhShowAll").text("Show all");
-                        $("button#rhShowLess").text("Show less");
-                        }
-                    }
-                </script><script>
-                        $(document).ready(function() {
-                        console.log("ready!");
-                        $("ul.navbar-nav li.nav-item a").removeClass("active");
-                        $("[href='search.html']").addClass("active");
-                        
-                        $("div#questionSearch").show();
-                        $("div#showInputSearch").hide();
-                        
-                        let anchor = $(location).attr("hash"); //get link anchor (#...)
-                        if (anchor.length != 0) {
-                        //check if link anchor exists
-                        $(anchor).click(); //click on the menu item to open element
-                        }
-                        
-                        console.log(localStorage.getItem("language"));
-                        
-                        if (localStorage.getItem("language") === null || localStorage.getItem("language") == "undefined") {
-                            localStorage.setItem("language", "de");
-                        }
-                        
-                        langDeEn(localStorage.getItem("language"));
-                    }) ;
-                    
-                    $("div.langmenu a").click(function() {
-                    var click_lang = $(this);
-                    console.log(click_lang.attr("lang"));
-                    langDeEn(click_lang.attr("lang"));
-                    }) ;
-                </script><script src="js/search.js"></script></body>
+         </footer><script src="js/language.js"></script><script src="js/search.js"></script></body>
    </html>
