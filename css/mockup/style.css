@@ -641,58 +641,44 @@ h1 a.fas.fa-redo-alt {
     font-weight:bold
 }
 
-.italic {
+/* .italic {
     font-style:italic
 }
+ */
 
 .sup {
     vertical-align:super; font-size:.7em
 }
 
-.g {
+.spaced {
     letter-spacing:0.125em
 }
 
-.regest {
+.regest .italic {
+    font-style:normal
+}
+
+.regest :not(.italic){
     font-style:italic
 }
 
-.archive_desc {
+.archive_desc .italic {
+    font-style:normal
+}
+
+.archive_desc :not(.italic) {
     font-style:italic
 }
 
-.commentary {
-    font-style:italic
-}
-/* RH */
-/* .superscript{vertical-align: super;} */
-
-/* RH */
-.bold {
-    font-weight:bold
-}
-
-.italic {
+.letter h4 {
     font-style:italic
 }
 
-.sup {
-    vertical-align:super; font-size:.7em
+.commentary .italic {
+    font-style:normal
 }
 
-.g {
-    letter-spacing:0.125em
-}
-
-.regest {
-    font-style:italic
-}
-
-.archive_desc {
-    font-style:italic
-}
-
-.commentary {
+.commentary :not(.italic) {
     font-style:italic
 }
 

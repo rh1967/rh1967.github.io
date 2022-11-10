@@ -139,11 +139,6 @@
 /* Authors: Martin Holmes and Joey Takeda. */
 /*        University of Victoria.          */
 
-
-/*RH TEST */
-
-
-
 /** This file is part of the projectEndings staticSearch
   * project.
   *
@@ -190,6 +185,27 @@ class StaticSearch{
   */
   constructor(){
     try {
+    
+      //Captions are done first, since we need one for the splash screen.
+      this.captions = ss.captions; //Default; override this if you wish by setting the property after instantiation.
+      this.captionLang  = document.getElementsByTagName('html')[0].getAttribute('lang') || 'en'; //Document language.
+      if (this.captions.has(this.captionLang)){
+        this.captionSet   = this.captions.get(this.captionLang); //Pointer to the caption object we're going to use.
+      }
+      else{
+        this.captionSet   = this.captions.get('en');
+      }
+      
+      this.splashMessage = document.getElementById('ssSplashMessage');
+      if (this.splashMessage !== null){
+        //Set the caption in the splash screen.
+        this.splashMessage.innerText = this.captionSet.strLoading;
+        
+        //Now we "show" the splash screen.
+        document.body.classList.add('ssLoading');
+      }
+
+      
       this.ssForm = document.querySelector('#ssForm');
       if (!this.ssForm){
         throw new Error('Failed to find search form. Search functionality will probably break.');
@@ -254,7 +270,17 @@ class StaticSearch{
        throw new Error('Failed to find div with id "ssResults". Cannot provide search functionality.');
       }
 
+      // Search in fieldset name for the URL
+      this.searchInFieldset = document.querySelector('.ssSearchInFilters > fieldset');
+      if (this.searchInFieldset){
+        this.searchInFieldsetName = this.searchInFieldset.title;
+      }
+
       //Optional search filters:
+      //Search in filters
+      this.searchInFilterCheckboxes =
+           Array.from(document.querySelectorAll("input[type='checkbox'].staticSearch_searchIn"));
+
       //Description label filters
       this.descFilterCheckboxes =
            Array.from(document.querySelectorAll("input[type='checkbox'].staticSearch_desc"));
@@ -267,6 +293,20 @@ class StaticSearch{
       //Boolean filters
       this.boolFilterSelects =
            Array.from(document.querySelectorAll("select.staticSearch_bool"));
+
+
+      //Feature filters will eventually have checkboxes, but they don't yet.
+      this.featFilterCheckboxes = [];
+      //However they do have inputs.
+      this.featFilterInputs = 
+            Array.from(document.querySelectorAll("input[type='text'].staticSearch_feat"));
+      //And we set them all to disabled initially
+      for (let ffi of this.featFilterInputs){
+        ffi.disabled = true;
+      }
+      //We need an array in which to store any possible feature filters that 
+      //need to be created based on settings in the URL query string.
+      this.mapFeatFilters = new Map();
 
       //Now we have some properties that will may be used later if required.
       this.paginationBtnDiv = null;
@@ -300,6 +340,9 @@ class StaticSearch{
       //for every search.
       this.docsMatchingFilters = new XSet();
 
+      //An XSet object that will contain a list of active contexts
+      this.activeContexts = new XSet();
+
       //Any / all selector for combining filters. TODO. MAY NOT BE USED.
       this.matchAllFilters = false;
 
@@ -327,10 +370,6 @@ class StaticSearch{
 
       //Configuration for use of wildcards. Default false.
       this.allowWildcards = this.getConfigBool('allowwildcards', false);
-
-      //Configuration for use of experimental scroll-to-text-fragment feature. 
-      //Default false, and also depends on browser support.
-      this.scrollToTextFragment = ((this.getConfigBool('scrolltotextfragment', false)) && ('fragmentDirective' in document));
 
       //String for leading and trailing truncations of KWICs.
       this.kwicTruncateString = this.getConfigStr('kwictruncatestring', '...');
@@ -387,16 +426,6 @@ class StaticSearch{
          
       };
 
-      //Captions
-      this.captions = ss.captions; //Default; override this if you wish by setting the property after instantiation.
-      this.captionLang  = document.getElementsByTagName('html')[0].getAttribute('lang') || 'en'; //Document language.
-      if (this.captions.has(this.captionLang)){
-        this.captionSet   = this.captions.get(this.captionLang); //Pointer to the caption object we're going to use.
-      }
-      else{
-        this.captionSet   = this.captions.get('en');
-      }
-      
       //Default set of stopwords
       /** @type {!Array} this.stopwords */
       this.stopwords = ss.stopwords; //temporary default.
@@ -406,13 +435,17 @@ class StaticSearch{
       this.jsonToRetrieve.push({id: 'ssStopwords', path: this.jsonDirectory + 'ssStopwords' + this.versionString + '.json'});
       this.jsonToRetrieve.push({id: 'ssTitles', path: this.jsonDirectory + 'ssTitles' + this.versionString + '.json'});
       this.jsonToRetrieve.push({id: 'ssWordString', path: this.jsonDirectory + 'ssWordString' + this.versionString + '.txt'});
-      //this.jsonToRetrieve.push({id: 'ssStems', path: this.jsonDirectory + 'ssStems' + this.versionString + '.json'});
       for (var f of document.querySelectorAll('fieldset.ssFieldset[id], fieldset.ssFieldset select[id]')){
         this.jsonToRetrieve.push({id: f.id, path: this.jsonDirectory + 'filters/' + f.id + this.versionString + '.json'});
       }
       //Flag to be set when all JSON is retrieved, to save laborious checking on
       //every search.
       this.allJsonRetrieved = false;
+
+      // Flag for telling whether we are currently doing a search;
+      // which starts off false, but may be set to true later on
+      this.isSearching = false;
+
 
       //Boolean: should this instance report the details of its search
       //in human-readable form?
@@ -440,7 +473,7 @@ class StaticSearch{
       this.maxKwicsToShow = this.getConfigInt('maxKwicsToShow', 10);
 
       //Result handling object
-      this.resultSet = new SSResultSet(this.maxKwicsToShow, this.scrollToTextFragment, this.reKwicTruncateStr);
+      this.resultSet = new SSResultSet(this.maxKwicsToShow, this.reKwicTruncateStr);
 
       //This allows the user to navigate through searches using the back and
       //forward buttons; to avoid repeatedly pushing state when this happens,
@@ -501,6 +534,9 @@ class StaticSearch{
     if (path.match(/\/filters\//)){
       this.mapFilterData.set(json.filterName, json);
       this.mapJsonRetrieved.set(json.filterId, GOT);
+      if (path.match(/ssFeat/)){
+        this.setupFeatFilter(json.filterId, json.filterName);
+      }
       return;
     }
   }
@@ -536,6 +572,37 @@ class StaticSearch{
     }
     else{
       this.allJsonRetrieved = true;
+      document.body.classList.remove('ssLoading');
+    }
+  }
+
+/** @function StaticSearch~setupFeatFilter
+  * @description this function runs when the json for a specific
+  *              feature filter is retrieved; it enables the 
+  *              control and assigns functionality events to it.
+  * @param {!string} filterId the id of the filter to set up.
+  * @param {!string} filterName the string name of the filter.
+  * @return {boolean} true if a filter is found and set up, else false.
+  */
+  setupFeatFilter(filterId, filterName){
+    let featFilter = document.getElementById(filterId);
+    if (featFilter !== null){
+      try{
+        //Now we set up the control as a typeahead.
+        let filterData = this.mapFilterData.get(filterName);
+        this.mapFeatFilters.set(filterName, new SSTypeAhead(featFilter, filterData, filterName, this.minWordLength));
+        //Re-enable it.
+        let inp = featFilter.querySelector('input');
+        inp.disabled = false;
+      }
+      catch(e){
+        console.log('ERROR: failed to set up feature filter ' + filterId + ': ' + e);
+        return false;
+      }
+    }
+    else{
+      console.log('ERROR: failed to find feature filter ' + filterId);
+      return false;
     }
   }
 
@@ -550,26 +617,64 @@ class StaticSearch{
   *                  the browser history)
   * @return {boolean} true if a search is initiated otherwise false.
   */
-  parseUrlQueryString(popping = false){
+  async parseUrlQueryString(popping = false){
     let searchParams = new URLSearchParams(decodeURI(document.location.search));
     //Do we need to do a search?
     let searchToDo = false; //default
+
+    //Keep an array of all the elements we configure so we can traverse
+    //the hierarchy and open any closed details elements above them.
+    let changedControls = [];
 
     if (searchParams.has('q')){
       let currQ = searchParams.get('q').trim();
       if (currQ !== ''){
         this.queryBox.value = searchParams.get('q');
         searchToDo = true;
+        changedControls.push(this.queryBox);
       }
     }
+
+    for (let cbx of this.searchInFilterCheckboxes){
+      if ((searchParams.has(this.searchInFieldsetName)) && (searchParams.getAll(this.searchInFieldsetName).indexOf(cbx.value) > -1)){
+          cbx.checked = true;
+          searchToDo = true;
+          changedControls.push(cbx);
+      } else {
+        cbx.checked = false;
+      }
+    }
+
     for (let cbx of this.descFilterCheckboxes){
       let key = cbx.getAttribute('title');
       if ((searchParams.has(key)) && (searchParams.getAll(key).indexOf(cbx.value) > -1)){
           cbx.checked = true;
           searchToDo = true;
+          changedControls.push(cbx);
       }
       else{
         cbx.checked = false;
+      }
+    }
+    //Have to do something similar but way more clever for the ssFeat filters.
+    //For each feature filter
+    for (let inp of this.featFilterInputs){
+    //check whether it's mentioned in the search params
+      let key = inp.getAttribute('title');
+      let filterId = inp.parentNode.id;
+      if (searchParams.has(key)){
+        searchToDo = true;
+        changedControls.push(inp);
+    //if so, check whether its typeahead control has been set up yet.
+        if (!this.mapFeatFilters.has(key)){
+    //If not, await its JSON retrieval, and set it up.
+          let fch = await fetch(this.jsonDirectory + 'filters/' + filterId + this.versionString + '.json');
+          let json = await fch.json();
+          this.mapFilterData.set(json.filterName, json);
+          this.setupFeatFilter(json.filterId, json.filterName);
+        }
+    //Then set its checkboxes appropriately.
+        this.mapFeatFilters.get(key).setCheckboxes(searchParams.getAll(key));
       }
     }
     for (let txt of this.dateFilterTextboxes){
@@ -577,6 +682,7 @@ class StaticSearch{
       if ((searchParams.has(key)) && (searchParams.get(key).length > 3)){
         txt.value = searchParams.get(key);
         searchToDo = true;
+        changedControls.push(txt);
       }
       else{
         txt.value = '';
@@ -584,9 +690,10 @@ class StaticSearch{
     }
     for (let num of this.numFilterInputs){
       let key = num.getAttribute('title') + num.id.replace(/^.+((_from)|(_to))$/, '$1');
-      if ((searchParams.has(key)) && (searchParams.get(key).length > 3)){
+      if ((searchParams.has(key)) && (searchParams.get(key).length > 0)){
         num.value = searchParams.get(key);
         searchToDo = true;
+        changedControls.push(num);
       }
       else{
         num.value = '';
@@ -599,10 +706,12 @@ class StaticSearch{
         case 'true':
           sel.selectedIndex = 1;
           searchToDo = true;
+          changedControls.push(sel);
           break;
         case 'false':
           sel.selectedIndex = 2;
           searchToDo = true;
+          changedControls.push(sel);
           break;
         default:
           sel.selectedIndex = 0;
@@ -610,12 +719,36 @@ class StaticSearch{
     }
 
     if (searchToDo === true){
+      //Open any ancestor details elements.
+      this.openAncestorElements(changedControls);
+
       this.doSearch(popping);
       return true;
     }
     else{
       return false;
     }
+  }
+
+/** @function StaticSearch~openAncestorElements
+ * @param {Array} startingElements The array of elements from which
+ *                to search up the tree for ancestors which need to
+ *                be opened. For each element, any ancestor details
+ *                element is opened so that the starting control
+ *                is not hidden.
+ * @return {boolean} true if any change is made, otherwise false.
+ */
+  openAncestorElements(startingElements){
+    let retVal = false;
+    startingElements.forEach(function(ctrl){
+      let d = ctrl.closest('details:not([open])');
+      while (d !== null){
+        d.open = true;
+        retVal = true;
+        d = d.closest('details:not([open])');
+      }
+    });
+    return retVal;
   }
 
 /** @function StaticSearch~doSearch
@@ -631,8 +764,8 @@ class StaticSearch{
   * 
   */
   doSearch(popping = false){
-    //We start by intercepting any situation in which we may need the
-    //ssWordString resource, but we don't yet have it.
+  //We start by intercepting any situation in which we may need the
+  //ssWordString resource, but we don't yet have it.
     if (this.allowWildcards){
       if (/[\[\]?*]/.test(this.queryBox.value)){
         var self = this;
@@ -653,9 +786,10 @@ class StaticSearch{
         }
       }
     }
-    setTimeout(function(){
-                this.searchingDiv.style.display = 'block';
-                document.body.style.cursor = 'progress';}.bind(this), 0);
+    // Now initialize that we're searching
+    this.isSearching = true;
+     //And now setup the timeout
+    this.setupSearchingDiv();
     this.docsMatchingFilters.filtersActive = false; //initialize.
     let result = false; //default.
     this.discardedTerms = []; //Clear discarded terms.
@@ -668,19 +802,48 @@ class StaticSearch{
         result = true;
       }
       else{
-        this.searchingDiv.style.display = 'none';
-        document.body.style.cursor = 'default';
+        this.isSearching = false;
       }
     }
     else{
-      this.searchingDiv.style.display = 'none';
-      document.body.style.cursor = 'default';
+      this.isSearching = false;
     }
     window.scroll({ top: this.resultsDiv.offsetTop, behavior: "smooth" });
     return result;
   }
 
-/** @function StaticSearch~setQueryString
+  /** @function StaticSearch~setupSearchingDiv
+   * @description this function sets up the "Searching..." popup message,
+   * by adding a class to the document body that makes the ssSearching div
+   * appear; it then sets polls to see whether StaticSearch.isSearching has been
+   * set back to false and, if so, removes the class
+   *
+   */
+  setupSearchingDiv() {
+    let self = this;
+    // Just check before initiating that it
+    // hasn't already been initiated
+    if (!document.body.classList.contains('ssSearching')){
+      // Add the searching class to the body;
+      document.body.classList.add('ssSearching');
+      // And now create the timeout function that calls itself
+      // to see whether a searching is still ongoing
+      const timeout = function(){
+        if (!self.isSearching){
+          document.body.classList.remove('ssSearching');
+          return;
+        }
+        window.setTimeout(timeout, 100);
+      }
+      timeout();
+    }
+  }
+
+
+
+
+
+  /** @function StaticSearch~setQueryString
   * @description this function is run once a search is initiated,
   * and it takes the search parameters and creates a browser URL
   * search string, then pushes this into the History object so that
@@ -695,9 +858,26 @@ class StaticSearch{
         let search = [];
         let q = this.queryBox.value.replace(/\s+/, ' ').replace(/(^\s+)|(\s+$)/g, '');
         if (q.length > 0){
-          search.push('q=' + q);
+          search.push('q=' + encodeURIComponent(q));
         }
+
+        //Search in filter handling
+        for (let cbx of this.searchInFilterCheckboxes){
+          if (cbx.checked){
+            search.push(this.searchInFieldsetName + "=" + cbx.value);
+          }
+        }
+
         for (let cbx of this.descFilterCheckboxes){
+          if (cbx.checked){
+            search.push(cbx.title + '=' + cbx.value);
+          }
+        }
+        //Feature filter checkboxes need to be discovered first, since 
+        //they're mutable.
+        this.featFilterCheckboxes = 
+          Array.from(document.querySelectorAll("input[type='checkbox'].staticSearch_feat"));
+        for (let cbx of this.featFilterCheckboxes){
           if (cbx.checked){
             search.push(cbx.title + '=' + cbx.value);
           }
@@ -947,9 +1127,21 @@ class StaticSearch{
   clearSearchForm(){
     try{
       this.queryBox.value = '';
+
+      for (let cbx of this.searchInFilterCheckboxes){
+        cbx.checked = false;
+      }
+
       for (let cbx of this.descFilterCheckboxes){
         cbx.checked = false;
       }
+      //Feature filter checkboxes need to be discovered first, since 
+      //they're mutable.
+      this.featFilterCheckboxes = 
+        Array.from(document.querySelectorAll("input[type='checkbox'].staticSearch_feat"));
+      for (let cbx of this.featFilterCheckboxes){
+        cbx.checked = false;
+      }  
       for (let txt of this.dateFilterTextboxes){
         txt.value = '';
       }
@@ -978,6 +1170,7 @@ class StaticSearch{
   processFilters(){
     try{
       this.docsMatchingFilters = this.getDocIdsForFilters();
+      this.activeContexts = new XSet(this.searchInFilterCheckboxes.filter(cbx => cbx.checked).map(c => c.id));
       return true;
     }
     catch(e){
@@ -1003,15 +1196,15 @@ class StaticSearch{
       var xSets = [];
       var currXSet;
 
-      //Find each desc fieldset and get its descriptor.
-      let descs = document.querySelectorAll('fieldset[id ^= "ssDesc"]');
-      for (let desc of descs){
+      //Find each desc or feat fieldset and get its descriptor.
+      let filters = document.querySelectorAll('fieldset[id ^= "ssDesc"], fieldset[id ^="ssFeat"]');
+      for (let filter of filters){
         currXSet = new XSet();
-        let descName = desc.getAttribute('title');
-        let cbxs = desc.querySelectorAll('input[type="checkbox"]:checked');
-        if ((cbxs.length > 0) && (this.mapFilterData.has(descName))){
+        let filterName = filter.getAttribute('title');
+        let cbxs = filter.querySelectorAll('input[type="checkbox"]:checked');
+        if ((cbxs.length > 0) && (this.mapFilterData.has(filterName))){
           for (let cbx of cbxs){
-            currXSet.addArray(this.mapFilterData.get(descName)[cbx.id].docs);
+            currXSet.addArray(this.mapFilterData.get(filterName)[cbx.id].docs);
           }
           xSets.push(currXSet);
         }
@@ -1071,7 +1264,7 @@ class StaticSearch{
         }
       }
 
-      //Find each date pair and get its descriptor.
+      //Find each number pair and get its descriptor.
       let nums = document.querySelectorAll('fieldset[id ^= "ssNum"]');
       for (let num of nums){
         let numName = num.title;
@@ -1126,6 +1319,7 @@ class StaticSearch{
   * @description This outputs a human-readable explanation of the search
   *              that's being done, to clarify for users what they've chosen 
   *              to look for. Note that the output div is hidden by default. 
+  *              NOTE: This does not yet include filter information.
   * @return {boolean} true if the process succeeds, otherwise false.
   */
   writeSearchReport(){
@@ -1139,7 +1333,6 @@ class StaticSearch{
           if (!arrOutput[this.terms[i].type]){
             arrOutput[this.terms[i].type] = {type: this.terms[i].type, terms: []};
           }
-          //arrOutput[this.terms[i].type].terms.push('"' + this.terms[i].str + '"');
           arrOutput[this.terms[i].type].terms.push(`"${this.terms[i].str}" (${this.terms[i].stem})`);
         }
         arrOutput.sort(function(a, b){return a.type - b.type;})
@@ -1220,7 +1413,7 @@ class StaticSearch{
       if (this.allJsonRetrieved === false){
         //First get a list of active filters.
 
-        for (let ctrl of document.querySelectorAll('input[type="checkbox"].staticSearch_desc:checked')){
+        for (let ctrl of document.querySelectorAll('input[type="checkbox"].staticSearch_desc:checked, input[type="checkbox"].staticSearch_feat:checked')){
           let filterId = ctrl.id.split('_')[0];
           if (this.mapJsonRetrieved.get(filterId) != GOT){
             filterIds.add(filterId);
@@ -1243,7 +1436,7 @@ class StaticSearch{
           }
         }
         for (let ctrl of document.querySelectorAll('input[type="number"].staticSearch_num')){
-          if (ctrl.value.length > 3){
+          if (ctrl.value.length > 0){
             let filterId = ctrl.id.split('_')[0];
             if (this.mapJsonRetrieved.get(filterId) != GOT){
               filterIds.add(filterId);
@@ -1311,22 +1504,6 @@ class StaticSearch{
               }.bind(self));
           }
         }
-        //OLD approach
-        /*if (this.allowWildcards == true){
-          if (this.mapJsonRetrieved.get('ssStems') != GOT){
-            promises[promises.length] = fetch(self.jsonDirectory + 'ssStems' + this.versionString + '.json', this.fetchHeaders)
-              .then(function(response) {
-                return response.json();
-              })
-              .then(function(json) {
-                self.stems = new Map(Object.entries(json));
-                self.mapJsonRetrieved.set('ssStems', GOT);
-              }.bind(self))
-              .catch(function(e){
-                console.log('Error attempting to retrieve stem list: ' + e);
-              }.bind(self));
-          }
-        }*/
       }
 
       //If we do need to retrieve JSON index data, then do it
@@ -1512,6 +1689,11 @@ class StaticSearch{
   For #3, construct the result set directly from the filter doc list,
      passing only ids and titles, for a simple listing display.
   For #4, do nothing at all (or possibly display an error message).
+
+  For cases #1 and #2 (i.e. where there is a search term), there may be
+  active context filters; those are a bit different, since they do not require
+  any fetching (all of that information is contained within the JSON).
+
   */
 //Since we have to handle discarded search terms in the same
 //manner whatever the scenario, we do them first.
@@ -1534,14 +1716,8 @@ if (this.discardedTerms.length > 0){
         let pFound = document.createElement('p');
         pFound.append(this.captionSet.strDocumentsFound + '0');
         this.resultsDiv.appendChild(pFound);
-        
-        //RH
-        this.list2Table() ;
-        //RH
-        
+        this.isSearching = false;
         this.searchFinishedHook(1);
-        this.searchingDiv.style.display = 'none';
-        document.body.style.cursor = 'default';
         return false;
       }
 //#3
@@ -1570,9 +1746,8 @@ if (this.discardedTerms.length > 0){
             this.paginateResults();
           }
         }
+        this.isSearching = false;
         this.searchFinishedHook(2);
-        this.searchingDiv.style.display = 'none';
-        document.body.style.cursor = 'default';
         return (this.resultSet.getSize() > 0);
       }
 
@@ -1619,7 +1794,8 @@ if (this.discardedTerms.length > 0){
                   if (phraseRegex.test(unmarkedContext)){
   //We have a candidate document for inclusion, and a candidate context.
                     let c = unmarkedContext.replace(phraseRegex, '<mark>' + '$&' + '</mark>');
-                    currContexts.push({form: str, context: c, weight: 2, fid: cntxt.fid ? cntxt.fid : '', prop: cntxt.prop ? cntxt.prop : {}});
+                    currContexts.push(
+                    {form: str, context: c, weight: 2, fid: cntxt.fid ? cntxt.fid : '', prop: cntxt.prop ? cntxt.prop : {}, in: cntxt.in ? cntxt.in : []});
                   }
                 }
   //If we've found contexts, we know we have a document to add to the results.
@@ -1800,9 +1976,8 @@ if (this.discardedTerms.length > 0){
           }
           else{
             console.log('No useful search terms found.');
+            this.isSearching = false;
             this.searchFinishedHook(3);
-            this.searchingDiv.style.display = 'none';
-            document.body.style.cursor = 'default';
             return false;
           }
         }
@@ -1813,6 +1988,14 @@ if (this.discardedTerms.length > 0){
       if (this.docsMatchingFilters.filtersActive == true){
         this.resultSet.filterBySet(this.docsMatchingFilters);
       }
+
+      // Now process the resultSet and filter out any contexts
+      // and docs that by active contexts, if any
+      if (this.activeContexts.size > 0){
+   
+        this.resultSet.filterByContexts(this.activeContexts);
+      }
+
 
       this.resultSet.sortByScoreDesc();
       this.clearResultsDiv();
@@ -1836,21 +2019,14 @@ if (this.discardedTerms.length > 0){
           this.paginateResults();
         }
       }
-      
-      //RH
-      this.list2Table() ;
-      //RH
-      
+      this.isSearching = false;
       this.searchFinishedHook(4);
-      this.searchingDiv.style.display = 'none';
-      document.body.style.cursor = 'default';
       return (this.resultSet.getSize() > 0);
     }
     catch(e){
       console.log('ERROR: ' + e.message);
+      this.isSearching = false;
       this.searchFinishedHook(5);
-      this.searchingDiv.style.display = 'none';
-      document.body.style.cursor = 'default';
       return false;
     }
   }
@@ -2010,7 +2186,7 @@ if (this.discardedTerms.length > 0){
     let strRe  = esc.replace(/[\?]/g, '[^\\|]').replace(/[\*]/g, '[^\\|]$&?');
     //Test the regex, and return it if OK, otherwise return null.
     try{
-      let re = new RegExp('\\|(' + strRe + ')\\|', 'g');
+      let re = new RegExp('\\|(' + strRe + ')\\|', 'gi');
       return re;
     }
     catch(e){
@@ -2018,101 +2194,7 @@ if (this.discardedTerms.length > 0){
       return null;
     }
   }
-
-//RH
-list2Table() {
-  
-  function levelOne(this_L1) {
-    var tr = "" ;
-    var template = "<ul>" + 
-                      "<li>" + 
-                        "<div class='de'>" + "Treffer " + "<span>" + "</span>" + "</div>" + 
-                        "<div class='en' style='display: none;'>" + "Hits " + "<span>" + "</span>" + "</div>" + 
-                      "</li>" + 
-                      "<li>" + "Text" + "</li>" + 
-                      "<li>" + 
-                        "<ul>" + "</ul>" + 
-                      "</li>" + 
-                    "</ul>" ;
-    
-    var letterNr = this_L1.find( 'div > a' ).attr( 'href' ) ;
-    var n_index = letterNr.indexOf(".") ;
-    var letterNr_short = letterNr.substring(0, n_index) ;
-
-    var scoreNr = this_L1.find( 'div > span' ).text().substr(7) ;      
-          
-    var a = ( $('<a>') ).text( letterNr_short ).attr( 'href', letterNr ) ;
-    
-    tr = $('<tr>') ;
-    var td1 = $('<td>') ;
-    var td2 = $('<td>') ;
-
-    if (this_L1.hasClass( 'ssPaginationEnd' )) {        
-      tr.addClass( 'ssPaginationEnd' ) ;
-      $( 'div#rhPagination' ).show() ;
-    } ;
-
-    tr.append(td1) ;
-    tr.append(td2) ;
-    tr.children( 'td:first-child' ).append(a) ;
-    tr.children( 'td:last-child' ).append(template) ;
-
-    $( tr ).find( 'div span' ).each(function() {
-      $( this ).text( scoreNr ) ;        
-   }) ;
-
-    //console.log("trfo_L1 =", tbody[0]) ;      
-    
-    return tr ;
-  } ;
-  function levelTwo(trfo_L2, this_L2) {
-    var tr = trfo_L2 ;
-    var kwic = this_L2.children( 'span' ).html() ;
-    var li2 = "<li>" + kwic + "</li>" ;
-    
-    //tr.find( 'ul > ul' ).append( li2 ) ;
-    tr.find( 'ul li ul' ).append( li2 ) ;
-    
-    //console.log("trfo_L2 =", trfo_L2) ;
-
-    return tr ;
-  } ;
-  
-  //Function body//
-
-  var tbody = $('<tbody>') ;
-  var trfo = "" ;
-  
-  //console.log( this.maxKwicsToShow ) ;
-  //console.log( this.resultSet.getSize() ) ;
-    
-
-  $( "#ssResults ul" ).find('li').each(function() {
-    var _Li = $(this)[0] ;
-    //console.log( _Li ) ;
-
-    if ($(this).children('div').length) {
-      tbody.append(trfo) ;
-      trfo = levelOne($(this)) ;
-
-    } else {
-      if ($(this).parent('ul.kwic').length) {
-        trfo = levelTwo(trfo, $(this)) ;
-      } else {
-        console.log( 'error: no first or second level li-element' ) ;
-     }        
-    }
-  
-  })
-  tbody.append(trfo) ;                                    
-  console.log( "tbody = ", tbody ) ;
-  $( '.table tbody' ).remove() ;
-  $( 'table.table' ).append( tbody ) ;    
 }
-//RH
-
-}
-
 
 /*             SSResultSet.js              */
 /* Authors: Martin Holmes and Joey Takeda. */
