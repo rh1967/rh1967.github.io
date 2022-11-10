@@ -1,4 +1,35 @@
-                
+             
+    function transformSearchResultLinks() { //transform all links in the search results into ssHighlitable links
+        const containerId = "letterContent"; //id of the container where the content is
+        const searchKeyName = "ssMark"; //name of the get parameter
+        $('tbody').find('a').each(function() { //find all links that are children of tbody and loop over them
+            let link = ($(this).attr('href')); //get the orignal link
+            var input_search = $("input#ssQuery").val(); //get the search query
+            $(this).attr('href', link + "?" + searchKeyName + "=" + input_search + "#" + containerId); //modifie the link and apply it to the orignal element
+        });
+    }
+
+    function showMaxHits() {
+        var nrShowMaxHits = Sch.maxKwicsToShow ;
+        $( "div#showMaxHits span" ).each(function() {
+            $( this ).text( nrShowMaxHits ) ;
+            //console.log( test ) ;
+        }) ;
+        $("div#showMaxHits").show() ;
+    } ; 
+
+
+    function showMinWordLength() {
+       var nrShowMinWordLength = Sch.minWordLength ;
+       
+       $( "div#showMinWordLength span" ).each(function() {
+          $( this ).text( nrShowMinWordLength ) ;
+          //console.log( test ) ;
+       }) ;
+       $("div#showMinWordLength").show() ;                     
+       
+    } ;
+
     //  SHOW MORE   //
     $("div#rhPagination #rhShowMore ").click(function() {
     console.log("Button 'Show More' pressed");
@@ -71,35 +102,4 @@
     $("div#showInputSearch div.en p").text("Searching for: " + input_search);
     });
 
-
-    function transformSearchResultLinks() { //transform all links in the search results into ssHighlitable links
-    const containerId = "letterContent"; //id of the container where the content is
-    const searchKeyName = "ssMark"; //name of the get parameter
-    $('tbody').find('a').each(function() { //find all links that are children of tbody and loop over them
-    let link = ($(this).attr('href')); //get the orignal link
-    var input_search = $("input#ssQuery").val(); //get the search query
-    $(this).attr('href', link + "?" + searchKeyName + "=" + input_search + "#" + containerId); //modifie the link and apply it to the orignal element
-    });
-    }
-
-
-    function showMaxHits() {
-        var nrShowMaxHits = Sch.maxKwicsToShow ;
-        $( "div#showMaxHits span" ).each(function() {
-            $( this ).text( nrShowMaxHits ) ;
-            //console.log( test ) ;
-        }) ;
-        $("div#showMaxHits").show() ;
-    } ; 
-
-
-    function showMinWordLength() {
-       var nrShowMinWordLength = Sch.minWordLength ;
-       
-       $( "div#showMinWordLength span" ).each(function() {
-          $( this ).text( nrShowMinWordLength ) ;
-          //console.log( test ) ;
-       }) ;
-       $("div#showMinWordLength").show() ;                     
-       
-    } ; 
+     
