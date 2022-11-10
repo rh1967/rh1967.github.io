@@ -1,7 +1,10 @@
 
     $( document ).ready(function() {
                   
-        var fileName = '<xsl:value-of select="$file_name"/>' ;
+        var url = window.location.pathname ;
+        var fullName = url.substring(url.lastIndexOf('/')+1) ;//test.html
+        var fileName = fullName.substring(0, fullName.indexOf('.')) ; //test
+        alert(fileName);
         
         $("ul.navbar-nav li.nav-item a").removeClass("active");
         $( "[href='register.html']" ).addClass("active");
