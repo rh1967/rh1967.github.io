@@ -654,6 +654,10 @@ h1 a.fas.fa-redo-alt {
     letter-spacing:0.125em
 }
 
+.uppercase {
+  text-transform: uppercase;
+}
+
 .regest .italic {
     font-style:normal
 }
