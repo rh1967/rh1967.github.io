@@ -19,7 +19,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d59e214a1055">Antoniusklöster</term>
+                     <term xml:id="index_d62e214a1055">Antoniusklöster</term>
                   </index>
                </note>
                <note type="writings">
@@ -37,7 +37,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d107e311a1055">Bauernkrieg, Salzburg</term>
+                     <term xml:id="index_d110e311a1055">Bauernkrieg, Salzburg</term>
                   </index>
                </note>
                <note type="writings">
@@ -97,7 +97,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d108e244a1055">Bauernkrieg (Deutscher), 1524-1526</term>
+                     <term xml:id="index_d111e244a1055">Bauernkrieg (Deutscher), 1524-1526</term>
                   </index>
                </note>
                <note type="writings">
@@ -184,7 +184,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d41e204a1055">Bayern</term>
+                     <term xml:id="index_d44e204a1055">Bayern</term>
                   </index>
                </note>
                <note type="writings">
@@ -241,7 +241,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d59e206a1055">Benediktinerorden</term>
+                     <term xml:id="index_d62e206a1055">Benediktinerorden</term>
                   </index>
                </note>
                <note type="writings">
@@ -259,7 +259,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d21e188a1055">Böhmen</term>
+                     <term xml:id="index_d24e188a1055">Böhmen</term>
                   </index>
                </note>
                <note type="writings">
@@ -278,6 +278,7 @@
                   <p>Bohemois</p>
                   <p>Boemios</p>
                   <p>Bohemiae</p>
+                  <p>celuy de Boheme</p>
                   <p>affaires de Boheme</p>
                   <p>Boheme</p>
                   <p>böhmischen Krone</p>
@@ -448,6 +449,12 @@
                      <note type="div">transcription</note>
                      <note type="para"/>
                   </p>
+                  <p source="A233.xml">
+                     <val>A233</val>
+                     <note type="volNr">1</note>
+                     <note type="div">transcription</note>
+                     <note type="para"/>
+                  </p>
                   <p source="A234.xml">
                      <val>A234</val>
                      <note type="volNr">1</note>
@@ -537,25 +544,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d237e157a1055">Böhmen </term>
-                  </index>
-               </note>
-               <note type="writings">
-                  <p>celuy de Boheme</p>
-               </note>
-               <note type="occurence">
-                  <p source="A233.xml">
-                     <val>A233</val>
-                     <note type="volNr">1</note>
-                     <note type="div">transcription</note>
-                     <note type="para"/>
-                  </p>
-               </note>
-            </item>
-            <item>
-               <note type="index">
-                  <index>
-                     <term xml:id="index_d195e157a1055">Brabant, Herzogtum</term>
+                     <term xml:id="index_d198e157a1055">Brabant, Herzogtum</term>
                   </index>
                </note>
                <note type="writings">
@@ -592,7 +581,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d79e1932a1055">Breisgau</term>
+                     <term xml:id="index_d82e1932a1055">Breisgau</term>
                   </index>
                </note>
                <note type="writings">
@@ -624,7 +613,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d24e230a1055">Brüsseler Teilungsvertrag (1522)</term>
+                     <term xml:id="index_d27e230a1055">Brüsseler Teilungsvertrag (1522)</term>
                   </index>
                </note>
                <note type="writings">
@@ -684,7 +673,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d65e421a1055">Burgund</term>
+                     <term xml:id="index_d68e421a1055">Burgund</term>
                   </index>
                </note>
                <note type="writings">
@@ -842,7 +831,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d24e346a1055">Burgund, Freigrafschaft</term>
+                     <term xml:id="index_d27e346a1055">Burgund, Freigrafschaft</term>
                   </index>
                </note>
                <note type="writings">
@@ -977,7 +966,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d63e123a1055">Burgund, Haus</term>
+                     <term xml:id="index_d66e123a1055">Burgund, Haus</term>
                   </index>
                </note>
                <note type="writings">
@@ -1036,7 +1025,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d34e278a1055">Burgund, Herzogtum</term>
+                     <term xml:id="index_d37e278a1055">Burgund, Herzogtum</term>
                   </index>
                </note>
                <note type="writings">
@@ -1095,7 +1084,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d11e143a1055">Calatrava, Orden von</term>
+                     <term xml:id="index_d14e143a1055">Calatrava, Orden von</term>
                   </index>
                </note>
                <note type="writings">
@@ -1120,7 +1109,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d35e125a1055">Christenheit</term>
+                     <term xml:id="index_d38e125a1055">Christenheit</term>
                   </index>
                </note>
                <note type="writings">
@@ -1401,15 +1390,22 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d21e319a1055">Comuneros-Aufstand</term>
+                     <term xml:id="index_d6e287a1055">Comuneros-Aufstand</term>
                   </index>
                </note>
                <note type="writings">
+                  <p>Comuneros</p>
                   <p>Communidades</p>
                   <p>commune</p>
                   <p>Comunerosaufstande</p>
                </note>
                <note type="occurence">
+                  <p source="380801FKb_Vortrag_2022_11.xml">
+                     <val>380801FKb</val>
+                     <note type="volNr">1</note>
+                     <note type="div">commentary</note>
+                     <note type="para"/>
+                  </p>
                   <p source="A018.xml">
                      <val>A18</val>
                      <note type="volNr">1</note>
@@ -1433,7 +1429,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d140e391a1055">Dalmatien</term>
+                     <term xml:id="index_d143e391a1055">Dalmatien</term>
                   </index>
                </note>
                <note type="writings">
@@ -1458,7 +1454,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d40e119a1055">Dänemark</term>
+                     <term xml:id="index_d43e119a1055">Dänemark</term>
                   </index>
                </note>
                <note type="writings">
@@ -1490,14 +1486,21 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d79e650a1055">Deutsch (Sprache)</term>
+                     <term xml:id="index_d4e133a1055">Deutsch (Sprache)</term>
                   </index>
                </note>
                <note type="writings">
+                  <p>alleman</p>
                   <p>vernaculo</p>
                   <p>deutscher Sprache</p>
                </note>
                <note type="occurence">
+                  <p source="380413FM_Vortrag_2022_11.xml">
+                     <val>380413FM</val>
+                     <note type="volNr">1</note>
+                     <note type="div">transcription</note>
+                     <note type="para">1</note>
+                  </p>
                   <p source="A076.xml">
                      <val>A76</val>
                      <note type="volNr">1</note>
@@ -1515,7 +1518,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d26e156a1055">Deutsche</term>
+                     <term xml:id="index_d29e156a1055">Deutsche</term>
                   </index>
                </note>
                <note type="writings">
@@ -1563,6 +1566,12 @@
                      <note type="volNr">1</note>
                      <note type="div">transcription</note>
                      <note type="para">32</note>
+                  </p>
+                  <p source="A076.xml">
+                     <val>A76</val>
+                     <note type="volNr">1</note>
+                     <note type="div">transcription</note>
+                     <note type="para"/>
                   </p>
                   <p source="A076.xml">
                      <val>A76</val>
@@ -1653,28 +1662,11 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d79e1336a1055">Deutsche </term>
+                     <term xml:id="index_d4e196a1055">Deutschland</term>
                   </index>
                </note>
                <note type="writings">
-                  <p>Germanorum</p>
-               </note>
-               <note type="occurence">
-                  <p source="A076.xml">
-                     <val>A76</val>
-                     <note type="volNr">1</note>
-                     <note type="div">transcription</note>
-                     <note type="para"/>
-                  </p>
-               </note>
-            </item>
-            <item>
-               <note type="index">
-                  <index>
-                     <term xml:id="index_d10e124a1055">Deutschland</term>
-                  </index>
-               </note>
-               <note type="writings">
+                  <p>Deutschland</p>
                   <p>Allemaigne</p>
                   <p>Deutschland</p>
                   <p>Almaigne</p>
@@ -1713,6 +1705,12 @@
                   <p>Alemanes</p>
                </note>
                <note type="occurence">
+                  <p source="380413FM_Vortrag_2022_11.xml">
+                     <val>380413FM</val>
+                     <note type="volNr">1</note>
+                     <note type="div">commentary</note>
+                     <note type="para"/>
+                  </p>
                   <p source="A007.xml">
                      <val>A7</val>
                      <note type="volNr">1</note>
@@ -2204,7 +2202,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d21e390a1055">Elsass</term>
+                     <term xml:id="index_d24e390a1055">Elsass</term>
                   </index>
                </note>
                <note type="writings">
@@ -2296,7 +2294,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d26e118a1055">England</term>
+                     <term xml:id="index_d29e118a1055">England</term>
                   </index>
                </note>
                <note type="writings">
@@ -2506,7 +2504,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d63e119a1055">Erbeinung zwischen der Schweiz und den Habsburgern</term>
+                     <term xml:id="index_d66e119a1055">Erbeinung zwischen der Schweiz und den Habsburgern</term>
                   </index>
                </note>
                <note type="writings">
@@ -2575,7 +2573,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d21e248a1055">Erblande</term>
+                     <term xml:id="index_d24e248a1055">Erblande</term>
                   </index>
                </note>
                <note type="writings">
@@ -2646,7 +2644,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d79e2023a1055">F, Erbrechte</term>
+                     <term xml:id="index_d82e2023a1055">F, Erbrechte</term>
                   </index>
                </note>
                <note type="writings">
@@ -2664,7 +2662,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d18e135a1055">F, Heirat mit A</term>
+                     <term xml:id="index_d21e135a1055">F, Heirat mit A</term>
                   </index>
                </note>
                <note type="writings">
@@ -2729,7 +2727,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d11e112a1055">F, Hofstaat</term>
+                     <term xml:id="index_d14e112a1055">F, Hofstaat</term>
                   </index>
                </note>
                <note type="writings">
@@ -2747,7 +2745,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d251e127a1055">F, Königswahl Böhmen</term>
+                     <term xml:id="index_d254e127a1055">F, Königswahl Böhmen</term>
                   </index>
                </note>
                <note type="writings">
@@ -2793,10 +2791,11 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d248e192a1055">F, Königswahl Ungarn</term>
+                     <term xml:id="index_d241e229a1055">F, Königswahl Ungarn</term>
                   </index>
                </note>
                <note type="writings">
+                  <p>Ansprüche</p>
                   <p>roi de Unguerye</p>
                   <p>quant à Hungrie</p>
                   <p>coronné roi dud. Hungrie</p>
@@ -2805,6 +2804,12 @@
                   <p>droict aud. Hungrie</p>
                </note>
                <note type="occurence">
+                  <p source="A234.xml">
+                     <val>A234</val>
+                     <note type="volNr">1</note>
+                     <note type="div">commentary</note>
+                     <note type="para"/>
+                  </p>
                   <p source="A244.xml">
                      <val>A244</val>
                      <note type="volNr">1</note>
@@ -2846,7 +2851,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d24e410a1055">F, Römischer König, Wahl</term>
+                     <term xml:id="index_d27e410a1055">F, Römischer König, Wahl</term>
                   </index>
                </note>
                <note type="writings">
@@ -2966,7 +2971,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d24e148a1055">F, Schulden</term>
+                     <term xml:id="index_d27e148a1055">F, Schulden</term>
                   </index>
                </note>
                <note type="writings">
@@ -3018,7 +3023,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d21e158a1055">Ferrette</term>
+                     <term xml:id="index_d24e158a1055">Ferrette</term>
                   </index>
                </note>
                <note type="writings">
@@ -3186,7 +3191,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d24e311a1055">Flandern</term>
+                     <term xml:id="index_d27e311a1055">Flandern</term>
                   </index>
                </note>
                <note type="writings">
@@ -3364,7 +3369,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d39e248a1055">Franken</term>
+                     <term xml:id="index_d42e248a1055">Franken</term>
                   </index>
                </note>
                <note type="writings">
@@ -3416,7 +3421,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d53e732a1055">Fränkische Ritterschaft</term>
+                     <term xml:id="index_d56e732a1055">Fränkische Ritterschaft</term>
                   </index>
                </note>
                <note type="writings">
@@ -3434,7 +3439,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d4e181a1055">Frankreich</term>
+                     <term xml:id="index_d7e181a1055">Frankreich</term>
                   </index>
                </note>
                <note type="writings">
@@ -3464,8 +3469,6 @@
                   <p>l’abstinence de guerre</p>
                   <p>Gallis</p>
                   <p>Frankreichs</p>
-                  <p>paix</p>
-                  <p>paix</p>
                   <p>les François</p>
                   <p>de France</p>
                   <p>Les François</p>
@@ -3827,18 +3830,6 @@
                      <note type="div">commentary</note>
                      <note type="para">3</note>
                   </p>
-                  <p source="A183.xml">
-                     <val>A183</val>
-                     <note type="volNr">1</note>
-                     <note type="div">transcription</note>
-                     <note type="para">1</note>
-                  </p>
-                  <p source="A183.xml">
-                     <val>A183</val>
-                     <note type="volNr">1</note>
-                     <note type="div">transcription</note>
-                     <note type="para">2</note>
-                  </p>
                   <p source="A189.xml">
                      <val>A189</val>
                      <note type="volNr">1</note>
@@ -4096,7 +4087,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d168e371a1055">Frankreich, Frieden</term>
+                     <term xml:id="index_d171e371a1055">Frankreich, B</term>
                   </index>
                </note>
                <note type="writings">
@@ -4114,7 +4105,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d32e155a1055">Frankreich B</term>
+                     <term xml:id="index_d35e155a1055">Frankreich B</term>
                   </index>
                </note>
                <note type="writings">
@@ -4307,7 +4298,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d21e139a1055">Frankreich U</term>
+                     <term xml:id="index_d24e139a1055">Frankreich U</term>
                   </index>
                </note>
                <note type="writings">
@@ -4413,7 +4404,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d138e202a1055">Franz I., Gefangennahme</term>
+                     <term xml:id="index_d141e202a1055">Franz I., Gefangennahme</term>
                   </index>
                </note>
                <note type="writings">
@@ -4431,7 +4422,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d32e255a1055">Fuoriusciti</term>
+                     <term xml:id="index_d35e255a1055">Fuoriusciti</term>
                   </index>
                </note>
                <note type="writings">
@@ -4456,7 +4447,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d213e145a1055">Geburt, Elisabeth von Österreich</term>
+                     <term xml:id="index_d216e144a1055">Geburt, Elisabeth von Österreich</term>
                   </index>
                </note>
                <note type="writings">
@@ -4495,7 +4486,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d191e340a1055">Generallandtag der Erblande, Augsburg, 1525/26</term>
+                     <term xml:id="index_d194e340a1055">Generallandtag der Erblande, Augsburg, 1525/26</term>
                   </index>
                </note>
                <note type="writings">
@@ -4533,7 +4524,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d6e130a1055">Gesundheit/Krankheit, Ferdinand der Katholische</term>
+                     <term xml:id="index_d9e130a1055">Gesundheit/Krankheit, Ferdinand der Katholische</term>
                   </index>
                </note>
                <note type="writings">
@@ -4557,7 +4548,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d149e379a1055">Gesundheit/Krankheit, Franz I.</term>
+                     <term xml:id="index_d152e379a1055">Gesundheit/Krankheit, Franz I.</term>
                   </index>
                </note>
                <note type="writings">
@@ -4582,7 +4573,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d182e134a1055">Gesundheit/Krankheit, Isabella von Österreich</term>
+                     <term xml:id="index_d185e134a1055">Gesundheit/Krankheit, Isabella von Österreich</term>
                   </index>
                </note>
                <note type="writings">
@@ -4600,7 +4591,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d92e199a1055">Gesundheit/Krankheit, K</term>
+                     <term xml:id="index_d95e199a1055">Gesundheit/Krankheit, K</term>
                   </index>
                </note>
                <note type="writings">
@@ -4688,7 +4679,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d21e462a1055">Gesundheit/Krankheit, M</term>
+                     <term xml:id="index_d24e462a1055">Gesundheit/Krankheit, M</term>
                   </index>
                </note>
                <note type="writings">
@@ -4706,7 +4697,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d29e421a1055">Gewürzhandel</term>
+                     <term xml:id="index_d32e421a1055">Gewürzhandel</term>
                   </index>
                </note>
                <note type="writings">
@@ -4724,7 +4715,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d86e256a1055">Goldenes Vließ, Orden</term>
+                     <term xml:id="index_d89e254a1055">Goldenes Vließ, Orden</term>
                   </index>
                </note>
                <note type="writings">
@@ -4756,7 +4747,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d29e361a1055">Graubünden</term>
+                     <term xml:id="index_d32e361a1055">Graubünden</term>
                   </index>
                </note>
                <note type="writings">
@@ -4807,7 +4798,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d21e170a1055">Habsburg</term>
+                     <term xml:id="index_d24e170a1055">Habsburg</term>
                   </index>
                </note>
                <note type="writings">
@@ -4923,7 +4914,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d79e439a1055">Heidelberger Fürstenzusammenkunft 1524</term>
+                     <term xml:id="index_d82e439a1055">Heidelberger Fürstenzusammenkunft 1524</term>
                   </index>
                </note>
                <note type="writings">
@@ -4941,7 +4932,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d49e193a1055">Heilige Liga</term>
+                     <term xml:id="index_d52e193a1055">Heilige Liga</term>
                   </index>
                </note>
                <note type="writings">
@@ -4966,7 +4957,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d125e677a1055">Heirat, Eleonore von Österreich mit Franz I. von Frankreich</term>
+                     <term xml:id="index_d128e677a1055">Heirat, Eleonore von Österreich mit Franz I. von Frankreich</term>
                   </index>
                </note>
                <note type="writings">
@@ -4991,7 +4982,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d24e640a1055">Heirat, Eleonore von Österreich mit Karl III. von Bourbon (?)</term>
+                     <term xml:id="index_d27e640a1055">Heirat, Eleonore von Österreich mit Karl III. von Bourbon (?)</term>
                   </index>
                </note>
                <note type="writings">
@@ -5009,7 +5000,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d17e132a1055">Heirat, F mit Anna von Böhmen und Ungarn</term>
+                     <term xml:id="index_d20e132a1055">Heirat, F mit Anna von Böhmen und Ungarn</term>
                   </index>
                </note>
                <note type="writings">
@@ -5041,7 +5032,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d4e185a1055">Heirat, F mit Renée de France</term>
+                     <term xml:id="index_d7e185a1055">Heirat, F mit Renée de France</term>
                   </index>
                </note>
                <note type="writings">
@@ -5059,7 +5050,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d84e183a1055">Heirat, Katharina von Österreich mit Johann III. von Portugal</term>
+                     <term xml:id="index_d87e183a1055">Heirat, Katharina von Österreich mit Johann III. von Portugal</term>
                   </index>
                </note>
                <note type="writings">
@@ -5103,7 +5094,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d147e216a1055">Heirat, K mit Isabella von Portugal</term>
+                     <term xml:id="index_d150e216a1055">Heirat, K mit Isabella von Portugal</term>
                   </index>
                </note>
                <note type="writings">
@@ -5161,7 +5152,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d168e323a1055">Heirat, K mit Isabella von Portugal </term>
+                     <term xml:id="index_d171e323a1055">Heirat, K mit Isabella von Portugal </term>
                   </index>
                </note>
                <note type="writings">
@@ -5179,7 +5170,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d247e246a1055">Heirat, Margarete von Parma mit Ercole II. d‘Este</term>
+                     <term xml:id="index_d250e246a1055">Heirat, Margarete von Parma mit Ercole II. d‘Este</term>
                   </index>
                </note>
                <note type="writings">
@@ -5197,7 +5188,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d189e149a1055">Heirat, Peter (II.?) Erdödy von Monyorókerék et Monoszló mit Katharina Dersffy</term>
+                     <term xml:id="index_d192e149a1055">Heirat, Peter (II.?) Erdödy von Monyorókerék et Monoszló mit Katharina Dersffy</term>
                   </index>
                </note>
                <note type="writings">
@@ -5215,7 +5206,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d86e172a1055">Heirat, Projekt Polen - Frankreich</term>
+                     <term xml:id="index_d89e170a1055">Heirat, Projekt Polen - Frankreich</term>
                   </index>
                </note>
                <note type="writings">
@@ -5247,7 +5238,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d105e224a1055">Heirat, Projekt Polen – Sachsen</term>
+                     <term xml:id="index_d108e224a1055">Heirat, Projekt Polen – Sachsen</term>
                   </index>
                </note>
                <note type="writings">
@@ -5265,7 +5256,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d237e248a1055">Hofrat</term>
+                     <term xml:id="index_d240e248a1055">Hofrat</term>
                   </index>
                </note>
                <note type="writings">
@@ -5283,7 +5274,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d15e135a1055">HRR</term>
+                     <term xml:id="index_d18e135a1055">HRR</term>
                   </index>
                </note>
                <note type="writings">
@@ -5426,7 +5417,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d53e329a1055">HRR, Gemeiner Pfennig</term>
+                     <term xml:id="index_d56e329a1055">HRR, Gemeiner Pfennig</term>
                   </index>
                </note>
                <note type="writings">
@@ -5458,7 +5449,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d73e127a1055">HRR, Gesandtschaft der Reichsstände nach Frankreich (1524)</term>
+                     <term xml:id="index_d76e127a1055">HRR, Gesandtschaft der Reichsstände nach Frankreich (1524)</term>
                   </index>
                </note>
                <note type="writings">
@@ -5490,7 +5481,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d240e118a1055">HRR, Hofrat in Wien</term>
+                     <term xml:id="index_d243e118a1055">HRR, Hofrat in Wien</term>
                   </index>
                </note>
                <note type="writings">
@@ -5508,7 +5499,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d59e387a1055">HRR, Kirchensteuer</term>
+                     <term xml:id="index_d62e387a1055">HRR, Kirchensteuer</term>
                   </index>
                </note>
                <note type="writings">
@@ -5533,7 +5524,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d26e297a1055">HRR, Kurfürsten</term>
+                     <term xml:id="index_d29e297a1055">HRR, Kurfürsten</term>
                   </index>
                </note>
                <note type="writings">
@@ -5558,7 +5549,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d21e273a1055">HRR, Regiment</term>
+                     <term xml:id="index_d24e273a1055">HRR, Regiment</term>
                   </index>
                </note>
                <note type="writings">
@@ -5807,7 +5798,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d75e218a1055">HRR, Reichsbann</term>
+                     <term xml:id="index_d78e218a1055">HRR, Reichsbann</term>
                   </index>
                </note>
                <note type="writings">
@@ -5839,13 +5830,20 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d68e1011a1055">HRR, Reichsfiskal</term>
+                     <term xml:id="index_d71e812a1055">HRR, Reichsfiskal</term>
                   </index>
                </note>
                <note type="writings">
+                  <p>fisci imperialis</p>
                   <p>fiscalem imperialem</p>
                </note>
                <note type="occurence">
+                  <p source="A065.xml">
+                     <val>A65</val>
+                     <note type="volNr">1</note>
+                     <note type="div">transcription</note>
+                     <note type="para">17</note>
+                  </p>
                   <p source="A065.xml">
                      <val>A65</val>
                      <note type="volNr">1</note>
@@ -5857,25 +5855,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d68e812a1055">HRR, Reichsfiskal </term>
-                  </index>
-               </note>
-               <note type="writings">
-                  <p>fisci imperialis</p>
-               </note>
-               <note type="occurence">
-                  <p source="A065.xml">
-                     <val>A65</val>
-                     <note type="volNr">1</note>
-                     <note type="div">transcription</note>
-                     <note type="para">17</note>
-                  </p>
-               </note>
-            </item>
-            <item>
-               <note type="index">
-                  <index>
-                     <term xml:id="index_d29e280a1055">HRR, Reichskammergericht</term>
+                     <term xml:id="index_d32e280a1055">HRR, Reichskammergericht</term>
                   </index>
                </note>
                <note type="writings">
@@ -6053,7 +6033,25 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d73e123a1055">HRR, Reichsstände</term>
+                     <term xml:id="index_d140e376a1055">HRR, Reichsregiment</term>
+                  </index>
+               </note>
+               <note type="writings">
+                  <p>Reichsregiments</p>
+               </note>
+               <note type="occurence">
+                  <p source="A133.xml">
+                     <val>A133</val>
+                     <note type="volNr">1</note>
+                     <note type="div">commentary</note>
+                     <note type="para"/>
+                  </p>
+               </note>
+            </item>
+            <item>
+               <note type="index">
+                  <index>
+                     <term xml:id="index_d76e123a1055">HRR, Reichsstände</term>
                   </index>
                </note>
                <note type="writings">
@@ -6085,7 +6083,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d144e299a1055">HRR, Reichstag, Augsburg (1525)</term>
+                     <term xml:id="index_d147e299a1055">HRR, Reichstag, Augsburg (1525)</term>
                   </index>
                </note>
                <note type="writings">
@@ -6159,7 +6157,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d21e472a1055">HRR, Reichstag, Nürnberg (1522/23)</term>
+                     <term xml:id="index_d24e472a1055">HRR, Reichstag, Nürnberg (1522/23)</term>
                   </index>
                </note>
                <note type="writings">
@@ -6223,7 +6221,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d124e394a1055">HRR, Reichstag, Nürnberg (1522/23 und 1524), Auslagen Fs</term>
+                     <term xml:id="index_d127e394a1055">HRR, Reichstag, Nürnberg (1522/23 und 1524), Auslagen Fs</term>
                   </index>
                </note>
                <note type="writings">
@@ -6248,7 +6246,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d24e659a1055">HRR, Reichstag, Nürnberg (1522)</term>
+                     <term xml:id="index_d27e659a1055">HRR, Reichstag, Nürnberg (1522)</term>
                   </index>
                </note>
                <note type="writings">
@@ -6266,7 +6264,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d56e172a1055">HRR, Reichstag, Nürnberg (1524)</term>
+                     <term xml:id="index_d59e172a1055">HRR, Reichstag, Nürnberg (1524)</term>
                   </index>
                </note>
                <note type="writings">
@@ -6277,6 +6275,7 @@
                   <p>dieta</p>
                   <p>diette</p>
                   <p>conventus</p>
+                  <p>Nürnberger Reichstagsabschied</p>
                </note>
                <note type="occurence">
                   <p source="A053.xml">
@@ -6369,12 +6368,18 @@
                      <note type="div">transcription</note>
                      <note type="para">4</note>
                   </p>
+                  <p source="A133.xml">
+                     <val>A133</val>
+                     <note type="volNr">1</note>
+                     <note type="div">commentary</note>
+                     <note type="para"/>
+                  </p>
                </note>
             </item>
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d135e339a1055">HRR, Reichstag, Speyer</term>
+                     <term xml:id="index_d138e339a1055">HRR, Reichstag, Speyer</term>
                   </index>
                </note>
                <note type="writings">
@@ -6392,7 +6397,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d79e606a1055">HRR, Reichstag, Speyer (1524 geplant)</term>
+                     <term xml:id="index_d82e606a1055">HRR, Reichstag, Speyer (1524 geplant)</term>
                   </index>
                </note>
                <note type="writings">
@@ -6449,7 +6454,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d191e230a1055">HRR, Reichstag, Speyer (1526)</term>
+                     <term xml:id="index_d194e230a1055">HRR, Reichstag, Speyer (1526)</term>
                   </index>
                </note>
                <note type="writings">
@@ -6457,6 +6462,8 @@
                   <p>diete imperiale de Spire</p>
                   <p>diete de Spiere</p>
                   <p>diete imperiale</p>
+                  <p>RT’s von Speier</p>
+                  <p>diette imperialle</p>
                   <p>RT’s zu Speier</p>
                   <p>journée imperialle</p>
                   <p>journée de Spiere</p>
@@ -6494,6 +6501,18 @@
                      <note type="volNr">1</note>
                      <note type="div">transcription</note>
                      <note type="para">1</note>
+                  </p>
+                  <p source="A216.xml">
+                     <val>A216</val>
+                     <note type="volNr">1</note>
+                     <note type="div">commentary</note>
+                     <note type="para"/>
+                  </p>
+                  <p source="A216.xml">
+                     <val>A216</val>
+                     <note type="volNr">1</note>
+                     <note type="div">commentary</note>
+                     <note type="para">15</note>
                   </p>
                   <p source="A227.xml">
                      <val>A227</val>
@@ -6542,7 +6561,25 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d79e500a1055">HRR, Reichstag, Worms (1521)</term>
+                     <term xml:id="index_d216e201a1055">HRR, Reichstag, Speyer (209)</term>
+                  </index>
+               </note>
+               <note type="writings">
+                  <p>RT</p>
+               </note>
+               <note type="occurence">
+                  <p source="A209.xml">
+                     <val>A209</val>
+                     <note type="volNr">1</note>
+                     <note type="div">commentary</note>
+                     <note type="para"/>
+                  </p>
+               </note>
+            </item>
+            <item>
+               <note type="index">
+                  <index>
+                     <term xml:id="index_d82e500a1055">HRR, Reichstag, Worms (1521)</term>
                   </index>
                </note>
                <note type="writings">
@@ -6560,7 +6597,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d21e277a1055">HRR, Statthalterschaft</term>
+                     <term xml:id="index_d24e277a1055">HRR, Statthalterschaft</term>
                   </index>
                </note>
                <note type="writings">
@@ -6649,7 +6686,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d68e184a1055">HRR, Zoll</term>
+                     <term xml:id="index_d71e184a1055">HRR, Zoll</term>
                   </index>
                </note>
                <note type="writings">
@@ -6667,7 +6704,25 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d32e159a1055">Italien</term>
+                     <term xml:id="index_d4e148a1055">Huhn, eigenartiges</term>
+                  </index>
+               </note>
+               <note type="writings">
+                  <p>la gelline</p>
+               </note>
+               <note type="occurence">
+                  <p source="380413FM_Vortrag_2022_11.xml">
+                     <val>380413FM</val>
+                     <note type="volNr">1</note>
+                     <note type="div">transcription</note>
+                     <note type="para">2</note>
+                  </p>
+               </note>
+            </item>
+            <item>
+               <note type="index">
+                  <index>
+                     <term xml:id="index_d35e159a1055">Italien</term>
                   </index>
                </note>
                <note type="writings">
@@ -7714,7 +7769,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d161e321a1055">Italienisch (Sprache)</term>
+                     <term xml:id="index_d164e321a1055">Italienisch (Sprache)</term>
                   </index>
                </note>
                <note type="writings">
@@ -7732,7 +7787,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d6e123a1055">Jagd</term>
+                     <term xml:id="index_d9e123a1055">Jagd</term>
                   </index>
                </note>
                <note type="writings">
@@ -7770,7 +7825,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d26e364a1055">Johanniter</term>
+                     <term xml:id="index_d29e364a1055">Johanniter</term>
                   </index>
                </note>
                <note type="writings">
@@ -7788,7 +7843,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d227e177a1055">K, Ansehen</term>
+                     <term xml:id="index_d230e177a1055">K, Ansehen</term>
                   </index>
                </note>
                <note type="writings">
@@ -7812,7 +7867,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d242e429a1055">K, Familienfreuden</term>
+                     <term xml:id="index_d245e429a1055">K, Familienfreuden</term>
                   </index>
                </note>
                <note type="writings">
@@ -7830,7 +7885,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d24e392a1055">K, Kaiserkrönung</term>
+                     <term xml:id="index_d27e392a1055">K, Kaiserkrönung</term>
                   </index>
                </note>
                <note type="writings">
@@ -7911,7 +7966,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d15e131a1055">K, Kaiserwahl</term>
+                     <term xml:id="index_d18e131a1055">K, Kaiserwahl</term>
                   </index>
                </note>
                <note type="writings">
@@ -7929,7 +7984,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d38e177a1055">K, Schulden</term>
+                     <term xml:id="index_d41e177a1055">K, Schulden</term>
                   </index>
                </note>
                <note type="writings">
@@ -7954,7 +8009,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d60e209a1055">Kärnten</term>
+                     <term xml:id="index_d63e209a1055">Kärnten</term>
                   </index>
                </note>
                <note type="writings">
@@ -7979,7 +8034,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d17e169a1055">Köln, Vertrag von (1520)</term>
+                     <term xml:id="index_d20e169a1055">Köln, Vertrag von (1520)</term>
                   </index>
                </note>
                <note type="writings">
@@ -7997,7 +8052,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d53e567a1055">Konklave</term>
+                     <term xml:id="index_d56e567a1055">Konklave</term>
                   </index>
                </note>
                <note type="writings">
@@ -8029,7 +8084,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d68e466a1055">Konzil</term>
+                     <term xml:id="index_d71e466a1055">Konzil</term>
                   </index>
                </note>
                <note type="writings">
@@ -8086,7 +8141,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d60e201a1055">Krain</term>
+                     <term xml:id="index_d63e201a1055">Krain</term>
                   </index>
                </note>
                <note type="writings">
@@ -8129,7 +8184,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d41e209a1055">Kreuzzugsablass für Türkenabwehr</term>
+                     <term xml:id="index_d44e209a1055">Kreuzzugsablass für Türkenabwehr</term>
                   </index>
                </note>
                <note type="writings">
@@ -8161,7 +8216,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d21e244a1055">Kroatien</term>
+                     <term xml:id="index_d24e244a1055">Kroatien</term>
                   </index>
                </note>
                <note type="writings">
@@ -8275,7 +8330,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d230e118a1055">Küchenjunker</term>
+                     <term xml:id="index_d233e118a1055">Küchenjunker</term>
                   </index>
                </note>
                <note type="writings">
@@ -8293,16 +8348,23 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d36e135a1055">Landsknechte</term>
+                     <term xml:id="index_d4e192a1055">Landsknechte</term>
                   </index>
                </note>
                <note type="writings">
+                  <p>deutsche Landsknechte</p>
                   <p>services</p>
                   <p>lansknechtz</p>
                   <p>lanskenetz</p>
                   <p>Landsknechte</p>
                </note>
                <note type="occurence">
+                  <p source="380413FM_Vortrag_2022_11.xml">
+                     <val>380413FM</val>
+                     <note type="volNr">1</note>
+                     <note type="div">commentary</note>
+                     <note type="para"/>
+                  </p>
                   <p source="A033.xml">
                      <val>A33</val>
                      <note type="volNr">1</note>
@@ -8350,7 +8412,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d160e115a1055">Landtag, Innsbruck</term>
+                     <term xml:id="index_d163e115a1055">Landtag, Innsbruck</term>
                   </index>
                </note>
                <note type="writings">
@@ -8375,7 +8437,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d238e218a1055">Landtag, Linz (1526)</term>
+                     <term xml:id="index_d241e218a1055">Landtag, Linz (1526)</term>
                   </index>
                </note>
                <note type="writings">
@@ -8393,7 +8455,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d254e310a1055">Landtag, Tirol</term>
+                     <term xml:id="index_d257e310a1055">Landtag, Tirol</term>
                   </index>
                </note>
                <note type="writings">
@@ -8411,7 +8473,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d161e316a1055">Latein</term>
+                     <term xml:id="index_d164e316a1055">Latein</term>
                   </index>
                </note>
                <note type="writings">
@@ -8429,7 +8491,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d211e420a1055">Liga von Cognac</term>
+                     <term xml:id="index_d214e420a1055">Liga von Cognac</term>
                   </index>
                </note>
                <note type="writings">
@@ -8447,7 +8509,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d70e186a1055">Lombardei</term>
+                     <term xml:id="index_d73e186a1055">Lombardei</term>
                   </index>
                </note>
                <note type="writings">
@@ -8528,7 +8590,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d236e227a1055">Ludwig II., Tod</term>
+                     <term xml:id="index_d239e227a1055">Ludwig II., Tod</term>
                   </index>
                </note>
                <note type="writings">
@@ -8546,7 +8608,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d29e230a1055">Lutheraner</term>
+                     <term xml:id="index_d32e230a1055">Lutheraner</term>
                   </index>
                </note>
                <note type="writings">
@@ -8896,7 +8958,25 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d256e264a1055">M, Güter in Ungarn</term>
+                     <term xml:id="index_d4e227a1055">M, Erbrechte, Mitgift, Morgengabe</term>
+                  </index>
+               </note>
+               <note type="writings">
+                  <p>Mitgiftforderungen Ms</p>
+               </note>
+               <note type="occurence">
+                  <p source="380413FM_Vortrag_2022_11.xml">
+                     <val>380413FM</val>
+                     <note type="volNr">1</note>
+                     <note type="div">commentary</note>
+                     <note type="para">3</note>
+                  </p>
+               </note>
+            </item>
+            <item>
+               <note type="index">
+                  <index>
+                     <term xml:id="index_d259e264a1055">M, Güter in Ungarn</term>
                   </index>
                </note>
                <note type="writings">
@@ -8914,7 +8994,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d241e245a1055">M, Trauer (1526)</term>
+                     <term xml:id="index_d244e245a1055">M, Trauer (1526)</term>
                   </index>
                </note>
                <note type="writings">
@@ -8960,7 +9040,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d53e613a1055">M, Treffen mit F in Wiener Neustadt (1523)</term>
+                     <term xml:id="index_d56e613a1055">M, Treffen mit F in Wiener Neustadt (1523)</term>
                   </index>
                </note>
                <note type="writings">
@@ -8978,7 +9058,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d243e611a1055">M, Vertreibung aus Ungarn (1526)</term>
+                     <term xml:id="index_d246e611a1055">M, Vertreibung aus Ungarn (1526)</term>
                   </index>
                </note>
                <note type="writings">
@@ -8996,11 +9076,12 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d125e670a1055">Madrid, Friede von (1526)</term>
+                     <term xml:id="index_d128e670a1055">Madrid, Friede von (1526)</term>
                   </index>
                </note>
                <note type="writings">
                   <p>Frieden von Madrid</p>
+                  <p>paix</p>
                   <p>paix</p>
                   <p>traicté de paix</p>
                   <p>traicté à Madril</p>
@@ -9059,6 +9140,18 @@
                   </p>
                   <p source="A182.xml">
                      <val>A182</val>
+                     <note type="volNr">1</note>
+                     <note type="div">transcription</note>
+                     <note type="para">2</note>
+                  </p>
+                  <p source="A183.xml">
+                     <val>A183</val>
+                     <note type="volNr">1</note>
+                     <note type="div">transcription</note>
+                     <note type="para">1</note>
+                  </p>
+                  <p source="A183.xml">
+                     <val>A183</val>
                      <note type="volNr">1</note>
                      <note type="div">transcription</note>
                      <note type="para">2</note>
@@ -9122,7 +9215,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d106e279a1055">Magdeburg, Domkapitel</term>
+                     <term xml:id="index_d109e279a1055">Magdeburg, Domkapitel</term>
                   </index>
                </note>
                <note type="writings">
@@ -9140,7 +9233,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d96e114a1055">Mähren</term>
+                     <term xml:id="index_d99e114a1055">Mähren</term>
                   </index>
                </note>
                <note type="writings">
@@ -9172,7 +9265,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d24e564a1055">Mailand</term>
+                     <term xml:id="index_d27e564a1055">Mailand</term>
                   </index>
                </note>
                <note type="writings">
@@ -9467,7 +9560,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d221e535a1055">Mailand, Aufstand</term>
+                     <term xml:id="index_d224e535a1055">Mailand, Aufstand</term>
                   </index>
                </note>
                <note type="writings">
@@ -9485,7 +9578,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d144e285a1055">Mailand, Salz</term>
+                     <term xml:id="index_d147e285a1055">Mailand, Salz</term>
                   </index>
                </note>
                <note type="writings">
@@ -9555,7 +9648,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d15e125a1055">Maultiere</term>
+                     <term xml:id="index_d18e125a1055">Maultiere</term>
                   </index>
                </note>
                <note type="writings">
@@ -9573,7 +9666,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d24e480a1055">Maximilian I., Schulden</term>
+                     <term xml:id="index_d27e480a1055">Maximilian I., Schulden</term>
                   </index>
                </note>
                <note type="writings">
@@ -9709,7 +9802,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d45e134a1055">Maximilian I., Testament</term>
+                     <term xml:id="index_d48e134a1055">Maximilian I., Testament</term>
                   </index>
                </note>
                <note type="writings">
@@ -9734,7 +9827,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d236e128a1055">Mohács, Schlacht von</term>
+                     <term xml:id="index_d239e128a1055">Mohács, Schlacht von</term>
                   </index>
                </note>
                <note type="writings">
@@ -9804,7 +9897,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d90e158a1055">Münzmeister</term>
+                     <term xml:id="index_d93e158a1055">Münzmeister</term>
                   </index>
                </note>
                <note type="writings">
@@ -9822,7 +9915,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d137e383a1055">Münzordnung</term>
+                     <term xml:id="index_d140e383a1055">Münzordnung</term>
                   </index>
                </note>
                <note type="writings">
@@ -9840,7 +9933,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d68e409a1055">Münzwardein</term>
+                     <term xml:id="index_d71e409a1055">Münzwardein</term>
                   </index>
                </note>
                <note type="writings">
@@ -9858,7 +9951,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d24e307a1055">Neapel</term>
+                     <term xml:id="index_d27e307a1055">Neapel</term>
                   </index>
                </note>
                <note type="writings">
@@ -9990,7 +10083,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d11e178a1055">Niederlande</term>
+                     <term xml:id="index_d14e178a1055">Niederlande</term>
                   </index>
                </note>
                <note type="writings">
@@ -10131,7 +10224,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d21e423a1055">Niederösterreich</term>
+                     <term xml:id="index_d24e423a1055">Niederösterreich</term>
                   </index>
                </note>
                <note type="writings">
@@ -10198,7 +10291,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d21e550a1055">Oberösterreich</term>
+                     <term xml:id="index_d24e550a1055">Oberösterreich</term>
                   </index>
                </note>
                <note type="writings">
@@ -10223,7 +10316,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d157e207a1055">Offenburger Vertrag</term>
+                     <term xml:id="index_d160e207a1055">Offenburger Vertrag</term>
                   </index>
                </note>
                <note type="writings">
@@ -10241,7 +10334,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d19e138a1055">Österreich</term>
+                     <term xml:id="index_d22e138a1055">Österreich</term>
                   </index>
                </note>
                <note type="writings">
@@ -10514,7 +10607,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d193e125a1055">Österreich, Generallandtag</term>
+                     <term xml:id="index_d196e125a1055">Österreich, Generallandtag</term>
                   </index>
                </note>
                <note type="writings">
@@ -10532,7 +10625,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d63e127a1055">Österreich, Haus</term>
+                     <term xml:id="index_d66e127a1055">Österreich, Haus</term>
                   </index>
                </note>
                <note type="writings">
@@ -10637,7 +10730,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d21e210a1055">Österreich, Stände, Prozess, Wiener Neustädter Blutgericht (1522)</term>
+                     <term xml:id="index_d24e210a1055">Österreich, Stände, Prozess, Wiener Neustädter Blutgericht (1522)</term>
                   </index>
                </note>
                <note type="writings">
@@ -10662,7 +10755,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d235e233a1055">Päpstliche Truppen</term>
+                     <term xml:id="index_d238e233a1055">Päpstliche Truppen</term>
                   </index>
                </note>
                <note type="writings">
@@ -10680,7 +10773,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d21e359a1055">Partisoner, Spione</term>
+                     <term xml:id="index_d24e359a1055">Partisoner, Spione</term>
                   </index>
                </note>
                <note type="writings">
@@ -10698,7 +10791,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d135e137a1055">Pavia, Schlacht von</term>
+                     <term xml:id="index_d138e137a1055">Pavia, Schlacht von</term>
                   </index>
                </note>
                <note type="writings">
@@ -10750,7 +10843,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d15e121a1055">Pferde</term>
+                     <term xml:id="index_d18e121a1055">Pferde</term>
                   </index>
                </note>
                <note type="writings">
@@ -10768,7 +10861,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d96e131a1055">Pikarden (Hussiten)</term>
+                     <term xml:id="index_d99e131a1055">Pikarden (Hussiten)</term>
                   </index>
                </note>
                <note type="writings">
@@ -10786,7 +10879,25 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d79e2602a1055">Polen</term>
+                     <term xml:id="index_d5e131a1055">Piraten</term>
+                  </index>
+               </note>
+               <note type="writings">
+                  <p>pyratis</p>
+               </note>
+               <note type="occurence">
+                  <p source="380522KF_Vortrag_2022_11.xml">
+                     <val>380522KF</val>
+                     <note type="volNr">1</note>
+                     <note type="div">transcription</note>
+                     <note type="para"/>
+                  </p>
+               </note>
+            </item>
+            <item>
+               <note type="index">
+                  <index>
+                     <term xml:id="index_d82e2602a1055">Polen</term>
                   </index>
                </note>
                <note type="writings">
@@ -10857,7 +10968,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d79e671a1055">Reformation</term>
+                     <term xml:id="index_d82e671a1055">Reformation</term>
                   </index>
                </note>
                <note type="writings">
@@ -10924,7 +11035,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d104e137a1055">Regensburg, Konvent (1524)</term>
+                     <term xml:id="index_d107e137a1055">Regensburg, Konvent (1524)</term>
                   </index>
                </note>
                <note type="writings">
@@ -10942,111 +11053,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d137e376a1055">Reichsregiment</term>
-                  </index>
-               </note>
-               <note type="writings">
-                  <p>Reichsregiments</p>
-               </note>
-               <note type="occurence">
-                  <p source="A133.xml">
-                     <val>A133</val>
-                     <note type="volNr">1</note>
-                     <note type="div">commentary</note>
-                     <note type="para"/>
-                  </p>
-               </note>
-            </item>
-            <item>
-               <note type="index">
-                  <index>
-                     <term xml:id="index_d147e423a1055">Reichstag, Augsburg</term>
-                  </index>
-               </note>
-               <note type="writings">
-                  <p>Reichstag</p>
-               </note>
-               <note type="occurence">
-                  <p source="A143.xml">
-                     <val>A143</val>
-                     <note type="volNr">1</note>
-                     <note type="div">commentary</note>
-                     <note type="para"/>
-                  </p>
-               </note>
-            </item>
-            <item>
-               <note type="index">
-                  <index>
-                     <term xml:id="index_d265e483a1055">Reichstag, Bratislava</term>
-                  </index>
-               </note>
-               <note type="writings">
-                  <p>RT. zu Preßburg</p>
-               </note>
-               <note type="occurence">
-                  <p source="A261.xml">
-                     <val>A261</val>
-                     <note type="volNr">1</note>
-                     <note type="div">commentary</note>
-                     <note type="para"/>
-                  </p>
-               </note>
-            </item>
-            <item>
-               <note type="index">
-                  <index>
-                     <term xml:id="index_d137e372a1055">Reichstag, Nürnberg</term>
-                  </index>
-               </note>
-               <note type="writings">
-                  <p>Nürnberger Reichstagsabschied</p>
-               </note>
-               <note type="occurence">
-                  <p source="A133.xml">
-                     <val>A133</val>
-                     <note type="volNr">1</note>
-                     <note type="div">commentary</note>
-                     <note type="para"/>
-                  </p>
-               </note>
-            </item>
-            <item>
-               <note type="index">
-                  <index>
-                     <term xml:id="index_d213e202a1055">Reichstag, Speyer</term>
-                  </index>
-               </note>
-               <note type="writings">
-                  <p>RT</p>
-                  <p>RT’s von Speier</p>
-                  <p>diette imperialle</p>
-               </note>
-               <note type="occurence">
-                  <p source="A209.xml">
-                     <val>A209</val>
-                     <note type="volNr">1</note>
-                     <note type="div">commentary</note>
-                     <note type="para"/>
-                  </p>
-                  <p source="A216.xml">
-                     <val>A216</val>
-                     <note type="volNr">1</note>
-                     <note type="div">commentary</note>
-                     <note type="para"/>
-                  </p>
-                  <p source="A216.xml">
-                     <val>A216</val>
-                     <note type="volNr">1</note>
-                     <note type="div">commentary</note>
-                     <note type="para">15</note>
-                  </p>
-               </note>
-            </item>
-            <item>
-               <note type="index">
-                  <index>
-                     <term xml:id="index_d26e151a1055">Ritterkrieg, Deutschland, 1522/23</term>
+                     <term xml:id="index_d29e151a1055">Ritterkrieg, Deutschland, 1522/23</term>
                   </index>
                </note>
                <note type="writings">
@@ -11078,7 +11085,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d256e325a1055">Rom, Plünderung (1526)</term>
+                     <term xml:id="index_d259e325a1055">Rom, Plünderung (1526)</term>
                   </index>
                </note>
                <note type="writings">
@@ -11096,7 +11103,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d177e181a1055">Russland</term>
+                     <term xml:id="index_d180e181a1055">Russland</term>
                   </index>
                </note>
                <note type="writings">
@@ -11114,7 +11121,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d53e378a1055">Sachsen</term>
+                     <term xml:id="index_d56e378a1055">Sachsen</term>
                   </index>
                </note>
                <note type="writings">
@@ -11172,7 +11179,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d41e419a1055">Salzburg</term>
+                     <term xml:id="index_d44e419a1055">Salzburg</term>
                   </index>
                </note>
                <note type="writings">
@@ -11216,7 +11223,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d107e135a1055">Salzburg, Erzbistum</term>
+                     <term xml:id="index_d110e135a1055">Salzburg, Erzbistum</term>
                   </index>
                </note>
                <note type="writings">
@@ -11262,7 +11269,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d140e853a1055">Salzmonopol</term>
+                     <term xml:id="index_d143e853a1055">Salzmonopol</term>
                   </index>
                </note>
                <note type="writings">
@@ -11280,7 +11287,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d246e351a1055">Schlesien</term>
+                     <term xml:id="index_d249e351a1055">Schlesien</term>
                   </index>
                </note>
                <note type="writings">
@@ -11305,7 +11312,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d21e394a1055">Schwaben</term>
+                     <term xml:id="index_d24e394a1055">Schwaben</term>
                   </index>
                </note>
                <note type="writings">
@@ -11364,7 +11371,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d21e263a1055">Schwäbischer Bund</term>
+                     <term xml:id="index_d24e263a1055">Schwäbischer Bund</term>
                   </index>
                </note>
                <note type="writings">
@@ -11496,7 +11503,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d21e143a1055">Schweiz</term>
+                     <term xml:id="index_d24e143a1055">Schweiz</term>
                   </index>
                </note>
                <note type="writings">
@@ -11933,7 +11940,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d66e285a1055">Sizilien</term>
+                     <term xml:id="index_d69e285a1055">Sizilien</term>
                   </index>
                </note>
                <note type="writings">
@@ -11989,7 +11996,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d26e250a1055">Slawonien</term>
+                     <term xml:id="index_d29e250a1055">Slawonien</term>
                   </index>
                </note>
                <note type="writings">
@@ -12021,7 +12028,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d8e158a1055">Spanien</term>
+                     <term xml:id="index_d11e158a1055">Spanien</term>
                   </index>
                </note>
                <note type="writings">
@@ -12329,7 +12336,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d39e409a1055">Spione</term>
+                     <term xml:id="index_d42e409a1055">Spione</term>
                   </index>
                </note>
                <note type="writings">
@@ -12360,7 +12367,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d91e206a1055">Stadtsteuer (Frankfurt)</term>
+                     <term xml:id="index_d94e206a1055">Stadtsteuer (Frankfurt)</term>
                   </index>
                </note>
                <note type="writings">
@@ -12378,7 +12385,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d60e205a1055">Steiermark</term>
+                     <term xml:id="index_d63e205a1055">Steiermark</term>
                   </index>
                </note>
                <note type="writings">
@@ -12417,7 +12424,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d79e1936a1055">Sundgau</term>
+                     <term xml:id="index_d82e1936a1055">Sundgau</term>
                   </index>
                </note>
                <note type="writings">
@@ -12442,7 +12449,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d24e156a1055">Tirol</term>
+                     <term xml:id="index_d27e156a1055">Tirol</term>
                   </index>
                </note>
                <note type="writings">
@@ -12682,7 +12689,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d146e205a1055">Tod, Bauernkrieg</term>
+                     <term xml:id="index_d149e205a1055">Tod, Bauernkrieg</term>
                   </index>
                </note>
                <note type="writings">
@@ -12700,7 +12707,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d126e259a1055">Tod, Bona (Jutta) de Neuchâtel</term>
+                     <term xml:id="index_d129e259a1055">Tod, Bona (Jutta) de Neuchâtel</term>
                   </index>
                </note>
                <note type="writings">
@@ -12718,7 +12725,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d126e165a1055">Tod, Claude de Neuchâtel</term>
+                     <term xml:id="index_d129e165a1055">Tod, Claude de Neuchâtel</term>
                   </index>
                </note>
                <note type="writings">
@@ -12736,7 +12743,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d8e113a1055">Tod, Ferdinand der Katholische</term>
+                     <term xml:id="index_d11e113a1055">Tod, Ferdinand der Katholische</term>
                   </index>
                </note>
                <note type="writings">
@@ -12754,7 +12761,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d171e170a1055">Tod, Fernando Francesco d’Avalos, Marchese di Pescara</term>
+                     <term xml:id="index_d174e170a1055">Tod, Fernando Francesco d’Avalos, Marchese di Pescara</term>
                   </index>
                </note>
                <note type="writings">
@@ -12772,7 +12779,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d39e262a1055">Tod, Franz von Sickingen</term>
+                     <term xml:id="index_d42e262a1055">Tod, Franz von Sickingen</term>
                   </index>
                </note>
                <note type="writings">
@@ -12790,7 +12797,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d146e232a1055">Tod, Friedrich III. der Weise von Sachsen</term>
+                     <term xml:id="index_d149e232a1055">Tod, Friedrich III. der Weise von Sachsen</term>
                   </index>
                </note>
                <note type="writings">
@@ -12808,7 +12815,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d92e229a1055">Tod, Gérard de la Plaine, Herr von La Roche</term>
+                     <term xml:id="index_d95e229a1055">Tod, Gérard de la Plaine, Herr von La Roche</term>
                   </index>
                </note>
                <note type="writings">
@@ -12826,7 +12833,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d40e149a1055">Tod, Gerüchte, Franz I. von Frankreich</term>
+                     <term xml:id="index_d43e149a1055">Tod, Gerüchte, Franz I. von Frankreich</term>
                   </index>
                </note>
                <note type="writings">
@@ -12844,7 +12851,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d44e224a1055">Tod, Girolamo Adurno</term>
+                     <term xml:id="index_d47e224a1055">Tod, Girolamo Adurno</term>
                   </index>
                </note>
                <note type="writings">
@@ -12862,7 +12869,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d156e286a1055">Tod, Guillaume de Neuchâtel</term>
+                     <term xml:id="index_d159e286a1055">Tod, Guillaume de Neuchâtel</term>
                   </index>
                </note>
                <note type="writings">
@@ -12880,7 +12887,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d156e290a1055">Tod, Henry de Neuchâtel</term>
+                     <term xml:id="index_d159e290a1055">Tod, Henry de Neuchâtel</term>
                   </index>
                </note>
                <note type="writings">
@@ -12898,7 +12905,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d182e145a1055">Tod, Isabella von Österreich</term>
+                     <term xml:id="index_d185e145a1055">Tod, Isabella von Österreich</term>
                   </index>
                </note>
                <note type="writings">
@@ -12923,7 +12930,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d134e162a1055">Tod, Juan Rodríguez de Fonseca, Bischof von Burgos</term>
+                     <term xml:id="index_d137e162a1055">Tod, Juan Rodríguez de Fonseca, Bischof von Burgos</term>
                   </index>
                </note>
                <note type="writings">
@@ -12941,7 +12948,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d236e153a1055">Tod, Ludwig II. von Ungarn</term>
+                     <term xml:id="index_d239e153a1055">Tod, Ludwig II. von Ungarn</term>
                   </index>
                </note>
                <note type="writings">
@@ -13039,7 +13046,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d235e658a1055">Tod, Luis Fernández de Córdoba</term>
+                     <term xml:id="index_d238e658a1055">Tod, Luis Fernández de Córdoba</term>
                   </index>
                </note>
                <note type="writings">
@@ -13057,7 +13064,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d14e118a1055">Tod, Maximilian I.</term>
+                     <term xml:id="index_d17e118a1055">Tod, Maximilian I.</term>
                   </index>
                </note>
                <note type="writings">
@@ -13087,7 +13094,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d161e219a1055">Tod, Sebastian Sprenz, Bischof von Brixen</term>
+                     <term xml:id="index_d164e219a1055">Tod, Sebastian Sprenz, Bischof von Brixen</term>
                   </index>
                </note>
                <note type="writings">
@@ -13112,7 +13119,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d260e155a1055">Trier</term>
+                     <term xml:id="index_d263e155a1055">Trier</term>
                   </index>
                </note>
                <note type="writings">
@@ -13130,7 +13137,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d21e240a1055">Türken</term>
+                     <term xml:id="index_d24e240a1055">Türken</term>
                   </index>
                </note>
                <note type="writings">
@@ -13352,7 +13359,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d38e144a1055">Türkenabwehr</term>
+                     <term xml:id="index_d41e144a1055">Türkenabwehr</term>
                   </index>
                </note>
                <note type="writings">
@@ -13664,7 +13671,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d17e176a1055">Ungarn</term>
+                     <term xml:id="index_d20e176a1055">Ungarn</term>
                   </index>
                </note>
                <note type="writings">
@@ -14174,43 +14181,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d258e292a1055">Ungarn, Reichstag, Bratislava</term>
-                  </index>
-               </note>
-               <note type="writings">
-                  <p>RT nach Preßburg</p>
-               </note>
-               <note type="occurence">
-                  <p source="A254.xml">
-                     <val>A254</val>
-                     <note type="volNr">1</note>
-                     <note type="div">commentary</note>
-                     <note type="para"/>
-                  </p>
-               </note>
-            </item>
-            <item>
-               <note type="index">
-                  <index>
-                     <term xml:id="index_d238e229a1055">Ungarn, Thronanspruch</term>
-                  </index>
-               </note>
-               <note type="writings">
-                  <p>Ansprüche</p>
-               </note>
-               <note type="occurence">
-                  <p source="A234.xml">
-                     <val>A234</val>
-                     <note type="volNr">1</note>
-                     <note type="div">commentary</note>
-                     <note type="para"/>
-                  </p>
-               </note>
-            </item>
-            <item>
-               <note type="index">
-                  <index>
-                     <term xml:id="index_d21e297a1055">Venedig</term>
+                     <term xml:id="index_d24e297a1055">Venedig</term>
                   </index>
                </note>
                <note type="writings">
@@ -14765,13 +14736,14 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d35e156a1055">Venedig, Vertrag mit</term>
+                     <term xml:id="index_d38e156a1055">Venedig, Vertrag mit</term>
                   </index>
                </note>
                <note type="writings">
                   <p>appoinctement</p>
                   <p>appoinctement des Venissiens</p>
                   <p>traictié, fait avec les Veniciens</p>
+                  <p>Veniciens</p>
                   <p>Veneto</p>
                   <p>tractatu Veneto</p>
                   <p>tractatu et pace Veneta</p>
@@ -14801,6 +14773,12 @@
                      <note type="volNr">1</note>
                      <note type="div">transcription</note>
                      <note type="para">2</note>
+                  </p>
+                  <p source="A051.xml">
+                     <val>A51</val>
+                     <note type="volNr">1</note>
+                     <note type="div">transcription</note>
+                     <note type="para"/>
                   </p>
                   <p source="A076.xml">
                      <val>A76</val>
@@ -14867,25 +14845,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d54e127a1055">Venedig, Vertrag mit </term>
-                  </index>
-               </note>
-               <note type="writings">
-                  <p>Veniciens</p>
-               </note>
-               <note type="occurence">
-                  <p source="A051.xml">
-                     <val>A51</val>
-                     <note type="volNr">1</note>
-                     <note type="div">transcription</note>
-                     <note type="para"/>
-                  </p>
-               </note>
-            </item>
-            <item>
-               <note type="index">
-                  <index>
-                     <term xml:id="index_d41e167a1055">Verpfändungen, Erblande</term>
+                     <term xml:id="index_d44e167a1055">Verpfändungen, Erblande</term>
                   </index>
                </note>
                <note type="writings">
@@ -14903,25 +14863,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d187e208a1055">Vertrag von Madrid</term>
-                  </index>
-               </note>
-               <note type="writings">
-                  <p>Vertrag von Madrid</p>
-               </note>
-               <note type="occurence">
-                  <p source="A183.xml">
-                     <val>A183</val>
-                     <note type="volNr">1</note>
-                     <note type="div">commentary</note>
-                     <note type="para"/>
-                  </p>
-               </note>
-            </item>
-            <item>
-               <note type="index">
-                  <index>
-                     <term xml:id="index_d124e309a1055">Vorlande</term>
+                     <term xml:id="index_d127e309a1055">Vorlande</term>
                   </index>
                </note>
                <note type="writings">
@@ -14939,7 +14881,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d39e172a1055">Waffenschmied</term>
+                     <term xml:id="index_d42e172a1055">Waffenschmied</term>
                   </index>
                </note>
                <note type="writings">
@@ -14976,7 +14918,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d149e329a1055">Währung</term>
+                     <term xml:id="index_d152e329a1055">Währung</term>
                   </index>
                </note>
                <note type="writings">
@@ -15001,7 +14943,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d43e106a1055">Wein, Ausfuhr, Sopron</term>
+                     <term xml:id="index_d46e106a1055">Wein, Ausfuhr, Sopron</term>
                   </index>
                </note>
                <note type="writings">
@@ -15019,7 +14961,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d68e436a1055">Wormser Edikt (1521)</term>
+                     <term xml:id="index_d71e436a1055">Wormser Edikt (1521)</term>
                   </index>
                </note>
                <note type="writings">
@@ -15051,7 +14993,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d17e165a1055">Wormser Teilungsvertrag (1521)</term>
+                     <term xml:id="index_d20e165a1055">Wormser Teilungsvertrag (1521)</term>
                   </index>
                </note>
                <note type="writings">
@@ -15090,7 +15032,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d24e165a1055">Württemberg</term>
+                     <term xml:id="index_d27e165a1055">Württemberg</term>
                   </index>
                </note>
                <note type="writings">
@@ -15209,7 +15151,7 @@
             <item>
                <note type="index">
                   <index>
-                     <term xml:id="index_d59e210a1055">Zisterzienserorden</term>
+                     <term xml:id="index_d62e210a1055">Zisterzienserorden</term>
                   </index>
                </note>
                <note type="writings">

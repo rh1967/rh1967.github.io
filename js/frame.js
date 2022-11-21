@@ -1,4 +1,5 @@
 
+    /*
     function iframeLoad( click_para ) {
         var frameId = "#" + $( click_para ).parents("div.text").attr("id") + " " + click_para.attr("href") ;                    
         var frameDiv = $( frameId ).parent("div.frame-texts");
@@ -17,6 +18,7 @@
         $( click_para ).parents("div.icon-texts").hide() ;
         frameDiv.show();
     }
+    */
     
     function embedLoad( click_para ) {
         var embedId = "#" + $( click_para ).parents("div.text").attr("id") + " " + click_para.attr("href") ;                    

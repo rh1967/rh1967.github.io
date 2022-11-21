@@ -33,22 +33,22 @@
 
     $( "#korrFerd_text .icon-texts a" ).click(function() {
         var click = $( this );
-        iframeLoad( click ) ;
+        embedLoad( click ) ;
     });
 
     $( "#digEd_text .icon-texts a" ).click(function() {
         var click = $( this );
-        iframeLoad( click ) ;
+        embedLoad( click ) ;
     });
 
     $( "#erschBaende_text .icon-texts a" ).click(function() {
         var click = $( this );
-        iframeLoad( click ) ;
+        embedLoad( click ) ;
     });
     
     $( "#verzBuech_text .icon-texts a" ).click(function() {
         var click = $( this );
-        iframeLoad( click ) ;
+        embedLoad( click ) ;
     });
     
     $( "ul.list-letters li.list-item .icon-texts a" ).click(function() {
@@ -58,6 +58,6 @@
 
     $( "ul.list-texts li.list-item .icon-texts a" ).click(function() {
         var click = $( this );
-        iframeLoad( click ) ;
+        embedLoad( click ) ;
     });
     
