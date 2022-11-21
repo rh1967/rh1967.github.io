@@ -42,12 +42,12 @@
                </note>
                <note type="writings">
                   <p>Bauernkrieges</p>
-                  <p>rebellé et revolté</p>
+                  <p>levéz</p>
                   <p>paysans de Salsburg</p>
                   <p>paysans de Salspurg</p>
-                  <p>salzburgischen Bauernaufstandes</p>
-                  <p>levéz</p>
+                  <p>rebellé et revolté</p>
                   <p>Salsburg les paysans</p>
+                  <p>salzburgischen Bauernaufstandes</p>
                </note>
                <note type="occurence">
                   <p source="A104.xml">
@@ -101,16 +101,15 @@
                   </index>
                </note>
                <note type="writings">
+                  <p>Bauernkrieg</p>
                   <p>Bauernkrieges</p>
-                  <p>paysans</p>
-                  <p>levantamiento de los labradores</p>
                   <p>levantamiento</p>
+                  <p>levantamiento de los labradores</p>
                   <p>mauvais ordre</p>
                   <p>motions</p>
+                  <p>paysans</p>
                   <p>rebelléz</p>
-                  <p>Bauernkrieg</p>
                   <p>submis</p>
-                  <p>motions</p>
                </note>
                <note type="occurence">
                   <p source="A105.xml">
@@ -188,10 +187,10 @@
                   </index>
                </note>
                <note type="writings">
+                  <p>Babiera</p>
+                  <p>Bavariae</p>
                   <p>Baviere</p>
                   <p>Bayern</p>
-                  <p>Bavariae</p>
-                  <p>Babiera</p>
                </note>
                <note type="occurence">
                   <p source="A038.xml">
@@ -263,26 +262,26 @@
                   </index>
                </note>
                <note type="writings">
-                  <p>Bohesme</p>
-                  <p>Böhmen</p>
-                  <p>Bohemiam</p>
-                  <p>Bohemie</p>
-                  <p>Boesme</p>
-                  <p>Bohesmois</p>
-                  <p>Boemia</p>
-                  <p>Bohemici</p>
-                  <p>Boemicẹ</p>
-                  <p>Boemois</p>
-                  <p>Bohemiẹ</p>
-                  <p>Bohemye</p>
-                  <p>Bohemois</p>
-                  <p>Boemios</p>
-                  <p>Bohemiae</p>
-                  <p>celuy de Boheme</p>
                   <p>affaires de Boheme</p>
-                  <p>Boheme</p>
-                  <p>böhmischen Krone</p>
                   <p>Beheim</p>
+                  <p>Boemia</p>
+                  <p>Boemicẹ</p>
+                  <p>Boemios</p>
+                  <p>Boemois</p>
+                  <p>Boesme</p>
+                  <p>Boheme</p>
+                  <p>Bohemiae</p>
+                  <p>Bohemiam</p>
+                  <p>Bohemici</p>
+                  <p>Bohemie</p>
+                  <p>Bohemiẹ</p>
+                  <p>Bohemois</p>
+                  <p>Bohemye</p>
+                  <p>Bohesme</p>
+                  <p>Bohesmois</p>
+                  <p>Böhmen</p>
+                  <p>böhmischen Krone</p>
+                  <p>celuy de Boheme</p>
                   <p>les Boesmois</p>
                   <p>royaulme de Boesme</p>
                </note>
@@ -548,8 +547,8 @@
                   </index>
                </note>
                <note type="writings">
-                  <p>duché de Brabant</p>
                   <p>Brabant</p>
+                  <p>duché de Brabant</p>
                </note>
                <note type="occurence">
                   <p source="A191.xml">
@@ -585,9 +584,9 @@
                   </index>
                </note>
                <note type="writings">
-                  <p>Brisgaudiẹ</p>
                   <p>Breisgau</p>
                   <p>Breisgaus</p>
+                  <p>Brisgaudiẹ</p>
                </note>
                <note type="occurence">
                   <p source="A076.xml">
@@ -617,13 +616,13 @@
                   </index>
                </note>
                <note type="writings">
-                  <p>traicté</p>
+                  <p>Abmachungen zu Brüssel</p>
+                  <p>Brüsseler Teilungsvertrages</p>
                   <p>contract</p>
                   <p>declaration du partaige</p>
-                  <p>Abmachungen zu Brüssel</p>
-                  <p>traicté, fait à Bruxelles</p>
-                  <p>Brüsseler Teilungsvertrages</p>
                   <p>le tratié</p>
+                  <p>traicté</p>
+                  <p>traicté, fait à Bruxelles</p>
                </note>
                <note type="occurence">
                   <p source="A021.xml">
@@ -677,15 +676,15 @@
                   </index>
                </note>
                <note type="writings">
+                  <p>Borgoña</p>
                   <p>Bourgogne</p>
-                  <p>Burgundia</p>
+                  <p>Bourgoigne</p>
+                  <p>Bourgoines</p>
                   <p>Bourgoingne</p>
+                  <p>Bourgongne</p>
+                  <p>Burgundia</p>
                   <p>Burgundicum</p>
                   <p>Burgundiẹ</p>
-                  <p>Bourgongne</p>
-                  <p>Borgoña</p>
-                  <p>Bourgoines</p>
-                  <p>Bourgoigne</p>
                </note>
                <note type="occurence">
                   <p source="A062.xml">
@@ -835,16 +834,15 @@
                   </index>
                </note>
                <note type="writings">
-                  <p>conté de Bourgoingne</p>
+                  <p>comitatum Burgundiẹ</p>
+                  <p>comtée de Bourgoingne</p>
                   <p>conte Bourgoingne</p>
                   <p>conté de Bourgogne</p>
                   <p>conté de Bourgoigne</p>
-                  <p>comitatum Burgundiẹ</p>
                   <p>conté de Bourgoingne</p>
                   <p>cousté de Bourgoingne</p>
-                  <p>Franche-Conté</p>
-                  <p>comtée de Bourgoingne</p>
                   <p>duché de Bourgoingne</p>
+                  <p>Franche-Conté</p>
                </note>
                <note type="occurence">
                   <p source="A021.xml">
@@ -970,11 +968,11 @@
                   </index>
                </note>
                <note type="writings">
-                  <p>maison de Bourgoinge</p>
                   <p>Bourgogne</p>
                   <p>Bourgoingne</p>
-                  <p>Burgundicam</p>
                   <p>Burgundi</p>
+                  <p>Burgundicam</p>
+                  <p>maison de Bourgoinge</p>
                   <p>maison de Bourgoingne</p>
                </note>
                <note type="occurence">
@@ -1029,11 +1027,10 @@
                   </index>
                </note>
                <note type="writings">
+                  <p>Burgundiae</p>
                   <p>Burgundie</p>
                   <p>duché de Bourgogne</p>
-                  <p>duché de Bourgogne</p>
                   <p>duché de Bourgoigne</p>
-                  <p>Burgundiae</p>
                   <p>duché de Bourgongne</p>
                </note>
                <note type="occurence">
@@ -1113,23 +1110,21 @@
                   </index>
                </note>
                <note type="writings">
-                  <p>l’universelle chrestienté</p>
-                  <p>chrestienté</p>
-                  <p>christlichen Glaubens</p>
-                  <p>Christenheit</p>
-                  <p>christianitatem</p>
-                  <p>la chrestienté</p>
-                  <p>christianum</p>
-                  <p>Christiani populi</p>
-                  <p>christiani</p>
-                  <p>Christi fideles</p>
-                  <p>chrestienne</p>
-                  <p>christienté</p>
-                  <p>chrestienté</p>
-                  <p>peuple crestien</p>
-                  <p>la chrestienté</p>
                   <p>chrestieneté</p>
+                  <p>chrestienne</p>
                   <p>chrestienneté</p>
+                  <p>chrestienté</p>
+                  <p>Christenheit</p>
+                  <p>christiani</p>
+                  <p>Christiani populi</p>
+                  <p>christianitatem</p>
+                  <p>christianum</p>
+                  <p>christienté</p>
+                  <p>Christi fideles</p>
+                  <p>christlichen Glaubens</p>
+                  <p>la chrestienté</p>
+                  <p>l’universelle chrestienté</p>
+                  <p>peuple crestien</p>
                   <p>toute chrestienté</p>
                </note>
                <note type="occurence">
@@ -1394,9 +1389,9 @@
                   </index>
                </note>
                <note type="writings">
-                  <p>Comuneros</p>
-                  <p>Communidades</p>
                   <p>commune</p>
+                  <p>Communidades</p>
+                  <p>Comuneros</p>
                   <p>Comunerosaufstande</p>
                </note>
                <note type="occurence">
@@ -1458,9 +1453,9 @@
                   </index>
                </note>
                <note type="writings">
-                  <p>Dannemarke</p>
-                  <p>Dannemark</p>
                   <p>Dannemarcke</p>
+                  <p>Dannemark</p>
+                  <p>Dannemarke</p>
                </note>
                <note type="occurence">
                   <p source="A037.xml">
@@ -1491,8 +1486,8 @@
                </note>
                <note type="writings">
                   <p>alleman</p>
-                  <p>vernaculo</p>
                   <p>deutscher Sprache</p>
+                  <p>vernaculo</p>
                </note>
                <note type="occurence">
                   <p source="380413FM_Vortrag_2022_11.xml">
@@ -1522,12 +1517,12 @@
                   </index>
                </note>
                <note type="writings">
-                  <p>Allemans</p>
-                  <p>les Allemans</p>
-                  <p>Germanos</p>
-                  <p>populus Germanicus</p>
-                  <p>Germanorum</p>
                   <p>Allemagnes</p>
+                  <p>Allemans</p>
+                  <p>Germanorum</p>
+                  <p>Germanos</p>
+                  <p>les Allemans</p>
+                  <p>populus Germanicus</p>
                   <p>ses Allemans</p>
                </note>
                <note type="occurence">
@@ -1666,43 +1661,36 @@
                   </index>
                </note>
                <note type="writings">
-                  <p>Deutschland</p>
-                  <p>Allemaigne</p>
-                  <p>Deutschland</p>
-                  <p>Almaigne</p>
-                  <p>Allemaigne</p>
-                  <p>Allemagne</p>
-                  <p>Germanie</p>
+                  <p>affaires d’Allemaigne</p>
                   <p>Alemaigne</p>
-                  <p>Germaniis</p>
-                  <p>Germanica</p>
-                  <p>Allemans</p>
+                  <p>Alemaine</p>
+                  <p>Alemaña</p>
+                  <p>Alemanes</p>
+                  <p>Allemagne</p>
+                  <p>Allemaigne</p>
                   <p>Allemaingne</p>
-                  <p>Germani</p>
+                  <p>Allemane</p>
                   <p>Allemangne</p>
+                  <p>Allemangnes</p>
+                  <p>Allemans</p>
+                  <p>Almaigne</p>
+                  <p>choses d’Allemaigne</p>
+                  <p>Deutschland</p>
+                  <p>d’Allemaigne</p>
+                  <p>Germani</p>
                   <p>Germania</p>
-                  <p>Germania</p>
-                  <p>Germanica</p>
+                  <p>Germaniae</p>
                   <p>Germaniam</p>
-                  <p>Germaniẹ</p>
+                  <p>Germanica</p>
                   <p>Germanicẹ</p>
                   <p>Germanici</p>
-                  <p>Germaniam</p>
-                  <p>pardeça</p>
-                  <p>Germaniae</p>
-                  <p>Allemangne</p>
-                  <p>Alemaña</p>
-                  <p>d’Allemaigne</p>
-                  <p>Alemaine</p>
-                  <p>Allemangnes</p>
-                  <p>choses d’Allemaigne</p>
-                  <p>Alemaña</p>
-                  <p>toute la Germanie</p>
+                  <p>Germanie</p>
+                  <p>Germaniẹ</p>
+                  <p>Germaniis</p>
                   <p>Germanye</p>
                   <p>la Germanie</p>
-                  <p>Allemane</p>
-                  <p>affaires d’Allemaigne</p>
-                  <p>Alemanes</p>
+                  <p>pardeça</p>
+                  <p>toute la Germanie</p>
                </note>
                <note type="occurence">
                   <p source="380413FM_Vortrag_2022_11.xml">
@@ -2206,15 +2194,14 @@
                   </index>
                </note>
                <note type="writings">
-                  <p>Elsass</p>
-                  <p>Elsatie</p>
-                  <p>Alsacia</p>
-                  <p>Elsacie</p>
                   <p>Alsache</p>
                   <p>Alsacia</p>
-                  <p>Elsaß</p>
                   <p>d’Elsace</p>
                   <p>d’Elsatie</p>
+                  <p>Elsacie</p>
+                  <p>Elsass</p>
+                  <p>Elsaß</p>
+                  <p>Elsatie</p>
                </note>
                <note type="occurence">
                   <p source="A018.xml">
@@ -2300,10 +2287,10 @@
                <note type="writings">
                   <p>Angleterre</p>
                   <p>Anglois</p>
-                  <p>d’Angleterre</p>
-                  <p>England</p>
                   <p>des Anglois</p>
+                  <p>d’Angleterre</p>
                   <p>en Angleterre</p>
+                  <p>England</p>
                   <p>Engleterre</p>
                </note>
                <note type="occurence">
@@ -2510,8 +2497,8 @@
                <note type="writings">
                   <p>confederacion</p>
                   <p>lighe hereditaire</p>
-                  <p>ligue hereditaire</p>
                   <p>ligue et confederacion heritable</p>
+                  <p>ligue hereditaire</p>
                </note>
                <note type="occurence">
                   <p source="A060.xml">
@@ -2577,12 +2564,11 @@
                   </index>
                </note>
                <note type="writings">
-                  <p>mes pays</p>
-                  <p>nosd. pays</p>
-                  <p>nosd. pays</p>
-                  <p>patriarum provinciarum</p>
                   <p>Erblande</p>
                   <p>Erblanden</p>
+                  <p>mes pays</p>
+                  <p>nosd. pays</p>
+                  <p>patriarum provinciarum</p>
                </note>
                <note type="occurence">
                   <p source="A018.xml">
@@ -2666,12 +2652,12 @@
                   </index>
                </note>
                <note type="writings">
-                  <p>mariage</p>
-                  <p>noz nopces</p>
                   <p>de mon mariage</p>
+                  <p>mariage</p>
                   <p>mariaige</p>
-                  <p>vostre mariage</p>
                   <p>mon mariaige</p>
+                  <p>noz nopces</p>
+                  <p>vostre mariage</p>
                </note>
                <note type="occurence">
                   <p source="A015.xml">
@@ -2749,11 +2735,11 @@
                   </index>
                </note>
                <note type="writings">
-                  <p>roy de Boheme</p>
-                  <p>leur roi</p>
                   <p>investiture</p>
-                  <p>royaulme de Boesme</p>
+                  <p>leur roi</p>
                   <p>roi de Boesme</p>
+                  <p>royaulme de Boesme</p>
+                  <p>roy de Boheme</p>
                </note>
                <note type="occurence">
                   <p source="A247.xml">
@@ -2795,13 +2781,13 @@
                   </index>
                </note>
                <note type="writings">
-                  <p>Ansprüche</p>
-                  <p>roi de Unguerye</p>
-                  <p>quant à Hungrie</p>
-                  <p>coronné roi dud. Hungrie</p>
-                  <p>ellection en Hongrie</p>
                   <p>affaires de Hungrie</p>
+                  <p>Ansprüche</p>
+                  <p>coronné roi dud. Hungrie</p>
                   <p>droict aud. Hungrie</p>
+                  <p>ellection en Hongrie</p>
+                  <p>quant à Hungrie</p>
+                  <p>roi de Unguerye</p>
                </note>
                <note type="occurence">
                   <p source="A234.xml">
@@ -2855,19 +2841,19 @@
                   </index>
                </note>
                <note type="writings">
-                  <p>roi des Romains</p>
-                  <p>roi de Romains</p>
-                  <p>regnum Romanum</p>
-                  <p>electionem novi regis</p>
-                  <p>rex Romanorum</p>
-                  <p>Römischen König</p>
-                  <p>election de roi des Rommains</p>
-                  <p>rey de Romanos</p>
                   <p>election à roi des Romains</p>
-                  <p>l’election de roi de Rommains</p>
                   <p>election de roi des Romains</p>
+                  <p>election de roi des Rommains</p>
+                  <p>electionem novi regis</p>
+                  <p>l’election de roi de Rommains</p>
                   <p>l’election de roi des Romains</p>
                   <p>l’election de roi des Rommains</p>
+                  <p>regnum Romanum</p>
+                  <p>rex Romanorum</p>
+                  <p>rey de Romanos</p>
+                  <p>roi de Romains</p>
+                  <p>roi des Romains</p>
+                  <p>Römischen König</p>
                </note>
                <note type="occurence">
                   <p source="A021.xml">
@@ -2975,11 +2961,11 @@
                   </index>
                </note>
                <note type="writings">
+                  <p>deudas</p>
                   <p>grandes debtes, engaigures et mauvais marchiés</p>
+                  <p>la debte</p>
                   <p>payement</p>
                   <p>payéz en bagues</p>
-                  <p>la debte</p>
-                  <p>deudas</p>
                </note>
                <note type="occurence">
                   <p source="A021.xml">
@@ -3027,13 +3013,11 @@
                   </index>
                </note>
                <note type="writings">
-                  <p>Ferrette</p>
-                  <p>Ferrete</p>
-                  <p>Ferretensis</p>
-                  <p>Ferretensem</p>
-                  <p>Ferrette</p>
                   <p>Ferette</p>
                   <p>Ferrete</p>
+                  <p>Ferretensem</p>
+                  <p>Ferretensis</p>
+                  <p>Ferrette</p>
                </note>
                <note type="occurence">
                   <p source="A018.xml">
@@ -3195,11 +3179,10 @@
                   </index>
                </note>
                <note type="writings">
-                  <p>Flandres</p>
-                  <p>Flandes</p>
-                  <p>Flandria</p>
-                  <p>Flandres</p>
                   <p>Flandern</p>
+                  <p>Flandes</p>
+                  <p>Flandres</p>
+                  <p>Flandria</p>
                </note>
                <note type="occurence">
                   <p source="A021.xml">
@@ -3373,11 +3356,11 @@
                   </index>
                </note>
                <note type="writings">
-                  <p>pays du Francq</p>
-                  <p>Francq</p>
-                  <p>Francons</p>
-                  <p>Franconiẹ</p>
                   <p>Francongne</p>
+                  <p>Franconiẹ</p>
+                  <p>Francons</p>
+                  <p>Francq</p>
+                  <p>pays du Francq</p>
                </note>
                <note type="occurence">
                   <p source="A036.xml">
@@ -3443,37 +3426,34 @@
                   </index>
                </note>
                <note type="writings">
-                  <p>Frankreich</p>
-                  <p>François</p>
-                  <p>Franchois</p>
-                  <p>Nordwestfrankreich</p>
-                  <p>France</p>
+                  <p>aux François</p>
+                  <p>commung ennemi</p>
+                  <p>condicions de lad. paix</p>
+                  <p>de France</p>
                   <p>ennemiz François</p>
-                  <p>Gallicas</p>
+                  <p>France</p>
                   <p>Franceses</p>
-                  <p>Gallos</p>
-                  <p>Gallicam</p>
+                  <p>Franchois</p>
+                  <p>Francois</p>
+                  <p>François</p>
+                  <p>Frankreich</p>
+                  <p>Frankreichs</p>
+                  <p>Fransois</p>
                   <p>Gallica</p>
+                  <p>Gallicam</p>
+                  <p>Gallicas</p>
                   <p>Gallicis</p>
                   <p>Gallis</p>
                   <p>Gallorum</p>
+                  <p>Gallos</p>
                   <p>Gallus</p>
-                  <p>Frankreich</p>
                   <p>guerre à nostre ennemi</p>
-                  <p>Franchois</p>
-                  <p>nostre ennemi</p>
-                  <p>Francois</p>
-                  <p>commung ennemi</p>
-                  <p>noz ennemiz</p>
-                  <p>condicions de lad. paix</p>
-                  <p>l’abstinence de guerre</p>
-                  <p>Gallis</p>
-                  <p>Frankreichs</p>
                   <p>les François</p>
-                  <p>de France</p>
                   <p>Les François</p>
-                  <p>aux François</p>
-                  <p>Fransois</p>
+                  <p>l’abstinence de guerre</p>
+                  <p>Nordwestfrankreich</p>
+                  <p>nostre ennemi</p>
+                  <p>noz ennemiz</p>
                </note>
                <note type="occurence">
                   <p source="A001.xml">
@@ -4109,26 +4089,26 @@
                   </index>
                </note>
                <note type="writings">
-                  <p>François</p>
-                  <p>guerre</p>
-                  <p>guerres de pardela</p>
-                  <p>guerre en France</p>
-                  <p>guerre contre noz ennemis François</p>
-                  <p>la guerre</p>
-                  <p>paix</p>
-                  <p>treves</p>
-                  <p>Gallico</p>
-                  <p>belli</p>
-                  <p>commung ennemi</p>
-                  <p>ceste guerre</p>
-                  <p>deliberai</p>
-                  <p>l’abstinence de guerre</p>
-                  <p>treve</p>
-                  <p>l’empereur monsr</p>
-                  <p>tresve</p>
                   <p>armistice</p>
+                  <p>belli</p>
+                  <p>ceste guerre</p>
+                  <p>commung ennemi</p>
+                  <p>deliberai</p>
                   <p>d’armistice</p>
+                  <p>François</p>
+                  <p>Gallico</p>
+                  <p>guerre</p>
+                  <p>guerre contre noz ennemis François</p>
+                  <p>guerre en France</p>
+                  <p>guerres de pardela</p>
+                  <p>la guerre</p>
+                  <p>l’abstinence de guerre</p>
+                  <p>l’empereur monsr</p>
                   <p>moyen de paix</p>
+                  <p>paix</p>
+                  <p>tresve</p>
+                  <p>treve</p>
+                  <p>treves</p>
                </note>
                <note type="occurence">
                   <p source="A029.xml">
@@ -4302,17 +4282,16 @@
                   </index>
                </note>
                <note type="writings">
-                  <p>practicques</p>
-                  <p>grandes practicques</p>
                   <p>beaucop de practicques</p>
                   <p>Franchois</p>
                   <p>François</p>
-                  <p>practiques des François</p>
-                  <p>practicques des François</p>
-                  <p>practicques des François</p>
                   <p>Gallicas practicas</p>
-                  <p>pratiqués de France</p>
+                  <p>grandes practicques</p>
+                  <p>practicques</p>
+                  <p>practicques des François</p>
+                  <p>practiques des François</p>
                   <p>praticques des François</p>
+                  <p>pratiqués de France</p>
                </note>
                <note type="occurence">
                   <p source="A018.xml">
@@ -4426,8 +4405,8 @@
                   </index>
                </note>
                <note type="writings">
-                  <p>Forousciten</p>
                   <p>Foriusciten.</p>
+                  <p>Forousciten</p>
                </note>
                <note type="occurence">
                   <p source="A029.xml">
@@ -4451,10 +4430,10 @@
                   </index>
                </note>
                <note type="writings">
-                  <p>ma bonne compaigne</p>
-                  <p>mme, vostre compaigne</p>
                   <p>acouchement</p>
                   <p>couche</p>
+                  <p>ma bonne compaigne</p>
+                  <p>mme, vostre compaigne</p>
                </note>
                <note type="occurence">
                   <p source="A209.xml">
@@ -4490,9 +4469,9 @@
                   </index>
                </note>
                <note type="writings">
-                  <p>l’assemblée generale</p>
                   <p>Augsburger Generallandtages</p>
                   <p>diete des provinciaulx</p>
+                  <p>l’assemblée generale</p>
                </note>
                <note type="occurence">
                   <p source="A187.xml">
@@ -4552,8 +4531,8 @@
                   </index>
                </note>
                <note type="writings">
-                  <p>Erkrankung</p>
                   <p>Arm im Verband</p>
+                  <p>Erkrankung</p>
                </note>
                <note type="occurence">
                   <p source="A145.xml">
@@ -4595,10 +4574,10 @@
                   </index>
                </note>
                <note type="writings">
+                  <p>bonne disposition</p>
+                  <p>bonne santé</p>
                   <p>fievre</p>
                   <p>indisposicion</p>
-                  <p>bonne santé</p>
-                  <p>bonne disposition</p>
                   <p>vostre bonne santé</p>
                </note>
                <note type="occurence">
@@ -4719,9 +4698,9 @@
                   </index>
                </note>
                <note type="writings">
+                  <p>Goldenen Vlieses</p>
                   <p>Goldene Vließ</p>
                   <p>thoison d’or</p>
-                  <p>Goldenen Vlieses</p>
                </note>
                <note type="occurence">
                   <p source="A083.xml">
@@ -4751,10 +4730,10 @@
                   </index>
                </note>
                <note type="writings">
-                  <p>ligue Grise</p>
-                  <p>Grisones</p>
                   <p>Graubündner</p>
+                  <p>Grisones</p>
                   <p>Grisons</p>
+                  <p>ligue Grise</p>
                </note>
                <note type="occurence">
                   <p source="A026.xml">
@@ -4802,15 +4781,14 @@
                   </index>
                </note>
                <note type="writings">
+                  <p>Austriche</p>
                   <p>la maison d’Autriche</p>
-                  <p>Österreichs</p>
-                  <p>maison d’Austrice</p>
                   <p>maison d’Austrice</p>
                   <p>maison d’Austriche</p>
-                  <p>Austriche</p>
-                  <p>nostre maison d’Austrice</p>
                   <p>ma maison</p>
                   <p>nostre maison</p>
+                  <p>nostre maison d’Austrice</p>
+                  <p>Österreichs</p>
                </note>
                <note type="occurence">
                   <p source="A018.xml">
@@ -4936,8 +4914,8 @@
                   </index>
                </note>
                <note type="writings">
-                  <p>tressainte lighe</p>
                   <p>lighe</p>
+                  <p>tressainte lighe</p>
                </note>
                <note type="occurence">
                   <p source="A046.xml">
@@ -4961,8 +4939,8 @@
                   </index>
                </note>
                <note type="writings">
-                  <p>Vermählung</p>
                   <p>casamiento</p>
+                  <p>Vermählung</p>
                </note>
                <note type="occurence">
                   <p source="A121b.xml">
@@ -5004,9 +4982,9 @@
                   </index>
                </note>
                <note type="writings">
+                  <p>mariaige</p>
                   <p>quant me marier</p>
                   <p>vostre mariaige</p>
-                  <p>mariaige</p>
                </note>
                <note type="occurence">
                   <p source="A014.xml">
@@ -5054,9 +5032,9 @@
                   </index>
                </note>
                <note type="writings">
+                  <p>le mariage</p>
                   <p>mariage</p>
                   <p>mariaige</p>
-                  <p>le mariage</p>
                </note>
                <note type="occurence">
                   <p source="A081.xml">
@@ -5098,11 +5076,11 @@
                   </index>
                </note>
                <note type="writings">
-                  <p>marier</p>
                   <p>mariage</p>
                   <p>mariage en Portugal</p>
-                  <p>vostre mariaige</p>
                   <p>mariaige</p>
+                  <p>marier</p>
+                  <p>vostre mariaige</p>
                </note>
                <note type="occurence">
                   <p source="A143.xml">
@@ -5212,7 +5190,6 @@
                <note type="writings">
                   <p>mariage</p>
                   <p>mariaige</p>
-                  <p>mariaige</p>
                </note>
                <note type="occurence">
                   <p source="A083.xml">
@@ -5279,17 +5256,15 @@
                </note>
                <note type="writings">
                   <p>empire</p>
-                  <p>empire</p>
-                  <p>sacri Romani imperii</p>
-                  <p>sacrif) imperii</p>
-                  <p>Rhomanum imperium</p>
-                  <p>sacri imperii</p>
-                  <p>Romanum imperium</p>
                   <p>heiligen reiche</p>
-                  <p>sacri Romani imperii</p>
-                  <p>sainct empire</p>
-                  <p>sacro imperio</p>
                   <p>heiligen Römischen Reiches</p>
+                  <p>Rhomanum imperium</p>
+                  <p>Romanum imperium</p>
+                  <p>sacrif) imperii</p>
+                  <p>sacri imperii</p>
+                  <p>sacri Romani imperii</p>
+                  <p>sacro imperio</p>
+                  <p>sainct empire</p>
                </note>
                <note type="occurence">
                   <p source="A012.xml">
@@ -5421,9 +5396,9 @@
                   </index>
                </note>
                <note type="writings">
-                  <p>ghemaine phennung</p>
                   <p>Gemeinen Pfennig</p>
                   <p>ghemaine pheninck</p>
+                  <p>ghemaine phennung</p>
                </note>
                <note type="occurence">
                   <p source="A050.xml">
@@ -5454,8 +5429,8 @@
                </note>
                <note type="writings">
                   <p>ambassade</p>
-                  <p>voyage de ceulx</p>
                   <p>l’ambassade</p>
+                  <p>voyage de ceulx</p>
                </note>
                <note type="occurence">
                   <p source="A070.xml">
@@ -5503,8 +5478,8 @@
                   </index>
                </note>
                <note type="writings">
-                  <p>Reichskirchensteuer</p>
                   <p>l’aide sur les eglises</p>
+                  <p>Reichskirchensteuer</p>
                </note>
                <note type="occurence">
                   <p source="A056.xml">
@@ -5554,21 +5529,20 @@
                </note>
                <note type="writings">
                   <p>gouvernement</p>
-                  <p>Reichsregiment</p>
                   <p>gouvernement de l’empire</p>
                   <p>le regiment</p>
-                  <p>regiment de l’empire</p>
-                  <p>Reichsregiment</p>
-                  <p>regiminis</p>
-                  <p>regimine</p>
+                  <p>regime</p>
+                  <p>regime imperial</p>
                   <p>regimen</p>
-                  <p>regiment d’icellui</p>
                   <p>regimen imperiale</p>
                   <p>regiment</p>
-                  <p>regime imperial</p>
-                  <p>regime</p>
-                  <p>regimiento inperial</p>
+                  <p>regiment de l’empire</p>
+                  <p>regiment d’icellui</p>
                   <p>regimiento del inperio</p>
+                  <p>regimiento inperial</p>
+                  <p>regimine</p>
+                  <p>regiminis</p>
+                  <p>Reichsregiment</p>
                </note>
                <note type="occurence">
                   <p source="A018.xml">
@@ -5802,9 +5776,8 @@
                   </index>
                </note>
                <note type="writings">
-                  <p>ban imperial</p>
-                  <p>ban imperial</p>
                   <p>ban de l’empire</p>
+                  <p>ban imperial</p>
                </note>
                <note type="occurence">
                   <p source="A072.xml">
@@ -5834,8 +5807,8 @@
                   </index>
                </note>
                <note type="writings">
-                  <p>fisci imperialis</p>
                   <p>fiscalem imperialem</p>
+                  <p>fisci imperialis</p>
                </note>
                <note type="occurence">
                   <p source="A065.xml">
@@ -5859,17 +5832,16 @@
                   </index>
                </note>
                <note type="writings">
+                  <p>camara</p>
+                  <p>cameram imperiale</p>
+                  <p>camerẹ imperialis</p>
                   <p>camerghericht</p>
+                  <p>chambre</p>
+                  <p>chambre imperiale</p>
+                  <p>chambre imperialle</p>
+                  <p>Kammergericht</p>
                   <p>ma chambre imperialle</p>
                   <p>Reichskammergericht</p>
-                  <p>camerẹ imperialis</p>
-                  <p>cameram imperiale</p>
-                  <p>Kammergericht</p>
-                  <p>chambre</p>
-                  <p>chambre imperialle</p>
-                  <p>chambre imperiale</p>
-                  <p>chambre</p>
-                  <p>camara</p>
                </note>
                <note type="occurence">
                   <p source="A026.xml">
@@ -6055,9 +6027,8 @@
                   </index>
                </note>
                <note type="writings">
-                  <p>estatz de l’empire</p>
-                  <p>estatz de l’empire</p>
                   <p>estas de l’empire</p>
+                  <p>estatz de l’empire</p>
                </note>
                <note type="occurence">
                   <p source="A070.xml">
@@ -6087,15 +6058,13 @@
                   </index>
                </note>
                <note type="writings">
+                  <p>Augspurg à la diete imperiale</p>
                   <p>dieta</p>
                   <p>diete</p>
-                  <p>diete</p>
-                  <p>diette imperiale</p>
-                  <p>RT nach Augsburg</p>
-                  <p>diette imperiale</p>
-                  <p>Augspurg à la diete imperiale</p>
-                  <p>journée imperiale</p>
                   <p>diete imperiale</p>
+                  <p>diette imperiale</p>
+                  <p>journée imperiale</p>
+                  <p>RT nach Augsburg</p>
                </note>
                <note type="occurence">
                   <p source="A140.xml">
@@ -6161,10 +6130,10 @@
                   </index>
                </note>
                <note type="writings">
-                  <p>Nürnberger RT</p>
                   <p>diette</p>
                   <p>diette de Neuremberg</p>
                   <p>Nürnberger Reichstag</p>
+                  <p>Nürnberger RT</p>
                   <p>RT</p>
                </note>
                <note type="occurence">
@@ -6268,13 +6237,13 @@
                   </index>
                </note>
                <note type="writings">
+                  <p>conventu</p>
+                  <p>conventus</p>
+                  <p>dieta</p>
                   <p>diete</p>
                   <p>diete imperiale</p>
-                  <p>conventu</p>
-                  <p>hanc dieta</p>
-                  <p>dieta</p>
                   <p>diette</p>
-                  <p>conventus</p>
+                  <p>hanc dieta</p>
                   <p>Nürnberger Reichstagsabschied</p>
                </note>
                <note type="occurence">
@@ -6459,17 +6428,17 @@
                </note>
                <note type="writings">
                   <p>diete</p>
-                  <p>diete imperiale de Spire</p>
                   <p>diete de Spiere</p>
-                  <p>diete imperiale</p>
-                  <p>RT’s von Speier</p>
-                  <p>diette imperialle</p>
-                  <p>RT’s zu Speier</p>
-                  <p>journée imperialle</p>
-                  <p>journée de Spiere</p>
-                  <p>diete dud. Spiere</p>
-                  <p>Spiere</p>
                   <p>diete de Spire</p>
+                  <p>diete dud. Spiere</p>
+                  <p>diete imperiale</p>
+                  <p>diete imperiale de Spire</p>
+                  <p>diette imperialle</p>
+                  <p>journée de Spiere</p>
+                  <p>journée imperialle</p>
+                  <p>RT’s von Speier</p>
+                  <p>RT’s zu Speier</p>
+                  <p>Spiere</p>
                </note>
                <note type="occurence">
                   <p source="A187.xml">
@@ -6601,12 +6570,11 @@
                   </index>
                </note>
                <note type="writings">
-                  <p>lieutenandise de l’empire</p>
-                  <p>lieutenant en l’empire</p>
                   <p>lieutenandise</p>
                   <p>lieutenandise de l’empire</p>
-                  <p>locumtenenciam</p>
+                  <p>lieutenant en l’empire</p>
                   <p>lieutenant general</p>
+                  <p>locumtenenciam</p>
                </note>
                <note type="occurence">
                   <p source="A018.xml">
@@ -6726,46 +6694,37 @@
                   </index>
                </note>
                <note type="writings">
-                  <p>Ytalie</p>
-                  <p>Italie</p>
-                  <p>Italie</p>
-                  <p>l’affaire d’Italie</p>
-                  <p>l’armée</p>
+                  <p>affaire d’Ytalie</p>
+                  <p>affaires d’Ytalie</p>
+                  <p>afferes d’Ytalie</p>
+                  <p>d’Italie</p>
+                  <p>d’Italye</p>
+                  <p>d’Ytalie</p>
+                  <p>guerre d’Italye</p>
+                  <p>guerre d’Ytalie</p>
+                  <p>Itala</p>
                   <p>Italia</p>
                   <p>Italiam</p>
-                  <p>Itala</p>
-                  <p>Italorum</p>
+                  <p>Italie</p>
                   <p>Italiẹ</p>
-                  <p>Ytale</p>
-                  <p>guerre d’Ytalie</p>
                   <p>Italien</p>
-                  <p>d’Italie</p>
-                  <p>Italien</p>
-                  <p>Italye</p>
-                  <p>d’Ytalie</p>
-                  <p>Ytalian</p>
-                  <p>Ytalia</p>
-                  <p>Ytalia</p>
-                  <p>Italia</p>
-                  <p>Ytalye</p>
-                  <p>Italye</p>
-                  <p>Ytalie</p>
-                  <p>d’Ytalie</p>
-                  <p>d’Italie</p>
                   <p>Italiener</p>
                   <p>Italiy</p>
-                  <p>l’Italye</p>
-                  <p>d’Italye</p>
-                  <p>l’Ytalie</p>
-                  <p>afferes d’Ytalie</p>
-                  <p>l’Italye</p>
-                  <p>affaires d’Ytalie</p>
-                  <p>Ytaliens</p>
-                  <p>guerre d’Italye</p>
-                  <p>l’Ytalye</p>
-                  <p>affaire d’Ytalie</p>
+                  <p>Italorum</p>
+                  <p>Italye</p>
                   <p>lighe d’Ytalie</p>
+                  <p>l’affaire d’Italie</p>
+                  <p>l’armée</p>
+                  <p>l’Italye</p>
+                  <p>l’Ytalie</p>
+                  <p>l’Ytalye</p>
                   <p>nouvelles d’Ytalie</p>
+                  <p>Ytale</p>
+                  <p>Ytalia</p>
+                  <p>Ytalian</p>
+                  <p>Ytalie</p>
+                  <p>Ytaliens</p>
+                  <p>Ytalye</p>
                </note>
                <note type="occurence">
                   <p source="A029.xml">
@@ -7791,8 +7750,8 @@
                   </index>
                </note>
                <note type="writings">
-                  <p>caça</p>
                   <p>bonne chasse par deux jours</p>
+                  <p>caça</p>
                   <p>Jagd</p>
                </note>
                <note type="occurence">
@@ -7889,16 +7848,15 @@
                   </index>
                </note>
                <note type="writings">
-                  <p>la couronne imperiale</p>
-                  <p>coronato prius imperatore</p>
-                  <p>coronnes</p>
-                  <p>se coronará</p>
-                  <p>coronarse en enperador</p>
-                  <p>mes coronnes</p>
-                  <p>coronner</p>
-                  <p>coronner</p>
                   <p>coronacion</p>
+                  <p>coronarse en enperador</p>
+                  <p>coronato prius imperatore</p>
+                  <p>coronner</p>
+                  <p>coronnes</p>
+                  <p>la couronne imperiale</p>
+                  <p>mes coronnes</p>
                   <p>mes coronnes d’empereur</p>
+                  <p>se coronará</p>
                </note>
                <note type="occurence">
                   <p source="A021.xml">
@@ -8013,8 +7971,8 @@
                   </index>
                </note>
                <note type="writings">
-                  <p>Kärnten</p>
                   <p>Carinte</p>
+                  <p>Kärnten</p>
                </note>
                <note type="occurence">
                   <p source="A057.xml">
@@ -8056,9 +8014,9 @@
                   </index>
                </note>
                <note type="writings">
-                  <p>l’election du pape</p>
                   <p>Konklave</p>
                   <p>Konklaves</p>
+                  <p>l’election du pape</p>
                </note>
                <note type="occurence">
                   <p source="A050.xml">
@@ -8088,10 +8046,10 @@
                   </index>
                </note>
                <note type="writings">
-                  <p>generale concilium</p>
                   <p>concilium</p>
-                  <p>consille general</p>
                   <p>consille</p>
+                  <p>consille general</p>
+                  <p>generale concilium</p>
                </note>
                <note type="occurence">
                   <p source="A065.xml">
@@ -8145,8 +8103,8 @@
                   </index>
                </note>
                <note type="writings">
-                  <p>Krain</p>
                   <p>Carniole</p>
+                  <p>Krain</p>
                </note>
                <note type="occurence">
                   <p source="A057.xml">
@@ -8188,9 +8146,9 @@
                   </index>
                </note>
                <note type="writings">
-                  <p>une croisade et pardons</p>
-                  <p>pardons</p>
                   <p>cest affaire</p>
+                  <p>pardons</p>
+                  <p>une croisade et pardons</p>
                </note>
                <note type="occurence">
                   <p source="A038.xml">
@@ -8220,13 +8178,12 @@
                   </index>
                </note>
                <note type="writings">
-                  <p>Croacie</p>
-                  <p>Kroatien</p>
-                  <p>Croaticos</p>
-                  <p>Croacie</p>
-                  <p>kroatischen</p>
                   <p>Croacia</p>
+                  <p>Croacie</p>
+                  <p>Croaticos</p>
+                  <p>Kroatien</p>
                   <p>Kroatiens</p>
+                  <p>kroatischen</p>
                </note>
                <note type="occurence">
                   <p source="A018.xml">
@@ -8353,10 +8310,10 @@
                </note>
                <note type="writings">
                   <p>deutsche Landsknechte</p>
-                  <p>services</p>
-                  <p>lansknechtz</p>
-                  <p>lanskenetz</p>
                   <p>Landsknechte</p>
+                  <p>lanskenetz</p>
+                  <p>lansknechtz</p>
+                  <p>services</p>
                </note>
                <note type="occurence">
                   <p source="380413FM_Vortrag_2022_11.xml">
@@ -8513,8 +8470,8 @@
                   </index>
                </note>
                <note type="writings">
-                  <p>Lombardia</p>
                   <p>Lombardei</p>
+                  <p>Lombardia</p>
                   <p>Lombardie</p>
                   <p>Lombardien</p>
                </note>
@@ -8612,39 +8569,39 @@
                   </index>
                </note>
                <note type="writings">
+                  <p>ceulx qui sont maulvais</p>
                   <p>doctrine</p>
-                  <p>Luterianne</p>
-                  <p>Lutherienne</p>
-                  <p>Lutherienn</p>
-                  <p>le secte Luterien</p>
-                  <p>secte Lutherienne</p>
-                  <p>re Lutherana</p>
-                  <p>Lutheranae2) secta</p>
-                  <p>Lutheranos</p>
-                  <p>secte Luterianne</p>
-                  <p>secte de Lutere</p>
-                  <p>Lutherana</p>
-                  <p>illa secta</p>
                   <p>dogma Lutheranum</p>
-                  <p>Lutheranẹ sect</p>
-                  <p>Lutherana re</p>
-                  <p>materia Lutherana</p>
-                  <p>mauldicte secte</p>
-                  <p>secte de Luthere</p>
-                  <p>Lutheranne</p>
+                  <p>illa secta</p>
+                  <p>le secte Luterien</p>
+                  <p>Luterianne</p>
+                  <p>Luteriene</p>
                   <p>Luteriens</p>
-                  <p>Lutterians</p>
+                  <p>Lutherana</p>
+                  <p>Lutheranae2) secta</p>
+                  <p>Lutherana re</p>
+                  <p>Lutheranẹ sect</p>
+                  <p>Lutheranne</p>
+                  <p>Lutheranos</p>
                   <p>Lutheriains</p>
                   <p>Lutheriane</p>
                   <p>Lutherians</p>
-                  <p>Luteriene</p>
-                  <p>ceulx qui sont maulvais</p>
-                  <p>secte Lutherane</p>
-                  <p>Lutheriens</p>
-                  <p>secte Lutheriane</p>
-                  <p>secte Lutteriane</p>
-                  <p>secte de Lutter</p>
                   <p>Lutherien</p>
+                  <p>Lutherienn</p>
+                  <p>Lutherienne</p>
+                  <p>Lutheriens</p>
+                  <p>Lutterians</p>
+                  <p>materia Lutherana</p>
+                  <p>mauldicte secte</p>
+                  <p>re Lutherana</p>
+                  <p>secte de Lutere</p>
+                  <p>secte de Luthere</p>
+                  <p>secte de Lutter</p>
+                  <p>secte Luterianne</p>
+                  <p>secte Lutherane</p>
+                  <p>secte Lutheriane</p>
+                  <p>secte Lutherienne</p>
+                  <p>secte Lutteriane</p>
                </note>
                <note type="occurence">
                   <p source="A026.xml">
@@ -9000,9 +8957,9 @@
                <note type="writings">
                   <p>la roine, ma seur</p>
                   <p>la roine, nostre seur</p>
+                  <p>la roine d’Hongrie</p>
                   <p>roine, vostre seur</p>
                   <p>roine de Ungueroye, vostre seur</p>
-                  <p>la roine d’Hongrie</p>
                </note>
                <note type="occurence">
                   <p source="A237.xml">
@@ -9082,12 +9039,11 @@
                <note type="writings">
                   <p>Frieden von Madrid</p>
                   <p>paix</p>
-                  <p>paix</p>
-                  <p>traicté de paix</p>
-                  <p>traicté à Madril</p>
                   <p>traicté</p>
-                  <p>traictié de Madril</p>
+                  <p>traicté à Madril</p>
                   <p>traicté de Madril</p>
+                  <p>traicté de paix</p>
+                  <p>traictié de Madril</p>
                </note>
                <note type="occurence">
                   <p source="A121b.xml">
@@ -9237,9 +9193,9 @@
                   </index>
                </note>
                <note type="writings">
-                  <p>Moraviẹ</p>
-                  <p>Moravie</p>
                   <p>ceulx du pays de Moravie</p>
+                  <p>Moravie</p>
+                  <p>Moraviẹ</p>
                </note>
                <note type="occurence">
                   <p source="A093.xml">
@@ -9270,19 +9226,16 @@
                </note>
                <note type="writings">
                   <p>duché de Milan</p>
-                  <p>Millan</p>
-                  <p>Mediolani</p>
+                  <p>duché de Millan</p>
+                  <p>Mailand</p>
                   <p>Mediolanensis</p>
                   <p>Mediolani</p>
-                  <p>duché de Millan</p>
-                  <p>Milan</p>
                   <p>Milan</p>
                   <p>Millan</p>
-                  <p>Mailand</p>
-                  <p>y</p>
                   <p>Mylan</p>
-                  <p>Mylans</p>
                   <p>Mylanois</p>
+                  <p>Mylans</p>
+                  <p>y</p>
                </note>
                <note type="occurence">
                   <p source="A021.xml">
@@ -9583,10 +9536,9 @@
                </note>
                <note type="writings">
                   <p>sal</p>
-                  <p>sel de Millan</p>
                   <p>sel</p>
-                  <p>sel de Millan</p>
                   <p>sel de Milan</p>
+                  <p>sel de Millan</p>
                </note>
                <note type="occurence">
                   <p source="A140.xml">
@@ -9670,17 +9622,16 @@
                   </index>
                </note>
                <note type="writings">
-                  <p>grandes debtes</p>
-                  <p>debtes</p>
-                  <p>debtes</p>
-                  <p>crediteurs</p>
-                  <p>les articles</p>
-                  <p>nouvelle commission</p>
                   <p>commissaires</p>
-                  <p>mandement,</p>
+                  <p>crediteurs</p>
                   <p>debita magnarum summarum</p>
+                  <p>debtes</p>
                   <p>debtes de feu l’empereur</p>
                   <p>dois encoires payer</p>
+                  <p>grandes debtes</p>
+                  <p>les articles</p>
+                  <p>mandement,</p>
+                  <p>nouvelle commission</p>
                </note>
                <note type="occurence">
                   <p source="A021.xml">
@@ -9831,11 +9782,11 @@
                   </index>
                </note>
                <note type="writings">
+                  <p>bataille</p>
                   <p>defete de l’armée</p>
-                  <p>Schlacht bei Mohács</p>
                   <p>deffait</p>
                   <p>la bataille</p>
-                  <p>bataille</p>
+                  <p>Schlacht bei Mohács</p>
                </note>
                <note type="occurence">
                   <p source="A232.xml">
@@ -9956,12 +9907,11 @@
                </note>
                <note type="writings">
                   <p>Naples</p>
-                  <p>Nápoles</p>
-                  <p>Neapolitanum</p>
                   <p>Napoles</p>
-                  <p>Naples</p>
-                  <p>Neapolis</p>
+                  <p>Nápoles</p>
                   <p>Napolitains</p>
+                  <p>Neapolis</p>
+                  <p>Neapolitanum</p>
                </note>
                <note type="occurence">
                   <p source="A021.xml">
@@ -10087,22 +10037,20 @@
                   </index>
                </note>
                <note type="writings">
+                  <p>Iceulx de pardeça</p>
+                  <p>Niederlande</p>
                   <p>Niederlanden</p>
-                  <p>Pays-Bas</p>
-                  <p>pays d’embas</p>
-                  <p>Pays d’embas</p>
-                  <p>Pays d’embas</p>
-                  <p>Pays d’embaz</p>
+                  <p>niederländischen</p>
+                  <p>niederländischen Staatsmänner</p>
                   <p>niederländische Regierung</p>
                   <p>Pais d’embas</p>
                   <p>Pays Bas</p>
-                  <p>niederländischen Staatsmänner</p>
-                  <p>Niederlande</p>
-                  <p>Iceulx de pardeça</p>
-                  <p>niederländischen</p>
-                  <p>Pays d’Embaz</p>
-                  <p>Pays d’Embas</p>
+                  <p>Pays-Bas</p>
                   <p>pays d’embas</p>
+                  <p>Pays d’embas</p>
+                  <p>Pays d’Embas</p>
+                  <p>Pays d’embaz</p>
+                  <p>Pays d’Embaz</p>
                </note>
                <note type="occurence">
                   <p source="A008.xml">
@@ -10228,14 +10176,13 @@
                   </index>
                </note>
                <note type="writings">
-                  <p>Österreichs unter der Enns</p>
                   <p>Austria inferiori</p>
-                  <p>Inferioris Austriẹ</p>
-                  <p>Inferioris Austriẹ</p>
                   <p>Basse Austrice</p>
                   <p>Basse-Austrice</p>
+                  <p>Inferioris Austriẹ</p>
                   <p>Niederösterreich</p>
                   <p>niederösterreichischen Landen</p>
+                  <p>Österreichs unter der Enns</p>
                </note>
                <note type="occurence">
                   <p source="A018.xml">
@@ -10338,22 +10285,18 @@
                   </index>
                </note>
                <note type="writings">
-                  <p>Austriche</p>
-                  <p>Austrice</p>
-                  <p>Austrie</p>
-                  <p>pays d’Austrice</p>
-                  <p>Austrie</p>
-                  <p>Österreich</p>
-                  <p>Austriacẹ</p>
-                  <p>österreichischen Grenzlande</p>
                   <p>Austria</p>
-                  <p>Austriẹ</p>
+                  <p>Austriacẹ</p>
                   <p>Austriae</p>
-                  <p>d’Austrice</p>
-                  <p>Austriẹ</p>
                   <p>Austrice</p>
-                  <p>mes pays d’Austrice</p>
+                  <p>Austriche</p>
+                  <p>Austrie</p>
+                  <p>Austriẹ</p>
                   <p>d’Austrice</p>
+                  <p>mes pays d’Austrice</p>
+                  <p>Österreich</p>
+                  <p>österreichischen Grenzlande</p>
+                  <p>pays d’Austrice</p>
                </note>
                <note type="occurence">
                   <p source="A016.xml">
@@ -10629,16 +10572,15 @@
                   </index>
                </note>
                <note type="writings">
-                  <p>Austrice</p>
-                  <p>Austriche</p>
-                  <p>maisons d’Austrice</p>
-                  <p>Austriacam</p>
-                  <p>Austriẹ</p>
+                  <p>Austriaca</p>
                   <p>Austriacam</p>
                   <p>Austriacẹ</p>
-                  <p>Austriaca</p>
-                  <p>Österreich</p>
+                  <p>Austrice</p>
+                  <p>Austriche</p>
+                  <p>Austriẹ</p>
                   <p>maison d’Austrice</p>
+                  <p>maisons d’Austrice</p>
+                  <p>Österreich</p>
                </note>
                <note type="occurence">
                   <p source="A060.xml">
@@ -10734,8 +10676,8 @@
                   </index>
                </note>
                <note type="writings">
-                  <p>procès</p>
                   <p>pena capitali</p>
+                  <p>procès</p>
                </note>
                <note type="occurence">
                   <p source="A018.xml">
@@ -10795,11 +10737,11 @@
                   </index>
                </note>
                <note type="writings">
+                  <p>bataille devant Pavye</p>
+                  <p>battaille de Pavie</p>
                   <p>la victoire</p>
                   <p>Pavia</p>
                   <p>tan felicisima vitoria</p>
-                  <p>battaille de Pavie</p>
-                  <p>bataille devant Pavye</p>
                </note>
                <note type="occurence">
                   <p source="A131.xml">
@@ -10901,11 +10843,11 @@
                   </index>
                </note>
                <note type="writings">
-                  <p>Poloniẹ</p>
                   <p>Polen</p>
+                  <p>Polens</p>
                   <p>Polonia</p>
                   <p>Polonie</p>
-                  <p>Polens</p>
+                  <p>Poloniẹ</p>
                   <p>Poloyne</p>
                </note>
                <note type="occurence">
@@ -10973,13 +10915,13 @@
                </note>
                <note type="writings">
                   <p>articulos</p>
-                  <p>doctrine</p>
-                  <p>Reformation</p>
-                  <p>nouveaulx erreurs</p>
                   <p>change ou innove</p>
-                  <p>kirchliche Neuerungen</p>
-                  <p>erreurs et heresies</p>
+                  <p>doctrine</p>
                   <p>erreurs</p>
+                  <p>erreurs et heresies</p>
+                  <p>kirchliche Neuerungen</p>
+                  <p>nouveaulx erreurs</p>
+                  <p>Reformation</p>
                </note>
                <note type="occurence">
                   <p source="A076.xml">
@@ -11058,8 +11000,8 @@
                </note>
                <note type="writings">
                   <p>execution</p>
-                  <p>proces</p>
                   <p>la ligue</p>
+                  <p>proces</p>
                </note>
                <note type="occurence">
                   <p source="A023.xml">
@@ -11125,11 +11067,11 @@
                   </index>
                </note>
                <note type="writings">
-                  <p>Zaxe</p>
-                  <p>Saxonii</p>
-                  <p>Saxen</p>
                   <p>de Saxonie</p>
                   <p>sächsischen</p>
+                  <p>Saxen</p>
+                  <p>Saxonii</p>
+                  <p>Zaxe</p>
                </note>
                <note type="occurence">
                   <p source="A050.xml">
@@ -11183,9 +11125,9 @@
                   </index>
                </note>
                <note type="writings">
-                  <p>Salzburg</p>
-                  <p>Salzbourg</p>
                   <p>Salsburg</p>
+                  <p>Salzbourg</p>
+                  <p>Salzburg</p>
                </note>
                <note type="occurence">
                   <p source="A038.xml">
@@ -11227,11 +11169,11 @@
                   </index>
                </note>
                <note type="writings">
-                  <p>l’archeveschié de Salzbourg</p>
                   <p>archevesché de Saltzbourg</p>
-                  <p>archeveschié</p>
-                  <p>l’eveschié de Salsburg</p>
                   <p>archevesché dud. Saltzpurg</p>
+                  <p>archeveschié</p>
+                  <p>l’archeveschié de Salzbourg</p>
+                  <p>l’eveschié de Salsburg</p>
                </note>
                <note type="occurence">
                   <p source="A104.xml">
@@ -11291,8 +11233,8 @@
                   </index>
                </note>
                <note type="writings">
-                  <p>Slezie</p>
                   <p>de Selesie</p>
+                  <p>Slezie</p>
                </note>
                <note type="occurence">
                   <p source="A242.xml">
@@ -11316,12 +11258,12 @@
                   </index>
                </note>
                <note type="writings">
-                  <p>Westschwaben</p>
-                  <p>Zwave</p>
-                  <p>Sueviẹ</p>
-                  <p>Suevi</p>
                   <p>Suebia</p>
+                  <p>Suevi</p>
+                  <p>Sueviẹ</p>
+                  <p>Westschwaben</p>
                   <p>Zubbave</p>
+                  <p>Zwave</p>
                </note>
                <note type="occurence">
                   <p source="A018.xml">
@@ -11376,17 +11318,17 @@
                </note>
                <note type="writings">
                   <p>la ligue de Zvbave</p>
-                  <p>Schwäbischen Bund</p>
-                  <p>lighe de Zwave</p>
-                  <p>lighe de Suavve</p>
-                  <p>ligue de Zuwave</p>
-                  <p>Suevicam ligam</p>
-                  <p>ligue de Zwave</p>
-                  <p>Schwäbischen Bundes</p>
-                  <p>ligue de Zweve</p>
                   <p>liga</p>
-                  <p>ligue et Zwave</p>
+                  <p>lighe de Suavve</p>
+                  <p>lighe de Zwave</p>
                   <p>ligue</p>
+                  <p>ligue de Zuwave</p>
+                  <p>ligue de Zwave</p>
+                  <p>ligue de Zweve</p>
+                  <p>ligue et Zwave</p>
+                  <p>Schwäbischen Bund</p>
+                  <p>Schwäbischen Bundes</p>
+                  <p>Suevicam ligam</p>
                   <p>Zwabe</p>
                </note>
                <note type="occurence">
@@ -11507,24 +11449,20 @@
                   </index>
                </note>
                <note type="writings">
-                  <p>Suisses</p>
-                  <p>Suysses</p>
-                  <p>Suysses</p>
+                  <p>Çuiços</p>
+                  <p>Çuyços</p>
+                  <p>Helvetii</p>
+                  <p>Helvetiis</p>
+                  <p>Helvetiorum</p>
                   <p>les Suisses</p>
                   <p>Schweiz</p>
-                  <p>Suisse</p>
-                  <p>les Suisses</p>
-                  <p>Suysse</p>
-                  <p>Helvetiorum</p>
-                  <p>Helvetii</p>
-                  <p>Helvetiorum</p>
-                  <p>Helvetiis</p>
-                  <p>Çuiços</p>
-                  <p>Suiços</p>
-                  <p>Suiços</p>
                   <p>schweizerisches Gebiet</p>
                   <p>Suice</p>
-                  <p>Çuyços</p>
+                  <p>Suiços</p>
+                  <p>Suisse</p>
+                  <p>Suisses</p>
+                  <p>Suysse</p>
+                  <p>Suysses</p>
                </note>
                <note type="occurence">
                   <p source="A018.xml">
@@ -11946,7 +11884,6 @@
                <note type="writings">
                   <p>Cecille</p>
                   <p>Secille</p>
-                  <p>Cecille</p>
                </note>
                <note type="occurence">
                   <p source="A063.xml">
@@ -12000,8 +11937,8 @@
                   </index>
                </note>
                <note type="writings">
-                  <p>Sclavonie</p>
                   <p>Esclabonia</p>
+                  <p>Sclavonie</p>
                   <p>Slavonien</p>
                </note>
                <note type="occurence">
@@ -12032,27 +11969,23 @@
                   </index>
                </note>
                <note type="writings">
-                  <p>Spanien</p>
-                  <p>Spanien</p>
-                  <p>Espaigne</p>
-                  <p>Hispaniarum</p>
+                  <p>d’Espagne</p>
+                  <p>d’Espagnolzg</p>
+                  <p>d’Espaigne</p>
+                  <p>Espagne</p>
+                  <p>Espagnole</p>
+                  <p>Espagnolz</p>
                   <p>Espaigne</p>
                   <p>Espaignolz</p>
-                  <p>Hispaniis</p>
-                  <p>Hispanias</p>
-                  <p>Hispanicẹ</p>
+                  <p>España</p>
+                  <p>Espannolz</p>
                   <p>Hispaniam</p>
                   <p>Hispaniarum</p>
-                  <p>Espagne</p>
-                  <p>España</p>
-                  <p>d’Espaigne</p>
-                  <p>Espagnolz</p>
-                  <p>Espagnole</p>
-                  <p>Espannolz</p>
-                  <p>d’Espagnolzg</p>
-                  <p>d’Espagne</p>
+                  <p>Hispanias</p>
+                  <p>Hispanicẹ</p>
+                  <p>Hispaniis</p>
                   <p>Hyspaniarum</p>
-                  <p>Espaignolz</p>
+                  <p>Spanien</p>
                </note>
                <note type="occurence">
                   <p source="A005.xml">
@@ -12341,7 +12274,6 @@
                </note>
                <note type="writings">
                   <p>espies</p>
-                  <p>espies</p>
                </note>
                <note type="occurence">
                   <p source="A036.xml">
@@ -12389,10 +12321,10 @@
                   </index>
                </note>
                <note type="writings">
-                  <p>Steiermark</p>
-                  <p>Stiria</p>
-                  <p>Stiere</p>
                   <p>pays de Stiere</p>
+                  <p>Steiermark</p>
+                  <p>Stiere</p>
+                  <p>Stiria</p>
                </note>
                <note type="occurence">
                   <p source="A057.xml">
@@ -12428,8 +12360,8 @@
                   </index>
                </note>
                <note type="writings">
-                  <p>Sunggaudiẹ</p>
                   <p>Sundgaus</p>
+                  <p>Sunggaudiẹ</p>
                </note>
                <note type="occurence">
                   <p source="A076.xml">
@@ -12453,19 +12385,16 @@
                   </index>
                </note>
                <note type="writings">
-                  <p>Tyrol</p>
-                  <p>Tirol</p>
-                  <p>Tirolensis</p>
-                  <p>Tirolensis</p>
-                  <p>Tyrolensi</p>
                   <p>comptes de Tirol</p>
                   <p>conté de Tirol</p>
-                  <p>Tirol</p>
                   <p>conté de Tyrol</p>
-                  <p>Tyrolensi</p>
                   <p>Grafschaft Tirol</p>
                   <p>pays de Tirolle</p>
+                  <p>Tirol</p>
+                  <p>Tirolensis</p>
                   <p>Tirolischer</p>
+                  <p>Tyrol</p>
+                  <p>Tyrolensi</p>
                </note>
                <note type="occurence">
                   <p source="A021.xml">
@@ -12952,15 +12881,15 @@
                   </index>
                </note>
                <note type="writings">
-                  <p>roy</p>
-                  <p>trespas et defet</p>
-                  <p>trespas du roy</p>
-                  <p>mort</p>
-                  <p>roi dud. Hungrie tué</p>
-                  <p>le roi tué</p>
                   <p>beau-frere de Hongrie</p>
                   <p>la mort</p>
+                  <p>le roi tué</p>
+                  <p>mort</p>
+                  <p>roi dud. Hungrie tué</p>
+                  <p>roy</p>
                   <p>trespas</p>
+                  <p>trespas du roy</p>
+                  <p>trespas et defet</p>
                </note>
                <note type="occurence">
                   <p source="A232.xml">
@@ -13098,8 +13027,8 @@
                   </index>
                </note>
                <note type="writings">
-                  <p>trespas</p>
                   <p>mort du predecesseur</p>
+                  <p>trespas</p>
                </note>
                <note type="occurence">
                   <p source="A157.xml">
@@ -13141,31 +13070,31 @@
                   </index>
                </note>
                <note type="writings">
-                  <p>Turcs</p>
-                  <p>Turcz</p>
-                  <p>la guerre des Turcqz</p>
-                  <p>Turc</p>
-                  <p>Turcq</p>
-                  <p>Turcqs</p>
-                  <p>Turchz</p>
-                  <p>Turcqz</p>
-                  <p>türkische Scharen</p>
-                  <p>guerre offensive ou deffensive à l’encontre des Turcqz</p>
-                  <p>Thurcis</p>
-                  <p>Türkensache</p>
+                  <p>conqueste de Ungueroye</p>
                   <p>contre les Turcz</p>
-                  <p>Turcas</p>
+                  <p>guerre offensive ou deffensive à l’encontre des Turcqz</p>
+                  <p>la guerre des Turcqz</p>
+                  <p>lesd. Turcz</p>
                   <p>les Turcz</p>
-                  <p>Turcorum</p>
+                  <p>provision</p>
+                  <p>Thurcis</p>
+                  <p>Thurcum</p>
+                  <p>tresve</p>
+                  <p>tresves</p>
+                  <p>Turc</p>
+                  <p>Turcas</p>
+                  <p>Turchz</p>
                   <p>Turcicas</p>
                   <p>Turco</p>
-                  <p>provision</p>
+                  <p>Turcorum</p>
                   <p>Turcos</p>
-                  <p>Thurcum</p>
-                  <p>conqueste de Ungueroye</p>
-                  <p>tresve</p>
-                  <p>lesd. Turcz</p>
-                  <p>tresves</p>
+                  <p>Turcq</p>
+                  <p>Turcqs</p>
+                  <p>Turcqz</p>
+                  <p>Turcs</p>
+                  <p>Turcz</p>
+                  <p>Türkensache</p>
+                  <p>türkische Scharen</p>
                </note>
                <note type="occurence">
                   <p source="A018.xml">
@@ -13363,43 +13292,41 @@
                   </index>
                </note>
                <note type="writings">
-                  <p>guerre du Turcq</p>
-                  <p>guerre à l’encontre des Turcqs</p>
-                  <p>grand ennemi</p>
-                  <p>puissance</p>
-                  <p>guerre des Turcz</p>
-                  <p>repulser les Turcs</p>
-                  <p>Türkengefahr</p>
-                  <p>Verteidigung gegen die Türken</p>
-                  <p>Türken</p>
                   <p>auxilio</p>
-                  <p>des Turcz</p>
-                  <p>la guerre contre</p>
                   <p>ces maulditz Turcz</p>
+                  <p>contre lesd. Turcz</p>
+                  <p>contre les Turcs</p>
+                  <p>contre les Turcz</p>
+                  <p>contre le Turck</p>
+                  <p>defensione</p>
+                  <p>deffence</p>
+                  <p>deffendre</p>
+                  <p>des Turcz</p>
+                  <p>gegen die Türken</p>
+                  <p>grand ennemi</p>
+                  <p>guerre à l’encontre des Turcqs</p>
+                  <p>guerre contre les Turcz</p>
+                  <p>guerre des Turcz</p>
+                  <p>guerre du Turcq</p>
+                  <p>la guerre contre</p>
+                  <p>les Turcz</p>
+                  <p>puissance</p>
+                  <p>reboutement</p>
+                  <p>reiecter</p>
+                  <p>repulser les Turcs</p>
+                  <p>repulsion desd. Turcz</p>
+                  <p>resister</p>
                   <p>Turcicam</p>
                   <p>Turcicẹ</p>
+                  <p>Turcicha</p>
                   <p>Turcorum</p>
                   <p>Turcos</p>
-                  <p>Turcorum</p>
-                  <p>Turcicha</p>
-                  <p>les Turcz</p>
-                  <p>guerre contre les Turcz</p>
-                  <p>Türkenhilfe</p>
-                  <p>gegen die Türken</p>
-                  <p>les Turcz</p>
-                  <p>Turkhen</p>
-                  <p>resister</p>
-                  <p>deffence</p>
-                  <p>defensione</p>
-                  <p>repulsion desd. Turcz</p>
                   <p>Turcz</p>
-                  <p>reboutement</p>
-                  <p>contre les Turcz</p>
-                  <p>contre les Turcs</p>
-                  <p>reiecter</p>
-                  <p>contre le Turck</p>
-                  <p>contre lesd. Turcz</p>
-                  <p>deffendre</p>
+                  <p>Türken</p>
+                  <p>Türkengefahr</p>
+                  <p>Türkenhilfe</p>
+                  <p>Turkhen</p>
+                  <p>Verteidigung gegen die Türken</p>
                </note>
                <note type="occurence">
                   <p source="A035.xml">
@@ -13675,43 +13602,42 @@
                   </index>
                </note>
                <note type="writings">
-                  <p>Ungarn</p>
-                  <p>Hungarie</p>
-                  <p>Hungrie</p>
-                  <p>Ungariæ</p>
-                  <p>Hongrie</p>
-                  <p>Ungarns</p>
-                  <p>Hungariẹ</p>
-                  <p>Ungrie</p>
-                  <p>Hungria</p>
                   <p/>
-                  <p>Hungaricos</p>
+                  <p>affaires de Hongrie</p>
+                  <p>affaires de Hungrie</p>
+                  <p>affaires dud. Hungrie</p>
+                  <p>aud. Hungrie</p>
+                  <p>ceulx de Hungrie</p>
+                  <p>dommaiges en Hungrie</p>
+                  <p>droit d’heritaige</p>
+                  <p>Hongrie</p>
+                  <p>Hongrye</p>
+                  <p>Hungariae</p>
                   <p>Hungaricas</p>
                   <p>Hungaricẹ</p>
-                  <p>Hongrye</p>
-                  <p>Ungria</p>
-                  <p>Hungariae</p>
-                  <p>l’affaire de Hongrie</p>
-                  <p>nouvelles de Hungrie</p>
-                  <p>affaires dud. Hungrie</p>
-                  <p>ceulx de Hungrie</p>
+                  <p>Hungaricos</p>
+                  <p>Hungarie</p>
+                  <p>Hungariẹ</p>
                   <p>Hungern</p>
-                  <p>Hungern</p>
-                  <p>aud. Hungrie</p>
-                  <p>affaires de Hongrie</p>
-                  <p>mauvaises nouvelles de Hungrie</p>
-                  <p>roi d’Hongrie</p>
-                  <p>mauvaises nouvelles</p>
-                  <p>perte du royaulme</p>
-                  <p>perte de Unguerye</p>
-                  <p>Ungueroye</p>
-                  <p>perte du royaume de Unguerye</p>
-                  <p>Unguerye</p>
-                  <p>dommaiges en Hungrie</p>
+                  <p>Hungria</p>
+                  <p>Hungrie</p>
                   <p>infidelles Turcz</p>
+                  <p>l’affaire de Hongrie</p>
+                  <p>mauvaises nouvelles</p>
+                  <p>mauvaises nouvelles de Hungrie</p>
+                  <p>nouvelles de Hungrie</p>
+                  <p>perte de Unguerye</p>
+                  <p>perte du royaulme</p>
+                  <p>perte du royaume de Unguerye</p>
+                  <p>roi d’Hongrie</p>
                   <p>royaulmes de Hongrie</p>
-                  <p>affaires de Hungrie</p>
-                  <p>droit d’heritaige</p>
+                  <p>Ungariæ</p>
+                  <p>Ungarn</p>
+                  <p>Ungarns</p>
+                  <p>Ungria</p>
+                  <p>Ungrie</p>
+                  <p>Ungueroye</p>
+                  <p>Unguerye</p>
                </note>
                <note type="occurence">
                   <p source="A014.xml">
@@ -14185,34 +14111,29 @@
                   </index>
                </note>
                <note type="writings">
-                  <p>Venetiens</p>
-                  <p>Venetiens</p>
-                  <p>Venetiarum</p>
-                  <p>Venise</p>
+                  <p>Benecia</p>
+                  <p>Benecianos</p>
+                  <p>des Veniciens</p>
+                  <p>guerre contre Venissiens</p>
+                  <p>les Veneciens</p>
+                  <p>nouvelles de Venize</p>
+                  <p>solucion</p>
+                  <p>Venecianos</p>
                   <p>Veneciens</p>
-                  <p>Venyse</p>
-                  <p>Venize</p>
-                  <p>Veniciens</p>
-                  <p>Venissiens</p>
-                  <p>Venetis</p>
+                  <p>Venedig</p>
+                  <p>Venessiens</p>
                   <p>Veneti</p>
                   <p>Venetiarum</p>
-                  <p>Venedig</p>
-                  <p>Benecia</p>
-                  <p>Venecianos</p>
-                  <p>Benecianos</p>
-                  <p>Benecianos</p>
-                  <p>Venezianischen</p>
-                  <p>Venise</p>
-                  <p>solucion</p>
+                  <p>Venetiens</p>
                   <p>Venetiis</p>
+                  <p>Venetis</p>
+                  <p>Venezianischen</p>
                   <p>Veniciens</p>
-                  <p>nouvelles de Venize</p>
-                  <p>les Veneciens</p>
+                  <p>Venise</p>
+                  <p>Venissiens</p>
                   <p>Venitiens</p>
-                  <p>Venessiens</p>
-                  <p>guerre contre Venissiens</p>
-                  <p>des Veniciens</p>
+                  <p>Venize</p>
+                  <p>Venyse</p>
                </note>
                <note type="occurence">
                   <p source="A018.xml">
@@ -14742,18 +14663,18 @@
                <note type="writings">
                   <p>appoinctement</p>
                   <p>appoinctement des Venissiens</p>
-                  <p>traictié, fait avec les Veniciens</p>
-                  <p>Veniciens</p>
-                  <p>Veneto</p>
-                  <p>tractatu Veneto</p>
                   <p>tractatu et pace Veneta</p>
+                  <p>tractatu Veneto</p>
                   <p>traict de paix perpetuelle</p>
                   <p>traicté de paix</p>
-                  <p>Venitienne</p>
-                  <p>Venisiens</p>
-                  <p>traicté des Venissienz</p>
                   <p>traicté des Veneciens</p>
+                  <p>traicté des Venissienz</p>
                   <p>traicté d’avec les Veniciens</p>
+                  <p>traictié, fait avec les Veniciens</p>
+                  <p>Veneto</p>
+                  <p>Veniciens</p>
+                  <p>Venisiens</p>
+                  <p>Venitienne</p>
                </note>
                <note type="occurence">
                   <p source="A032.xml">
@@ -14885,8 +14806,8 @@
                   </index>
                </note>
                <note type="writings">
-                  <p>armurier</p>
                   <p>armoieur</p>
+                  <p>armurier</p>
                </note>
                <note type="occurence">
                   <p source="A036.xml">
@@ -14966,8 +14887,8 @@
                </note>
                <note type="writings">
                   <p>edictum</p>
-                  <p>Wormser Edikts</p>
                   <p>l’edict</p>
+                  <p>Wormser Edikts</p>
                </note>
                <note type="occurence">
                   <p source="A065.xml">
@@ -14997,10 +14918,10 @@
                   </index>
                </note>
                <note type="writings">
-                  <p>Worms</p>
                   <p>capitulacion de Vormes</p>
-                  <p>traicté de Wormes</p>
                   <p>la capitulación de Bormes</p>
+                  <p>traicté de Wormes</p>
+                  <p>Worms</p>
                </note>
                <note type="occurence">
                   <p source="A014.xml">
@@ -15036,18 +14957,17 @@
                   </index>
                </note>
                <note type="writings">
-                  <p>Wirtemberg</p>
-                  <p>württembergische</p>
-                  <p>Wirtembergensis</p>
-                  <p>Wirtemberga</p>
-                  <p>Wirtembergensi</p>
-                  <p>Wiertemberghe</p>
-                  <p>Württemberg</p>
                   <p>ducado</p>
+                  <p>ducé de Vertemberg</p>
                   <p>Virtemberg</p>
                   <p>Wertanberga</p>
+                  <p>Wiertemberghe</p>
+                  <p>Wirtemberg</p>
+                  <p>Wirtemberga</p>
+                  <p>Wirtembergensi</p>
+                  <p>Wirtembergensis</p>
                   <p>Württemberg</p>
-                  <p>ducé de Vertemberg</p>
+                  <p>württembergische</p>
                </note>
                <note type="occurence">
                   <p source="A021.xml">
