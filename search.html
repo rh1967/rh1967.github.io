@@ -179,12 +179,9 @@
         </script><form accept-charset="UTF-8" id="ssForm" data-allowphrasal="yes" data-allowwildcards="yes" data-minwordlength="3" data-scrolltotextfragment="no" data-maxkwicstoshow="5" data-resultsperpage="1" onsubmit="return false;" data-versionstring="" data-ssfolder="static-search" data-kwictruncatestring="..." data-resultslimit="2000">
                            <div id="ssQueryAndButton">
                               <div class="form-group row">
-                                 <div class="de"><label class="col-12 col-form-label">Suche nach</label></div>
-                                 <div class="en"><label class="col-12 col-form-label">Searching for</label></div>
-                                 <div class="col-12"><input type="text" placeholder="Begriff hier eingeben" class="form-control" id="ssQuery"/></div>
-                              </div>
-                              <div class="form-group row">
-                                 <div class="offset-4 col-8"><button id="ssDoSearch" name="submit" type="submit" class="btn btn-primary">Absenden</button></div>
+                                 <div class="col-12 col-form-label"><label><span class="de">Suche nach</span><span class="en">Searching for</span></label></div>
+                                 <div class="col-12"><input id="ssQuery" type="text" placeholder="Begriff hier eingeben" class="form-control"/></div>
+                                 <div class="col-12"><button id="ssDoSearch" name="submit" type="submit" class="btn btn-primary"><span class="de">Absenden</span><span class="en">Submit</span></button></div>
                               </div>
                            </div>
                         </form>
@@ -352,10 +349,10 @@
                         
                         <tbody></tbody>
                         </table>
+                     
+                     
+                     <div id="rhPagination" style="display: none;"><button class="btn btn-primary" id="rhShowMore">Show more</button><button class="btn btn-primary" id="rhShowAll">Show all</button><button class="btn btn-primary" id="rhShowLess">Show less</button></div>
                      </div>
-                  
-                  
-                  <div id="rhPagination" style="display: none;"><button class="btn btn-primary" id="rhShowMore">Show more</button><button class="btn btn-primary" id="rhShowAll">Show all</button><button class="btn btn-primary" id="rhShowLess">Show less</button></div>
                   </div>
                </div>
             </div>
