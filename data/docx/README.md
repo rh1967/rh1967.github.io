@@ -1,1 +1,0 @@
-# .docx files edited by Laferl
