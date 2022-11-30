@@ -26,7 +26,7 @@
         var embedTitle = $( embedId ).attr("title") ;
         //var gitRepo = "https://rh1967.github.io" ;        
         var gitRepo = $(location).attr("origin");
-        console.log(originURL); ;
+        console.log(gitRepo) ;
         var embed = gitRepo + "/data/pdf/start/" + embedTitle + ".pdf" ;
         var embedTag = embedId + " embed" ;        
         
