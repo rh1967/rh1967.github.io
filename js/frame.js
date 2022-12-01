@@ -20,26 +20,22 @@
     }
     */
     
-//href = https://rh1967.github.io/ferdinand-page/index.html#korrFerd_text
-//hostname = rh1967.github.io
-//pathname = /ferdinand-page/index.html
-//hostname + pathname = rh1967.github.io/ferdinand-page/index.html
-//split(/) hostname + pathname = [0]rh1967.github.io [1]ferdinand-page [2]index.html
-// [0] + [1] = 
-
-
-    function embedLoad( click_para ) {
+    function embedLoad( click_para ) {        
         var embedId = "#" + $( click_para ).parents("div.text").attr("id") + " " + click_para.attr("href") ;                    
         var embedDiv = $( embedId ).parent("div.frame-texts");
-        var embedTitle = $( embedId ).attr("title") ;
-        
+        var embedTitle = $( embedId ).attr("title") ;                
+
         var hostName = $(location).attr("hostname") ;
         var pathName = $(location).attr("pathname") ;
         var tmpUrl = hostName + pathName ;
         var tmpUrlArr = tmpUrl.split('/') ;
-        var gitRepo = "https://" + tmpUrlArr[0] + tmpUrlArr[1] ;
-        //var gitRepo = "https://rh1967.github.io" ;
 
+        if (tmpUrlArr.length == 1 || (tmpUrlArr.length == 2 && tmpUrlArr[1] == "index.html")) {
+            var gitRepo = "https://" + tmpUrlArr[0] ;
+        } else {
+            var gitRepo = "https://" + tmpUrlArr[0] + "/" + tmpUrlArr[1] ;
+        }
+        
         var embed = gitRepo + "/data/pdf/start/" + embedTitle + ".pdf" ;
         var embedTag = embedId + " embed" ;        
         
