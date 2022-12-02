@@ -678,6 +678,10 @@ h1 a.fas.fa-redo-alt {
     font-style:italic
 }
 
+a span.transcription {
+    font-style:italic
+}
+
 .commentary .italic {
     font-style:normal
 }
@@ -916,6 +920,10 @@ ul.list-texts .list-item h4 {
 
 .text .heading-texts h4:nth-child(2) {
     margin-bottom: 0px;
+}
+
+.text .frame-texts {
+    margin-top: 10px;
 }
 
 /*RH*/
