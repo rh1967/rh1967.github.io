@@ -20,7 +20,8 @@
                <note type="place">
                   <placeName n="place_d6e136a1055">Cazalegas</placeName>
                </note>
-               <note type="gnd">nognd</note>
+               <note type="geoname"/>
+               <note type="gnd"/>
                <note type="writings">
                   <p>Caçalegas</p>
                </note>
@@ -37,7 +38,8 @@
                <note type="place">
                   <placeName n="place_d4e164a1055">Gmunden</placeName>
                </note>
-               <note type="gnd">nognd</note>
+               <note type="geoname"/>
+               <note type="gnd"/>
                <note type="writings">
                   <p>Gmunden</p>
                </note>
@@ -54,7 +56,8 @@
                <note type="place">
                   <placeName n="place_d5e155a1055">Innsbruck</placeName>
                </note>
-               <note type="gnd">nognd</note>
+               <note type="geoname"/>
+               <note type="gnd"/>
                <note type="writings">
                   <p>Inspruk</p>
                </note>
