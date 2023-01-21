@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -18,9 +17,9 @@
          <list>
             <item>
                <note type="place">
-                  <placeName n="place_d6e136a1055">Cazalegas</placeName>
+                  <placeName n="place_d6e136a1059">Cazalegas</placeName>
                </note>
-               <note type="geoname"/>
+               <note type="geoname">3125579</note>
                <note type="gnd"/>
                <note type="writings">
                   <p>Caçalegas</p>
@@ -36,9 +35,9 @@
             </item>
             <item>
                <note type="place">
-                  <placeName n="place_d4e164a1055">Gmunden</placeName>
+                  <placeName n="place_d4e164a1059">Gmunden</placeName>
                </note>
-               <note type="geoname"/>
+               <note type="geoname">2778436</note>
                <note type="gnd"/>
                <note type="writings">
                   <p>Gmunden</p>
@@ -54,9 +53,9 @@
             </item>
             <item>
                <note type="place">
-                  <placeName n="place_d5e155a1055">Innsbruck</placeName>
+                  <placeName n="place_d5e155a1059">Innsbruck</placeName>
                </note>
-               <note type="geoname"/>
+               <note type="geoname">2775220</note>
                <note type="gnd"/>
                <note type="writings">
                   <p>Inspruk</p>
