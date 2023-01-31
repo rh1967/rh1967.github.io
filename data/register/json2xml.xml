@@ -1,0 +1,2060 @@
+<array xmlns="http://www.w3.org/2005/xpath-functions">
+   <map>
+      <string key="key">Wien</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2761369</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Slawonien</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3190590</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Madrid</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3117735</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Valence</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2971053</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Moskau</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">524901</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Elsass</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3038033</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Ferrette</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3018659</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Stendal</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2827479</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Augsburg</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2954172</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Lyonnais</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2996941</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Lübeck</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2875601</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Brescia</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3181554</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Lodi</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3174638</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Sopron</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3045190</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Perpignan</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2987914</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Aragón</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3336899</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Brabant</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3333250</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Vöcklabruck</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2762342</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Amstetten</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2782555</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Mons</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2790869</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Diois</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3021339</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Kempten</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2891621</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Mainz</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2874225</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Vitoria-Gasteiz</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3104499</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Languedoc</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3007671</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Niederösterreich</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2770542</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Montbéliard</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2992938</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Frankreich</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3017382</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Jajce</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3198934</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Gent</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2797656</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Senj</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3191055</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Spanien</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2510769</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Pavia</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3171366</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Lendava</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3196681</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Engelsburg</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">6269267</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Landstuhl</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2881477</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Württemberg</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2953481</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Béarn</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3034397</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Konstanz</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2885679</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Molukken</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">1636629</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Hoogstraten</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2795398</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Balingen</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2953089</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Worms</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2806142</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Orange, Fürstentum</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2989460</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Gurk</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2777237</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Bayonne</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3034475</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Basel</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2661604</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Istanbul</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">745044</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Krain</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3190538</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Urach</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2818246</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">England</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">6269131</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Metlika</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3195213</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Nördlingen</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2861914</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Kroatien</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3202326</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Vitoria</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3104499</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Saint-Jean-de-Luz</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2979309</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Novara</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3172189</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Cambrai</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3029030</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Mechelen/Malines</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2791537</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Sachsen</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2842567</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Galisteo</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2517409</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Hohentwiel, Schloss</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">7646414</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Alessandria</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3183299</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Verona</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3164527</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Bologna</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3181928</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Logroño</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3118150</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Ungarn</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">719819</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Heidelberg</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2907911</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Ybbs</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2760772</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Ljubljana</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3196359</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Luzern</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2659811</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Šintava</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3057660</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Tortosa</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3107677</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Cervia</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3178998</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Bratislava</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3060972</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Dauphiné</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3021686</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Toscana</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3165361</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Alcalá</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3130616</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">London</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2643743</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Savona</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3167022</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Schwarzwald</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2834688</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Marano Lagunare</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3174017</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Genua</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3176219</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Speyer</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2830582</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Como</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3178229</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Hogstraten</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2795398</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Amantea</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2522895</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Astorga</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3129231</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Besançon</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3033123</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Burgund, Freigrafschaft</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3017372</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Parma</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3171457</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Sundgau</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2973699</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Arles</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3036938</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Cremona</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3177838</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Brixen</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3181550</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Ulm</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2820256</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Maya del Baztán, Burg (Navarra)</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3117110</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Châtelot</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3004686</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Italien</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3175395</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Radstadt</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2768098</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Nürnberg</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2861650</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Palma</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3171576</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Bruck an der Leitha (Niederösterreich)</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2781373</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Katalonien</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3125609</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Wiener Neustadt</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2761353</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Pliva</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3193166</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Passau</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2855328</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Vrbas</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3187296</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Kufstein</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2773300</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Segovia</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3109256</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Bruck an der Leitha</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2781373</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Savoyen</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2975518</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Tordesillas</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3107952</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Rom</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3169070</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Walachei</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">662112</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Barcelona</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3128760</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Dänemark</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2623032</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Trient</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3165243</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Florenz</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3176959</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Stuttgart</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2825297</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Straßburg</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2973783</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Gran</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3053163</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Romagna</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3169068</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Mailand</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3173435</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Middelburg</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2750896</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">L’Isle sur le Doubs, Herrschaft</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2998126</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Oberösterreich</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2769848</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Etsch</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3183470</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Auxonne</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3035828</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Bourguignon</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3030941</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Baden</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2953504</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Alexandria</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">361058</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Saint Jean-Pied-de Port</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2979207</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Portugal</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2264397</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Sizilien</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2523118</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Mézières</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3026613</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Köln</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2886242</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Dôle</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3021263</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Burgos</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3127461</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Ensisheim</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3020152</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Freistadt</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2779275</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Lenzen</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2878731</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Polen</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">798544</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Maastricht</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2751283</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Liège</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2792413</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Amboise</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3037902</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Tübingen</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2820860</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Nizza</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2990440</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Wijnendale (Torhout)</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2783680</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Salamanca</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3111108</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Avignon</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3035681</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Neapel</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3172394</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Kärnten</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2774686</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Niederlande</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2750405</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Salvatierra</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3110967</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Guadalupe</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">6356783</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Eberbach</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3208037</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Aldersbach</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2958577</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Heusden</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2754135</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Innsbruck</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2775220</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Valladolid</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3106672</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Béarne</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3034397</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Pisa</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3170647</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Ravensburg</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2849802</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Bern</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2661552</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Héricourt</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3013456</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Pamplona</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3114472</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Budapest</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3054643</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Breisgau</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2944797</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Dömitz</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2936292</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Südtirol</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3165244</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Rovereto</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3168854</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Moldau</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3062662</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Petrovaradin</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3193406</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Ebernburg</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">11594504</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Sremska Mitrovica</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3190103</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Chiavenna</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3178829</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Balaton</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3055597</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Provence</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2985246</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Laeken</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2793656</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Auvergne</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3035876</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Raab</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3046063</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Karpaten</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">682674</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Nitra</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3058531</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Cheb</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3077835</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Grießen</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2917390</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Tauern</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2775659</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Waldshut im Breisgau</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2814791</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Geldern</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2921528</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Esslingen</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2928751</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Haguenau</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3014078</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Siena</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3166548</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Toledo</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2510409</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Piacenza</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3171058</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Dalmatien</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3202210</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Leuven/Louvain</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2792482</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Burgund</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3030967</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Ustaritz</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2971286</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Breda</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2758401</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Deutschland</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2921044</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Graz</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2778067</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Hohenems</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2775742</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Arques-la-Bataille</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3036797</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Bruneck</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3181480</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Steiermark</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2764581</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Valencia</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2509954</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Neuchâtel</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2659496</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Outremeuse (Liège)</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2792413</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Lyon</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2996944</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Hondarribia</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3121881</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Salzburg</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2766824</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Grad (Goričko)</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3199765</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Böhmen</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3078198</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Esztergom</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3053163</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Schweinfurt</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2834498</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Frankfurt am Main</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2925533</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Po</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3170550</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Santander</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3109718</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Port Hercule</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3225759</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Freiburg im Breisgau</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2925177</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Holland</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2750405</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Bidache</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3032771</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Maya, Festung (?)</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3117110</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Baena</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2521415</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Zeeland</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2744011</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Antwerpen</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2803138</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Lothringen</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2997551</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Tirol</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2763587</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Soncino</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3166399</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Brandenburg</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2945356</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Brüssel</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2800866</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Hainburg</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2776988</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Istrien</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3337514</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Cazalegas</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3125579</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Montrond-le-Château</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2992025</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Cambrai (Cambray)</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3029030</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Klis</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">11054607</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Regensburg</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2849483</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Burgund, Herzogtum</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3030967</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Graubünden</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2660522</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Vicenza</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3164419</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Aranjuez</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3129857</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Prag</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3067696</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Montélimar</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2992703</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Masowien</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">765062</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Charolais</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3026516</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Komárno/Komárom</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3059436</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Österreich</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2782113</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Celje</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3202781</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Linz</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2772400</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Luxemburg</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2960313</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Trier</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2821164</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Gaeta</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3176438</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Granada</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2517117</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Maya, Burg (Navarra)</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3117110</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Valenciennes</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2971041</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Marseille</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2995469</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Vigevano</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3164376</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Granges</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3014892</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Mousson (?)</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2991370</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Musso</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3172414</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Belgrad</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">792680</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Zagreb</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3186886</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Hamburg</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2911298</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Padua</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3171728</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Rothenburg ob der Tauber</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2844056</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Játiva</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2516345</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Dijon</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3021372</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Navarra</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3115609</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Zürich</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2657896</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Enns</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2780048</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Venedig</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3164603</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Bayern</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2951839</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Blois</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3032213</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Schweiz</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2658434</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Lombardei</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3174618</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Schladming</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2765961</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Cartagena</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2520058</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Székesfehérvár</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3044774</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Kassel</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2892518</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Franken</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2803465</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Siebenbürgen</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">664661</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Sevilla</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2510911</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Adria</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3183462</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Villefranche-sur-Mer</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2968749</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Xàtiva</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2516345</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Gmunden</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2778436</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Bar, Herzogtum</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3034911</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Rhodos</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">400665</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Jerusalem</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">281184</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Perugia</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3171180</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Kreuznach, Burg</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2953416</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Mähren</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">3070359</string>
+      </map>
+   </map>
+   <map>
+      <string key="key">Mindelheim</string>
+      <map key="mappedTo">
+         <string key="authority">GEO_NAMES</string>
+         <string key="id">2871045</string>
+      </map>
+   </map>
+</array>
