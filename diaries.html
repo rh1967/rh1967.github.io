@@ -1,0 +1,356 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+      <meta name="mobile-web-app-capable" content="yes" />
+      <meta name="apple-mobile-web-app-capable" content="yes" />
+      <meta name="apple-mobile-web-app-title" content="Edition der Familienkorrespondenz Ferdinands I." />
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="profile" href="http://gmpg.org/xfn/11" />
+      <link href="css/mockup/style.css" rel="stylesheet" /><script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script><script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.2/openseadragon.min.js"></script><title>Edition der Familienkorrespondenz Ferdinands I.</title>
+   </head>
+   <body id="briefe">
+      <header>
+         <div class="container" id="headnav">
+            <div class="row">
+               <div class="titelgrafik" style="align-items: baseline; display: flex; flex:0 0 auto; width: 50%;"><a href="https://oesterreichische-geschichte.at/" target="_blank" style="flex: 0 0 25%;display: flex; max-width: 50%!important; justify-content: center;"><img style=" max-width: 100% !important;max-height: 100% !important;margin: 0;" src="dist/assets/images/mockup/logo-kommission-neuere-geschichte-oesterreichs.svg" title="Kommission für neue Geschichte Österreichs" alt="Kommission für neue Geschichte Österreichs" /></a><hr /><a href="./" style="flex: 0 0 50%;display: flex; justify-content: center;"><img style=" max-width: 100% !important;max-height: 100% !important;margin: 0;" src="dist/assets/images/mockup/schriftzug_de.png" title="Edition der Tagebücher Karl Grafen Zinzendorfs" /></a><hr />
+               </div>
+               <div class="col-lg-6 pr-0" id="titelmenu">
+                  <div class="col-lg-12 langmenu"></div>
+                  <nav class="navbar navbar-expand-lg navbar-light bg-light static-top flex-column ml-5">
+                     <div class="container"><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse" id="navbarResponsive">
+                           <ul class="navbar-nav">
+                              <li class="nav-item"><a class="nav-link" href="index.html"><span class="de">Start</span><span class="en"></span></a></li>
+                              <li class="nav-item"><a class="nav-link" href="diaries.html"><span class="de">Tagebücher</span><span class="en"></span></a></li>
+                              <li class="nav-item"><a class="nav-link" href="search.html"><span class="de"></span><span class="en"></span></a></li>
+                              <li class="nav-item"><a class="nav-link" href="register.html"><span class="de"></span><span class="en"></span></a></li>
+                              <li class="nav-item"><a class="nav-link" href="map.html"><span class="de"></span><span class="en"></span></a></li>
+                           </ul>
+                        </div>
+                     </div>
+                  </nav>
+               </div>
+            </div>
+         </div>
+      </header>
+      <main>
+         <div class="container" id="pageTitle">
+            <div class="de">
+               <div class="row justify">
+                  <div class="col-lg-3 pl-0 pr-5"><small>Bitte auf einen Verweis klicken.</small></div>
+                  <div class="col-lg-9 pl-5 pr-0">
+                     <h1>Tagebücher</h1>
+                  </div>
+               </div>
+            </div>
+            <div class="en" style="display: none">
+               <div class="row justify">
+                  <div class="col-lg-3 pl-0 pr-5"><small>Please click on a reference.</small></div>
+                  <div class="col-lg-9 pl-5 pr-0">
+                     <h1>Letters</h1>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="container" id="pageContent">
+            <div class="row">
+               <div class="side-bar col-lg-3 left-column pl-0 pr-5">
+                  <div class="container" id="selectList">
+                     <div class="de">
+                        <h2>Inhaltsverzeichnis</h2>
+                        <ul class="submenu-start">
+                           
+                           <li class="list-item">
+                              <a data-toggle="collapse" href="#_1782" role="button">1782</a>
+                              
+                              <div class="collapse" id="_1782">
+                                 
+                                 <ul class="submenu-start collapsable">
+                                    
+                                    <li class="list-item">
+                                       <a href="#_1782_text" title="Text 1782 pages.pdf">Tgb 1782</a>
+                                       </li>
+                                    </ul>
+                                 </div>        
+                              </li>
+                           
+                           <li class="list-item">
+                              <a data-toggle="collapse" href="#_1783" role="button">1783</a>
+                              
+                              <div class="collapse" id="_1783">
+                                 
+                                 <ul class="submenu-start collapsable">
+                                    
+                                    <li class="list-item">
+                                       <a href="#_1783_text" role="button" title="Text 1783 pages.pdf">Tgb 1783</a>
+                                       </li>
+                                    </ul>
+                                 </div>        
+                              </li>
+                           
+                           <li class="list-item">
+                              <a data-toggle="collapse" href="#_1784" role="button">1784</a>        
+                              
+                              <div class="collapse" id="_1784">
+                                 
+                                 <ul class="submenu-start collapsable">
+                                    
+                                    <li class="list-item">
+                                       <a href="#_1784_text" role="button" title="Text 1784 pages.pdf">Tgb 1784</a>
+                                       </li>
+                                    </ul>
+                                 </div>
+                              </li>
+                           
+                           <li class="list-item">
+                              <a data-toggle="collapse" href="#_1785" role="button">1785</a>        
+                              
+                              <div class="collapse" id="_1785">
+                                 
+                                 <ul class="submenu-start collapsable">
+                                    
+                                    <li class="list-item">
+                                       <a href="#_Januar-Juli_1785_text" role="button" title="1785 Januar-Juli pages.pdf">Tgb 1785 Januar-Juli</a>
+                                       </li>
+                                    
+                                    <li class="list-item">
+                                       <a href="#_August-Dezember_1785_text" role="button" title="1785 August-Dezember pages.pdf">Tgb 1785 August-Dezember</a>
+                                       </li>            
+                                    </ul>
+                                 </div>        
+                              </li>
+                           
+                           <li class="list-item">
+                              <a data-toggle="collapse" href="#_1786" role="button">1786</a>        
+                              
+                              <div class="collapse" id="_1786">
+                                 
+                                 <ul class="submenu-start collapsable">
+                                    
+                                    <li class="list-item">                    
+                                       <a href="#_1786_text" role="button" title="Text 1786 pages.pdf">Tgb 1786</a>
+                                       </li>
+                                    </ul>
+                                 </div>        
+                              </li>
+                           
+                           <li class="list-item">
+                              <a data-toggle="collapse" href="#_1787" role="button">1787</a>        
+                              
+                              <div class="collapse" id="_1787">
+                                 
+                                 <ul class="submenu-start collapsable">
+                                    
+                                    <li class="list-item">
+                                       <a href="#_Januar-September_1787_text" role="button" title="Text Januar-September 1787 pages.pdf">Tgb 1787 Januar-September</a>
+                                       </li>
+                                    
+                                    <li class="list-item">                    
+                                       <a href="#_Oktober-Dezember_1787_text" role="button" title="Text Oktober-Dezember 1787 pages.pdf">Tgb 1787 Oktober-Dezember</a>
+                                       </li>            
+                                    </ul>
+                                 </div>        
+                              </li>
+                           
+                           <li class="list-item">
+                              <a data-toggle="collapse" href="#_1788" role="button">1788</a>        
+                              
+                              <div class="collapse" id="_1788">
+                                 
+                                 <ul class="submenu-start collapsable">
+                                    
+                                    <li class="list-item">                    
+                                       <a href="#_1788_text" role="button" title="Text 1788 pages.pdf">Tgb 1788</a>
+                                       </li>
+                                    </ul>
+                                 </div>        
+                              </li>
+                           
+                           <li class="list-item">
+                              <a data-toggle="collapse" href="#_1789" role="button">1789</a>        
+                              
+                              <div class="collapse" id="_1789">
+                                 
+                                 <ul class="submenu-start collapsable">
+                                    
+                                    <li class="list-item">                    
+                                       <a href="#_Januar-Juni_1789_text" role="button" title="Text Januar-Juni 1789 pages.pdf">Tgb 1789 Januar-Juni</a>
+                                       </li>
+                                    
+                                    <li class="list-item">                    
+                                       <a href="#_Juli-Dezember_1789_text" role="button" title="Text Juli-Dezember 1789 pages.pdf">Tgb 1789 Juli-Dezember</a>
+                                       </li>            
+                                    </ul>
+                                 </div>        
+                              </li>
+                           
+                           <li class="list-item">
+                              <a data-toggle="collapse" href="#_1790" role="button">1790</a>        
+                              
+                              <div class="collapse" id="_1790">
+                                 
+                                 <ul class="submenu-start collapsable">
+                                    
+                                    <li class="list-item">                    
+                                       <a href="#_Januar-April_1790_text" role="button" title="Text Januar-April 1790 pages.pdf">Tgb 1790 Januar-April</a>
+                                       </li>
+                                    
+                                    <li class="list-item">                    
+                                       <a href="#_Mai-August_1790_text" role="button" title="Text Mai-August 1790 pages.pdf">Tgb 1790 Mai-August</a>
+                                       </li>
+                                    
+                                    <li class="list-item">                    
+                                       <a href="#_September-Dezember_1790_text" role="button" title="Text September-Dezember 1790 pages.pdf">Tgb 1790 September-Dezember</a>
+                                       </li>            
+                                    </ul>
+                                 </div>        
+                              </li>        
+                           </ul>
+                     </div>
+                     <div class="en" style="display: none"></div>
+                  </div>
+               </div>
+               <div class="texts col-lg-9 right-column pl-5 pr-0">
+                  <div class="container" id="text">
+                     <div class="text" id="_1782_text" style="display: none">
+                        <div class="heading-texts">
+                           <div class="de">
+                              <h4>Tagebuch 1882</h4>
+                           </div>
+                           <div class="en"></div>
+                        </div>
+                        <div class="frame-texts" style="display: none"></div>
+                     </div>
+                     <div class="text" id="_1783_text" style="display: none">
+                        <div class="heading-texts">
+                           <div class="de">
+                              <h4>Tagebuch 1883</h4>
+                           </div>
+                           <div class="en"></div>
+                        </div>
+                        <div class="frame-texts" style="display: none"></div>
+                     </div>
+                     <div class="text" id="_1784_text" style="display: none">
+                        <div class="heading-texts">
+                           <div class="de">
+                              <h4>Tagebuch 1884</h4>
+                           </div>
+                           <div class="en"></div>
+                        </div>
+                        <div class="frame-texts" style="display: none"></div>
+                     </div>
+                     <div class="text" id="_Januar-Juli_1785_text" style="display: none">
+                        <div class="heading-texts">
+                           <div class="de">
+                              <h4>Tagebuch 1785 Januar-Juli</h4>
+                           </div>
+                           <div class="en"></div>
+                        </div>
+                        <div class="frame-texts" style="display: none"></div>
+                     </div>
+                     <div class="text" id="_August-Dezember_1785_text" style="display: none">
+                        <div class="heading-texts">
+                           <div class="de">
+                              <h4>Tagebuch 1785 August-Dezember</h4>
+                           </div>
+                           <div class="en"></div>
+                        </div>
+                        <div class="frame-texts" style="display: none"></div>
+                     </div>
+                     <div class="text" id="_1786_text" style="display: none">
+                        <div class="heading-texts">
+                           <div class="de">
+                              <h4>Tagebuch 1786</h4>
+                           </div>
+                           <div class="en"></div>
+                        </div>
+                        <div class="frame-texts" style="display: none"></div>
+                     </div>
+                     <div class="text" id="_Januar-September_1787_text" style="display: none">
+                        <div class="heading-texts">
+                           <div class="de">
+                              <h4>Tagebuch 1787 Januar-September</h4>
+                           </div>
+                           <div class="en"></div>
+                        </div>
+                        <div class="frame-texts" style="display: none"></div>
+                     </div>
+                     <div class="text" id="_Oktober-Dezember_1787_text" style="display: none">
+                        <div class="heading-texts">
+                           <div class="de">
+                              <h4>Tagebuch 1787 Oktober-Dezember</h4>
+                           </div>
+                           <div class="en"></div>
+                        </div>
+                        <div class="frame-texts" style="display: none"></div>
+                     </div>
+                     <div class="text" id="_1788_text" style="display: none">
+                        <div class="heading-texts">
+                           <div class="de">
+                              <h4>Tagebuch 1788</h4>
+                           </div>
+                           <div class="en"></div>
+                        </div>
+                        <div class="frame-texts" style="display: none"></div>
+                     </div>
+                     <div class="text" id="_Januar-Juni_1789_text" style="display: none">
+                        <div class="heading-texts">
+                           <div class="de">
+                              <h4>Tagebuch 1789 Januar-Juni</h4>
+                           </div>
+                           <div class="en"></div>
+                        </div>
+                        <div class="frame-texts" style="display: none"></div>
+                     </div>
+                     <div class="text" id="_Juli-Dezember_1789_text" style="display: none">
+                        <div class="heading-texts">
+                           <div class="de">
+                              <h4>Tagebuch 1789 Juli-Dezember</h4>
+                           </div>
+                           <div class="en"></div>
+                        </div>
+                        <div class="frame-texts" style="display: none"></div>
+                     </div>
+                     <div class="text" id="_Januar-April_1790_text" style="display: none">
+                        <div class="heading-texts">
+                           <div class="de">
+                              <h4>Tagebuch 1790 Januar-April</h4>
+                           </div>
+                           <div class="en"></div>
+                        </div>
+                        <div class="frame-texts" style="display: none"></div>
+                     </div>
+                     <div class="text" id="_Mai-August_1790_text" style="display: none">
+                        <div class="heading-texts">
+                           <div class="de">
+                              <h4>Tagebuch 1790 Mai-August</h4>
+                           </div>
+                           <div class="en"></div>
+                        </div>
+                        <div class="frame-texts" style="display: none"></div>
+                     </div>
+                     <div class="text" id="_September-Dezember_1790_text" style="display: none">
+                        <div class="heading-texts">
+                           <div class="de">
+                              <h4>Tagebuch 1790 September-Dezember</h4>
+                           </div>
+                           <div class="en"></div>
+                        </div>
+                        <div class="frame-texts" style="display: none"></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </main>
+      <footer class="footer mt-auto pt-5">
+         <div class="container de">
+            <div class="footer-imprint"><a href="imprint.html" target="_blank">Impressum</a></div>
+         </div>
+         <div class="container en" style="display: none">
+            <div class="footer-imprint"><a href="imprint.html" target="_blank">Imprint</a></div>
+         </div>
+      </footer><script src="js/language.js"></script><script src="js/diaries_start.js"></script><script src="js/frame.js"></script></body>
+</html>
