@@ -1,27 +1,20 @@
-/*template: 
-<iframe src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210101201653/PDF.pdf">
-</iframe>
-*/
 
     //get pdf de + en
-    function embedId(gitRepo_fn, click_fn) {
-        var title =  click_fn.attr("title");        
-        var iframeDirStr = $( click_fn ).parents("div.collapse").attr("id") ;
-        var iframeDir = iframeDirStr.substring(1);        
-        //var iframe = gitRepo_fn + "/data/pdf/" + iframeDir + "/" + title ;
-        var iframe = "data/pdf/" + title ;
-                
-        var href = click_fn.attr("href");
-        var iframeId = href + " div:nth-child(2).frame-texts" ;
-        var iframeTag = iframeId + " iframe" ;
+    function embedId(embedId_lang, gitRepo_lang, click_lang) {        
+        var embedDiv = $( embedId_lang ).parent("div.frame-texts");
+        var embedTitle = $( embedId_lang ).attr("title") ;
+        var embed = gitRepo_lang + "/data/pdf/start/" + embedTitle + ".pdf" ;
+        var embedTag = embedId_lang + " embed" ;        
         
-        $( iframeTag ).remove();
-        $( iframeId ).append("<iframe></iframe>");
-        $( iframeTag ).attr("class", "frameStyle").attr( "src", iframe ) ;
+        $( embedTag ).remove();
+        $( embedId_lang ).append("<embed></embed>");                    
+        $( embedTag ).attr("class", "frameStyle").attr( "src", embed ) ;
+
+        $( "div.icon-texts" ).show() ;
+        $( "div.frame-texts" ).hide();
         
-        $( "div.text" ).hide();
-        $( href ).show();
-        $( iframeId ).show();
+        $( click_lang ).parents("div.icon-texts").hide() ;
+        embedDiv.show();                
     }
     
     function embedLoad( click_para ) {        
@@ -37,7 +30,23 @@
             var gitRepo = "https://" + tmpUrlArr[0] + "/" + tmpUrlArr[1] ;
         }
         
-        //set pdf Id de + en        
-        embedId(gitRepo, click_para) ;
+        //set pdf Id de + en
+        var textId = $( click_para ).parents("div.text").attr("id") ;
+        if ( $( click_para ).parent("div").hasClass("de") ) {
+            var embedId_de = "#" + textId + " " + click_para.attr("href") ;
+            embedId(embedId_de, gitRepo, click_para) ;
+            var embedId_en = "#" + textId + " " + $( click_para ).parent("div").next("div").children("a").attr("href") ;
+            embedId(embedId_en, gitRepo, click_para) ;
+        } else {
+            if ( $( click_para ).parent("div").hasClass("en") ) {                
+                var embedId_en = "#" + textId + " " + click_para.attr("href") ;
+                embedId(embedId_en, gitRepo, click_para) ;
+                var embedId_de = "#" + textId + " " + $( click_para ).parent("div").prev("div").children("a").attr("href") ;
+                embedId(embedId_de, gitRepo, click_para) ;
+            } else {
+                var embedIdList = "#" + textId + " " + click_para.attr("href") ;
+                embedId(embedIdList, gitRepo, click_para) ;
+            }            
+        }        
     }
     
