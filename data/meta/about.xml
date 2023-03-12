@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -20,27 +19,4 @@
         </body>
     </text>
   </TEI>
-=======
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc>
-           <titleStmt>
-              <title type="main">Über das Projekt</title>
-              <title type="sub">Edition der Familienkorrespondenz Ferdinands I.</title>
-           </titleStmt>
-           <publicationStmt>
-              <p>Publication Information</p>
-           </publicationStmt>
-           <sourceDesc>
-              <p>Information about the source</p>
-           </sourceDesc>
-        </fileDesc>
-    </teiHeader>
-    <text>
-        <body>
-           <p>Some text here.</p>
-        </body>
-    </text>
-  </TEI>
->>>>>>> parent of d6809631e... Update from https://github.com/rh1967/dev-zinzendorf-app/commit/1c77938eab82ecff8019b40cb7dfd7d9f3f49a08
   
