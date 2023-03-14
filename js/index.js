@@ -10,7 +10,12 @@
             $(anchor).click(); //click on the menu item to open element
         }
         
-        browserStorage() ;                        
+        browserStorage() ;
+        
+        //init browser storage for git token
+        sessionStorage.removeItem("git_token") ;
+        sessionStorage.setItem("git_token", "null") ;
+        console.log("git token removed from session storage") ;
     }) ;
     
     $("div.langmenu a").click(function() {

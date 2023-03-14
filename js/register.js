@@ -4,7 +4,7 @@
         var url = window.location.pathname ;
         var fullName = url.substring(url.lastIndexOf('/')+1) ;//test.html
         var fileName = fullName.substring(0, fullName.indexOf('.')) ; //test
-                
+
         $("ul.navbar-nav li.nav-item a").removeClass("active");
         $( "[href='register.html']" ).addClass("active");
         
@@ -19,6 +19,7 @@
                 $("div.register-menue a").removeClass("active");
                 $( "#regPlace" ).addClass("active");
                 $( "#registerFormat" ).show();
+                $( ".footer-editor" ).show();                
             } else {
                 if(fileName == 'register_index') {
                     console.log(fileName) ;
@@ -37,7 +38,22 @@
             $(anchor).click(); //click on the menu item to open element
         }
                   
-        browserStorage() ;                        
+        browserStorage() ;
+
+
+                
+        //hide editor + upload dialog boxes        
+        $(function() {
+            $( ".geo_dialog" ).dialog({
+                autoOpen: false
+            });
+        });
+
+        $(function() {
+            $( ".login_dialog" ).dialog({
+                autoOpen: false            
+            });
+        });
     }) ;
                
    $("div.langmenu a").click(function() {

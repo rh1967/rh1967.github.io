@@ -952,19 +952,19 @@ footer.footer .container {
   box-shadow: 0px -15px 17px -5px rgba(0,0,0,0.15);*/
     box-shadow: 0 -2px 1px rgba(0, 0, 0, 0.03), 0 -4px 2px rgba(0, 0, 0, 0.03), 0 -8px 4px rgba(0, 0, 0, 0.03), 0 -16px 8px rgba(0, 0, 0, 0.03), 0 -32px 16px rgba(0, 0, 0, 0.03);
 }
-
-footer.footer-imprint .container {
+/*
+footer.footer .footer-editor {
     border-top: 1px solid #e4200e;
     display: flex;
     justify-content: space-between;    
     background: #fff;
-    padding: 2em 1em;
+    padding: 2em 1em;*/
     /*
   -webkit-box-shadow: 0px -15px 17px -5px rgba(0,0,0,0.15);
   -moz-box-shadow: 0px -15px 17px -5px rgba(0,0,0,0.15);
   box-shadow: 0px -15px 17px -5px rgba(0,0,0,0.15);*/
-    box-shadow: 0 -2px 1px rgba(0, 0, 0, 0.03), 0 -4px 2px rgba(0, 0, 0, 0.03), 0 -8px 4px rgba(0, 0, 0, 0.03), 0 -16px 8px rgba(0, 0, 0, 0.03), 0 -32px 16px rgba(0, 0, 0, 0.03);
-}
+  /*box-shadow: 0 -2px 1px rgba(0, 0, 0, 0.03), 0 -4px 2px rgba(0, 0, 0, 0.03), 0 -8px 4px rgba(0, 0, 0, 0.03), 0 -16px 8px rgba(0, 0, 0, 0.03), 0 -32px 16px rgba(0, 0, 0, 0.03);
+}*/
 
 .footer-logo {
     display: flex;
