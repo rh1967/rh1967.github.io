@@ -20,7 +20,7 @@ $(".footer .footer-editor a").click(function(){
             buttons: {
                 "Login ": function() {                    
                     window.git_token = $("input#login_entry").val();
-                    console.log("git token =", window.git_token) ;
+                    //console.log("git token =", window.git_token) ;
                     
                     if (sessionStorage.getItem("git_token") == null) {
                         sessionStorage.setItem("git_token", window.git_token) ;

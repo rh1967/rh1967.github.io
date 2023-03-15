@@ -1,6 +1,7 @@
 const TOKEN = window.git_token ;
 const REPO = 'dev-ferdinand-I-data' ;
-const BRANCH = 'rh-map' ;
+const BRANCH = 'main' ;
+//const BRANCH = 'rh-map' ;
 const PATH = 'data/json/map.json' ;
 
 import { Octokit } from "https://cdn.skypack.dev/octokit";
@@ -9,7 +10,7 @@ export const octokit = new Octokit({
   auth: TOKEN,  
 });
 
-console.log("TOKEN =", TOKEN) ;
+//console.log("TOKEN =", TOKEN) ;
 if (TOKEN != null) {
   //reset browser storage for git token
   sessionStorage.removeItem("git_token") ;
