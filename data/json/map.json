@@ -1,19 +1,5 @@
-[    
-    {
-        "key": "Bosnien",
-        "type": "PLACE",
-        "mappedTo": {
-            "authority": "GEO_NAMES",
-            "id": "3277605",
-            "title": "Bosnia and Herzegovina",
-            "description": "Land am Balkan",
-            "coordinates": {
-                "latitude": "44.25",
-                "longitude": "17.83333"
-            }
-        }
-    },
-    {
+[   
+   {
         "key": "Wien",
         "type": "PLACE",
         "mappedTo": {
