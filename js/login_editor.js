@@ -3,7 +3,7 @@ if (sessionStorage.getItem("git_token") == "null" || sessionStorage.getItem("git
 }    
 else {
     window.git_token = sessionStorage.getItem("git_token") ;
-    console.log("git token found in session storage: ", window.git_token) ;    
+    console.log("git token found in session storage: ") ;    
 }
 
 $(".footer .footer-editor a").click(function(){

@@ -14,7 +14,7 @@ $("#table-register .geoname-logo a").click(function(){
     //init marker editor
     marker_editor = { 
         "key": "", "type": "PLACE", "mappedTo": { 
-            "authority": "GEO_NAMES", "id": "", "title": "", "description": "", "coordinates": { 
+            "authority": "GEO_NAMES", "id": "", "url": "", "title": "", "description": "", "coordinates": { 
                 "latitude": 0.0, "longitude": 0.0 
             } 
         } 
@@ -40,7 +40,7 @@ $("#table-register .geoname-logo a").click(function(){
             if (marker.key == marker_editor.key) {
                 $( click ).parents("body").find("input#geo_entry").val(marker.key) ;  
                 $( click ).parents("body").find("input#geo_desc").val(marker.mappedTo.description) ;  
-                $( click ).parents("body").find("input#geo_pid").val(marker.mappedTo.id) ;
+                $( click ).parents("body").find("input#geo_pid").val(marker.mappedTo.id) ;                
                 
                 markerFlag = true ;
                 break ;
@@ -171,7 +171,11 @@ function save() {
         if ( markerFlag == false) {
             console.log("get geoname coordinates") ;
             //get coordinates from geoname api
-            geoname_api() ;            
+            geoname_api() ;
+            
+            console.log("build geoname url") ;
+            //build geoname url
+            marker_editor.mappedTo.url = "https://www.geonames.org/" + marker_editor.mappedTo.id ;
         }        
         //save new editor data in markers_editor array            
         markers_editor.unshift(marker_editor) ;
