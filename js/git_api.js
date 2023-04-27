@@ -7,7 +7,7 @@ const PATH = 'data/json/map.json' ;
 import { Octokit } from "https://cdn.skypack.dev/octokit";
 
 export const octokit = new Octokit({
-  auth: TOKEN,  
+  auth: TOKEN,
 });
 
 //console.log("TOKEN =", TOKEN) ;
@@ -20,13 +20,13 @@ if (TOKEN != null) {
 
 window.github_api = async function( marker_editor_base64 ) {
     
-    git_login() ;
+    //git_login() ;
 
     git_pull_sha().then(value => {
       const latestCommitSHA = value ;
       console.log("Latest commit =", latestCommitSHA) ;
 
-      git_get().then(value => {
+      /*git_get().then(value => {
         const contentSHA = value ;
         console.log("File content SHA =", contentSHA) ;                     
           
@@ -34,7 +34,7 @@ window.github_api = async function( marker_editor_base64 ) {
           const pushSHA = value ;
           console.log("Push SHA =", pushSHA) ;
         }) ;
-      }) ;       
+      }) ; */      
     }) ;    
 } ;
 
@@ -56,7 +56,7 @@ window.git_login = async function() {
 //pull latest commit
 window.git_pull_sha = async function() {
   try {    
-    const commits =  await octokit.request('GET /repos/{OWNER}/{REPO}/commits', {
+    const commits =  await octokit.request('GET /repos/{OWNER}/{REPO}/commits', {        
       OWNER,
       REPO,
       sha: BRANCH,

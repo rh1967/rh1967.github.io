@@ -834,7 +834,7 @@
                <note type="place">
                   <placeName n="place_d135e207a1058">Bosnien</placeName>
                </note>
-               <note type="geoname">https://www.geonames.org/3277605/bosnia-and-herzegovina.html</note>
+               <note type="geoname">3277605</note>
                <note type="gnd"/>
                <note type="writings">
                   <p>Bozna</p>
@@ -1733,7 +1733,7 @@
                <note type="place">
                   <placeName n="place_d225e207a1058">Engelsburg in Rom</placeName>
                </note>
-               <note type="geoname">https://www.geonames.org/6269267/castel-sant-angelo.html</note>
+               <note type="geoname"/>
                <note type="gnd"/>
                <note type="writings">
                   <p>chasteau de saint Angel</p>
@@ -1751,7 +1751,7 @@
                <note type="place">
                   <placeName n="place_d53e750a1058">Enna, Schloss in Südtirol</placeName>
                </note>
-               <note type="geoname">https://www.geonames.org/6535909/montagna-montan.html</note>
+               <note type="geoname"/>
                <note type="gnd"/>
                <note type="writings">
                   <p>Schloß Enn</p>
