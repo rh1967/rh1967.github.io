@@ -18,26 +18,6 @@ if (TOKEN != null) {
   console.log("git token removed from session storage") ;  
 }
 
-window.github_api = async function( marker_editor_base64 ) {
-    
-    //git_login() ;
-
-    git_pull_sha().then(value => {
-      const latestCommitSHA = value ;
-      console.log("Latest commit =", latestCommitSHA) ;
-
-      /*git_get().then(value => {
-        const contentSHA = value ;
-        console.log("File content SHA =", contentSHA) ;                     
-          
-        git_push(marker_editor_base64, contentSHA).then(value => {
-          const pushSHA = value ;
-          console.log("Push SHA =", pushSHA) ;
-        }) ;
-      }) ; */      
-    }) ;    
-} ;
-
 //test login
 window.git_login = async function() {
   try {
@@ -128,3 +108,24 @@ window.git_push = async function(marker_editor_base64, contentSHA) {
     alert('Push error!') ;
   }     
 }
+
+window.github_api = async function( marker_editor_base64 ) {
+  var contentSHA = null ;
+  
+  await git_login() ;
+
+  await git_pull_sha().then(value => {
+    const latestCommitSHA = value ;
+    console.log("Latest commit =", latestCommitSHA) ;    
+  }) ;
+  
+  await git_get().then(value => {
+    contentSHA = value ;
+    console.log("File content SHA =", contentSHA) ;
+  }) ;
+
+  await git_push(marker_editor_base64, contentSHA).then(value => {
+    const pushSHA = value ;
+    console.log("Push SHA =", pushSHA) ;
+  }) ;
+} ;
