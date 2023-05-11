@@ -1933,67 +1933,7 @@
           "longitude": 16.45091
         }
       }
-    },
-    {
-      "key": "Engelsburg",
-      "type": "PLACE",
-      "mappedTo": {
-        "authority": "GEO_NAMES",
-        "id": "6269267",
-        "url": "https://www.geonames.org/6269267",
-        "title": "Engelsburg",
-        "names": [
-          "Andelsky hrad",
-          "Andělský hrad",
-          "Angelski grad",
-          "Angeoska tvrgava",
-          "Angyalvar",
-          "Angyalvár",
-          "Anđeoska tvrđava",
-          "Castel SantAngelo",
-          "Castell de SantAngelo",
-          "Castelo de Santo Angelo",
-          "Castelo de Santo Ângelo",
-          "Castelul SantAngelo",
-          "Casteth deu Sant Anjo",
-          "Castillo SantAngelo",
-          "Castèth deu Sant Anjo",
-          "Chateau Saint-Ange",
-          "Château Saint-Ange",
-          "Engelenburcht",
-          "Engelsborg",
-          "Engelsburg",
-          "Kastelo de Sankta Angelo",
-          "Kastelo de Sankta Anĝelo",
-          "Mausoleo de Adriano",
-          "Mausoleo di Adriano",
-          "Mole Adrianorum",
-          "Museo Nazionale di Castel SantAngelo",
-          "Müqəddəs Mələk qəsri",
-          "Sant Andzhelo",
-          "SantAngelo gaztelua",
-          "Zamek Swietego Aniola",
-          "Zamek Świętego Anioła",
-          "Zamok Svjatogo Angela",
-          "santanjello seong",
-          "santanjero cheng",
-          "sheng tian shi cheng bao",
-          "Замок Святого Ангела",
-          "Сант Анджело",
-          "טירת סנטאנגלו",
-          "قلعة سانت أنجلو",
-          "サンタンジェロ城",
-          "聖天使城堡",
-          "산탄젤로 성"
-        ],
-        "description": "Engelsburg in Italien",
-        "type": "PLACE",
-        "coordinates": {
-          "latitude": 41.903,
-          "longitude": 12.46635
-        }
-      }
-    },
+    },    
     {
       "key": "Landstuhl",
       "type": "PLACE",
