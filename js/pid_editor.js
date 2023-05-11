@@ -8,6 +8,25 @@ var pidFlag = false ;
 var markers_editor = [] ;
 var marker_editor = {} ;
 
+//convert special characters to html encoding
+function convertChar2Html(str) {
+return str.replace(/'/g,"&apos;")
+    /*.replace(/&/g, "&amp;")
+    .replace(/>/g, "&gt;")
+    .replace(/</g, "&lt;")
+    .replace(/"/g, "&quot;") */
+    ;
+}
+//convert html encoding to special characters
+function convertHtml2Char(str) {
+return str.replace(/&apos;/g,"'")
+    /*.replace(/&amp;/g, "&")
+    .replace(/&gt;/g, ">")
+    .replace(/&lt;/g, "<")
+    .replace(/&quot;/g, '"') */
+    ;
+}
+
 $("#table-register .geoname-logo a").click(function(){
     //reset input form    
     reset() ;    
@@ -29,7 +48,10 @@ $("#table-register .geoname-logo a").click(function(){
     var click = $( this ) ;
     var this_row = $( click ).parents("tr") ;    
     var localID = $( this_row ).children("td:first-child").html() ;
-    marker_editor.key = $( this_row ).children("td:nth-child(2)").text() ;
+    var key_char = $( this_row ).children("td:nth-child(2)").text() ;
+    //convert special characters to html encoding
+    let key_html = convertChar2Html(key_char) ;    
+    marker_editor.key = key_html ;
     marker_editor.mappedTo.id = $( this_row ).children("td:nth-child(3)").find("span.geoname-url a").text() ;
     
     //fill editor dialog with existing editor data    
@@ -116,7 +138,9 @@ function save() {
     
     //compare with actual values
     if (key_input_new != marker_editor.key) {
-        marker_editor.mappedTo.title = key_input_new ;
+        //convert special characters to html encoding
+        let key_html = convertChar2Html(key_input_new) ;
+        marker_editor.mappedTo.title = key_html ;
         keyFlag = true ;
         console.log("key changed") ;
     }

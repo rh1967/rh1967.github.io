@@ -8,8 +8,10 @@ function geoname_api() {
     } else {
         consoleLog("Get coordinates from key name") ;
     }
+    //convert html encoding to special characters
+    let searchItem_char = convertHtml2Char(searchItem) ;
 
-    let url = "https://secure.geonames.org/searchJSON?q=" + searchItem + "&maxRows=10&username=" + OWNER ;
+    let url = "https://secure.geonames.org/searchJSON?q=" + searchItem_char + "&maxRows=10&username=" + OWNER ;
     var settings = {
         "url": url,
         //"url": "http://api.geonames.org/searchJSON?q=Adriatic Sea&maxRows=10&username=rh1967",
