@@ -179,10 +179,15 @@ function save() {
         //check if marker exists in markers array
         i_index = 0 ;
         for (let marker of markers) {
-            if (marker.key == marker_editor.key) {                    
+            if (marker.key == marker_editor.key) {
+                //check if no id of old marker and id of new marker exists
+                if ((!marker.mappedTo.id) && (marker_editor.mappedTo.id)) {
+                    markerFlag = false ;
+                } else {
+                    markerFlag = true ;
+                }
                 //remove dublette from markers array
-                markers.splice(i_index, 1) ;
-                markerFlag = true ;
+                markers.splice(i_index, 1) ;                
                 console.log("Version of editor data already in map saved") ;
                 console.log("Old version removed") ;
                 
