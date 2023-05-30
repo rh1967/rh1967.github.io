@@ -1,6 +1,7 @@
 const OWNER = 'rh1967' ;
 
 var markerFlag = false ;
+var inputErrFlag = false ;
 var keyFlag = false ;
 var descFlag = false ;
 var pidFlag = false ;
@@ -10,20 +11,20 @@ var marker_editor = {} ;
 
 //convert special characters to html encoding
 function convertChar2Html(str) {
-return str.replace(/'/g,"&apos;")
-    /*.replace(/&/g, "&amp;")
+return str.replace(/&/g, "&amp;")
+    .replace(/'/g,"&apos;")
     .replace(/>/g, "&gt;")
     .replace(/</g, "&lt;")
-    .replace(/"/g, "&quot;") */
+    .replace(/"/g, "&quot;")
     ;
 }
 //convert html encoding to special characters
 function convertHtml2Char(str) {
-return str.replace(/&apos;/g,"'")
-    /*.replace(/&amp;/g, "&")
+return str.replace(/&amp;/g, "&")
+    .replace(/&apos;/g,"'")
     .replace(/&gt;/g, ">")
     .replace(/&lt;/g, "<")
-    .replace(/&quot;/g, '"') */
+    .replace(/&quot;/g, '"')
     ;
 }
 
@@ -137,25 +138,44 @@ function save() {
     let pid_input_new = $("input#geo_pid").val() ;
     
     //compare with actual values
-    if (key_input_new != marker_editor.key) {
-        //convert special characters to html encoding
-        let key_html = convertChar2Html(key_input_new) ;
-        marker_editor.mappedTo.title = key_html ;
+    if (key_input_new != marker_editor.key) {        
         keyFlag = true ;
-        console.log("key changed") ;
+        console.log("key changed") ;        
+        //check if valid input    
+        let match = key_input_new.match(/[^A-Za-z ']/g) || [] ;
+        if (match.length) {
+            alert("Entry with invalid characters!") ;
+            inputErrFlag = true ;
+        } else {
+            //reset input error flag
+            inputErrFlag = false ;
+            //convert special characters to html encoding
+            let key_html = convertChar2Html(key_input_new) ;
+            marker_editor.mappedTo.title = key_html ;
+        }
     }
     if (desc_input_new != marker_editor.mappedTo.description) {
-        marker_editor.mappedTo.description = desc_input_new ;
         descFlag = true ;
         console.log("description changed") ;
+        //convert special characters to html encoding
+        let desc_html = convertChar2Html(desc_input_new) ;
+        marker_editor.mappedTo.description = desc_html ;        
     }
     if (pid_input_new != marker_editor.mappedTo.id) {
-        marker_editor.mappedTo.id = pid_input_new ;
         pidFlag = true ;
         console.log("pid changed") ;
-    }  
-    
-    if ( keyFlag == true || descFlag == true || pidFlag == true) {
+        //check if valid input    
+        let match = pid_input_new.match(/[^0-9]/g) || [] ;
+        if (match.length) {
+            alert("PID with invalid characters!") ;
+            inputErrFlag = true ;
+        } else {
+            //reset input error flag
+            inputErrFlag = false ;            
+            marker_editor.mappedTo.title = pid_input_new ;
+        }
+    }
+    if ( (inputErrFlag == false) && (keyFlag == true || descFlag == true || pidFlag == true) ) {
         console.log("Editor data changed") ;
         console.log("marker_editor = ", marker_editor) ;        
         
@@ -213,25 +233,28 @@ function save() {
         alert("Editor Data saved") ;        
         
     } else {
-        console.log("No changes in Editor data") ;
-        console.log("marker_editor = ", marker_editor) ;
-        console.log("Editor Data not saved") ;
-        alert("Editor Data not changed - not saved") ;
-    }
+        if (inputErrFlag == false) {
+            console.log("No changes in Editor data") ;
+            console.log("marker_editor = ", marker_editor) ;
+            console.log("Editor Data not saved") ;
+            alert("Editor Data not changed - not saved") ;    
+        }        
+    }    
     //reset marker flag
     markerFlag = false ;        
 } 
 
 function upload() {
     //check if something to upload
-    if (markers_editor.length != 0) {
+    if ( inputErrFlag == false && markers_editor.length != 0) {
 
         //add new markers to markers array
         for (let marker of markers_editor) {
             markers.unshift(marker) ;
         }
         console.log("markers array = ", markers) ;                        
-
+        
+        //convert markers array to base64
         let markers_base64 = jsonToBase64(markers) ;
         console.log("markers_base64 = ", markers_base64) ;                    
 
@@ -241,10 +264,13 @@ function upload() {
 
         //reset markers editor
         markers_editor.length = 0 ;
-        console.log("Reset markers editor") ;
-                                
+        console.log("Reset markers editor") ;                                
     } else {
-        alert("Nothing to upload") ;        
+        if (inputErrFlag == true) {            
+            alert("Still invalid input - nothing to upload") ;        
+        } else {            
+            alert("Nothing to upload") ;
+        }
     }    
 }
 

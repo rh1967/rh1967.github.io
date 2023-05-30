@@ -19,7 +19,9 @@
                 $("div.register-menue a").removeClass("active");
                 $( "#regPlace" ).addClass("active");
                 $( "#registerFormat" ).show();
-                $( ".footer-editor" ).show();                
+                $( ".footer-editor" ).show();
+                //change style of footer
+                $( "footer.footer .container" ).css("justify-content", "space-around") ;
             } else {
                 if(fileName == 'register_index') {
                     console.log(fileName) ;
