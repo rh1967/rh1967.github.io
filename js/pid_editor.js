@@ -172,7 +172,7 @@ function save() {
         } else {
             //reset input error flag
             inputErrFlag = false ;            
-            marker_editor.mappedTo.title = pid_input_new ;
+            marker_editor.mappedTo.id = pid_input_new ;
         }
     }
     if ( (inputErrFlag == false) && (keyFlag == true || descFlag == true || pidFlag == true) ) {
