@@ -4,7 +4,8 @@ const BRANCH = 'main' ;
 //const BRANCH = 'rh-map' ;
 const PATH = 'data/json/map.json' ;
 
-import { Octokit } from "https://esm.sh/octokit@2.0.19" ;
+import { Octokit } from "https://cdn.skypack.dev/@octokit/core" ;
+//import { Octokit } from "https://esm.sh/octokit@2.0.19" ;
 //import { Octokit } from "https://cdn.skypack.dev/octokit" ;
 
 export const octokit = new Octokit({
