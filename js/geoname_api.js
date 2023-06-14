@@ -6,7 +6,7 @@ function geoname_api() {
         console.log("Get coordinates from title name") ;
         searchItem = marker_editor.mappedTo.title ;                
     } else {
-        consoleLog("Get coordinates from key name") ;
+        console.log("Get coordinates from key name") ;
     }
     //convert html encoding to special characters
     let searchItem_char = convertHtml2Char(searchItem) ;
