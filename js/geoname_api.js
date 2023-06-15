@@ -36,6 +36,7 @@ function geoname_api() {
                 }
                 i_index++ ;
             }
+            console.log("i_index =", i_index) ;
             if (i_hit == 0) {
                 alert("No hit in geoname api data") ;
             } else {
