@@ -143,6 +143,7 @@ function save() {
         console.log("key changed") ;        
         //check if valid input    
         let match = key_input_new.match(/["_.;,:!()&%$§=?*~#<>°^//]|(http)|(www)/g) || [] ;
+        //let match = key_input_new.match(/[^A-Za-z ']/g) || [] ;
         if (match.length) {
             alert("Entry with invalid characters!") ;
             inputErrFlag = true ;
