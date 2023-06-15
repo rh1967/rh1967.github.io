@@ -10,7 +10,7 @@ function geoname_api() {
     }
     //convert html encoding to special characters
     let searchItem_char = convertHtml2Char(searchItem) ;
-    let maxRows = 50 ;
+    let maxRows = 1000 ;
     let url = "https://secure.geonames.org/searchJSON?q=" + searchItem_char + "&" + maxRows + "=10&username=" + OWNER ;
     var settings = {
         "url": url,
