@@ -106,6 +106,7 @@ $("#table-register .geoname-logo a").click(function(){
     //init editor dialog boxes
     var pos = { my: "center center", at: "center top+150", of: window } ; 
     $(function() {
+        window.open('https://www.geonames.org/,"", "width=950,height=350"') ;
         $( ".geo_dialog" ).dialog({
             autoOpen: true,
             position:pos,
