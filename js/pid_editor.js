@@ -125,11 +125,11 @@ $("#table-register .geoname-logo a").click(function(){
     });    
 }) ;
 
-function reset() {
-    $("input#geo_entry").val("");
-    $("input#geo_desc").val("");
-    $("input#geo_pid").val("");
-}
+function reset() {    
+    $("input#geo_entry").val("" + marker_editor.key + "") ;
+    $("input#geo_desc").val("") ;
+    $("input#geo_pid").val("") ;
+ }
 
 function save() {
     //read new input data
