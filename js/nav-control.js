@@ -48,6 +48,7 @@ document.addEventListener("DOMContentLoaded", function(){
 		})
 	}
 	//end if innerWidth
+
 	//show compare buttons and load html compare data
 	$( 'div.synoptik-box:nth-child(2) div.nav-werke #navbar-baern li.nav-item:nth-child(5) a.dropdown-item' ).click(function() {	
 		console.log( this );
@@ -56,7 +57,7 @@ document.addEventListener("DOMContentLoaded", function(){
 			$( 'div.compare-buttons' ).show();
 			//remove old + load new html data
 			$( 'div.synoptik-box:nth-child(3) div.auswahl-content div.col-12' ).children().remove() ;
-			$( 'div.synoptik-box:nth-child(3) div.auswahl-content div.col-12' ).load("test.html div#Bae_MF_6-2") ;
+			$( 'div.synoptik-box:nth-child(3) div.auswahl-content div.col-12' ).load("compRes.html div#Bae_MF_6-2") ;
 		}
 	}) ;
 	//check if compare button is clicked
